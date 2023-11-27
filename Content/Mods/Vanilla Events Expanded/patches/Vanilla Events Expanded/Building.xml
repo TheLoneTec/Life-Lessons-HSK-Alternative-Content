@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VEE_ShipChunkHuman"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <progressGain>100</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedConstruction</proficiency>
+            <progressGain>100</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>100</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VEE_Shuttle"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <progressGain>50</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedConstruction</proficiency>
+            <progressGain>50</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

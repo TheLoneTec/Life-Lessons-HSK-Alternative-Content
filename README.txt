@@ -1,0 +1,1 @@
+replace the following folders with the ones from Life Lessons. Delete and Replace, do no overwrite.

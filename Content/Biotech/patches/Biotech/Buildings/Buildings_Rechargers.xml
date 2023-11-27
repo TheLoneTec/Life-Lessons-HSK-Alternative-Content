@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[@Name="BaseMechCharger"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+            <li>Electronics</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>10</progressGain>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

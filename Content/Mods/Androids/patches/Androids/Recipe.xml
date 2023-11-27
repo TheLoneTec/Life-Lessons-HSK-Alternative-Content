@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="ChJAndroidShutDownDroid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>1.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>1.3</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="ChJAndroidRepairKit"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+          <li>AdvancedFabrication</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

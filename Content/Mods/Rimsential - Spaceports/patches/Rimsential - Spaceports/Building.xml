@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_FuelProcessor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Fusion</li>
+          <li>IndustrialChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_FuelTank"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Fusion</li>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_FuelDispenser"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+          <li>Programming</li>
+          <li>Glassworking</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleLandingPad"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Engineering</li>
+          <li>Glassworking</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_Beacon"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Engineering</li>
+          <li>Wavelengths</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_RoyaltyShuttle"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Astronomy</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleA"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleB"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleD"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleSkip"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Astronomy</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleSuperpod"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Astronomy</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Engineering</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_ShuttleInert"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Spaceports_SurpriseShuttle"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>10</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

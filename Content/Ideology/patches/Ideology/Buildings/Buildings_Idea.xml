@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Altar_Small"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Altar_Medium"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Altar_Large"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Altar_Grand"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="DarktorchFungus"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>PlantCare</proficiency>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="SleepAccelerator"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Electronics</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BiosculpterPod"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Electronics</li>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="NeuralSupercharger"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Electronics</li>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="IncenseShrine"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="ATR_DoMaintenanceIdle"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>0.001</progressGain>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="ATR_DoMaintenanceUrgent"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>0.001</progressGain>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="ATR_GenerateInsight"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Computers</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+</Patch>

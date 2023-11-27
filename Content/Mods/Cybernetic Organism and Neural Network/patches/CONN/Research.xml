@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+ <!-- <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+
+
+    <match Class="PatchOperationSequence">
+      <success>Normal</success>
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ANN_NeuralNetwork"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Programming</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ANN_CyberneticOrganism"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Bionics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        
+
+      </operations>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="CONN_CombatAdvancedBionics" or defName="CONN_CombatBionics" or defName="CONN_ProductiveAdvancedBionics" or defName="CONN_ProductiveBionics"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Bionics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="CONN_MindAlteringBionics"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Bionics</li>
+                <li>Programming</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>-->
+</Patch>
