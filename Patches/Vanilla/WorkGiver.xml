@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Patch>
+<Patch><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="DoctorTendEmergency"]</xpath>
     <value>
@@ -52,7 +52,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="VisitSickPawn"]</xpath>
     <value>
