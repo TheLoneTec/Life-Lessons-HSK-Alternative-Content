@@ -130,9 +130,9 @@
         <requirements>
           <li>GeneralSurgery</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.6</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>

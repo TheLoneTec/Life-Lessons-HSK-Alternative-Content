@@ -5746,6 +5746,11 @@
         </requirements>
         <rewards>
           <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
             <proficiency>Labourer</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
@@ -12583,6 +12588,11 @@
         </requirements>
         <rewards>
           <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
             <proficiency>Labourer</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
@@ -12602,6 +12612,11 @@
           <li>Labourer</li>
         </requirements>
         <rewards>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
           <li>
             <proficiency>Labourer</proficiency>
             <progressGain>0</progressGain>
@@ -12623,6 +12638,11 @@
         </requirements>
         <rewards>
           <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
             <proficiency>Labourer</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
@@ -12643,6 +12663,11 @@
         </requirements>
         <rewards>
           <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
             <proficiency>Labourer</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
@@ -12662,6 +12687,11 @@
           <li>Labourer</li>
         </requirements>
         <rewards>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
           <li>
             <proficiency>Labourer</proficiency>
             <progressGain>0</progressGain>
