@@ -1,1 +1,1 @@
-replace the following folders with the ones from Life Lessons WORKSHOP VERSION. Delete and Replace, do no overwrite. I suggest making a local copy of the workshop life lessons, so updates do not break the changes made.
+replace the following folders from the Life Lessons WORKSHOP VERSION with the files here. Delete and Replace, do no overwrite. I suggest making a local copy of the workshop life lessons, so updates do not break the changes made.
