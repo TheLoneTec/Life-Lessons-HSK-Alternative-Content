@@ -1,30 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/RecipeDef[defName="Make_Outpost_Materials"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>BasicFabrication</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
+
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Outposts Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		  <li Class="PatchOperationAddModExtension">
+			<xpath>Defs/RecipeDef[defName="Make_Outpost_Materials"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>BasicFabrication</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+		  </li>
+		  <li Class="PatchOperationAddModExtension">
+			<xpath>Defs/RecipeDef[defName="Make_BatteryGeneratorAssemblyKit"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Engineering</li>
+				  <li>AdvancedFabrication</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+		  </li>
+		</operations>
+	</match>
   </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/RecipeDef[defName="Make_BatteryGeneratorAssemblyKit"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Engineering</li>
-          <li>AdvancedFabrication</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
+
 </Patch>
