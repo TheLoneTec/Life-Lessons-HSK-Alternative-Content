@@ -1619,6 +1619,18 @@
     <category>ProficiencyCategory_Biology</category>
     <description>Understanding of the ecosystem focusing on Animals and how they interact with the environment around them.</description>
     <costPractical>1200</costPractical>
+	<costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+    </practicalLearningActivityDefs>
     <viewerX>1</viewerX>
     <viewerY>17</viewerY>
     <prerequisites>
