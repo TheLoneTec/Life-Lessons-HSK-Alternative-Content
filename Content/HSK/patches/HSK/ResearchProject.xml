@@ -2195,7 +2195,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Smithing</li>
           <li>Geology</li>
           <li>BasicScience</li>
         </requirements>
