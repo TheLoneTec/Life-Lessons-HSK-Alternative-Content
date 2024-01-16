@@ -476,7 +476,17 @@
 	<label>Medicinal Chemistry</label>
 	<category>ProficiencyCategory_KnowledgeChemistry</category>
 	<description>Understanding how to make use of basic resources, to create certain medicines.</description>
-    <costPractical>600</costPractical>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	<costPractical>600</costPractical>
     <costTheoretical>600</costTheoretical>
     <canBePioneered>true</canBePioneered>
 	<effectiveSubjectLimit>2</effectiveSubjectLimit>
@@ -871,7 +881,7 @@
       <textbookValue>1200</textbookValue>
       <neurotrainerValue>3600</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksUncommon</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
         <li>LLNeurotrainerUncommon</li>
@@ -923,7 +933,7 @@
       <textbookValue>1100</textbookValue>
       <neurotrainerValue>3500</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksUncommon</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
         <li>LLNeurotrainerUncommon</li>
@@ -979,10 +989,10 @@
       <textbookValue>1500</textbookValue>
       <neurotrainerValue>3800</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksRare</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
-        <li>LLNeurotrainerUncommon</li>
+        <li>LLNeurotrainerRare</li>
       </neurotrainerTradeTags>
     </generationRules>
 
@@ -1026,7 +1036,18 @@
     <label>Psychochemistry Advanced</label>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
     <description>Knowledge of the relationship between chemicals, behavior and psychological processes. It is the study of chemical influence on behavior.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>1200</costTheoretical>
     <canBePioneered>true</canBePioneered>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
@@ -1099,7 +1120,18 @@
     <label>Industrial Chemistry</label>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
     <description>Knowledge of the uses of chemical and physical processes to transform raw materials into products that are beneficial to mankind.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>1200</costTheoretical>
     <canBePioneered>true</canBePioneered>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
@@ -1135,10 +1167,10 @@
       <textbookValue>1200</textbookValue>
       <neurotrainerValue>3600</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksRare</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
-        <li>LLNeurotrainerUncommon</li>
+        <li>LLNeurotrainerRare</li>
       </neurotrainerTradeTags>
     </generationRules>
 
@@ -1179,7 +1211,18 @@
     <label>Polymer Chemistry</label>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
     <description>Knowledge of the structures of chemicals, chemical synthesis, and chemical and physical properties of polymers and macromolecules.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>1200</costTheoretical>
     <canBePioneered>true</canBePioneered>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
@@ -1262,7 +1305,18 @@
     <label>Hydroponics</label>
     <category>ProficiencyCategory_Biology</category>
     <description>Understanding of usually crops or medicinal plants, without soil.</description>
-    <costPractical>800</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>800</costPractical>
 	<costTheoretical>1200</costTheoretical>
     <canBePioneered>true</canBePioneered>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
@@ -1322,6 +1376,12 @@
     <generationRules>
       <textbookValue>300</textbookValue>
       <neurotrainerValue>850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
     </generationRules>
 
     <category>ProficiencyCategory_Medical</category>
@@ -1402,7 +1462,18 @@
     <label>Transplant Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Organ transplantation is a medical procedure in which an organ is removed from one body and placed in the body of a recipient.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1424,7 +1495,18 @@
     <label>Trauma Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of surgical critical care and acute care surgery.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1446,7 +1528,18 @@
     <label>Plastic Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of surgical specialty involving the restoration, reconstruction or alteration of the human body.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1468,7 +1561,18 @@
     <label>General Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of common surgical procedures that arent life threatening.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1490,7 +1594,18 @@
     <label>Orthopedics</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of the conditions involving the musculoskeletal system.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1512,7 +1627,18 @@
     <label>Neurosurgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of Neurosurgery, known in common parlance as brain surgery.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1800</textbookValue>
+      <neurotrainerValue>4000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1534,7 +1660,18 @@
     <label>Cardiothoracic Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of surgical treatment of organs inside the thoracic cavity.</description>
-    <costPractical>1200</costPractical>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
@@ -1972,10 +2109,16 @@
     <defName>Machining</defName>
     <label>Machining</label>
     <generationRules>
-      <generateTextbook>false</generateTextbook>
-      <generateNeurotrainer>false</generateNeurotrainer>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
     </generationRules>
-
+	
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The ability to create complex parts using heavy machinary.</description>
     <costPractical>1500</costPractical>
@@ -1999,7 +2142,18 @@
     <label>Powerarmor Assembly</label>
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The ability to create effective powered armor.</description>
-    <costPractical>2000</costPractical>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>2000</costPractical>
     <viewerX>7</viewerX>
     <viewerY>3.5</viewerY>
     <prerequisites>
@@ -2022,6 +2176,12 @@
     <generationRules>
       <textbookValue>800</textbookValue>
       <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
     </generationRules>
     <proficiencyAdjective>electronic</proficiencyAdjective>
     <category>ProficiencyCategory_FabricationAdvanced</category>
@@ -2060,7 +2220,18 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>LaserManipulation</defName>
     <label>laser Manipulation</label>
-    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The understanding and capability of making laser based weapons or components.</description>
     <costPractical>2500</costPractical>
     <costTheoretical>2500</costTheoretical>
@@ -2094,7 +2265,18 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>PlasmaManipulation</defName>
     <label>Plasma Manipulation</label>
-    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The understanding and capability of producing plasma based devices.</description>
     <costPractical>2500</costPractical>
     <costTheoretical>2500</costTheoretical>
@@ -2137,7 +2319,7 @@
       <textbookValue>950</textbookValue>
       <neurotrainerValue>3000</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksUncommon</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
         <li>LLNeurotrainerUncommon</li>
@@ -2307,7 +2489,18 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Biosynthesis</defName>
     <label>Biosynthesis</label>
-    <category>ProficiencyCategory_KnowledgeExoticPhysics</category>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<category>ProficiencyCategory_KnowledgeExoticPhysics</category>
     <description>The Knowledge and understanding of Biosynthesis.</description>
     <costTheoretical>3000</costTheoretical>
     <costPractical>1500</costPractical>
@@ -2342,7 +2535,18 @@
     <label>Bioelectronics</label>
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The Knowledge and understanding of bioelectronics.</description>
-    <costTheoretical>3000</costTheoretical>
+    <generationRules>
+      <textbookValue>1250</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<costTheoretical>3000</costTheoretical>
     <costPractical>1500</costPractical>
     <viewerX>12</viewerX>
     <viewerY>4.5</viewerY>
@@ -2520,6 +2724,17 @@
     <label>Electromagnetism</label>
     <category>ProficiencyCategory_KnowledgePhysics</category>
     <description>The Knowledge and understanding of electromagnetism.</description>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
 	<costTheoretical>1500</costTheoretical>
     <viewerX>10</viewerX>
     <viewerY>4</viewerY>
@@ -2544,7 +2759,18 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Wavelengths</defName>
     <label>Wavelengths</label>
-    <category>ProficiencyCategory_KnowledgePhysics</category>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<category>ProficiencyCategory_KnowledgePhysics</category>
     <description>The Knowledge and understanding of wavelengths.</description>
 	<costTheoretical>1500</costTheoretical>
     <viewerX>10</viewerX>
@@ -2913,7 +3139,14 @@
     <generationRules>
       <textbookValue>450</textbookValue>
       <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
     </generationRules>
+
 	<theoreticalLearningActivityDefs>
       <li>LLDocument</li>
       <li>LLBrainstorm</li>
@@ -3067,10 +3300,10 @@
       <textbookValue>1200</textbookValue>
       <neurotrainerValue>2000</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksUncommon</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
-        <li>LLNeurotrainerUncommon</li>
+        <li>LLNeurotrainerRare</li>
       </neurotrainerTradeTags>
     </generationRules>
 
@@ -3111,7 +3344,7 @@
       <textbookValue>1200</textbookValue>
       <neurotrainerValue>2000</neurotrainerValue>
       <bookTradeTags>
-        <li>LLTextbooksBasic</li>
+        <li>LLTextbooksUncommon</li>
       </bookTradeTags>
       <neurotrainerTradeTags>
         <li>LLNeurotrainerUncommon</li>

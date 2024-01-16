@@ -7818,6 +7818,16 @@
         </requirements>
         <rewards>
           <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.5</progressMultiplier>
+          </li>
+          <li>
             <proficiency>BasicFabrication</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.5</progressMultiplier>
@@ -7828,8 +7838,8 @@
             <progressMultiplier>0.3</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>

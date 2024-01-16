@@ -60,10 +60,23 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
+		  <li>Ecology</li>
           <li>Hydroponics</li>
           <li>Computers</li>
         </requirements>
-        <softRequirement>False</softRequirement>
+        <rewards>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Biology</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
@@ -74,12 +87,11 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Biology</li>
-          <li>Ecology</li>
+          <li>PlantCare</li>
         </requirements>
         <rewards>
           <li>
-            <proficiency>Biology</proficiency>
+            <proficiency>PlantCare</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
           </li>

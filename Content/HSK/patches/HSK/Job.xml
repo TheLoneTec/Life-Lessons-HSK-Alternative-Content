@@ -477,7 +477,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/JobDef[defName="JobDef_FishAtFishingPier"]</xpath>
     <value>
@@ -519,7 +519,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/JobDef[defName="JobDef_AquacultureBasinChangeSpecies"]</xpath>
     <value>
