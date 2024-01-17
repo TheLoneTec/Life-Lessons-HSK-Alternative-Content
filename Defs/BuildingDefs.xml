@@ -307,7 +307,7 @@
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-      <maxItemsInCell>10</maxItemsInCell>
+      <!--<maxItemsInCell>10</maxItemsInCell>-->
       <storageGroupTag>LLBookcase</storageGroupTag>
       <blueprintClass>Blueprint_Storage</blueprintClass>
       <fixedStorageSettings>
@@ -334,6 +334,7 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
       <li>LifeLessons.PrettyStorage_ITab</li>
+      <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
     </inspectorTabs>
     <designationHotKey>Misc12</designationHotKey>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
@@ -342,6 +343,7 @@
     <researchPrerequisites>
       <li>ComplexFurniture</li>
     </researchPrerequisites>
+	<designationCategory>LWM_DS_Storage</designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="LLBookcaseBase">
@@ -357,7 +359,15 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <costStuffCount>120</costStuffCount>
-    
+	<comps>
+		<li Class="LWM.DeepStorage.Properties">
+			<maxNumberStacks>10</maxNumberStacks>
+			<minTimeStoringTakes>15</minTimeStoringTakes>
+			<additionalTimeEachStack>15</additionalTimeEachStack>
+			<overlayType>SumOfItemsPerCell</overlayType>
+			<showContents>false</showContents>
+		</li>
+	</comps>
     <statBases>
       <WorkToBuild>2000</WorkToBuild>
       <MaxHitPoints>350</MaxHitPoints>
