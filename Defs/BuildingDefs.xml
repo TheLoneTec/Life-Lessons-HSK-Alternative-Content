@@ -45,7 +45,7 @@
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-          <li MayRequire="Ludeon.RimWorld.Ideology">Blackboard</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Blackboard</li>
         </linkableFacilities>
       </li>
 
@@ -64,7 +64,7 @@
 
       <li Class="LifeLessons.CompProperties_TeachingManager">
         <interactableThings>
-          <li MayRequire="Ludeon.RimWorld.Ideology">Blackboard</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Blackboard</li>
         </interactableThings>
       </li>
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+		  <li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TeachersDesk"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<value>
+			  <li>BlackboardTribal</li>
+			</value>
+			<success>Normal</success>
+		  </li>
+
+		  <li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TeachersDesk"]/comps/li[@Class="LifeLessons.CompProperties_TeachingManager"]/interactableThings</xpath>
+			<value>
+			  <li>BlackboardTribal</li>
+			</value>
+			<success>Normal</success>
+		  </li>
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
