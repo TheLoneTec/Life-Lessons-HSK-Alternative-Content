@@ -76,7 +76,7 @@
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
+        <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
@@ -101,7 +101,7 @@
             <progressMultiplier>0.3</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
+        <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
@@ -139,7 +139,7 @@
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
+        <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
@@ -164,7 +164,7 @@
             <progressMultiplier>0.01</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
+        <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
