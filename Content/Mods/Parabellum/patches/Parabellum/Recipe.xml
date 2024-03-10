@@ -1254,7 +1254,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/RecipeDef[defName="MakeWPG"]</xpath>
     <value>
@@ -1267,7 +1267,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/RecipeDef[defName="MakeDB"]</xpath>
     <value>
