@@ -86,9 +86,6 @@
     <xpath>Defs/WorkGiverDef[defName="WorkGiver_FishAtFishingPier"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>PlantCare</li>
-        </requirements>
         <rewards>
           <li>
             <proficiency>PlantCare</proficiency>
@@ -124,9 +121,6 @@
     <xpath>Defs/WorkGiverDef[defName="HollyWash"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Chemistry</li>
-        </requirements>
         <rewards>
           <li>
             <proficiency>Chemistry</proficiency>
@@ -149,9 +143,6 @@
     <xpath>Defs/WorkGiverDef[defName="QRY_MineQuarry"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Mineralogy</li>
-        </requirements>
         <rewards>
           <li>
             <proficiency>Geology</proficiency>
