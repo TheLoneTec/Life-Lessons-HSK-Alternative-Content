@@ -206,7 +206,7 @@
         <requirements>
           <li>Construction</li>
           <li>Smithing</li>
-          <li>MaterialsChemistry</li>
+          <li>Chemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
