@@ -205,7 +205,7 @@
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
           <li>Construction</li>
-          <li>Smithing</li>
+          <li>BasicScience</li>
           <li>Chemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
