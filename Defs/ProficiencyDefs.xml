@@ -1287,7 +1287,7 @@
     <viewerX>6</viewerX>
     <viewerY>15</viewerY>
     <prerequisites>
-      <li>AdvancedScience</li>
+      <li>BasicScience</li>
 	  <li>PlantCare</li>
     </prerequisites>
     <color>RGBA(0.0, 1.0, 1.0, 1.000)</color>

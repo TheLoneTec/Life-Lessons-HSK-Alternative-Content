@@ -3967,7 +3967,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicPsychochemistry</li>
+          <li>Chemistry</li>
           <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
