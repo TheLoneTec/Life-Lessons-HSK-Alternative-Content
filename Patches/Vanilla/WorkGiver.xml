@@ -65,7 +65,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="Open"]</xpath>
     <value>
@@ -78,7 +78,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="ChatWithPrisoner"]</xpath>
     <value>
