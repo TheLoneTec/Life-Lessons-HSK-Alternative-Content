@@ -116,7 +116,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>-->
+  </Operation>
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="HollyWash"]</xpath>
     <value>
@@ -138,7 +138,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="QRY_MineQuarry"]</xpath>
     <value>
