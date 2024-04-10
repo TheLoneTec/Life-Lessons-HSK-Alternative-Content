@@ -572,6 +572,11 @@
             <progressGain>0.001</progressGain>
             <progressMultiplier>1</progressMultiplier>
           </li>
+          <li>
+            <proficiency>AdvancedScience</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
         </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
