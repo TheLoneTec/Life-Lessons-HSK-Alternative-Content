@@ -39,6 +39,33 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="TendPatient"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0.05</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <progressGain>0.02</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0.03</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/JobDef[defName="PlayGo"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
