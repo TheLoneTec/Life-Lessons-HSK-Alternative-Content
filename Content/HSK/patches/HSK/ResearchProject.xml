@@ -3383,7 +3383,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>AdvancedFirstAid</li>
+          <li>FirstAid</li>
           <li>EnvironmentalChemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -3538,7 +3538,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>AdvancedFirstAid</li>
           <li>AdvancedFabrication</li>
         </requirements>
         <softRequirement>False</softRequirement>

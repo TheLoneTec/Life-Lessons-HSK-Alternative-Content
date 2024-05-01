@@ -26,6 +26,11 @@
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
         </rewards>
         <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
