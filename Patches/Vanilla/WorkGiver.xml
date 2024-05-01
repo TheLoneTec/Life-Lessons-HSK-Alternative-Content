@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Patch><!--
+<Patch><!---->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="DoctorTendEmergency"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0.02</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0.03</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <progressGain>0.05</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -17,9 +31,23 @@
     <xpath>Defs/WorkGiverDef[defName="DoctorTendToHumanlikes"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>FirstAid</li>
-        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0.02</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -30,9 +58,23 @@
     <xpath>Defs/WorkGiverDef[defName="DoctorTendToSelf"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>AdvancedFirstAid</li>
-        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0.03</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -43,16 +85,29 @@
     <xpath>Defs/WorkGiverDef[defName="DoctorTendToSelfEmergency"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>AdvancedFirstAid</li>
-          <li>Medical</li>
-        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0.02</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0.03</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <progressGain>0.05</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>-->
+  </Operation>
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/WorkGiverDef[defName="VisitSickPawn"]</xpath>
     <value>
