@@ -3499,10 +3499,9 @@
     <assignmentTips>Generally represents a greater mastery of programming than the "Average" modern programmer. Includes everything from early machine code to more advanced sci-fi representations of programming. Used to lockout AI related recipes and buildings and their associate research projects. Generally not combined with other proficiencies to lockout buildings, but may be if logical. Most backstories that mention AI or programming can include this.</assignmentTips>
     
     <theoreticalLearningActivityDefs>
-      <li>LLDraft</li>
-      <li>LLDocumentHitech</li>
-      <li>LLTinkerWithSubPersonaCore</li>
-      <li>LLRigorization</li>
+      <li>LLDocument</li>
+      <li>LLAnalyzeWriting</li>
+      <li>LLBrainstorm</li>
     </theoreticalLearningActivityDefs>
   </LifeLessons.ProficiencyDef>
 
