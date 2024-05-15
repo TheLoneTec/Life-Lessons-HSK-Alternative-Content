@@ -936,7 +936,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Tailoring</li>
+          <li>BasicFabrication</li>
         </requirements>
         <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
