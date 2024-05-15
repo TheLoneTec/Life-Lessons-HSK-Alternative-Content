@@ -938,8 +938,8 @@
         <requirements>
           <li>Tailoring</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
