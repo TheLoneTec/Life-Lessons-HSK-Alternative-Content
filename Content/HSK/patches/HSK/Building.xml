@@ -2304,6 +2304,11 @@
         </requirements>
         <rewards>
           <li>
+            <proficiency>Tailoring</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
             <proficiency>Construction</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
