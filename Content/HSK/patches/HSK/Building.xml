@@ -12418,7 +12418,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="Razor_Wire_Trap"]</xpath>
     <value>
@@ -12435,7 +12435,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="TrapSpike"]</xpath>
     <value>

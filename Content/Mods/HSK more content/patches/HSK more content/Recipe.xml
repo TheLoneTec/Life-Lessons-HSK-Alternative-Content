@@ -608,7 +608,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_HE"]</xpath>
+    <xpath>Defs/RecipeDef[defName="MakeAmmo_556x45mmNATO_HE_HMC"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>

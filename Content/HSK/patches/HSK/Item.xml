@@ -1611,7 +1611,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="Ammo_9x44mmCharged"]</xpath>
     <value>
@@ -1624,7 +1624,7 @@
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="Ammo_BlasterBolt"]</xpath>
     <value>
