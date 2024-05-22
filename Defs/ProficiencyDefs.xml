@@ -788,7 +788,8 @@
     <proficiencyAdjective>geological</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
     <description>Understanding of the more advanced and rare natural minerals and materials in the environment.</description>
-    <costTheoretical>1200</costTheoretical>
+    <costTheoretical>800</costTheoretical>
+	<costPractical>400</costPractical>
     <canBePioneered>true</canBePioneered>
     <effectiveSubjectLimit>2</effectiveSubjectLimit>
     <viewerX>8</viewerX>
