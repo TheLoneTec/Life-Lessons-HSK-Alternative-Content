@@ -905,12 +905,25 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="LTS_WallLightThree"]</xpath>
+    <xpath>Defs/ThingDef[defName="LTS_WallLightBase"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
           <li>Electronics</li>
           <li>Glassworking</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="LTS_WallTorch"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>BasicFabrication</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
