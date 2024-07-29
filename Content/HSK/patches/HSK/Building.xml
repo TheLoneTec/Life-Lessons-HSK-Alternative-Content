@@ -5041,7 +5041,7 @@
           </li>
           <li>
             <proficiency>Tailoring</proficiency>
-            <progressGain>1</progressGain>
+            <progressGain>0.3</progressGain>
             <progressMultiplier>0.6</progressMultiplier>
           </li>
         </rewards>
@@ -5064,23 +5064,23 @@
         <rewards>
           <li>
             <proficiency>Artisan</proficiency>
-            <progressGain>0.2</progressGain>
-            <progressMultiplier>0.4</progressMultiplier>
+            <progressGain>0.1</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
             <proficiency>Construction</proficiency>
-            <progressGain>0.4</progressGain>
-            <progressMultiplier>0.6</progressMultiplier>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
           <li>
             <proficiency>BasicMathematics</proficiency>
-            <progressGain>0.6</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
+            <progressGain>0.3</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
             <proficiency>BasicScience</proficiency>
-            <progressGain>0.6</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
+            <progressGain>0.3</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>True</softRequirement>
