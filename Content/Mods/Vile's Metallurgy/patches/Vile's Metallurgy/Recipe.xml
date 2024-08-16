@@ -1034,7 +1034,14 @@
         <requirements>
           <li>Smithing</li>
         </requirements>
-        <softRequirement>False</softRequirement>
+        <rewards>
+          <li>
+            <proficiency>Smithing</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.05</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
@@ -1067,7 +1074,14 @@
         <requirements>
           <li>Smithing</li>
         </requirements>
-        <softRequirement>False</softRequirement>
+        <rewards>
+          <li>
+            <proficiency>Smithing</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.05</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>

@@ -1927,6 +1927,7 @@
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to forge and refine metal into useful tools, weapons, or components.</description>
     <costPractical>1500</costPractical>
+	<canBePioneered>true</canBePioneered>
     <viewerX>1</viewerX>
     <viewerY>3</viewerY>
 	
@@ -1939,6 +1940,12 @@
       <li>Things/Mote/Disoriented</li>
     </thoughtIcons>
     <assignmentTips>General mastery of forging and smithing tools. Most medieval crafters can have this, as well as accomplished tribal crafters. Used to lockout most pure-metal recipes such as armor and large weapons. Not strictly required for very simple things like knives. Industrial recipes typically start excluding it in favor of AdvancedFabrication even when it might make sense to include smithing - such as firearms. Very early firearms might require this.</assignmentTips>
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+	  <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
   </LifeLessons.ProficiencyDef>
 
 	<!-- 
