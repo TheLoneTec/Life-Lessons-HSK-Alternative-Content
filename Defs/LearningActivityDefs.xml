@@ -12,6 +12,7 @@
     <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
     <effectWorking>LearnFromLecture</effectWorking>
     <validWorkstations>
+      <li>PrimitiveResearchBench</li>
       <li>SimpleResearchBench</li>
     </validWorkstations>
   </LifeLessons.LearningActivityDef>
@@ -27,6 +28,7 @@
     <xpPerTick>0.001</xpPerTick>
     <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
     <validWorkstations>
+      <li>PrimitiveResearchBench</li>
       <li>SimpleResearchBench</li>
       <li>Blackboard</li>
     </validWorkstations>
@@ -43,6 +45,7 @@
     <xpPerTick>0.001</xpPerTick>
     <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
     <validWorkstations>
+      <li>PrimitiveResearchBench</li>
       <li>SimpleResearchBench</li>
       <li>Blackboard</li>
     </validWorkstations>
@@ -60,6 +63,7 @@
     <xpPerTick>0.001</xpPerTick>
     <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
     <validWorkstations>
+      <li>PrimitiveResearchBench</li>
       <li>SimpleResearchBench</li>
     </validWorkstations>
   </LifeLessons.LearningActivityDef>
