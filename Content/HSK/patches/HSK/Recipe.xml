@@ -8578,18 +8578,18 @@
         <rewards>
           <li>
             <proficiency>Biology</proficiency>
-            <progressGain>0</progressGain>
+            <progressGain>0.5</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
             <proficiency>Fertilization</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
           <li>
             <proficiency>SoilScience</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>True</softRequirement>
@@ -8608,16 +8608,21 @@
         <rewards>
           <li>
             <proficiency>Biology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.2</progressMultiplier>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
           </li>
           <li>
             <proficiency>Fertilization</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>1.4</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>SoilScience</proficiency>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>1.4</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
+        <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
