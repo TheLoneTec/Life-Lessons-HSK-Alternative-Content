@@ -5,7 +5,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>FirstAid</li>
           <li>MedicinalChemistry</li>
         </requirements>
@@ -20,7 +19,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>FirstAid</li>
           <li>MedicinalChemistry</li>
         </requirements>
@@ -35,7 +33,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>FirstAid</li>
           <li>MedicinalChemistry</li>
         </requirements>
@@ -50,7 +47,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>FirstAid</li>
           <li>MedicinalChemistry</li>
         </requirements>
@@ -65,7 +61,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>FirstAid</li>
           <li>MedicinalChemistry</li>
         </requirements>
@@ -80,7 +75,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>Cultivation</li>
           <li>EnvironmentalChemistry</li>
           <li>Medical</li>
@@ -112,7 +106,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>Ecology</li>
           <li>Electronics</li>
           <li>PharmaceuticalChemistry</li>
         </requirements>
@@ -128,7 +121,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>Ecology</li>
           <li>Electronics</li>
           <li>PharmaceuticalChemistry</li>
         </requirements>
@@ -144,7 +136,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>Ecology</li>
           <li>Electronics</li>
           <li>PharmaceuticalChemistry</li>
         </requirements>
@@ -160,7 +151,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>Ecology</li>
           <li>Electronics</li>
           <li>PharmaceuticalChemistry</li>
         </requirements>
@@ -176,7 +166,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>Ecology</li>
           <li>Electronics</li>
           <li>PharmaceuticalChemistry</li>
         </requirements>
@@ -192,7 +181,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
-          <li>Ecology</li>
           <li>Electronics</li>
           <li>PharmaceuticalChemistry</li>
         </requirements>

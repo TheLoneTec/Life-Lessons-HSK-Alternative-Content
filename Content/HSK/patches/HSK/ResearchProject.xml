@@ -3083,7 +3083,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cooking</li>
-          <li>Ecology</li>
           <li>Chemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -3098,7 +3097,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cooking</li>
-          <li>Ecology</li>
           <li>Chemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -3220,7 +3218,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>SkilledCooking</li>
-          <li>Ecology</li>
           <li>AdvancedChemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -3295,7 +3292,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>EnvironmentalChemistry</li>
           <li>Boiling</li>
         </requirements>
@@ -3369,7 +3365,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>FirstAid</li>
-          <li>Ecology</li>
+          <li>PlantCare</li>
           <li>MedicinalChemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -3967,7 +3963,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Chemistry</li>
-          <li>Ecology</li>
+          <li>PlantCare</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -3981,7 +3977,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>BasicPsychochemistry</li>
-          <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -3995,7 +3990,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>MedicinalChemistry</li>
-          <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -4133,7 +4127,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cultivation</li>
-          <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -4147,7 +4140,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cultivation</li>
-          <li>Ecology</li>
           <li>BasicScience</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -4229,7 +4221,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cultivation</li>
-          <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -4243,7 +4234,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cultivation</li>
-          <li>Ecology</li>
           <li>SoilScience</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -4310,7 +4300,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Cultivation</li>
-          <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -4364,7 +4353,6 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Biology</li>
-          <li>Ecology</li>
           <li>SoilScience</li>
         </requirements>
         <softRequirement>False</softRequirement>
