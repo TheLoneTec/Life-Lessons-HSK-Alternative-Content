@@ -5848,6 +5848,11 @@
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
+          <li>
+            <proficiency>SoilScience</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
         </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.6</unqualifiedWorkSpeedMultiplier>
@@ -8591,6 +8596,21 @@
             <progressGain>0.5</progressGain>
             <progressMultiplier>0.3</progressMultiplier>
           </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Agrochemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
         </rewards>
         <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
@@ -8620,6 +8640,21 @@
             <proficiency>SoilScience</proficiency>
             <progressGain>0.5</progressGain>
             <progressMultiplier>1.4</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Agrochemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>True</softRequirement>
