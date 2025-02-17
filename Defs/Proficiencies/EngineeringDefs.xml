@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBaseRare">
+    <defName>ShipBuilding</defName>
+    <label>Ship Building</label>
+    <category>ProficiencyCategory_Engineering</category>
+    <description>The ability to design and build complex space-ready ship components and structures.</description>
+    <generationRules>
+      <textbookValue>4500</textbookValue>
+      <neurotrainerValue>25000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>3200</costPractical>
+  <costTheoretical>1600</costTheoretical>
+    <viewerX>12</viewerX>
+    <viewerY>9</viewerY>
+    <prerequisites>
+      <li>Engineering</li>
+      <li>AdvancedFabrication</li>
+	  <li>Electronics</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.714, 0.757, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The pinnacle of space-engineering. Only spacer-tier shipwrights and spaceship engineers will have this. "illegal" or pirate shipwrights will usually cap at Engineering. Used to lockout ship part construction and their associated research projects.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- BasicFabrication -->
+	
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicFabrication</defName>
+    <label>Basic Fabrication</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>900</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Engineering</category>
+    <description>The ability to effectively use tools and basic machines in the creation of other tools and devices.</description>
+    <costPractical>800</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>4.5</viewerY>
+    <color>RGBA(0.545, 0, 0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft by hand, and the use of hand tools. Generally this does not include complex crafting that would involve many or tiny components, nor would it generally include electronics. Use BasicFabrication + Electronics as an intermediary step before AdvancedFabrication - For recipes that involve handmade or simple electronics.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Mechanics</defName>
+    <label>Mechanics</label>
+    <generationRules>
+      <textbookValue>750</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>mechanical</proficiencyAdjective>
+    <category>ProficiencyCategory_Engineering</category>
+    <description>Understanding of mechanical systems and devices. The ability to build, maintain, and operate heavy machinery.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>7</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(1.0, 1.0, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Used to lockout recipes, construction, and research. Usually represents knowledge to build machines with few interconnecting systems - generators, things with servos, simple vehicles. Broadly speaking, doesn't include the ability to design complex systems of mechanics such as planes, power armor, or advanced machines. Taught by simple mechanical devices such as mills. Backstories with machine operator or maintenance experience would likely include this.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLDraft</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithMechanisms</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLReverseEngineerGadget</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedFabrication</defName>
+    <label>Advanced Fabrication</label>
+    <generationRules>
+      <textbookValue>500</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Engineering</category>
+    <description>Understanding the use of advanced tools and machinery to create further, more complex tools and devices.</description>
+    <costPractical>1200</costPractical>
+    <viewerX>4</viewerX>
+    <viewerY>4.5</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.282, 0.239, 0.545, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Crafting that involves complex tools or the use of factories and machinery. May include components of smithing or other sub proficiencies. Generally used for complex electronic recipes or recipes with many machined parts such as firearms. Can be used with Electronics for charge-based weapons. Used with Mechanics and Electronics as an intermediary step before Engineering or AdvancedConstruction.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Machining</defName>
+    <label>Machining</label>
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+    <category>ProficiencyCategory_Engineering</category>
+    <description>The ability to create complex parts using heavy machinary.</description>
+    <costPractical>1500</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.72, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Createing intricate parts using heavy machinary requires skill and experience. Whether its screws, bolts, mechanisms etc.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Machining Subcategories -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PowerarmorAssembly</defName>
+    <label>Powerarmor Assembly</label>
+    <category>ProficiencyCategory_Engineering</category>
+    <description>The ability to create effective powered armor.</description>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>2000</costPractical>
+    <viewerX>7</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+	  <li>Electronics</li>
+    </prerequisites>
+    <color>RGBA(0.74, 0.82, 0.93, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The undersatnding of the assembly and fabrication of the parts needed to create powered armor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Machining Subcategories End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Electronics</defName>
+    <label>Electronics</label>
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>electronic</proficiencyAdjective>
+    <category>ProficiencyCategory_Engineering</category>
+    <description>Understanding of electrical properties, electronic circuits and tools. The ability to prepare electrical diagrams and troubleshoot systems.</description>
+    <costPractical>2000</costPractical>
+    <costTheoretical>2000</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>6</viewerX>
+    <viewerY>4.5</viewerY>
+    <prerequisites>
+	  <li>AdvancedFabrication</li>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(0.941, 0.902, 0.549, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+    <assignmentTips>Catch all for almost all industrial buildings and recipes. Represents both the instllation and creation of electronic circuits and components. Used to lockout any workbench or recipe that involves electricity, as well as their associated research projects. May be used with Medical for very-low-tier bionics. May be used with AdvancedFabrication for laser based recipes. Very accomplished medival inventors might have discovered this. Most industrial inventors, mechanics, fabricators, and engineers will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>LaserManipulation</defName>
+    <label>laser Manipulation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<category>ProficiencyCategory_Engineering</category>
+    <description>The understanding and capability of making laser based weapons or components.</description>
+    <costPractical>2500</costPractical>
+    <costTheoretical>2500</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>12</viewerX>
+    <viewerY>7</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+	  <li>Wavelengths</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.07, 0.14, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understadning the assembly of laser based weapons or items that are actually effective in production or weapons without consuming a huge amount of power.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PlasmaManipulation</defName>
+    <label>Plasma Manipulation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<category>ProficiencyCategory_Engineering</category>
+    <description>The understanding and capability of producing plasma based devices.</description>
+    <costPractical>2500</costPractical>
+    <costTheoretical>2500</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>12</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+	  <li>Electromagnetism</li>
+	  <li>ExoticPhysics</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.07, 0.14, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Utilisation of plasma is not an easy feat. When utilised effectively it is capable of producing devastating results in weaponry. To do so effectively though without it instantly dissolving to nothing is the hard part.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+  
+    <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Engineering</defName>
+    <label>Engineering</label>
+    <proficiencyAdjective>intricate mechanical</proficiencyAdjective>
+    <generationRules>
+      <textbookValue>1950</textbookValue>
+      <neurotrainerValue>14500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_Engineering</category>
+    <description>The ability to design and implement complex systems using electrical or mechanical components.</description>
+    <costPractical>2000</costPractical>
+    <costTheoretical>3200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>1</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.3</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>Electronics</li>
+      <li>Construction</li>
+      <li>Physics</li>
+      <li>Mechanics</li>
+    </prerequisites>
+    <color>RGBA(0.733, 0.733, 0.733, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLDraft</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithAdvancedComponents</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLReverseEngineerGadget</li>
+    </practicalLearningActivityDefs>
+
+    <assignmentTips>Mastery of mechanical and electrical systems. Ability to both build and design complex systems of machines. Does not include a mastery of space-worthy vessels. Most backstories that use the word "engineer" include this. Unheard of pre-industrial. Knowledge is not sufficient for mastery - represents years of experience as well, so even genius inventory child backstories will not include this. Used to lockout robotics, complex vehicles, simple ship parts, mechs, and factories. Used to lockout advanced weapons recipes. Used to lockout associated research projects.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Bionics</defName>
+    <label>Bionics</label>
+    <generationRules>
+      <textbookValue>2800</textbookValue>
+      <neurotrainerValue>18800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>bionic</proficiencyAdjective>
+    <category>ProficiencyCategory_Engineering</category>
+    <description>Understanding of the design and installation of biomechanical parts into living tissue and organs.</description>
+    <costPractical>3000</costPractical>
+    <costTheoretical>2800</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>1</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.5</learningEffectivenessLossPerSubject>
+    <viewerX>12</viewerX>
+    <viewerY>24.5</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+      <li>Engineering</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBionicsExamineCorpse</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeBionics</li>
+      <li>LLReverseEngineerBionics</li>
+    </practicalLearningActivityDefs>
+    <assignmentTips>Mastery of bionic integration. Can be used to lockout the creation of bionic parts as well as the install. Required for any spinal or brain modifications, but may not strictly be required for simpler bionics. Accomplished spacer surgeons may have this if their story mentions prosthetics or bionics. May be used to lockout buildings that automate the install of bionics - such as the war casket foundry.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+
+</Defs>
