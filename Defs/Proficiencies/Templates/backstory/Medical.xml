@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <LifeLessons.BackstoryProficiencyTemplateDef Abstract="True" Name="LowtechDoctorBase">
+    <applyToUnpatchedStory>true</applyToUnpatchedStory>
+    <cost>10</cost>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <lessThan>Industrial</lessThan>
+      </li>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <value>2</value>
+        <backstorySlot>Adulthood</backstorySlot>
+        <spawnCategories>
+          <containsAny>
+            <li>Tribal</li>
+          </containsAny>
+        </spawnCategories>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>5</value>
+        <title>
+          <containsAny>
+            <li>doctor</li>
+            <li>physician</li>
+            <li>healer</li>
+            <li>medicine</li>
+            <li>herb</li>
+          </containsAny>
+        </title>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>4</value>
+        <description>
+          <containsAny>
+            <li>medical</li>
+            <li>cure</li>
+            <li>treat</li>
+            <li>disease</li>
+            <li>wound</li>
+            <li>plague</li>
+            <li>medicine</li>
+            <li>herb</li>
+            <li>patients</li>
+            <li>ailment</li>
+            <li>bloodlet</li>
+          </containsAny>
+        </description>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>1</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>0</greaterThan>
+        </skillMod>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>2</greaterThan>
+        </skillMod>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>4</greaterThan>
+        </skillMod>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>4</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>6</greaterThan>
+        </skillMod>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef Abstract="True" Name="ModernDoctorBase">
+    <applyToUnpatchedStory>true</applyToUnpatchedStory>
+    <cost>10</cost>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <greaterThan>Medieval</greaterThan>
+      </li>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <required>true</required>
+        <backstorySlot>Adulthood</backstorySlot>
+        <spawnCategories>
+          <containsNone>
+            <li>Tribal</li>
+          </containsNone>
+        </spawnCategories>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>8</value>
+        <title>
+          <containsAny>
+            <li>doctor</li>
+            <li>physician</li>
+          </containsAny>
+        </title>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>4</value>
+        <title>
+          <containsAny>
+            <li>healer</li>
+          </containsAny>
+        </title>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>5</value>
+        <description>
+          <containsAny>
+            <li>medical</li>
+            <li>cure</li>
+            <li>treat</li>
+            <li>disease</li>
+            <li>wound</li>
+            <li>anaesthetic</li>
+            <li>medicine</li>
+            <li>patient</li>
+            <li>injur</li>
+          </containsAny>
+        </description>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>2</greaterThan>
+        </skillMod>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>4</greaterThan>
+        </skillMod>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Medicine</skillDef>
+          <greaterThan>6</greaterThan>
+        </skillMod>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="LowtechDoctorBase">
+    <defName>TribalDoctor</defName>
+    <package>
+      <proficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="LowtechDoctorBase">
+    <defName>MedievalDoctor</defName>
+    <package>
+      <proficiencies>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleSuturing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Amputation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">ComplexSuturing</li>
+        <li>Anatomy</li>
+        <li>FoundationsBiology</li>
+        <li>FoundationChemistry</li>
+        <li>SimpleMathematics</li>
+      </proficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <matches>Medieval</matches>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ModernDoctorBase">
+    <defName>IndustrialDoctor</defName>
+    <package>
+      <proficiencies>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">ComplexSuturing</li>
+        <li>Anatomy</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleSuturing</li>
+        <li>FoundationsBiology</li>
+        <li>FoundationChemistry</li>
+        <li>SimpleMathematics</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSetting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Anesthesia</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+      </proficiencies>
+      <conditionalProficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">Surgery</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.6</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">Amputation</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.35</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <matches>Industrial</matches>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ModernDoctorBase">
+    <defName>SpacerDoctor</defName>
+    <package>
+      <proficiencies>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">ComplexSuturing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleSuturing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Anesthesia</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSetting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+        <li>FoundationChemistry</li>
+        <li>SimpleMathematics</li>
+        <li>Anatomy</li>
+        <li>FoundationsBiology</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Surgery</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+      </proficiencies>
+      <conditionalProficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">SkinGrafting</li>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">HighEnergyBurnTreatment</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.65</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">Amputation</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.75</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <greaterThan>Industrial</greaterThan>
+      </li>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>5</value>
+        <title>
+          <containsAny>
+            <li>glitter</li>
+          </containsAny>
+        </title>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef Abstract="True" Name="ModernSurgeonBase" ParentName="ModernDoctorBase">
+    <cost>20</cost>
+    <heuristics>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <debugId>ModernSurgeonBase-surgeonKeyword</debugId>
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>14</value>
+        <description>
+          <containsAny>
+            <li>surgeon</li>
+            <li>surgery</li>
+          </containsAny>
+        </description>
+
+        <or Class="LifeLessons.BackstoryHeuristic">
+          <debugId>ModernSurgeonBase-surgeonKeyword-OR</debugId>
+          <backstorySlot>Adulthood</backstorySlot>
+          <title>
+            <contains>surgeon</contains>
+          </title>
+        </or>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ModernSurgeonBase">
+    <defName>IndustrialSurgeon</defName>
+    <cost>20</cost>
+    <package>
+      <proficiencies>
+        <li>Anatomy</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleSuturing</li>
+        <li>FoundationsBiology</li>
+        <li>FoundationChemistry</li>
+        <li>SimpleMathematics</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSetting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Anesthesia</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Surgery</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">ComplexSuturing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SkinGrafting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">OrganTransplant</li>
+      </proficiencies>
+      <conditionalProficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">HighEnergyBurnTreatment</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.1</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">InternalFixation</li>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">NeuroSurgery</li>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">CardiovascularSurgery</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.8</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <debugId>IndustrialSurgeon-IndustrialTechLevel</debugId>
+        <required>true</required>
+        <matches>Industrial</matches>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ModernSurgeonBase">
+    <defName>SpacerSurgeon</defName>
+    <cost>20</cost>
+    <package>
+      <proficiencies>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">ComplexSuturing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleSuturing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Anesthesia</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSetting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+        <li>FoundationChemistry</li>
+        <li>SimpleMathematics</li>
+        <li>Anatomy</li>
+        <li>FoundationsBiology</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Surgery</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Amputation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">OrganTransplant</li>
+      </proficiencies>
+      <conditionalProficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">HighEnergyBurnTreatment</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.85</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">CardiovascularSurgery</li>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">InternalFixation</li>
+            <li MayRequire="ghostdata.lifelessons.medicalmishaps">BrainImplants</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>1</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <debugId>SpacerSurgeon-SpacerPlusTechLevel</debugId>
+        <required>true</required>
+        <greaterThan>Industrial</greaterThan>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ModernDoctorBase">
+    <defName>BionicsSurgeon</defName>
+    <cost>20</cost>
+    <package>
+      <proficiencies>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">ComplexSuturing</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleSuturing</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">Anesthesia</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSetting</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+          <li>FoundationChemistry</li>
+          <li>SimpleMathematics</li>
+          <li>Anatomy</li>
+          <li>FoundationsBiology</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">Surgery</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">Cauterization</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">Amputation</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">OrganTransplant</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">BionicsInstall</li>
+          <li>Biotechnology</li>
+          <li>Genetics</li>
+          <li>DifferentialEquations</li>
+          <li>Biochemistry</li>
+          <li>DiscreteMathematics</li>
+          <li>OrganicChemistry</li>
+          <li>Calculus</li>
+          <li>MicroBiology</li>
+          <li>Algebra</li>
+          <li>Geometry</li>
+          <li>Computers</li>
+          <li>ReadingWriting</li>
+          <li MayRequire="ghostdata.lifelessons.medicalmishaps">BionicsOrganInstall</li>
+        </proficiencies>
+        <conditionalProficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+          <li>
+            <options>
+              <li MayRequire="ghostdata.lifelessons.medicalmishaps">HighEnergyBurnTreatment</li>
+            </options>
+            <rolls>1</rolls>
+            <chancePerRoll>0.85</chancePerRoll>
+          </li>
+          <li>
+            <options>
+              <li MayRequire="ghostdata.lifelessons.medicalmishaps">BrainWiring</li>
+            </options>
+            <rolls>1</rolls>
+            <chancePerRoll>0.85</chancePerRoll>
+          </li>
+        </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <debugId>BionicsSurgeon-DescriptionKeywords</debugId>
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>12</value>
+        <description>
+          <containsAny>
+            <li>bionic</li>
+            <li>robotic</li>
+          </containsAny>
+        </description>
+
+        <or Class="LifeLessons.BackstoryHeuristic">
+          <debugId>BionicsSurgeon-DescriptionKeywords-OR</debugId>
+          <backstorySlot>Adulthood</backstorySlot>
+          <title>
+            <containsAny>
+              <li>bionic</li>
+              <li>prosthetic</li>
+            </containsAny>
+          </title>
+        </or>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <!-- Even when not skilled, we want most modern soldiers to have basic first aid training -->
+  <LifeLessons.BackstoryProficiencyTemplateDef>
+    <defName>SoldierFirstaid</defName>
+    <package>
+      <proficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Anesthesia</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+      </proficiencies>
+    </package>
+    <disablePatcherAssignment>true</disablePatcherAssignment>
+
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <!-- Represents what might reasonably be considered common-knowledge firstaid for industrial+ society.-->
+  <LifeLessons.BackstoryProficiencyTemplateDef>
+    <defName>BasicFirstaid</defName>
+    <applyToAnyStory>true</applyToAnyStory>
+    <disablePatcherAssignment>true</disablePatcherAssignment>
+    <package>
+      <proficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+      </proficiencies>
+    </package>
+
+    <heuristics>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <debugId>BasicFirstaid-Adult</debugId>
+        <backstorySlot>Adulthood</backstorySlot>
+        <and Class="LifeLessons.TechLevelHeuristic">
+          <debugId>BasicFirstaid-Techlevel</debugId>
+          <greaterThan>Medieval</greaterThan>
+          <and Class="LifeLessons.SkillHeuristic">
+            <debugId>BasicFirstaid-Skill</debugId>
+            <skill>
+              <skillDef>Medicine</skillDef>
+              <greaterThan>2</greaterThan>
+            </skill>
+          </and>
+        </and>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <!-- Represents actual first-aid or first responder training for industrial+ society.-->
+  <LifeLessons.BackstoryProficiencyTemplateDef>
+    <defName>TrainedFirstaid</defName>
+    <applyToAnyStory>true</applyToAnyStory>
+    <disablePatcherAssignment>true</disablePatcherAssignment>
+    <package>
+      <proficiencies MayRequire="ghostdata.lifelessons.medicalmishaps">
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">SimpleWoundDressing</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">WoundCleaning</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">Sanitation</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BoneSplinting</li>
+        <li MayRequire="ghostdata.lifelessons.medicalmishaps">BurnTreatment</li>
+      </proficiencies>
+    </package>
+
+    <heuristics>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <and Class="LifeLessons.TechLevelHeuristic">
+          <greaterThan>Medieval</greaterThan>
+          <and Class="LifeLessons.SkillHeuristic">
+            <skill>
+              <skillDef>Medicine</skillDef>
+              <greaterThan>4</greaterThan>
+            </skill>
+          </and>
+        </and>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+</Defs>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><InteractionDef>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <InteractionDef>
     <defName>ChatWithSpeechlessFailed</defName>
     <label>failed chat</label>
     <workerClass>InteractionWorker</workerClass>
@@ -10,27 +11,27 @@
     <recipientThought>SpeechlessFailed</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to [communicate] with [RECIPIENT_nameDef] but [failreason].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] couldn't understand [RECIPIENT_labelShort]'s [adjgib] [gibberish].</li>
+        <li>r_logentry->[INITIATOR_nameDef] tried to [communicate] with [RECIPIENT_nameDef] but [failreason].</li>
+        <li>r_logentry->[INITIATOR_nameDef] couldn't understand [RECIPIENT_labelShort]'s [adjgib] [gibberish].</li>
 
-        <li>failreason-&gt;was met with silence</li>
-        <li>failreason-&gt;gave up</li>
-        <li>failreason-&gt;couldn't understand them</li>
+        <li>failreason->was met with silence</li>
+        <li>failreason->gave up</li>
+        <li>failreason->couldn't understand them</li>
 
-        <li>communicate-&gt;chat</li>
-        <li>communicate-&gt;speak</li>
-        <li>communicate-&gt;gossip</li>
-        <li>communicate-&gt;communicate</li>
+        <li>communicate->chat</li>
+        <li>communicate->speak</li>
+        <li>communicate->gossip</li>
+        <li>communicate->communicate</li>
 
-        <li>gibberish-&gt;utterances</li>
-        <li>gibberish-&gt;sputtering</li>
-        <li>gibberish-&gt;words</li>
-        <li>gibberish-&gt;gibberish</li>
+        <li>gibberish->utterances</li>
+        <li>gibberish->sputtering</li>
+        <li>gibberish->words</li>
+        <li>gibberish->gibberish</li>
 
-        <li>adjgib-&gt;maddening</li>
-        <li>adjgib-&gt;[Animal]-like</li>
-        <li>adjgib-&gt;incomprehensible</li>
-        <li>adjgib-&gt;fragmented</li>
+        <li>adjgib->maddening</li>
+        <li>adjgib->[Animal]-like</li>
+        <li>adjgib->incomprehensible</li>
+        <li>adjgib->fragmented</li>
 
       </rulesStrings>
     </logRulesInitiator>
@@ -47,14 +48,14 @@
     <recipientThought>SpeechlessFailed</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] [communicated] at [RECIPIENT_nameDef] but [failreason].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [communicated] at [RECIPIENT_nameDef] but [failreason].</li>
 
-        <li>failreason-&gt;they couldn't understand</li>
-        <li>failreason-&gt;they were frustrated and walked away</li>
+        <li>failreason->they couldn't understand</li>
+        <li>failreason->they were frustrated and walked away</li>
 
-        <li>communicated-&gt;babbled</li>
-        <li>communicated-&gt;sputtered</li>
-        <li>communicated-&gt;raved</li>
+        <li>communicated->babbled</li>
+        <li>communicated->sputtered</li>
+        <li>communicated->raved</li>
 
       </rulesStrings>
     </logRulesInitiator>
@@ -71,13 +72,13 @@
     <recipientThought>Chitchat</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] taught a few words to [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] had a [communicateAdjective] but pleasant conversation with [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] taught a few words to [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] had a [communicateAdjective] but pleasant conversation with [RECIPIENT_nameDef].</li>
 
-        <li>communicateAdjective-&gt;confusing</li>
-        <li>communicateAdjective-&gt;incomprehensible</li>
-        <li>communicateAdjective-&gt;one-sided</li>
-        <li>communicateAdjective-&gt;broken</li>
+        <li>communicateAdjective->confusing</li>
+        <li>communicateAdjective->incomprehensible</li>
+        <li>communicateAdjective->one-sided</li>
+        <li>communicateAdjective->broken</li>
 
       </rulesStrings>
     </logRulesInitiator>
@@ -104,18 +105,18 @@
     <recipientThought>Chitchat</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] was taught a few words by [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] had a [communicateAdjective] but pleasant conversation with [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] gestured wildly and [communicated] to [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] was taught a few words by [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] had a [communicateAdjective] but pleasant conversation with [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] gestured wildly and [communicated] to [RECIPIENT_nameDef].</li>
 
-        <li>communicated-&gt;babbled</li>
-        <li>communicated-&gt;spoke garbled words</li>
-        <li>communicated-&gt;spoke strange broken words</li>
+        <li>communicated->babbled</li>
+        <li>communicated->spoke garbled words</li>
+        <li>communicated->spoke strange broken words</li>
 
-        <li>communicateAdjective-&gt;confusing</li>
-        <li>communicateAdjective-&gt;incomprehensible</li>
-        <li>communicateAdjective-&gt;one-sided</li>
-        <li>communicateAdjective-&gt;broken</li>
+        <li>communicateAdjective->confusing</li>
+        <li>communicateAdjective->incomprehensible</li>
+        <li>communicateAdjective->one-sided</li>
+        <li>communicateAdjective->broken</li>
 
       </rulesStrings>
     </logRulesInitiator>
@@ -142,17 +143,17 @@
     <recipientThought>Chitchat</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] made [communicateAdjective] conversation with [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] had a [communicateAdjective] discussion with [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] [communicated] to [RECIPIENT_nameDef], and they seem to have understood.</li>
+        <li>r_logentry->[INITIATOR_nameDef] made [communicateAdjective] conversation with [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] had a [communicateAdjective] discussion with [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [communicated] to [RECIPIENT_nameDef], and they seem to have understood.</li>
 
-        <li>communicateAdjective-&gt;confusing</li>
-        <li>communicateAdjective-&gt;incomprehensible</li>
-        <li>communicateAdjective-&gt;unintelligible</li>
+        <li>communicateAdjective->confusing</li>
+        <li>communicateAdjective->incomprehensible</li>
+        <li>communicateAdjective->unintelligible</li>
 
-        <li>communicated-&gt;babbled</li>
-        <li>communicated-&gt;spoke garbled words</li>
-        <li>communicated-&gt;spoke strange broken words</li>
+        <li>communicated->babbled</li>
+        <li>communicated->spoke garbled words</li>
+        <li>communicated->spoke strange broken words</li>
 
       </rulesStrings>
     </logRulesInitiator>
@@ -167,12 +168,12 @@
     <recipientThought>Insulted</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] made a rude gesture towards [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] [shout] incoherently towards [RECIPIENT_nameDef]</li>
+        <li>r_logentry->[INITIATOR_nameDef] made a rude gesture towards [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [shout] incoherently towards [RECIPIENT_nameDef]</li>
 
-        <li>shout-&gt;shouted</li>
-        <li>insulted-&gt;yelled</li>
-        <li>insulted-&gt;raged</li>
+        <li>shout->shouted</li>
+        <li>insulted->yelled</li>
+        <li>insulted->raged</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>

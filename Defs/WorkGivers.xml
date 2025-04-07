@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><WorkGiverDef>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <WorkGiverDef>
     <defName>LLPioneering</defName>
     <label>pioneer</label>
     <giverClass>LifeLessons.WorkGiver_Pioneering</giverClass>
@@ -11,7 +13,7 @@
     </requiredCapacities>
   </WorkGiverDef>
 
-  <WorkGiverDef>
+  <WorkGiverDef> <!-- Potentially remove if causing issues -->
     <defName>LLRejoinClass</defName>
     <label>rejoin class</label>
     <giverClass>LifeLessons.WorkGiver_RejoinClass</giverClass>

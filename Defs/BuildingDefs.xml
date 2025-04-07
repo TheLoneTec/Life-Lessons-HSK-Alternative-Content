@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><ThingDef ParentName="BenchBase">
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
     <defName>TeachersDesk</defName>
     <label>teachers desk</label>
     <description>A large desk for managing class work. Can be used by a teacher to give lessons.</description>
@@ -116,7 +117,7 @@
         <inspectString>Classroom effectiveness</inspectString>
       </li>
 
-      <li Class="LifeLessons.CompProperties_TeachingManager"/>
+      <li Class="LifeLessons.CompProperties_TeachingManager"></li>
     </comps>
     <building>
       <sowTag>SupportPlantsOnly</sowTag>
@@ -306,7 +307,7 @@
     <building>
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-      <maxItemsInCell>10</maxItemsInCell>
+      <!--<maxItemsInCell>10</maxItemsInCell>-->
       <storageGroupTag>LLBookcase</storageGroupTag>
       <blueprintClass>Blueprint_Storage</blueprintClass>
       <fixedStorageSettings>
@@ -333,6 +334,7 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
       <li>LifeLessons.PrettyStorage_ITab</li>
+      <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
     </inspectorTabs>
     <designationHotKey>Misc12</designationHotKey>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
@@ -341,6 +343,7 @@
     <researchPrerequisites>
       <li>ComplexFurniture</li>
     </researchPrerequisites>
+	<designationCategory>LWM_DS_Storage</designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="LLBookcaseBase">
@@ -353,11 +356,18 @@
       <drawSize>(3.5,3)</drawSize>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <fillPercent>1</fillPercent>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <costStuffCount>120</costStuffCount>
-    
+	<comps>
+		<li Class="LWM.DeepStorage.Properties">
+			<maxNumberStacks>10</maxNumberStacks>
+			<minTimeStoringTakes>15</minTimeStoringTakes>
+			<additionalTimeEachStack>15</additionalTimeEachStack>
+			<overlayType>SumOfItemsPerCell</overlayType>
+			<showContents>false</showContents>
+		</li>
+	</comps>
     <statBases>
       <WorkToBuild>2000</WorkToBuild>
       <MaxHitPoints>350</MaxHitPoints>

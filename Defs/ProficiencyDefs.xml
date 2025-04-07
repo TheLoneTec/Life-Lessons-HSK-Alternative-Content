@@ -3,13 +3,27 @@
 <Defs>
 
   <LifeLessons.ProficiencyDef Abstract="True" Name="ProficiencyBase">
-     
+    <generationRules>
+      <generateTextbook>true</generateTextbook>
+      <generateNeurotrainer>true</generateNeurotrainer>
+      <textbookValue>750</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerBasic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
   </LifeLessons.ProficiencyDef>
 
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Speaking</defName>
     <label>speaking</label>
-     
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
 
     <category>ProficiencyCategory_FundamentalCapability</category>
     <description>The understanding of basic language and how to use it to communicate. \nWithout this, a colonist may not be able to properly communicate with others.</description>
@@ -28,7 +42,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>ReadingWriting</defName>
     <label>reading and writing</label>
-     
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
 
     <proficiencyAdjective>language</proficiencyAdjective>
     <category>ProficiencyCategory_FundamentalCapability</category>
@@ -53,7 +70,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Computers</defName>
     <label>Computers</label>
-     
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_FundamentalCapability</category>
     <description>The ability to use general purpose computers for a variety of basic tasks and activities.</description>
@@ -74,7 +94,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>BasicMathematics</defName>
     <label>Basic Mathematics</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
 
     <proficiencyAdjective>simple mathematical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -110,7 +133,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Construction</defName>
     <label>Construction</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Construction</category>
     <description>Understanding of basic construction techniques for general purpose furniture or structures.</description>
@@ -131,7 +157,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedMathematics</defName>
     <label>Advanced Mathematics</label>
-     
+    <generationRules>
+      <textbookValue>550</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+    </generationRules>
 
     <proficiencyAdjective>complex mathematical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -164,7 +193,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Piloting</defName>
     <label>Piloting</label>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>8000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
     <category>ProficiencyCategory_AdvancedCapability</category>
     <description>The ability to pilot general atmospheric aircraft such as fighters and transport planes.</description>
     <costPractical>2200</costPractical>
@@ -187,7 +225,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedConstruction</defName>
     <label>Advanced Construction</label>
-     
+    <generationRules>
+      <textbookValue>850</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Construction</category>
     <description>The ability to build complex structures and machinery.</description>
@@ -209,7 +250,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>ShipBuilding</defName>
     <label>Ship Building</label>
-     
+    <generationRules>
+      <textbookValue>4500</textbookValue>
+      <neurotrainerValue>25000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_Construction</category>
     <description>The ability to design and build complex space-ready ship components and structures.</description>
@@ -233,7 +283,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>BasicScience</defName>
     <label>Basic Science</label>
-     
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
 
     <proficiencyAdjective>simple scientific</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -262,7 +315,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedScience</defName>
     <label>Advanced Science</label>
-     
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
 
     <proficiencyAdjective>complex scientific</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -293,7 +349,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Astronomy</defName>
     <label>Astronomy</label>
-     
+    <generationRules>
+      <textbookValue>850</textbookValue>
+      <neurotrainerValue>2800</neurotrainerValue>
+    </generationRules>
 
     <proficiencyAdjective>astronomical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -324,7 +383,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedPiloting</defName>
     <label>Advanced Piloting</label>
-     
+    <generationRules>
+      <textbookValue>3500</textbookValue>
+      <neurotrainerValue>17500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_AdvancedCapability</category>
     <description>The ability to operate space-worthy craft in orbital or 0 gravity environments.</description>
@@ -360,7 +428,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Chemistry</defName>
     <label>Basic Chemistry</label>
-     
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>chemical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -399,7 +476,16 @@
 	<label>Medicinal Chemistry</label>
 	<category>ProficiencyCategory_KnowledgeChemistry</category>
 	<description>Understanding how to make use of basic resources, to create certain medicines.</description>
-     
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	<costPractical>600</costPractical>
     <costTheoretical>600</costTheoretical>
     <canBePioneered>true</canBePioneered>
@@ -504,7 +590,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
 	<defName>MaterialsChemistry</defName>
 	<label>Materials Chemistry</label>
-     
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>chemical</proficiencyAdjective>
 	<category>ProficiencyCategory_KnowledgeChemistry</category>
@@ -546,7 +641,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Geology</defName>
     <label>Basic Geology</label>
-     
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>geological</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -613,7 +717,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>SoilScience</defName>
     <label>Soil Science</label>
-     
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>geological</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeGeology</category>
@@ -661,7 +774,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedGeology</defName>
     <label>Advanced Geology</label>
-     
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>geological</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -721,7 +843,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Hydrogeology</defName>
     <label>Hydrogeology</label>
-     
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>12500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>geological</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeGeologyAdvanced</category>
@@ -757,7 +888,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>PetroleumGeology</defName>
     <label>Petroleum Geology</label>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>3600</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>petrological</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeGeologyAdvanced</category>
@@ -800,7 +940,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedChemistry</defName>
     <label>Advanced Chemistry</label>
-     
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>complex chemical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -847,7 +996,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>PharmaceuticalChemistry</defName>
     <label>Pharmaceutical Chemistry</label>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>complex pharmaceutical</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
@@ -889,7 +1047,16 @@
     <label>Psychochemistry Advanced</label>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
     <description>Knowledge of the relationship between chemicals, behavior and psychological processes. It is the study of chemical influence on behavior.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>1200</costTheoretical>
@@ -964,7 +1131,16 @@
     <label>Industrial Chemistry</label>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
     <description>Knowledge of the uses of chemical and physical processes to transform raw materials into products that are beneficial to mankind.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>1200</costTheoretical>
@@ -998,7 +1174,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Petrochemistry</defName>
     <label>Petrochemistry</label>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>3600</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>petrological</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
@@ -1037,7 +1222,16 @@
     <label>Polymer Chemistry</label>
     <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
     <description>Knowledge of the structures of chemicals, chemical synthesis, and chemical and physical properties of polymers and macromolecules.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>1200</costTheoretical>
@@ -1073,7 +1267,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Biology</defName>
     <label>Advanced Biology</label>
-     
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>biological</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -1113,7 +1316,16 @@
     <label>Hydroponics</label>
     <category>ProficiencyCategory_Biology</category>
     <description>Understanding of usually crops or medicinal plants, without soil.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>800</costPractical>
 	<costTheoretical>1200</costTheoretical>
@@ -1145,7 +1357,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>FirstAid</defName>
     <label>First Aid</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Medical</category>
     <description>The understanding and ability to render basic life-saving medical treatment.</description>
@@ -1169,7 +1384,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedFirstAid</defName>
     <label>Advanced First Aid</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_Medical</category>
     <description>The understanding and ability to render advanced life-saving medical treatment.</description>
@@ -1190,7 +1414,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Medical</defName>
     <label>Medical</label>
-     
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>12500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_Medical</category>
     <description>Deep understanding of anatomy and medical techniques. The ability to perform a variety of surgeries and medical treatments.</description>
@@ -1240,7 +1473,16 @@
     <label>Transplant Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Organ transplantation is a medical procedure in which an organ is removed from one body and placed in the body of a recipient.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1264,7 +1506,16 @@
     <label>Trauma Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of surgical critical care and acute care surgery.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1288,7 +1539,16 @@
     <label>Plastic Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of surgical specialty involving the restoration, reconstruction or alteration of the human body.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1312,7 +1572,16 @@
     <label>General Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of common surgical procedures that arent life threatening.</description>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1336,7 +1605,16 @@
     <label>Orthopedics</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of the conditions involving the musculoskeletal system.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1360,7 +1638,16 @@
     <label>Neurosurgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of Neurosurgery, known in common parlance as brain surgery.</description>
-     
+    <generationRules>
+      <textbookValue>1800</textbookValue>
+      <neurotrainerValue>4000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1384,7 +1671,16 @@
     <label>Cardiothoracic Surgery</label>
     <category>ProficiencyCategory_Medical</category>
     <description>Understanding of surgical treatment of organs inside the thoracic cavity.</description>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>1200</costPractical>
     <costTheoretical>2400</costTheoretical>
@@ -1408,7 +1704,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>PlantCare</defName>
     <label>Basic Biology</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
     <category>ProficiencyCategory_FundamentalCapability</category>
     <description>Knowledge of how to effectively care for a variety of plant or animal life.</description>
     <costPractical>400</costPractical>
@@ -1432,7 +1731,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Forestry</defName>
     <label>Forestry</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
     <category>ProficiencyCategory_FundamentalCapability</category>
     <description>Understanding the techniques for efficient wood chopping, lumberjacking, cultivation, management and study of trees as well as treatment methods and wood uses.</description>
     <costPractical>1200</costPractical>
@@ -1458,7 +1760,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Ecology</defName>
     <label>Ecology</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
     <category>ProficiencyCategory_Biology</category>
     <description>Understanding of the ecosystem focusing on Animals and how they interact with the environment around them.</description>
     <costPractical>1200</costPractical>
@@ -1490,7 +1795,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Cultivation</defName>
     <label>Cultivation</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
     <category>ProficiencyCategory_Biology</category>
     <description>Understanding how to sow or plant crops as well as work with the ground and soil, including their properties and effects.</description>
     <costPractical>1200</costPractical>
@@ -1510,7 +1818,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Fertilization</defName>
     <label>Fertilization</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
     <category>ProficiencyCategory_Biology</category>
     <description>Understanding how to make and use fertiliser for crops as well effects of decomposition and anything that helps boost plant growth.</description>
     <costPractical>600</costPractical>
@@ -1534,7 +1845,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>BasicFabrication</defName>
     <label>Basic Fabrication</label>
-     
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>900</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to effectively use tools and basic machines in the creation of other tools and devices.</description>
@@ -1562,7 +1876,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Tailoring</defName>
     <label>Tailoring</label>
-     
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to crafting fine clothing and work with cloth and leather.</description>
@@ -1602,7 +1919,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Smithing</defName>
     <label>Smithing</label>
-     
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to forge and refine metal into useful tools, weapons, or components.</description>
@@ -1638,7 +1958,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>ArmorSmith</defName>
     <label>Armor Smith</label>
-     
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to create effective armor.</description>
@@ -1661,7 +1984,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Labourer</defName>
     <label>Labourer</label>
-     
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to do work requiring precision, strength and repetition.</description>
@@ -1682,7 +2008,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Artisan</defName>
     <label>Artisan</label>
-     
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>The ability to create objects that require intricate and delicate work with a little bit of creativity.</description>
@@ -1722,7 +2051,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Mechanics</defName>
     <label>Mechanics</label>
-     
+    <generationRules>
+      <textbookValue>750</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+    </generationRules>
 
     <proficiencyAdjective>mechanical</proficiencyAdjective>
     <category>ProficiencyCategory_Construction</category>
@@ -1763,7 +2095,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>AdvancedFabrication</defName>
     <label>Advanced Fabrication</label>
-     
+    <generationRules>
+      <textbookValue>500</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_Fabrication</category>
     <description>Understanding the use of advanced tools and machinery to create further, more complex tools and devices.</description>
@@ -1791,7 +2126,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Machining</defName>
     <label>Machining</label>
-     
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The ability to create complex parts using heavy machinary.</description>
@@ -1816,7 +2160,16 @@
     <label>Powerarmor Assembly</label>
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The ability to create effective powered armor.</description>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<costPractical>2000</costPractical>
     <viewerX>7</viewerX>
@@ -1838,7 +2191,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Electronics</defName>
     <label>Electronics</label>
-     
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
     <proficiencyAdjective>electronic</proficiencyAdjective>
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>Understanding of electrical properties, electronic circuits and tools. The ability to prepare electrical diagrams and troubleshoot systems.</description>
@@ -1876,7 +2238,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>LaserManipulation</defName>
     <label>laser Manipulation</label>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The understanding and capability of making laser based weapons or components.</description>
@@ -1912,7 +2283,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>PlasmaManipulation</defName>
     <label>Plasma Manipulation</label>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
 	<category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The understanding and capability of producing plasma based devices.</description>
@@ -1953,7 +2333,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Physics</defName>
     <label>Physics</label>
-     
+    <generationRules>
+      <textbookValue>950</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>physical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -1996,7 +2385,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>ExoticPhysics</defName>
     <label>Exotic Physics</label>
-     
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>strange physical</proficiencyAdjective>
     <category>ProficiencyCategory_Knowledge</category>
@@ -2021,7 +2419,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>ParticlePhysics</defName>
     <label>Particle Physics</label>
-     
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>partical physical</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeExoticPhysics</category>
@@ -2056,7 +2463,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>QuantumPhysics</defName>
     <label>Quantum Physics</label>
-     
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>quantum physical</proficiencyAdjective>
     <category>ProficiencyCategory_KnowledgeExoticPhysics</category>
@@ -2091,7 +2507,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Biosynthesis</defName>
     <label>Biosynthesis</label>
-     
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
 	<category>ProficiencyCategory_KnowledgeExoticPhysics</category>
     <description>The Knowledge and understanding of Biosynthesis.</description>
@@ -2128,7 +2553,16 @@
     <label>Bioelectronics</label>
     <category>ProficiencyCategory_FabricationAdvanced</category>
     <description>The Knowledge and understanding of bioelectronics.</description>
-     
+    <generationRules>
+      <textbookValue>1250</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
 	<costTheoretical>3000</costTheoretical>
     <costPractical>1500</costPractical>
@@ -2167,7 +2601,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Robotics</defName>
     <label>Robotics</label>
-     
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>robotical</proficiencyAdjective>
     <category>ProficiencyCategory_FabricationAdvanced</category>
@@ -2209,7 +2652,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Fusion</defName>
     <label>Fusion</label>
-     
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_KnowledgePhysics</category>
     <description>The Knowledge and understanding of Fusion.</description>
@@ -2244,7 +2696,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Nuclear</defName>
     <label>Nuclear</label>
-     
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_KnowledgePhysics</category>
     <description>The Knowledge and understanding of Fission.</description>
@@ -2281,7 +2742,16 @@
     <label>Electromagnetism</label>
     <category>ProficiencyCategory_KnowledgePhysics</category>
     <description>The Knowledge and understanding of electromagnetism.</description>
-     
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
 	<costTheoretical>1500</costTheoretical>
     <viewerX>10</viewerX>
@@ -2307,7 +2777,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Wavelengths</defName>
     <label>Wavelengths</label>
-     
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
 	<category>ProficiencyCategory_KnowledgePhysics</category>
     <description>The Knowledge and understanding of wavelengths.</description>
@@ -2336,7 +2815,16 @@
     <defName>Engineering</defName>
     <label>Engineering</label>
     <proficiencyAdjective>intricate mechanical</proficiencyAdjective>
-     
+    <generationRules>
+      <textbookValue>1950</textbookValue>
+      <neurotrainerValue>14500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_Construction</category>
     <description>The ability to design and implement complex systems using electrical or mechanical components.</description>
@@ -2382,7 +2870,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Cooking</defName>
     <label>Cooking</label>
-     
+    <generationRules>
+      <textbookValue>150</textbookValue>
+      <neurotrainerValue>750</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_FundamentalCapability</category>
     <description>Understanding the basics of food prep and food safety practices.</description>
@@ -2502,7 +2993,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Brewing</defName>
     <label>Brewing</label>
-     
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>1500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>chemical</proficiencyAdjective>
     <category>ProficiencyCategory_Cooking</category>
@@ -2618,7 +3118,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>SkilledCooking</defName>
     <label>Skilled Cooking</label>
-     
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+    </generationRules>
 
     <category>ProficiencyCategory_FundamentalCapability</category>
     <description>The ability to effectively manage complex recipes and cooking spaces.</description>
@@ -2651,7 +3154,16 @@
 	-->
 
   <LifeLessons.ProficiencyDef Name="ProficiencySkilledCooking" ParentName="ProficiencyBase" Abstract="True">
-     
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
 	<theoreticalLearningActivityDefs>
       <li>LLDocument</li>
@@ -2802,7 +3314,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Fermentation</defName>
     <label>Fermentation</label>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>chemical</proficiencyAdjective>
     <category>ProficiencyCategory_CookingAdvanced</category>
@@ -2837,7 +3358,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
     <defName>CheeseMaking</defName>
     <label>Cheese Making</label>
-     
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 	
     <category>ProficiencyCategory_CookingAdvanced</category>
     <description>The ability to effectively use cheese making techniques.</description>
@@ -2899,7 +3429,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Bionics</defName>
     <label>Bionics</label>
-     
+    <generationRules>
+      <textbookValue>2800</textbookValue>
+      <neurotrainerValue>18800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <proficiencyAdjective>bionic</proficiencyAdjective>
     <category>ProficiencyCategory_Medical</category>
@@ -2937,7 +3476,16 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>Programming</defName>
     <label>Programming</label>
-     
+    <generationRules>
+      <textbookValue>1000</textbookValue>
+      <neurotrainerValue>8500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
 
     <category>ProficiencyCategory_AdvancedCapability</category>
     <description>The ability to design and build complex algorithms and programs.</description>
@@ -2968,7 +3516,10 @@
   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
     <defName>EVATraining</defName>
     <label>EVA Training</label>
-     
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
 
     <category>ProficiencyCategory_AdvancedCapability</category>
     <description>The ability to operate in open space and zero-g environments.</description>

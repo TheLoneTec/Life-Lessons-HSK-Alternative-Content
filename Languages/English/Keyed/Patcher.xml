@@ -18,17 +18,33 @@ If any of the above is unclear or confusing, it is very probable that you should
 
   <LL-DeconRewards>Deconstruction rewards are applied only when the job is finished, so the progressGain should be total XP. Broadly speaking, trivial deconstructions like lamps should reward 1/100th or less of a proficiency. Complex deconstructions (like ship parts) should not reward more than 1/10th of a proficiency. It is reasonable to have complex deconstructions reward multiple prerequisites, such as Electronics, Mechanics, and Engineering.</LL-DeconRewards>
 
-  <LL-Requirements>Requirements lockout a recipe or construction unless the pawn owns ALL of the proficiencies specified. Only the highest level proficiency is needed - you do not and should not include prerequisites.
+  <LL-PatcherControls>Up/Down Arrow Keys: Select next/previous patchable item from list.\n
+Numpad +/-: Select next/previous patchable mod.\n
+Crtl + C: Copy currently selected patch.\n
+Ctrk + V: Paste currently copied patch.</LL-PatcherControls>
 
-Requirements may be flagged as "soft requirements" to allow the pawn to work on the task with a penalty instead of locking them out entirely. Soft requirements have two additional configurations.
+  <LL-Requirements>Requirements can be thought of as what proficiency a specific task will use. For example, crafting a shirt will use the tailoring proficiency. In most cases, we want the "required" proficiency to be "taught" by performing the task that requires it. That is, attempting to tailor a shirt should slowly teach you the principles of tailoring. 
+\nUnqualified workers can usually still perform the gated task with the below configurable penalties:
 1. Quality Cap - where applicable, items or buildings will be capped at this level of quality if the pawn is unqualified.
 2. Workspeed Multiplier - where applicable, bill workspeed will be multiplied by this value when worked by unqualified pawns.
-When setting requirements for any recipe or research project, review the assignment tips for the proficiency to help determine if it is a good fit.</LL-Requirements>
+Requirements can be configured as "Strict Requirements" which will strictly enforce the missing proficiencies, meaning rather than applying a penalty, the task will be blocked entirely for the unqualified. We will almost always want this for research projects and for constructions that sensibly require a particularly specific ability that cannot be taught by doing.
 
-  <LL-PatchingWorkgivers>Workgivers can have both requirements and rewards. By defualt, rewards generate 0.03 XP per tick, but may be reduced through progressGain settings. If no pawn is qualified for a workgiver, the right click context menu will display a message saying as much. 
+</LL-Requirements>
+
+  <LL-PatchingWorkgivers>Workgivers can have both requirements and rewards.  If no pawn is qualified for a workgiver, the right click context menu will display a message saying as much. 
 Generally, workgivers can include both Applied proficiencies such as Mechanics as well as nonapplied proficiencies such as Astronomy.
+When adding rewards to workgivers, be cautious not to also add rewards to the job created by the work giver.
 Be cautious not to patch workgivers needlessly, as patching some workgivers could break the functionality of the other mod. If you're not sure, don't patch it.
-Note that a "bill" work giver should never be patched with requirements, as it will fully override any individual bill requirements. The only exception should be "operator" style proficiencies. For example, the workgiver can require "machine operator" as a proficiency to lockout the workgiver entirely, while individual bills may require something else.</LL-PatchingWorkgivers>
+Note that a "bill" work giver should never be patched with requirements, as it will fully override any individual bill requirements. The only exception should be "operator" style proficiencies. For example, the workgiver can require "machine operator" as a proficiency to lockout the workgiver entirely, while individual bills may require something else.
+
+In general, patches should be first applied to products (items, buildings, etc) that a job generates, then to the job itself if possible, and lastly to the workgiver. For example, one chain might look like:
+Workgiver: Workgiver_TanLeather
+JobDriver: Jobdriver_DoTanningBills
+Recipe: Make_TannedLeather
+In the above case, rewards for producing tanned leather should be at the recipe level. Requirements for using the tanning workbench should be at the workgiver level. Rewards for using the tanning bench (regardless of the recipe) should be at the job driver or workgiver level if no unique job driver exists.
+This scheme of patching reduces the likelihood of undesirable results, such as rewarding the wrong type of proficiency or breaking some core function of another mod depending on a workgiver working unrestricted.
+
+Lastly, note that workgiver patches work on the assumption that there is a job capable of generating XP behind the workgiver. If a job has no tick action, a custom harmony patch will likely be needed.</LL-PatchingWorkgivers>
 
   <LL-PatchingInteractions>Interactions cannot be patched in the utility. Review out-of-game documentation for patching instructions.</LL-PatchingInteractions>
 
@@ -43,7 +59,7 @@ Crafted items should generally be gated by proficiencies from the fabrication tr
 
   <LL-PatchingHediffs>Hediffs cannot be patched in the utility. Review out-of-game documentation for patching instructions.</LL-PatchingHediffs>
 
-  <LL-PatchingJobs>Jobs can presently only have rewards, and not requirements. Joy jobs such as reading or playing on arcade machines cannot currently have requirements.
+  <LL-PatchingJobs>Jobs can presently only have rewards, and not requirements. By default, rewards generate 0.03 XP per tick, but may be reduced through progressGain settings. Joy jobs such as reading or playing on arcade machines cannot currently have requirements.
 Be cautious not to patch Jobs needlessly, as patching some Jobs could break the functionality of the other mod. If you're not sure, don't patch it.</LL-PatchingJobs>
 
   <LL-PatchingBuildings>Buildings can have requirements, rewards (for building,) and deconstruction rewards. Deconstruction rewards can and often should award XP for multiple proficiencies. For example, deconstruction a ship module should grant XP for ship building, mechanics, electronics, and engineering. This makes it worth while for many different pawns. Common items like detritus or player-made buildings should use deconstruct rewards sparingly.
@@ -81,12 +97,13 @@ When a modded def extends the vanilla def, both the vanilla def and the extended
 - Hediffs and Interactions cannot be patched in the UI, but are displayed to determine if a mod needs external patchwork.
 - "Things" in the patch type is an unfiltered list of all ThingDefs in the selected mod. Use this to identify oddballs.
 </LL-PatcherCapabilities2>
+  <LL-LabelControls>Patcher Controls</LL-LabelControls>
 
   <LL-LabelCapabilities>Patcher Capabilities</LL-LabelCapabilities>
   <LL-LabelCapabilities2>Patcher Tips</LL-LabelCapabilities2>
   <LL-LabelRewards>Rewards</LL-LabelRewards>
   <LL-LabelRequirements>Requirements</LL-LabelRequirements>
-  <LL-LabelSoftRequirements>Soft Requirements</LL-LabelSoftRequirements>
+  <LL-LabelSoftRequirements>Strict Requirements</LL-LabelSoftRequirements>
   <LL-LabelDeconRewards>Deconstruction Rewards</LL-LabelDeconRewards>
   <LL-LabelWorkgivers>Workgivers</LL-LabelWorkgivers>
   <LL-LabelInteractions>Interactions</LL-LabelInteractions>
@@ -113,9 +130,10 @@ When a modded def extends the vanilla def, both the vanilla def and the extended
   <LL-Deconstructible>Is Deconstructible</LL-Deconstructible>
   <LL-LabelSelectMod>Select Mod</LL-LabelSelectMod>
   <LL-ThingComps>Thing Comps</LL-ThingComps>
+  <LL-DesignationCategory>Designation: </LL-DesignationCategory>
   <LL-SpawnCategories>Spawn Categories</LL-SpawnCategories>
   <LL-SkillChanges>Skill Mods</LL-SkillChanges>
-  <LL-ForcedTraits>Skill Mods</LL-ForcedTraits>
+  <LL-ForcedTraits>Traits</LL-ForcedTraits>
   <LL-DisabledWork>Disabled Work</LL-DisabledWork>
 
   <LL-LabelCopyTip>Copy proficiencies</LL-LabelCopyTip>
@@ -133,32 +151,74 @@ When a modded def extends the vanilla def, both the vanilla def and the extended
   <LL-FilterByLabels>by label</LL-FilterByLabels>
   <LL-FilterByDescription>by description</LL-FilterByDescription>
   <LL-FilterByTitle>by backstory title</LL-FilterByTitle>
+  <LL-FilterByBackstoryDesc>by backstory description</LL-FilterByBackstoryDesc>
   <LL-FilterBySpawnCategory>by backstory spawn category</LL-FilterBySpawnCategory>
 
   <LL-LabelAll>All</LL-LabelAll>
   <LL-LabelHelp>Help</LL-LabelHelp>
 
   <LL-PatchTool>Patching Utility</LL-PatchTool>
+  <LL-Tree>Tree</LL-Tree>
+  <LL-PreviewBackstory>Preview Backstory</LL-PreviewBackstory>
   <LL-Hide>Hide</LL-Hide>
   <LL-Show>Show</LL-Show>
   <LL-Patched>Patched</LL-Patched>
-
+  <LL-ResearchTree>Research Tree</LL-ResearchTree>
+  <LL-ButtonCopyPackageId>ID</LL-ButtonCopyPackageId>
+  <LL-ButtonCopyPackageIdDesc>Copy package id of the currently selected mod to the clipboard.</LL-ButtonCopyPackageIdDesc>
   <LL-ButtonReward>Rew</LL-ButtonReward>
   <LL-ButtonRequire>Req</LL-ButtonRequire>
   <LL-ButtonDeconReward>Dec</LL-ButtonDeconReward>
   <LL-ButtonAdd>Add</LL-ButtonAdd>
   <LL-ButtonAddFiltered>Add to Filtered</LL-ButtonAddFiltered>
   <LL-ButtonAddConditional>Add Conditional</LL-ButtonAddConditional>
+  <LL-ButtonAddStuffRequirements>Add Stuff Requirements</LL-ButtonAddStuffRequirements>
   <LL-ButtonAddTemplate>Add Template</LL-ButtonAddTemplate>
+  <LL-ButtonGenerateTemplates>Gen. Templates</LL-ButtonGenerateTemplates>
 
   <LL-Conditional>Conditional</LL-Conditional>
+  <LL-StuffRequirements>Stuff Requirements</LL-StuffRequirements>
   <LL-ConditionalRolls>Rolls</LL-ConditionalRolls>
   <LL-ConditionalChance>% per roll</LL-ConditionalChance>
   <LL-NewTemplateLabel>New Template</LL-NewTemplateLabel>
   <LL-ApplyTemplate>Apply</LL-ApplyTemplate>
 
   <LL-ReportActivityXp>Activity XP Report</LL-ReportActivityXp>
+  <LL-ReportStuffCategories>List Stuff Categories</LL-ReportStuffCategories>
+  <LL-ReportSpawnCategories>List Spawn Categories</LL-ReportSpawnCategories>
+  <LL-ReportProficiencyCost>List Proficiency Costs</LL-ReportProficiencyCost>
+  <LL-ReportProficiencyFrequency>Proficiency backstory assignments</LL-ReportProficiencyFrequency>
+  <LL-ReportProficiencyPatchFrequency>Proficiency patch assignments</LL-ReportProficiencyPatchFrequency>
+  <LL-ReportTemplateFrequency>Template backstory assignments</LL-ReportTemplateFrequency>
   <LL-ReportsLabel>Reports</LL-ReportsLabel>
+
+  <LL-ReportsCostLabel>{0}: {1} (practical: {2}, theoretical: {3})</LL-ReportsCostLabel>
+  <LL-ReportFrequencyHeader>Proficiencies occur directly, through a template, or through conditional rolls in backstories counted below.</LL-ReportFrequencyHeader>
+  <LL-ReportFrequencyItem>{0} (direct: {1}, direct in template: {2}, conditionally: {3})</LL-ReportFrequencyItem>
+  <LL-ReportFrequencyTemplate>{0} (direct: {1}, conditionally: {2})</LL-ReportFrequencyTemplate>
+
+  <LL-ReportPatchFrequencyItem>{0} (Rewarded: {1}, required: {2}, research: {3})</LL-ReportPatchFrequencyItem>
+
+  <LL-Auto>Auto</LL-Auto>
+  <LL-AppliedTemplates>Applied Templates</LL-AppliedTemplates>
+  <LL-AppliedTemplatesDesc>These are the proficiency templates that have been applied to this pawn. Templates may be applied from manually patched backstories, automatically assigned due to having unpatched backstories, or applied based on other heuristics. \n\n
+  {0}</LL-AppliedTemplatesDesc>
+  <LL-UnqualifiedStatMods>Unqualified Stat Modifiers</LL-UnqualifiedStatMods>
+  <LL-UnqualifiedSkillCap>Unqualified Skill Cap</LL-UnqualifiedSkillCap>
+  <LL-UnqualifiedSkillCapDesc>When a skill cap is applied to a pawn, the stats relevant to that skill will be capped to the value at which the skill cap is set. This will apply the effects universally whenever the relevant stats are used.</LL-UnqualifiedSkillCapDesc>
+  <LL-RequiredFamiliarity>Required Familiarity</LL-RequiredFamiliarity>
+  <LL-BlankPatch>Blank Patch</LL-BlankPatch>
+  <LL-BlankPatchDesc>Forcibly adds a patch with no requirements. Used to patch equipment with only a familiarity requirement.</LL-BlankPatchDesc>
+
+  <LL-XPTypeNone>None</LL-XPTypeNone>
+  <LL-XPTypeBoth>Both</LL-XPTypeBoth>
+  <LL-XPTypePractical>Practical</LL-XPTypePractical>
+  <LL-XPTypeTheoretical>Theoretical</LL-XPTypeTheoretical>
+  <LL-XPTypePracticalHalfTheoretical>1*Practical 0.5*Theoretical</LL-XPTypePracticalHalfTheoretical>
+  <LL-XPTypeTheoreticalHalfPractical>1*Theoretical 0.5*Practical</LL-XPTypeTheoreticalHalfPractical>
+
+  <LL-WorkspeedStat>Workspeed Stat</LL-WorkspeedStat>
+  <LL-EfficiencyStat>Efficiency Stat</LL-EfficiencyStat>
 
 
 </LanguageData>

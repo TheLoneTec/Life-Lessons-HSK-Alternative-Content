@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <LifeLessons.BackstoryProficiencyTemplateDef Abstract="True" Name="ConstructionBase">
+    <applyToUnpatchedStory>true</applyToUnpatchedStory>
+    <cost>10</cost>
+    <heuristics>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>6</value>
+        <description>
+          <containsAny>
+            <li>build</li>
+            <li>construct</li>
+            <li>builder</li>
+            <li>architect</li>
+          </containsAny>
+        </description>
+      </li>
+
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>1</value>
+        <skillMod>
+          <skillDef>Construction</skillDef>
+          <greaterThan>0</greaterThan>
+        </skillMod>
+      </li>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>1</value>
+        <skillMod>
+          <skillDef>Construction</skillDef>
+          <greaterThan>1</greaterThan>
+        </skillMod>
+      </li>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Construction</skillDef>
+          <greaterThan>2</greaterThan>
+        </skillMod>
+      </li>
+      <li Class="LifeLessons.BackstoryHeuristic">
+        <backstorySlot>Adulthood</backstorySlot>
+        <value>2</value>
+        <skillMod>
+          <skillDef>Construction</skillDef>
+          <greaterThan>4</greaterThan>
+        </skillMod>
+      </li>
+    </heuristics>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ConstructionBase">
+    <defName>NeolithicBuilder</defName>
+    <package>
+      <proficiencies>
+        <li>PrinciplesWoodworking</li>
+        <li>Carving</li>
+        <li>Carpentry</li>
+        <li>BasicConstruction</li>
+        <li>Threadcraft</li>
+      </proficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <matches>Neolithic</matches>
+      </li>
+    </heuristics>
+    <overridesTemplates>
+      <li>MedievalBuilder</li>
+      <li>IndustrialBuilder</li>
+      <li>SpacerBuilder</li>
+    </overridesTemplates>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ConstructionBase">
+    <defName>MedievalBuilder</defName>
+    <package>
+      <proficiencies>
+        <li>PrinciplesWoodworking</li>
+        <li>Carving</li>
+        <li>Carpentry</li>
+        <li>BasicConstruction</li>
+        <li>PrinciplesStoneworking</li>
+        <li>Masonry</li>
+        <li>Carving</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <options>
+            <li>Algebra</li>
+            <li>Geometry</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.8</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li>Plumbing</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.75</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <matches>Medieval</matches>
+      </li>
+    </heuristics>
+    <overridesTemplates>
+      <li>NeolithicBuilder</li>
+      <li>IndustrialBuilder</li>
+      <li>SpacerBuilder</li>
+    </overridesTemplates>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ConstructionBase">
+    <defName>IndustrialBuilder</defName>
+    <package>
+      <proficiencies>
+        <li>BasicConstruction</li>
+        <li>PrinciplesStoneworking</li>
+        <li>Masonry</li>
+        <li>Welding</li>
+        <li>Plumbing</li>
+        <li>MachineOperator</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <options>
+            <li>Carpentry</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.5</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li>ElectricalAssembly</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.5</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li>PressurizedSystems</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.33</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <matches>Industrial</matches>
+      </li>
+    </heuristics>
+    <overridesTemplates>
+      <li>NeolithicBuilder</li>
+      <li>MedievalBuilder</li>
+      <li>SpacerBuilder</li>
+    </overridesTemplates>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="ConstructionBase">
+    <defName>SpacerBuilder</defName>
+    <package>
+      <proficiencies>
+        <li>BasicConstruction</li>
+        <li>Welding</li>
+        <li>Plumbing</li>
+        <li>Welding</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <options>
+            <li>Carpentry</li>
+            <li>Masonry</li>
+            <li>ExoticsWelding</li>
+          </options>
+          <rolls>2</rolls>
+          <chancePerRoll>0.5</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li>ElectricalAssembly</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.65</chancePerRoll>
+        </li>
+        <li>
+          <options>
+            <li>PressurizedSystems</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>0.5</chancePerRoll>
+        </li>
+      </conditionalProficiencies>
+    </package>
+    <heuristics>
+      <li Class="LifeLessons.TechLevelHeuristic">
+        <required>true</required>
+        <greaterThan>Industrial</greaterThan>
+      </li>
+    </heuristics>
+    <overridesTemplates>
+      <li>NeolithicBuilder</li>
+      <li>MedievalBuilder</li>
+      <li>IndustrialBuilder</li>
+    </overridesTemplates>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+  
+
+</Defs>

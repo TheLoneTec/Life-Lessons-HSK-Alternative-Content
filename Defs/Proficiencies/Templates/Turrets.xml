@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretSprayerC1</defName>
+    <description>For simple, manned spray turrets. Foam, chemical, flame, etc.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>PressurizedSystems</li>
+      <li>PrimitiveGunsmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.9</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretSprayerC2</defName>
+    <description>For simple, unmanned spray turrets. Foam, chemical, flame, etc.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>PressurizedSystems</li>
+      <li>PrimitiveGunsmithing</li>
+      <li>MicroelectronicsAssembly</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.9</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretSimpleC1</defName>
+    <description>For simple, non automatic, manned turrets with no electrical components. Mortars, cannons, etc.</description>
+    <requirements>
+      <li>MechanicalAssembly</li>
+      <li>Welding</li>
+      <li>Gunsmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretSimpleC2</defName>
+    <description>For simple, automatic manned turrets with no electrical components. Machineguns</description>
+    <requirements>
+      <li>FineMechanicsAssembly</li>
+      <li>Welding</li>
+      <li>Gunsmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretAutoC1</defName>
+    <description>For simple unmanned turrets. Burst fire, single shot, few moving parts.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>Gunsmithing</li>
+      <li>FineMechanicsAssembly</li>
+      <li>MicroelectronicsAssembly</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretAutoC2</defName>
+    <description>For complex unmanned turrets, focused on mechanical complexity. Miniguns, machine guns, missiles, etc.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>Gunsmithing</li>
+      <li>FineMechanicsAssembly</li>
+      <li>MicroelectronicsAssembly</li>
+      <li>MechanicalEngineering</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretAutoC3</defName>
+    <description>For unmanned turrets with exceedingly complex designs, but limited to non-energy based weaponry. Smart turrets, underground turrets, etc.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>Gunsmithing</li>
+      <li>FineMechanicsAssembly</li>
+      <li>MicroelectronicsAssembly</li>
+      <li>MechanicalEngineering</li>
+      <li>ElectricalEngineering</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretEnergyC1</defName>
+    <description>For unmanned directed energy turrets. Lasers, mainly.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>FineMechanicsAssembly</li>
+      <li>MechanicalEngineering</li>
+      <li>Optronics</li>
+      <li>ElectricalEngineering</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>TurretEnergyC2</defName>
+    <description>For unmanned high energy turrets, such as plasma turrets.</description>
+    <requirements>
+      <li>Welding</li>
+      <li>MechanicalEngineering</li>
+      <li>HighEnergyApplications</li>
+      <li>ElectricalEngineering</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>ConstructionSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li>
+          <stat>ConstructSuccessChance</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Awful</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+
+</Defs>

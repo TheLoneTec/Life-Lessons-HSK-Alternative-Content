@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><ConceptDef ParentName="NotedOpportunisticBase">
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ConceptDef ParentName="NotedOpportunisticBase">
     <defName>LLResearchRequirements</defName>
     <label>Research proficiency requirements</label>
     <helpText>Some research projects may require a colonist to have certain proficiencies in order to participate in researching. For example, a colonist may need to understand Geology and Electronics in order to research geothermal power sources. A project's requirements may be seen when selecting the project, and warnings will be displayed when attempting to research something that none of your colonists are capable of researching. \n\n

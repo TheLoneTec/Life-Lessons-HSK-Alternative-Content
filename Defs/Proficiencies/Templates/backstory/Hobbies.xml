@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <LifeLessons.BackstoryProficiencyTemplateDef Abstract="True" Name="HobbyBase">
+    <applyToUnpatchedStory>false</applyToUnpatchedStory>
+    <applyToAnyStory>false</applyToAnyStory>
+    <disablePatcherAssignment>true</disablePatcherAssignment>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyGlassblowing</defName>
+    <package>
+      <proficiencies>
+        <li>Glassblowing</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbySewing</defName>
+    <package>
+      <proficiencies>
+        <li>Threadcraft</li>
+        <li>Tailoring</li>
+        <li>SimpleMathematics</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyLeatherworking</defName>
+    <package>
+      <proficiencies>
+        <li>Leatherworking</li>
+        <li>LeatherTanning</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyCarpentry</defName>
+    <package>
+      <proficiencies>
+        <li>Carpentry</li>
+        <li>SimpleMathematics</li>
+        <li>PrinciplesWoodworking</li>
+        <li>Carving</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>0.7</chancePerRoll>
+          <options>
+            <li>MachineOperator</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyMasonry</defName>
+    <package>
+      <proficiencies>
+        <li>Masonry</li>
+        <li>PrinciplesStoneworking</li>
+        <li>SimpleMathematics</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyProgramming</defName>
+    <package>
+      <proficiencies>
+        <li>Programming</li>
+        <li>DiscreteMathematics</li>
+        <li>DifferentialEquations</li>
+        <li>Computers</li>
+        <li>Calculus</li>
+        <li>Geometry</li>
+        <li>Algebra</li>
+        <li>SimpleMathematics</li>
+        <li>ReadingWriting</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyWelding</defName>
+    <package>
+      <proficiencies>
+        <li>Welding</li>
+        <li>PrinciplesMetalworking</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbySmithing</defName>
+    <package>
+      <proficiencies>
+        <li>Blacksmithing</li>
+        <li>MetalWorking</li>
+        <li>SimpleMathematics</li>
+        <li>PrinciplesMetalworking</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>0.5</chancePerRoll>
+          <options>
+            <li>Armorsmithing</li>
+            <li>Bladesmithing</li>
+          </options>
+        </li>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>1</chancePerRoll>
+          <options>
+            <li>Machining</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyRockhounding</defName>
+    <package>
+      <proficiencies>
+        <li>FoundationsGeology</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>1</chancePerRoll>
+          <options>
+            <li>Mineralogy</li>
+            <li>Petrology</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyStonecarving</defName>
+    <package>
+      <proficiencies>
+        <li>Carving</li>
+        <li>PrinciplesStoneworking</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyWoodcarving</defName>
+    <package>
+      <proficiencies>
+        <li>Carving</li>
+        <li>PrinciplesWoodworking</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbySculptingArt</defName>
+    <package>
+      <conditionalTemplates>
+        <li>
+          <options>
+            <li>HobbyWelding</li>
+            <li>HobbyWoodcarving</li>
+            <li>HobbyStonecarving</li>
+            <li>HobbyGlassblowing</li>
+          </options>
+          <rolls>1</rolls>
+          <chancePerRoll>1.0</chancePerRoll>
+        </li>
+      </conditionalTemplates>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyArchery</defName>
+    <package>
+      <proficiencies>
+        <li MayRequire="GhostData.lifelessons.martial">Bows</li>
+        <li MayRequire="GhostData.lifelessons.martial">NeolithicFamiliarity</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>0.7</chancePerRoll>
+          <options>
+            <li MayRequire="GhostData.lifelessons.martial">Crossbows</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbySkeetShooting</defName>
+    <package>
+      <proficiencies>
+        <li MayRequire="GhostData.lifelessons.martial">Shotguns</li>
+        <li MayRequire="GhostData.lifelessons.martial">IndustrialFamiliarity</li>
+        <li MayRequire="GhostData.lifelessons.martial">MedievalFamiliarity</li>
+        <li MayRequire="GhostData.lifelessons.martial">NeolithicFamiliarity</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyFirearmsEnthusiast</defName>
+    <package>
+      <proficiencies>
+        <li MayRequire="GhostData.lifelessons.martial">Pistols</li>
+        <li MayRequire="GhostData.lifelessons.martial">IndustrialFamiliarity</li>
+        <li MayRequire="GhostData.lifelessons.martial">MedievalFamiliarity</li>
+        <li MayRequire="GhostData.lifelessons.martial">NeolithicFamiliarity</li>
+        <li MayRequire="GhostData.lifelessons.martial">Rifles</li>
+        <li MayRequire="GhostData.lifelessons.martial">Shotguns</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyElectronics</defName>
+    <package>
+      <proficiencies>
+        <li>ElectricalAssembly</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>0.7</chancePerRoll>
+          <options>
+            <li>MicroelectronicsAssembly</li>
+            <li>Electronics</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyCarRestoration</defName>
+    <package>
+      <proficiencies>
+        <li>MechanicalAssembly</li>
+        <li>VehicleOperation</li>
+      </proficiencies>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>0.35</chancePerRoll>
+          <options>
+            <li>Engines</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyPilot</defName>
+    <package>
+      <proficiencies>
+        <li>Piloting</li>
+        <li>Geometry</li>
+        <li>PhysicsMechanics</li>
+        <li>Computers</li>
+        <li>Algebra</li>
+        <li>SimpleMathematics</li>
+        <li>Calculus</li>
+        <li>FoundationPhysics</li>
+        <li>ReadingWriting</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyGunsmithing</defName>
+    <package>
+      <proficiencies>
+        <li>Gunsmithing</li>
+        <li>PrimitiveGunsmithing</li>
+        <li>Machining</li>
+        <li>Blacksmithing</li>
+        <li>MetalWorking</li>
+        <li>SimpleMathematics</li>
+        <li>PrinciplesMetalworking</li>
+        <li>MachineOperator</li>
+        <li>Algebra</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyBiologist</defName>
+    <package>
+      <conditionalProficiencies>
+        <li>
+          <rolls>1</rolls>
+          <chancePerRoll>1</chancePerRoll>
+          <options>
+            <li>Entomology</li>
+            <li>Phytology</li>
+            <li>Mycology</li>
+          </options>
+        </li>
+      </conditionalProficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+
+  <LifeLessons.BackstoryProficiencyTemplateDef ParentName="HobbyBase">
+    <defName>HobbyDrugManufacturing</defName>
+    <package>
+      <proficiencies>
+        <li>ChemicalSynthesis</li>
+        <li>OrganicChemistry</li>
+        <li>FoundationChemistry</li>
+        <li>Algebra</li>
+        <li>SimpleMathematics</li>
+      </proficiencies>
+    </package>
+  </LifeLessons.BackstoryProficiencyTemplateDef>
+</Defs>

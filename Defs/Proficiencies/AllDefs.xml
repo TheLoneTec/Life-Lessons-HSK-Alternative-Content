@@ -1,0 +1,3545 @@
+<!-- Changes needed: -->
+<!-- None? -->
+
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <LifeLessons.ProficiencyDef Abstract="True" Name="ProficiencyBase">
+    <generationRules>
+      <generateTextbook>true</generateTextbook>
+      <generateNeurotrainer>true</generateNeurotrainer>
+      <textbookValue>750</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerBasic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Speaking</defName>
+    <label>speaking</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The understanding of basic language and how to use it to communicate. \nWithout this, a colonist may not be able to properly communicate with others.</description>
+    <costPractical>100</costPractical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>0</viewerX>
+    <viewerY>10</viewerY>
+    <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+     <assignmentTips>Speaking represents the basic understanding of language itself, and not strictly the ability to speak. Not to be confused with the "talking" capacity. Generally should only be used to lockout jobs that would require verbal communication such as radio operating. Should also be used to lockout pawn Interactions (like chatting.)</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ReadingWriting</defName>
+    <label>reading and writing</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <proficiencyAdjective>language</proficiencyAdjective>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively read and write language. This basic ability unlocks much of the rest of the world's knowledge.</description>
+    <costTheoretical>400</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>0</viewerX>
+    <viewerY>11</viewerY>
+    <color>RGBA(0.333, 0.42, 0.184, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>ReadingAndWriting should be used to lock out jobs or activities that would require the ability to interpret written language. Broadly speaking, this could be reading books, using scribing tools or typewriters, writing contracts or treaties, or any other such task. Generally this will not be used to lockout crafing, construction, or research, though it may be used for research where sensible.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLAnalyzeWriting</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Computers</defName>
+    <label>Computers</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to use general purpose computers for a variety of basic tasks and activities.</description>
+    <costPractical>1000</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>11</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.647, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The casual ability to use computers and electronic devices. Assigned to pre-industrial "adventurers" if they have had contact in their story with modern technology. Most industrial child backgrounds include this. Used to lockout the use of machines wuth a computer interface or lab equipment. A good general purpose lockout for tribals. Should not be used for recipes unless the bill involves working at a machine (such as monitoring a refinery.)</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicMathematics</defName>
+    <label>Basic Mathematics</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>simple mathematical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>A basic understanding of fundamental mathematics and the ability to figure with numbers.</description>
+    <costTheoretical>400</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>12</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(0.604, 0.804, 0.196, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+      <li>Thoughts/Math/Plus</li>
+      <li>Thoughts/Math/Minus</li>
+      <li>Thoughts/Math/Equals</li>
+      <li>Thoughts/Math/Percent</li>
+      <li>Thoughts/Math/Division</li>
+    </thoughtIcons>
+    <assignmentTips>Elementary school math. The sort of math medieval villager might know - how to count and figure. Can be used to mark a distinction between tribal backstories and medieval backstories. Tribal might have speaking and rarely reading and writing, but would probably have no mastery of numbers. Generally not used to lockout recipes, jobs, or research.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLCountsAndMeasures</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Construction</defName>
+    <label>Construction</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Construction</category>
+    <description>Understanding of basic construction techniques for general purpose furniture or structures.</description>
+    <costPractical>600</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>9</viewerY>
+    <prerequisites>
+      <li>BasicMathematics</li>
+    </prerequisites>
+    <color>RGBA(0.392, 0.584, 0.929, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally used for all-purpose carpentry or masonry. Any construction, mason, or carpenter backstory can have this. Generally does not include anything with electronics. Can be used with BasicFabrication for buildings with adornments or tools - such as tool cabinets. Can be used with Electronics for early electrical constructions like saws. Generally not used for research lockouts.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedMathematics</defName>
+    <label>Advanced Mathematics</label>
+    <generationRules>
+      <textbookValue>550</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>complex mathematical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>A deep understanding of different applications of mathematics, including calculus, discreet mathematics, and other complex subjects.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>4</viewerX>
+    <viewerY>12</viewerY>
+    <prerequisites>
+      <li>BasicMathematics</li>
+    </prerequisites>
+    <color>RGBA(0.545, 0.0, 0.545, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+      <li>Thoughts/Math/Radical</li>
+      <li>Thoughts/Math/Sigma</li>
+      <li>Thoughts/Math/PI</li>
+      <li>Thoughts/Math/Integral</li>
+    </thoughtIcons>
+    <assignmentTips>Standard education for industrial adults. Generally not used for research, but may be if logical. Generally not used for recipes, construction, or jobs.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Piloting</defName>
+    <label>Piloting</label>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>8000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to pilot general atmospheric aircraft such as fighters and transport planes.</description>
+    <costPractical>2200</costPractical>
+    <costTheoretical>1800</costTheoretical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>5</viewerX>
+    <viewerY>10</viewerY>
+    <prerequisites>
+      <li>AdvancedMathematics</li>
+      <li>Computers</li>
+    </prerequisites>
+    <color>RGBA(1.0, 1.0, 0.329, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout the use of atmospheric aircraft. Fighter pilots will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedConstruction</defName>
+    <label>Advanced Construction</label>
+    <generationRules>
+      <textbookValue>850</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Construction</category>
+    <description>The ability to build complex structures and machinery.</description>
+    <costPractical>800</costPractical>
+    <viewerX>8</viewerX>
+    <viewerY>9</viewerY>
+    <prerequisites>
+      <li>Construction</li>
+      <li>Electronics</li>
+    </prerequisites>
+    <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Covers most advanced buildings with few mechanical components, or workstations. Used with mechanics as a precursor to Engineering. Most industrial and basic spacer constructions should use this. Preindustrial backstories will almost never include this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ShipBuilding</defName>
+    <label>Ship Building</label>
+    <generationRules>
+      <textbookValue>4500</textbookValue>
+      <neurotrainerValue>25000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_Construction</category>
+    <description>The ability to design and build complex space-ready ship components and structures.</description>
+    <costPractical>3200</costPractical>
+    <costTheoretical>1600</costTheoretical>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>12</viewerX>
+    <viewerY>9</viewerY>
+    <prerequisites>
+      <li>Engineering</li>
+      <li>AdvancedConstruction</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.714, 0.757, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The pinnacle of space-engineering. Only spacer-tier shipwrights and spaceship engineers will have this. "illegal" or pirate shipwrights will usually cap at Engineering. Used to lockout ship part construction and their associated research projects.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicScience</defName>
+    <label>Basic Science</label>
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>simple scientific</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of basic scientific processes and methods. Ability to research and apply scientific method</description>
+    <costTheoretical>800</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.0, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Highschool level science. Generally used for well-learned tribals, medieval alchemists, or other low level scientists. Most industrial children's backgrounds would include this, but most medieval adult backgrounds would not. Not generally used to lock out anything, but could be used to lockout late-tribal tier research tasks.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedScience</defName>
+    <label>Advanced Science</label>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>complex scientific</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of complex scientific processes and methods.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>5</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+      <li>AdvancedMathematics</li>
+    </prerequisites>
+    <color>RGBA(0.541, 0.169, 0.886, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The level of scientific understanding a modern entry-level scientist or college graduate in a science field might know. Well educated industrial adults or "genius" child backstories might have this. Not generally used for lockouts, but may be used where a significant scientific intelligence is needed without a particular specialization. Most post-industrial adult backstories (glitter, spacer) will include this as standard education.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Astronomy</defName>
+    <label>Astronomy</label>
+    <generationRules>
+      <textbookValue>850</textbookValue>
+      <neurotrainerValue>2800</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>astronomical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of the physics and interactions of celestial bodies.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>7</viewerX>
+    <viewerY>9.5</viewerY>
+    <prerequisites>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Most spacer ship crew would have this. Captains, cartographers, pilots, researchers. Rarely used for lockouts of any sort, but can be used with Programming for star charts, computers, and other spacer tier gizmos.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeConstellations</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedPiloting</defName>
+    <label>Advanced Piloting</label>
+    <generationRules>
+      <textbookValue>3500</textbookValue>
+      <neurotrainerValue>17500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to operate space-worthy craft in orbital or 0 gravity environments.</description>
+    <costPractical>3200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>10</viewerX>
+    <viewerY>10</viewerY>
+    <prerequisites>
+      <li>Piloting</li>
+      <li>Astronomy</li>
+      <li>Physics</li>
+    </prerequisites>
+    <color>RGBA(0.863, 0.078, 0.235, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout the user of proper spaceships or orbital crafts and shuttles. Spaceship pilots, starship captains, space fighter pilots, etc will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+
+	<!-- Basic Chemistry -->
+
+	<!--
+	BasicChemistry -> requires BasicScience
+		Medicinal chemistry
+		PsychochemistryBasic
+		Environmental chemistry
+		Materials chemistry
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Chemistry</defName>
+    <label>Basic Chemistry</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of basic chemical reactions and mixtures.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>3</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Basic knowledge of various materials react to each other. Knowing how to make use of basic resources, their effects and be able to process them as well as certain plants into medicine or drugs with various effects.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>MedicinalChemistry</defName>
+	<label>Medicinal Chemistry</label>
+	<category>ProficiencyCategory_KnowledgeChemistry</category>
+	<description>Understanding how to make use of basic resources, to create certain medicines.</description>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	<costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>17</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Knowledge of basic effects of various plants and resources on the body and how to combine them for medicinal purposes.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>BasicPsychochemistry</defName>
+	<label>Basic Psychochemistry</label>
+	<category>ProficiencyCategory_KnowledgeChemistry</category>
+	<description>Understanding how to make use of basic resources, to create certain drugs.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>18</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Knowledge of basic effects of various plants and resources on the body and how to combine them to create drugs for a high for recreation and can cause psychosis.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>EnvironmentalChemistry</defName>
+	<label>Environmental Chemistry</label>
+	<category>ProficiencyCategory_KnowledgeChemistry</category>
+	<description>Understanding of the effects and uses that chemicals have on the environment and human health.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>19</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Knowledge of the effects that chemicals have on the air, water and soil and how they impact the environment and human health as well as any uses they have.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>MaterialsChemistry</defName>
+	<label>Materials Chemistry</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+	<category>ProficiencyCategory_KnowledgeChemistry</category>
+	<description>Understanding of the effects that chemicals and resources have in create other useful materials.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>20</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Materials chemistry is unique in providing the intellectual foundation to design, create, and understand new forms of matter, let it be organic, inorganic, or hybrid materials.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Basic Chemistry End -->
+
+	<!-- Basic Geology -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Geology</defName>
+    <label>Basic Geology</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>geological</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of the basic natural minerals and materials in the environment.</description>
+    <costTheoretical>400</costTheoretical>
+	<costPractical>800</costPractical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>3</viewerX>
+    <viewerY>22</viewerY><!--
+    <prerequisites>
+      <li>BasicScience</li>
+    </prerequisites>-->
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of basic materials and minerals found naturally in the environment and utlising them.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeFormation</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Mineralogy</defName>
+    <label>Mineralogy</label>
+    <category>ProficiencyCategory_KnowledgeGeology</category>
+    <description>Understanding of the chemistry, crystal structure and physical properties of the mineral constituents of rocks.</description>
+    <costTheoretical>400</costTheoretical>
+	<costPractical>400</costPractical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>4</viewerX>
+    <viewerY>22.5</viewerY>
+    <prerequisites>
+      <li>Geology</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of minerals, their properties and uses and how to identify them helps miners be more efficient and not waste resources or energy.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeFormation</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>SoilScience</defName>
+    <label>Soil Science</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>geological</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeGeology</category>
+    <description>Understanding of soil and surface based natural resources of the Earth including soil and subsoil formation, classification and mapping and uses or effects.</description>
+    <costTheoretical>800</costTheoretical>
+    <costPractical>600</costPractical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>4</viewerX>
+    <viewerY>23.5</viewerY>
+    <prerequisites>
+      <li>Geology</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>knowledge of physical, chemical, biological, and fertility properties of soils and subsoils; and these properties in relation to the use and management of materials just under the ground, how best to handle them and their effects on the environment.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeFormation</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+	  <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatter</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Geochemistry
+    Hydrogeology
+	Mineralogy
+	Petrology
+	Soil science
+	-->
+
+	<!-- Basic Geology End -->
+
+	<!-- Advanced Geology -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedGeology</defName>
+    <label>Advanced Geology</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>geological</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of the more advanced and rare natural minerals and materials in the environment.</description>
+    <costTheoretical>800</costTheoretical>
+	<costPractical>400</costPractical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>8</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+	  <li>AdvancedScience</li>
+      <li>Geology</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of the more advanced and rare materials and minerals found naturally in the environment and utlising them.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeFormation</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Geochemistry</defName>
+    <label>Geochemistry</label>
+    <category>ProficiencyCategory_KnowledgeGeologyAdvanced</category>
+    <description>Understanding of the chemistry of geological materials focused on the earths crust.</description>
+    <costTheoretical>1000</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>9</viewerX>
+    <viewerY>12</viewerY>
+    <prerequisites>
+	  <li>AdvancedGeology</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Geochemistry is the science that uses the tools and principles of chemistry to explain the mechanisms behind major geological systems such as the Earth's crust and its oceans.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeGeyser</li>
+      <li>LLAnalyzeFormation</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Hydrogeology</defName>
+    <label>Hydrogeology</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>12500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>geological</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeGeologyAdvanced</category>
+    <description>Understanding of the area of geology that deals with the distribution and movement of groundwater in the soil and rocks of the Earth's crust.</description>
+    <costTheoretical>1000</costTheoretical>
+    <costPractical>800</costPractical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>9</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+	  <li>AdvancedGeology</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Knowledge to prevent clean ground water from becoming polluted or to restore formerly clean water supplies that have become polluted and need to be cleaned up.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeGeyser</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+	  <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatter</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PetroleumGeology</defName>
+    <label>Petroleum Geology</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>3600</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>petrological</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeGeologyAdvanced</category>
+    <description>Understanding of the the origin, occurrence, accumulation, movement, as well as the exploration of hydrocarbon.</description>
+    <costPractical>1200</costPractical>
+	<costTheoretical>1000</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>9</viewerX>
+    <viewerY>14</viewerY>
+    <prerequisites>
+	  <li>AdvancedGeology</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.498, 0.314, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Knowledge of the formation of sedimentary basins. This is because some basins are highly favorable for petroleum generation.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeGeyser</li>
+      <li>LLAnalyzeFormation</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Advanced Geology End -->
+
+	<!-- Advanced Chemistry -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedChemistry</defName>
+    <label>Advanced Chemistry</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>complex chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of advanced chemical reactions and mixtures. The ability to use chemistry equipment and machinery.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>8</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+	  <li>Chemistry</li>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Everything from genetics and brainchips, to gunpowder. May be known by high-tier enlightened medieval doctors or scientists. Used to lockout chemical based weapons and devices such as incendiary weapons, fire suppressants, and drug compounding. Combined with Medical, effectively represents Pharmacist. Can be used to lockout genetics buildings, recipes, and research. Sensibly used to lockout drug refining jobs.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Pharmaceutical chemistry
+	PsychochemistryAdvanced
+	Agrochemistry
+	Industrial chemistry
+	Petrochemistry
+	Polymer chemistry
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PharmaceuticalChemistry</defName>
+    <label>Pharmaceutical Chemistry</label>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>complex pharmaceutical</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Understanding of pharmaceutical drugs and advanced medicinal chemistry.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Involved with designing and developing pharmaceutical drugs. Medicinal chemistry involves the identification, synthesis and development of new chemical entities suitable for therapeutic use.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PsychochemistryAdvanced</defName>
+    <label>Psychochemistry Advanced</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of the relationship between chemicals, behavior and psychological processes. It is the study of chemical influence on behavior.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>17</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Psychoactive Medications provide definitive treatment of clinical syndromes such as anxiety disorders, depression and schizophrenia. As well as effects of more....recreational chemicals.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Agrochemistry</defName>
+    <label>Agrochemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of biocides and synthetic fertilizers as awell as uses of plants in general in manufacturing and chemistry.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>18</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This includes agricultural production, the use of ammonia in fertilizer, pesticides, and how plant biochemistry can be used to genetically alter crops. As well as uses in industrial applications, from oils or special biproducts that are useful in chemistry.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>IndustrialChemistry</defName> <!-- Change to AdvancedChemistry -->
+    <label>Industrial Chemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of the uses of chemical and physical processes to transform raw materials into products that are beneficial to mankind.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>19</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This includes the production of basic chemicals for manufacturing goods for various industrial sectors.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Petrochemistry</defName>
+    <label>Petrochemistry</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>3600</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>petrological</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of petrochemicals which are the chemical products obtained from petroleum by refining.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>20</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Some chemical compounds made from petroleum are also obtained from other fossil fuels, such as coal or natural gas, or renewable sources such as maize, palm fruit or sugar.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeFormation</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PolymerChemistry</defName> <!-- Change to AdvancedChemistry -->
+    <label>Polymer Chemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of the structures of chemicals, chemical synthesis, and chemical and physical properties of polymers and macromolecules.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>21</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Polymers and Synthetic materials can be manipulated to make clothing made from synthetic fibers, polyethylene cups, fiberglass, nylon bearings, plastic bags, polymer-based paints, epoxy glue, polyurethane foam cushion, silicone heart valves, and Teflon-coated cookware.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Advanced Chemistry End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Biology</defName>
+    <label>Advanced Biology</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>biological</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of anatomy and general life sciences.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>6</viewerX>
+    <viewerY>15</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+	  <li>PlantCare</li>
+    </prerequisites>
+    <color>RGBA(0.0, 1.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly, genetics and biology. Used to lockout anatomy, medical, genetics, and similar research projects. Can be used to lockout genetics recipes or buildings. A good general addon for backstories simply described as "scientist." Can be given to medical students if they havent finished training. Very well learned medieval doctors might have this. Used with chemistry for most genetics recipes.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatter</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Hydroponics</defName>
+    <label>Hydroponics</label>
+    <category>ProficiencyCategory_Biology</category>
+    <description>Understanding of usually crops or medicinal plants, without soil.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>800</costPractical>
+	<costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>8</viewerX>
+    <viewerY>15</viewerY>
+    <prerequisites>
+      <li>Biology</li>
+    </prerequisites>
+    <color>RGBA(0.0, 1.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly, growing of plants in controlled conditions, by using water-based mineral nutrient solutions.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>FirstAid</defName>
+    <label>First Aid</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Medical</category>
+    <description>The understanding and ability to render basic life-saving medical treatment.</description>
+    <costPractical>400</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>24.5</viewerY>
+    <color>RGBA(0.859, 0.439, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Ability to close and care for minor flesh wounds. Most industrial soldiers will have this. Tribal doctors or medieval "quack" doctors might have this in liue of actual medical expertise. Does not represent the ability to do open surgeries, body modification, install complex prosthetics, etc. Not usually used for non-job lockouts.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+	Might want to split this up into 2 :
+    BasicFirstAid
+	AdvancedFirstAid
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedFirstAid</defName>
+    <label>Advanced First Aid</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_Medical</category>
+    <description>The understanding and ability to render advanced life-saving medical treatment.</description>
+    <costPractical>600</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>23.5</viewerY>
+    <prerequisites>
+      <li>FirstAid</li>
+    </prerequisites>
+    <color>RGBA(0.859, 0.439, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Ability to close and care for major flesh wounds. May know how to suture wounds or amputate safely. Most industrial soldiers will have this. Tribal doctors or medieval "quack" doctors might have this in liue of actual medical expertise. Does not represent the ability to do open surgeries, body modification, install complex prosthetics, etc. Not usually used for non-job lockouts.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Medical</defName>
+    <label>Medical</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>12500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_Medical</category>
+    <description>Deep understanding of anatomy and medical techniques. The ability to perform a variety of surgeries and medical treatments.</description>
+    <costPractical>2400</costPractical>
+    <costTheoretical>3600</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>8</viewerX>
+    <viewerY>24.5</viewerY>
+    <prerequisites>
+      <li>Biology</li>
+      <li>FirstAid</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally represents the capabilities of a modern surgeon. Can be used with Electronics for very simple bionics installs. Required for all spinal and brain surgeries. Not often used for recipe or construction lockouts. Used for research lockouts that involve unlocking new surgeries or "cure X" recipes. Most insutrial doctors and surgeons will have this. Industrial field medics will have this. Should be extremely rare pre-industrial.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    General surgery
+	Plastic surgery
+	Orthopedics
+	Neurosurgery
+	Cardiothoracic surgery
+	Trauma surgery
+	Transplant surgery
+	-->
+
+  <LifeLessons.ProficiencyDef Name="ProficiencySurgery" ParentName="ProficiencyBase" Abstract="True">
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>TransplantSurgery</defName>
+    <label>Transplant Surgery</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Organ transplantation is a medical procedure in which an organ is removed from one body and placed in the body of a recipient.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>25</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally anything revolving any replacing inner organs.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>TraumaSurgery</defName>
+    <label>Trauma Surgery</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of surgical critical care and acute care surgery.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>26</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Operations that require emergency treatment and are ciritcal. Failure is not an option.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>PlasticSurgery</defName>
+    <label>Plastic Surgery</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of surgical specialty involving the restoration, reconstruction or alteration of the human body.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>27</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Reconstructive surgery and cosmetic surgery. Heal scars or purposefully changing the body to suit your needs. Mainly Cosmetic.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>GeneralSurgery</defName>
+    <label>General Surgery</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of common surgical procedures that arent life threatening.</description>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>28</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>General surgery is a surgical specialty that focuses on alimentary canal and abdominal contents including the esophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix and bile ducts, and often the thyroid gland.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>Orthopedics</defName>
+    <label>Orthopedics</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of the conditions involving the musculoskeletal system.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>29</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of how to use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and congenital disorders.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>Neurosurgery</defName>
+    <label>Neurosurgery</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of Neurosurgery, known in common parlance as brain surgery.</description>
+    <generationRules>
+      <textbookValue>1800</textbookValue>
+      <neurotrainerValue>4000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>30</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of the surgical treatment of disorders which affect any portion of the nervous system including the brain, spinal cord and peripheral nervous system.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySurgery">
+    <defName>CardiothoracicSurgery</defName>
+    <label>Cardiothoracic Surgery</label>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of surgical treatment of organs inside the thoracic cavity.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>31</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of treatment of conditions of the heart, lungs, and other pleural or mediastinal structures.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- PlantCare -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PlantCare</defName>
+    <label>Basic Biology</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>Knowledge of how to effectively care for a variety of plant or animal life.</description>
+    <costPractical>400</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>15</viewerY>
+    <color>RGBA(0, 1, 0.498, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Not quite as invovled as biology, but represents the care and understanding of plants and animals. Could be used for seed harvesting, creating hybrids, applying fertilizer, other gardening activities or tending to animals, knowing their habits as well as likes and dislikes.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+	Forestry
+	Gathering
+	Sowing
+	Fertilization
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Forestry</defName>
+    <label>Forestry</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>Understanding the techniques for efficient wood chopping, lumberjacking, cultivation, management and study of trees as well as treatment methods and wood uses.</description>
+    <costPractical>1200</costPractical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+      <li>PlantCare</li>
+    </prerequisites>
+    <color>RGBA(0.360, 0.250, 0.200, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>While a simple task, it often takes practice to perfect the skill of a lumberjack as well as treatment methods and wood uses.</assignmentTips>
+    
+	<practicalLearningActivityDefs>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLAnalyzePlantBiomatter</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Ecology</defName>
+    <label>Ecology</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_Biology</category>
+    <description>Understanding of the ecosystem focusing on Animals and how they interact with the environment around them.</description>
+    <costPractical>1200</costPractical>
+	<costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+    </practicalLearningActivityDefs>
+    <viewerX>1</viewerX>
+    <viewerY>17</viewerY>
+    <prerequisites>
+      <li>PlantCare</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.6, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding the techniques for efficient gathering and knowledge of animals for the best harvest, reducing waste and effecting speed and how to handle them, not only being familular with their physical anatomy, but their behaviour.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Cultivation</defName>
+    <label>Cultivation</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_Biology</category>
+    <description>Understanding how to sow or plant crops as well as work with the ground and soil, including their properties and effects.</description>
+    <costPractical>1200</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>18</viewerY>
+    <prerequisites>
+      <li>PlantCare</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.8, 0.4, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This is a must for farmers. It includes knowing how to look after plants, their effects when near others or consumed, their life cycle, how they react to certain environments and their nutrition.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Fertilization</defName>
+    <label>Fertilization</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>850</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_Biology</category>
+    <description>Understanding how to make and use fertiliser for crops as well effects of decomposition and anything that helps boost plant growth.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>19</viewerY>
+    <prerequisites>
+      <li>PlantCare</li>
+    </prerequisites>
+    <color>RGBA(0.38, 0.27, 0.25, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding of things that act as fertiliser for plants and how to keep it balanced for the best growth as well as decomposition techniques, the effects of it and uses.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- PlantCare End -->
+	
+	<!-- BasicFabrication -->
+	
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicFabrication</defName>
+    <label>Basic Fabrication</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>900</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to effectively use tools and basic machines in the creation of other tools and devices.</description>
+    <costPractical>800</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>4.5</viewerY>
+    <color>RGBA(0.545, 0, 0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft by hand, and the use of hand tools. Generally this does not include complex crafting that would involve many or tiny components, nor would it generally include electronics. Use BasicFabrication + Electronics as an intermediary step before AdvancedFabrication - For recipes that involve handmade or simple electronics.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+	Tailoring (Already Exists)
+	WoodWorking
+	Smithing (Already Exists)
+	Fletching
+	Artisan
+	Glassmaking
+	Mechanics (Already Exists)
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Tailoring</defName>
+    <label>Tailoring</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to crafting fine clothing and work with cloth and leather.</description>
+    <costPractical>1500</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>2</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.498, 1.0, 0.831, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Proper cloth work. BasicFabrication covers simple things like socks or hats, while tailoring generally covers anything large, complex, or that requires seam working. Most crafters will have this. May be used with AdvancedFabrication for spacer fabrics like Eltex, or with Chemistry to craft non-natural fabrics. Rarely used to lockout furniture or clothing research.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+<!--
+  <LifeLessons.ProficiencyDef>
+    <defName>WoodWorking</defName>
+    <label>wood working</label>
+    <category>ProficiencyCategory_Construction</category>
+    <description>The ability to effectively use tools for woodworking.</description>
+    <cost>1200</cost>
+    <viewerX>1</viewerX>
+    <viewerY>2</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.38, 0.2, 0.07, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft things made of wood and the skills needed for quality furniture and wooden parts.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+-->
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Smithing</defName>
+    <label>Smithing</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to forge and refine metal into useful tools, weapons, or components.</description>
+    <costPractical>1500</costPractical>
+	<canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>3</viewerY>
+	
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.038, 0.48, 0.55, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>General mastery of forging and smithing tools. Most medieval crafters can have this, as well as accomplished tribal crafters. Used to lockout most pure-metal recipes such as armor and large weapons. Not strictly required for very simple things like knives. Industrial recipes typically start excluding it in favor of AdvancedFabrication even when it might make sense to include smithing - such as firearms. Very early firearms might require this.</assignmentTips>
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+	  <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Smithing -> ArmorSmith
+	Machining -> Powerarmor Assembly
+	-->
+
+	<!-- Smithing Subcategories -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ArmorSmith</defName>
+    <label>Armor Smith</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to create effective armor.</description>
+    <costPractical>2000</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>3</viewerY>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <color>RGBA(0.86, 0.86, 0.86, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Proper blacksmithing. The knowledge of key techniques for making strong armor and padding.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Smithing Subcategories End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Labourer</defName>
+    <label>Labourer</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to do work requiring precision, strength and repetition.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>4</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.71, 0.49, 0.25, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft various items that are tough to work with as well as things that require precise repetitive motion or routines.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Artisan</defName>
+    <label>Artisan</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to create objects that require intricate and delicate work with a little bit of creativity.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>5</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.72, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to create things from various materials, such as sculptures, furniture and anything that is easy to break or mess up.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Glassworking</defName>
+    <label>Glassworking</label>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to make and form glass.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.73, 1.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability for glassblowing and forming techniques.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Mechanics</defName>
+    <label>Mechanics</label>
+    <generationRules>
+      <textbookValue>750</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>mechanical</proficiencyAdjective>
+    <category>ProficiencyCategory_Construction</category>
+    <description>Understanding of mechanical systems and devices. The ability to build, maintain, and operate heavy machinery.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>7</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(1.0, 1.0, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Used to lockout recipes, construction, and research. Usually represents knowledge to build machines with few interconnecting systems - generators, things with servos, simple vehicles. Broadly speaking, doesn't include the ability to design complex systems of mechanics such as planes, power armor, or advanced machines. Taught by simple mechanical devices such as mills. Backstories with machine operator or maintenance experience would likely include this.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLDraft</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithMechanisms</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLReverseEngineerGadget</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- BasicFabrication End -->
+
+	<!-- AdvancedFabrication -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedFabrication</defName>
+    <label>Advanced Fabrication</label>
+    <generationRules>
+      <textbookValue>500</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>Understanding the use of advanced tools and machinery to create further, more complex tools and devices.</description>
+    <costPractical>1200</costPractical>
+    <viewerX>4</viewerX>
+    <viewerY>4.5</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.282, 0.239, 0.545, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Crafting that involves complex tools or the use of factories and machinery. May include components of smithing or other sub proficiencies. Generally used for complex electronic recipes or recipes with many machined parts such as firearms. Can be used with Electronics for charge-based weapons. Used with Mechanics and Electronics as an intermediary step before Engineering or AdvancedConstruction.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+	Machining
+	Electronics (Already Exists)
+	LaserManipulation
+	PlasmaManipulation
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Machining</defName>
+    <label>Machining</label>
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The ability to create complex parts using heavy machinary.</description>
+    <costPractical>1500</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.72, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Createing intricate parts using heavy machinary requires skill and experience. Whether its screws, bolts, mechanisms etc.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Machining Subcategories -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PowerarmorAssembly</defName>
+    <label>Powerarmor Assembly</label>
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The ability to create effective powered armor.</description>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>2000</costPractical>
+    <viewerX>7</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+	  <li>Electronics</li>
+    </prerequisites>
+    <color>RGBA(0.74, 0.82, 0.93, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The undersatnding of the assembly and fabrication of the parts needed to create powered armor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Machining Subcategories End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Electronics</defName>
+    <label>Electronics</label>
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>electronic</proficiencyAdjective>
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>Understanding of electrical properties, electronic circuits and tools. The ability to prepare electrical diagrams and troubleshoot systems.</description>
+    <costPractical>2000</costPractical>
+    <costTheoretical>2000</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.2</learningEffectivenessLossPerSubject>
+    <viewerX>6</viewerX>
+    <viewerY>4.5</viewerY>
+    <prerequisites>
+	  <li>AdvancedFabrication</li>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(0.941, 0.902, 0.549, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+    <assignmentTips>Catch all for almost all industrial buildings and recipes. Represents both the instllation and creation of electronic circuits and components. Used to lockout any workbench or recipe that involves electricity, as well as their associated research projects. May be used with Medical for very-low-tier bionics. May be used with AdvancedFabrication for laser based recipes. Very accomplished medival inventors might have discovered this. Most industrial inventors, mechanics, fabricators, and engineers will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>LaserManipulation</defName>
+    <label>laser Manipulation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The understanding and capability of making laser based weapons or components.</description>
+    <costPractical>2500</costPractical>
+    <costTheoretical>2500</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>12</viewerX>
+    <viewerY>7</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+	  <li>Wavelengths</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.07, 0.14, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understadning the assembly of laser based weapons or items that are actually effective in production or weapons without consuming a huge amount of power.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PlasmaManipulation</defName>
+    <label>Plasma Manipulation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The understanding and capability of producing plasma based devices.</description>
+    <costPractical>2500</costPractical>
+    <costTheoretical>2500</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>12</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+	  <li>Electromagnetism</li>
+	  <li>ExoticPhysics</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.07, 0.14, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Utilisation of plasma is not an easy feat. When utilised effectively it is capable of producing devastating results in weaponry. To do so effectively though without it instantly dissolving to nothing is the hard part.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+
+	<!-- AdvancedFabrication End -->
+
+	<!-- Physics -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Physics</defName>
+    <label>Physics</label>
+    <generationRules>
+      <textbookValue>950</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>physical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of the physical properties, processes, and interactions of matter and energy.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>8</viewerX>
+    <viewerY>3</viewerY>
+    <prerequisites>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.749, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Covers up to very-near-future physics, but not as far as fusion or antimatter. Rarely used as a lockout, but good for artillery, lasers, and other physical proces topics. Common for industrial researchers and scientists.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Fusion
+    PlasmaManipulation
+	Wavelengths
+	-->
+
+	<!-- 
+    Nuclear
+    Architecture
+	-->
+
+	<!-- ExoticPhysics -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ExoticPhysics</defName>
+    <label>Exotic Physics</label>
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>strange physical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Mastery of advanced applications of physics, particularly pertaining to exotic or unusual phenomena.</description>
+    <costTheoretical>4800</costTheoretical>
+    <effectiveSubjectLimit>1</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>1</viewerY>
+    <prerequisites>
+      <li>Physics</li>
+      <li>Astronomy</li>
+      <li>Chemistry</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.749, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Catchall for space magic. Commonly used to lockout plasma, gravity manipulation, energy shield, FTL, antimatter, and other far-future or pure scifi topics. Accomplished spacer researchers might have this. Can be used with Engineering to lockout scifi buildings such as shield generators or the Johnson-Tanaka drive. Potential lockout for certain psionics.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ParticlePhysics</defName>
+    <label>Particle Physics</label>
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>partical physical</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeExoticPhysics</category>
+    <description>The Knowledge and understanding of particle physics.</description>
+    <costTheoretical>3000</costTheoretical>
+    <costPractical>1500</costPractical>
+    <viewerX>12</viewerX>
+    <viewerY>1</viewerY>
+    <prerequisites>
+      <li>ExoticPhysics</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.75, 0.71, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding how particle, atoms, how they are structured and how to manipulate them.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>QuantumPhysics</defName>
+    <label>Quantum Physics</label>
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>quantum physical</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeExoticPhysics</category>
+    <description>The Knowledge and understanding of quantum physics.</description>
+    <costTheoretical>3000</costTheoretical>
+    <costPractical>1500</costPractical>
+    <viewerX>12</viewerX>
+    <viewerY>2</viewerY>
+    <prerequisites>
+      <li>ExoticPhysics</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.75, 0.71, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding atoms at a quamtum level. Knowledge of the physical properties of nature at the scale of atoms and subatomic particles</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Biosynthesis</defName>
+    <label>Biosynthesis</label>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<category>ProficiencyCategory_KnowledgeExoticPhysics</category>
+    <description>The Knowledge and understanding of Biosynthesis.</description>
+    <costTheoretical>3000</costTheoretical>
+    <costPractical>1500</costPractical>
+    <viewerX>12</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>ExoticPhysics</li>
+	  <li>Biology</li>
+    </prerequisites>
+    <color>RGBA(0.46, 0.61, 0.52, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding synthetic biology can allow grown prothestics or organs, or making biological matter via scientific processes.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Bioelectronics</defName>
+    <label>Bioelectronics</label>
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The Knowledge and understanding of bioelectronics.</description>
+    <generationRules>
+      <textbookValue>1250</textbookValue>
+      <neurotrainerValue>3000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<costTheoretical>3000</costTheoretical>
+    <costPractical>1500</costPractical>
+    <viewerX>12</viewerX>
+    <viewerY>4.5</viewerY>
+    <prerequisites>
+      <li>ExoticPhysics</li>
+	  <li>Electronics</li>
+	  <li>Biology</li>
+    </prerequisites>
+    <color>RGBA(0.45, 0.69, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding how electronics and biology can merge together. Creating synthetic biology and subsituting various aspects for organic electronics.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+	  <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+      <li>LLTestExperimentationProcess</li>
+      <li>LLBionicsExamineCorpse</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLAnalyzeBionics</li>
+      <li>LLReverseEngineerBionics</li>
+      <li>LLAnalyzeGadget</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Robotics</defName>
+    <label>Robotics</label>
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>robotical</proficiencyAdjective>
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The understanding of the creation of Robotics.</description>
+    <costPractical>3000</costPractical>
+	<costTheoretical>1500</costTheoretical>
+    <viewerX>12</viewerX>
+    <viewerY>12</viewerY>
+    <prerequisites>
+      <li>Engineering</li>
+	  <li>Programming</li>
+	  <li>AdvancedConstruction</li>
+    </prerequisites>
+    <color>RGBA(0.47, 0.53, 0.60, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Engineering, Electronics, Programming combined to create helpful autonomous machines.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+	  <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLAnalyzeBionics</li>
+      <li>LLReverseEngineerBionics</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+
+	<!-- ExoticPhysics End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Fusion</defName>
+    <label>Fusion</label>
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_KnowledgePhysics</category>
+    <description>The Knowledge and understanding of Fusion.</description>
+    <costPractical>1500</costPractical>
+	<costTheoretical>2500</costTheoretical>
+    <viewerX>10</viewerX>
+    <viewerY>2</viewerY>
+    <prerequisites>
+      <li>Physics</li>
+    </prerequisites>
+    <color>RGBA(0.52, 0.44, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding how the process of fusion and how to contain and maintain it for one of the greater sources of power.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+	  <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Nuclear</defName>
+    <label>Nuclear</label>
+    <generationRules>
+      <textbookValue>2400</textbookValue>
+      <neurotrainerValue>22850</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksExotic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_KnowledgePhysics</category>
+    <description>The Knowledge and understanding of Fission.</description>
+    <costPractical>1400</costPractical>
+	<costTheoretical>2200</costTheoretical>
+    <viewerX>10</viewerX>
+    <viewerY>3</viewerY>
+    <prerequisites>
+      <li>Physics</li>
+    </prerequisites>
+    <color>RGBA(0.51, 0.96, 0.17, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding the process of Fission, radioative materials and emissions.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+	  <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Electromagnetism</defName>
+    <label>Electromagnetism</label>
+    <category>ProficiencyCategory_KnowledgePhysics</category>
+    <description>The Knowledge and understanding of electromagnetism.</description>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<costTheoretical>1500</costTheoretical>
+    <viewerX>10</viewerX>
+    <viewerY>4</viewerY>
+    <prerequisites>
+      <li>Physics</li>
+    </prerequisites>
+    <color>RGBA(0.93, 0.93, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding how electromagnetism works, how its created and ways to utilise it.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+	  <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Wavelengths</defName>
+    <label>Wavelengths</label>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<category>ProficiencyCategory_KnowledgePhysics</category>
+    <description>The Knowledge and understanding of wavelengths.</description>
+	<costTheoretical>1500</costTheoretical>
+    <viewerX>10</viewerX>
+    <viewerY>5</viewerY>
+    <prerequisites>
+      <li>Physics</li>
+    </prerequisites>
+    <color>RGBA(0.93, 0.93, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Understanding how wavelengths work, how they are created and ways to utilise them.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+	  <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Engineering</defName>
+    <label>Engineering</label>
+    <proficiencyAdjective>intricate mechanical</proficiencyAdjective>
+    <generationRules>
+      <textbookValue>1950</textbookValue>
+      <neurotrainerValue>14500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_Construction</category>
+    <description>The ability to design and implement complex systems using electrical or mechanical components.</description>
+    <costPractical>2000</costPractical>
+    <costTheoretical>3200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>1</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.3</learningEffectivenessLossPerSubject>
+    <viewerX>10</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>Electronics</li>
+      <li>Construction</li>
+      <li>Physics</li>
+      <li>Mechanics</li>
+    </prerequisites>
+    <color>RGBA(0.733, 0.733, 0.733, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLDraft</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithAdvancedComponents</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLReverseEngineerGadget</li>
+    </practicalLearningActivityDefs>
+
+    <assignmentTips>Mastery of mechanical and electrical systems. Ability to both build and design complex systems of machines. Does not include a mastery of space-worthy vessels. Most backstories that use the word "engineer" include this. Unheard of pre-industrial. Knowledge is not sufficient for mastery - represents years of experience as well, so even genius inventory child backstories will not include this. Used to lockout robotics, complex vehicles, simple ship parts, mechs, and factories. Used to lockout advanced weapons recipes. Used to lockout associated research projects.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Physics End -->
+
+	<!-- Cooking -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Cooking</defName>
+    <label>Cooking</label>
+    <generationRules>
+      <textbookValue>150</textbookValue>
+      <neurotrainerValue>750</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>Understanding the basics of food prep and food safety practices.</description>
+    <costPractical>400</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>28</viewerY>
+    <color>RGBA(0.235, 0.702, 0.443, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally not used for research lockouts. Represents the mastery of basic cooking techniques and kitchen management. Comparable a home chef or casual dining chef. Used to lockout complex "simple" meals or fine meals, usually earned by crafting simple to fine meals.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Grilling
+    Roasting
+    Baking
+	Boiling
+    Steaming (Not Now)
+    Stew
+	Pan frying
+	Simmering
+	Searing
+	-->
+
+  <LifeLessons.ProficiencyDef Name="ProficiencyCooking" ParentName="ProficiencyBase" Abstract="True">
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Grilling</defName>
+    <label>Grilling</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively grill food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good grilled burger or knowing how to cook vegetables well on a grill will make you the key to any outdoor party.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Roasting</defName>
+    <label>Roasting</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively roast food.</description>
+    <costPractical>700</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Grilling</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good roast, which can be great for a group meal.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Baking</defName>
+    <label>Baking</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively bake food.</description>
+    <costPractical>800</costPractical>
+    <viewerX>3</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Roasting</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques on how to bake. Such as bread, pies, muffins, pizza etc.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Boiling</defName>
+    <label>Boiling</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively boil food.</description>
+    <costPractical>400</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a boil food appropriate and know how long before nutrients and taste is lost and when its ready to eat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Brewing</defName>
+    <label>Brewing</label>
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>1500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively brew various drinks.</description>
+    <costPractical>400</costPractical>
+    <costTheoretical>600</costTheoretical>
+	<canBePioneered>true</canBePioneered>
+    <viewerX>2</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>Boiling</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good cup of coffee, tea or any hot drink.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Stew</defName>
+    <label>Stew</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively stew food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a make a good stew and not some bland slop.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>PanFrying</defName>
+    <label>Pan Frying</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively pan fry.</description>
+    <costPractical>800</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to use a pan to effectively fry various food evenly.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Searing</defName>
+    <label>Searing</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively sear meats and various other ingredients.</description>
+    <costPractical>400</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>PanFrying</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to carefully sear meat. While also making edible food that is cooked. Knowing timings is key.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Simmering</defName>
+    <label>Simmering</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively simmer vvarious ingredients into edible food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>26.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to simmer food carefully and for the right amount of time, useful for soups and slow cook food.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Cooking End -->
+
+	<!-- SkilledCooking -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>SkilledCooking</defName>
+    <label>Skilled Cooking</label>
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively manage complex recipes and cooking spaces.</description>
+    <costPractical>800</costPractical>
+    <viewerX>4</viewerX>
+    <viewerY>28</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.0, 0.502, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>General mastery of the kitchen, comparable to a sous chef at a proper fine dining establishment. Usually earned by cooking fine meals or equivalent. Usually locks out lavish meals and bulk cooking. Might be used to lockout research for particularly complex food or diet based topics, but not generally for just any recipe project.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Stir Frying
+    Sous Vide
+    Deep Frying
+	Sautéing
+	Braising
+	Pressure cooking
+	Basting
+	Fermenting
+	CheeseMaking
+	Caramelization
+	Poaching
+	-->
+
+  <LifeLessons.ProficiencyDef Name="ProficiencySkilledCooking" ParentName="ProficiencyBase" Abstract="True">
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>StirFrying</defName>
+    <label>Stir Frying</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use stir fry techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to effectively use a pan or wok to evenly cook a large amount of varied ingredients.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Sauteing</defName>
+    <label>Sauteing</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use sauteing techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>StirFrying</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Sauteing is a method of cooking that uses a relatively small amount of oil or fat in a shallow pan over relatively high heat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Braising</defName>
+    <label>Braising</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use braising techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The cooking of meat or vegetables by heating them slowly with oil and moisture in a tightly sealed vessel.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Basting</defName>
+    <label>Basting</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use basting techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Braising</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The techniques to moisten (foods, especially meat) at intervals with a liquid (such as melted butter, fat, or pan drippings) especially during the cooking process to prevent drying and add flavor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Poaching</defName>
+    <label>Poaching</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use poaching techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Like simmering and boiling, it is a moist-heat cooking method that involves submerging food in liquid, typically without using fat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>SousVide</defName>
+    <label>Sous Vide</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively sous vide.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>Poaching</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Food cooked in its own juices, sealed in the pouch, is infused with deep natural flavor and incomparable tenderness and texture.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>PressureCooking</defName>
+    <label>Pressure Cooking</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use pressure cooking techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>26.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Pressure cooking is the process of cooking food under high pressure steam and water or a water-based cooking liquid, in a sealed vessel known as a pressure cooker.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Fermentation</defName>
+    <label>Fermentation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use fermentation techniques.</description>
+    <costPractical>800</costPractical>
+    <costTheoretical>800</costTheoretical>
+    <viewerX>5</viewerX>
+    <viewerY>25.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A process in which sugars are transformed into a new product through chemical reactions carried out by microorganisms.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>CheeseMaking</defName>
+    <label>Cheese Making</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use cheese making techniques.</description>
+    <costPractical>800</costPractical>
+    <costTheoretical>800</costTheoretical>
+    <viewerX>6</viewerX>
+    <viewerY>25.5</viewerY>
+    <prerequisites>
+      <li>Fermentation</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The production of cheese, like many other food preservation processes, allows the nutritional and economic value of a food material, in this case milk, to be preserved in concentrated form..</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>DeepFrying</defName>
+    <label>Deep Frying</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use deep frying techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A process where food is completely submerged in hot oil at temperatures typically between 350 °F (177 °C) and 375 °F (191 °C).</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Caramelization</defName>
+    <label>Caramelization</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use caramelization techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>31.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A slow cooking process that occurs when sugar is cooked over low heat, causing a change in both appearance and flavor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- SkilledCooking End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Bionics</defName>
+    <label>Bionics</label>
+    <generationRules>
+      <textbookValue>2800</textbookValue>
+      <neurotrainerValue>18800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerExotic</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>bionic</proficiencyAdjective>
+    <category>ProficiencyCategory_Medical</category>
+    <description>Understanding of the design and installation of biomechanical parts into living tissue and organs.</description>
+    <costPractical>3000</costPractical>
+    <costTheoretical>2800</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>1</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.5</learningEffectivenessLossPerSubject>
+    <viewerX>12</viewerX>
+    <viewerY>24.5</viewerY>
+    <prerequisites>
+      <li>Medical</li>
+      <li>Engineering</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.078, 0.576, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDraft</li>
+      <li>LLDocument</li>
+      <li>LLBionicsExamineCorpse</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeBionics</li>
+      <li>LLReverseEngineerBionics</li>
+    </practicalLearningActivityDefs>
+    <assignmentTips>Mastery of bionic integration. Can be used to lockout the creation of bionic parts as well as the install. Required for any spinal or brain modifications, but may not strictly be required for simpler bionics. Accomplished spacer surgeons may have this if their story mentions prosthetics or bionics. May be used to lockout buildings that automate the install of bionics - such as the war casket foundry.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Programming</defName>
+    <label>Programming</label>
+    <generationRules>
+      <textbookValue>1000</textbookValue>
+      <neurotrainerValue>8500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to design and build complex algorithms and programs.</description>
+    <costTheoretical>1200</costTheoretical>
+    <effectiveSubjectLimit>1</effectiveSubjectLimit>
+    <learningEffectivenessLossPerSubject>0.3</learningEffectivenessLossPerSubject>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>7</viewerX>
+    <viewerY>11</viewerY>
+    <prerequisites>
+      <li>AdvancedMathematics</li>
+      <li>Computers</li>
+    </prerequisites>
+    <color>RGBA(0.184, 0.31, 0.31, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally represents a greater mastery of programming than the "Average" modern programmer. Includes everything from early machine code to more advanced sci-fi representations of programming. Used to lockout AI related recipes and buildings and their associate research projects. Generally not combined with other proficiencies to lockout buildings, but may be if logical. Most backstories that mention AI or programming can include this.</assignmentTips>
+    
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLAnalyzeWriting</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>EVATraining</defName>
+    <label>EVA Training</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to operate in open space and zero-g environments.</description>
+    <costPractical>400</costPractical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>12</viewerX>
+    <viewerY>11</viewerY>
+    <prerequisites>
+      <li>Programming</li>
+      <li>Engineering</li>
+    </prerequisites>
+    <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout use of atmosphere suits for zero-g excursions. Most space miners and similar space-faring professions will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+</Defs>
