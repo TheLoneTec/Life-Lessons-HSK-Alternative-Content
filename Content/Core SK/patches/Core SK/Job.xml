@@ -854,14 +854,24 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>
           <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <proficiency>Cultivation</proficiency>
+            <progressGain>0.1</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Fertilization</proficiency>
+            <progressGain>0.1</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <progressGain>0.1</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
           <li>
             <proficiency>Fermentation</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <progressGain>0.1</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>
@@ -876,9 +886,24 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>
           <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <proficiency>Cultivation</proficiency>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Fertilization</proficiency>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Fermentation</proficiency>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>

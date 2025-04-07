@@ -170,8 +170,15 @@
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
           <li>Construction</li>
-          <li>MaterialsChemistry</li>
+          <li>Chemistry</li>
         </requirements>
+        <rewards>
+          <li>
+            <proficiency>MaterialsChemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.4</progressMultiplier>
+          </li>
+        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>

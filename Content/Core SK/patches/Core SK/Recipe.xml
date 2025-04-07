@@ -5848,6 +5848,11 @@
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
+          <li>
+            <proficiency>SoilScience</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
         </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.6</unqualifiedWorkSpeedMultiplier>
@@ -8398,7 +8403,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Fermentation</li>
+          <li>CheeseMaking</li>
           <li>SkilledCooking</li>
         </requirements>
         <rewards>
@@ -8408,7 +8413,7 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
-            <proficiency>Fermentation</proficiency>
+            <proficiency>CheeseMaking</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
@@ -8429,7 +8434,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Fermentation</li>
+          <li>CheeseMaking</li>
           <li>SkilledCooking</li>
         </requirements>
         <rewards>
@@ -8439,7 +8444,7 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
-            <proficiency>Fermentation</proficiency>
+            <proficiency>CheeseMaking</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
@@ -8460,7 +8465,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Fermentation</li>
+          <li>CheeseMaking</li>
           <li>SkilledCooking</li>
           <li>Agrochemistry</li>
         </requirements>
@@ -8475,7 +8480,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Fermentation</li>
+          <li>CheeseMaking</li>
           <li>SkilledCooking</li>
         </requirements>
         <rewards>
@@ -8485,7 +8490,7 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
-            <proficiency>Fermentation</proficiency>
+            <proficiency>CheeseMaking</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
@@ -8506,7 +8511,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Fermentation</li>
+          <li>CheeseMaking</li>
           <li>SkilledCooking</li>
         </requirements>
         <rewards>
@@ -8516,7 +8521,7 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
-            <proficiency>Fermentation</proficiency>
+            <proficiency>CheeseMaking</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
@@ -8537,7 +8542,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Fermentation</li>
+          <li>CheeseMaking</li>
           <li>SkilledCooking</li>
           <li>Agrochemistry</li>
         </requirements>
@@ -8578,17 +8583,32 @@
         <rewards>
           <li>
             <proficiency>Biology</proficiency>
-            <progressGain>0</progressGain>
+            <progressGain>0.5</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
           </li>
           <li>
             <proficiency>Fertilization</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
           </li>
           <li>
             <proficiency>SoilScience</proficiency>
-            <progressGain>0</progressGain>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Agrochemistry</proficiency>
+            <progressGain>0.2</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
@@ -8608,16 +8628,36 @@
         <rewards>
           <li>
             <proficiency>Biology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.2</progressMultiplier>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>1</progressMultiplier>
           </li>
           <li>
             <proficiency>Fertilization</proficiency>
-            <progressGain>0</progressGain>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>1.4</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>SoilScience</proficiency>
+            <progressGain>0.5</progressGain>
+            <progressMultiplier>1.4</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Agrochemistry</proficiency>
+            <progressGain>0.2</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
+        <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>

@@ -6,7 +6,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>MedicinalChemistry</li>
-          <li>Ecology</li>
+          <li>Biology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -20,7 +20,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>MedicinalChemistry</li>
-          <li>Ecology</li>
+          <li>Biology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>

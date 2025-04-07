@@ -41,7 +41,6 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
           <li>Cultivation</li>
           <li>EnvironmentalChemistry</li>
           <li>Medical</li>
