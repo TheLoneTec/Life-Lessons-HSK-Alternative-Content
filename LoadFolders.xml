@@ -8,6 +8,7 @@
     <li IfModActive="Ludeon.Rimworld.Biotech">Content/Biotech</li>
     <li IfModActive="PeteTimesSix.ResearchReinvented,PeteTimesSix.ResearchReinvented_steam">Content/Mods/ResearchReinvented</li>
     <li IfModActive="skyarkhangel.HSK,skyarkhangel.HSK_steam">Content/HSK</li>
+    <li IfModActive="skyarkhangel.hsk,skyarkhangel.hsk_steam">Content/Core SK</li>
     <li IfModActive="spoonshortage.ADogSaidAnimalProsthetics,spoonshortage.ADogSaidAnimalProsthetics_steam">Content/Mods/A Dog Said... Animal Prosthetics</li>
     <li IfModActive="ChJees.Androids,ChJees.Androids_steam">Content/Mods/Androids</li>
     <li IfModActive="khamenman.armorracks,khamenman.armorracks_steam">Content/Mods/Armor Racks</li>
