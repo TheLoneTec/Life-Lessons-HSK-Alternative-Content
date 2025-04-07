@@ -1,1 +1,1 @@
-Place the ENITRE folder into your mods folder (Does NOT require Life Lessons from the workshop to be downloaded as it is included). No other steps necessary.
+replace the following folders from the Life Lessons 2.0.x VERSION with the files here. Delete and Replace, do no overwrite. I suggest making a local copy of the workshop life lessons, so updates do not break the changes made.
