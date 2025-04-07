@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <loadFolders>
-  <v1.4>
+  <v1.5>
     <li>/</li>
     <li>1.5</li>
     <li IfModActive="Ludeon.Rimworld.Royalty">Content/Royalty</li>
