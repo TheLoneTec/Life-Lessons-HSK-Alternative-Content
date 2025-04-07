@@ -15,9 +15,9 @@
 					  <li>Construction</li>
 					  <li>Labourer</li>
 					</requirements>
-					<softRequirement>False</softRequirement>
-					<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-					<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+					<hardRequirement>True</hardRequirement>
+					
+					
 				  </li>
 				</value>
 			</li>
@@ -39,9 +39,9 @@
 				  <li>Mineralogy</li>
 				  <li>Artisan</li>
 				</requirements>
-				<softRequirement>False</softRequirement>
-				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+				<hardRequirement>True</hardRequirement>
+				
+				
 			  </li>
 			</value>
 		  </li>
