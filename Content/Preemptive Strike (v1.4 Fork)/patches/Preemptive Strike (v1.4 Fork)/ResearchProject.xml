@@ -8,7 +8,8 @@
           <li>BasicMathematics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -20,7 +21,8 @@
           <li>AdvancedConstruction</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -33,7 +35,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -45,7 +48,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -58,7 +62,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -72,7 +77,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -87,7 +93,8 @@
           <li>Astronomy</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -100,7 +107,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -113,7 +121,8 @@
           <li>AdvancedConstruction</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -128,7 +137,8 @@
           <li>Astronomy</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

@@ -6,7 +6,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <hardRequirement>False</hardRequirement>
-
+        
+        
         <requirements>
           <li>Tailoring</li>
         </requirements>

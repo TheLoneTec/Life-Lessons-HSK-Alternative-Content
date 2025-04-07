@@ -9,7 +9,8 @@
           <li>EnvironmentalChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -22,7 +23,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -36,7 +38,8 @@
           <li>MaterialsChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -49,7 +52,8 @@
           <li>MaterialsChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -62,7 +66,8 @@
           <li>Nuclear</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -74,7 +79,8 @@
           <li>AdvancedFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -86,7 +92,8 @@
           <li>AdvancedFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -100,7 +107,8 @@
           <li>IndustrialChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -112,7 +120,8 @@
           <li>AdvancedFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -124,7 +133,8 @@
           <li>AdvancedFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -139,7 +149,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -155,7 +166,8 @@
           <li>ArmorSmith</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -171,7 +183,8 @@
           <li>ArmorSmith</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -187,7 +200,8 @@
           <li>ArmorSmith</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -202,7 +216,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -218,7 +233,8 @@
           <li>ArmorSmith</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -234,7 +250,8 @@
           <li>ArmorSmith</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -250,7 +267,8 @@
           <li>ArmorSmith</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -262,7 +280,8 @@
           <li>Machining</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -275,7 +294,8 @@
           <li>Nuclear</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -290,7 +310,8 @@
           <li>Nuclear</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -303,7 +324,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -317,7 +339,8 @@
           <li>LaserManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -331,7 +354,8 @@
           <li>LaserManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -345,7 +369,8 @@
           <li>LaserManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -359,7 +384,8 @@
           <li>LaserManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -372,7 +398,8 @@
           <li>LaserManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -386,7 +413,8 @@
           <li>Engineering</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -401,7 +429,8 @@
           <li>LaserManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -417,7 +446,8 @@
           <li>Glassworking</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

@@ -9,7 +9,8 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -23,7 +24,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -37,7 +39,8 @@
           <li>Programming</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -52,7 +55,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -67,7 +71,8 @@
           <li>Programming</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -82,7 +87,8 @@
           <li>BasicScience</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -96,7 +102,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -108,7 +115,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -121,7 +129,8 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -134,7 +143,8 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -147,7 +157,8 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -160,7 +171,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -173,7 +185,8 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -186,7 +199,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -199,7 +213,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -212,7 +227,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -225,7 +241,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -238,7 +255,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -251,7 +269,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -264,7 +283,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -277,7 +297,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -290,7 +311,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -303,7 +325,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -317,7 +340,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -329,7 +353,8 @@
           <li>Labourer</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -341,7 +366,8 @@
           <li>Construction</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -353,7 +379,8 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -365,7 +392,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -377,7 +405,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -389,7 +418,8 @@
           <li>Construction</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -401,7 +431,8 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -413,7 +444,8 @@
           <li>BasicFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -426,7 +458,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -466,7 +499,8 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -478,7 +512,8 @@
           <li>Construction</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -491,7 +526,8 @@
           <li>BasicFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -503,7 +539,8 @@
           <li>Machining</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -515,7 +552,8 @@
           <li>Machining</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

@@ -9,7 +9,8 @@
           <li>Robotics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -22,7 +23,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -35,7 +37,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -48,7 +51,8 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -60,7 +64,8 @@
           <li>Engineering</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -73,7 +78,8 @@
           <li>PlasmaManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -86,7 +92,8 @@
           <li>PlasmaManipulation</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

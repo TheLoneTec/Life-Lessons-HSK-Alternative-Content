@@ -9,7 +9,8 @@
           <li>EnvironmentalChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -22,7 +23,8 @@
           <li>Chemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

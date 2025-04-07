@@ -16,7 +16,8 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -36,7 +37,8 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

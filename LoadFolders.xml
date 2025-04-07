@@ -1,206 +1,168 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <loadFolders>
-  <v1.5>
+  <v1.4>
     <li>/</li>
-    <li>1.5</li>
-    <li>Content/Core</li>
+    <li>1.4</li>
     <li IfModActive="Ludeon.Rimworld.Royalty">Content/Royalty</li>
     <li IfModActive="Ludeon.RimWorld.Ideology">Content/Ideology</li>
     <li IfModActive="Ludeon.Rimworld.Biotech">Content/Biotech</li>
-    <li IfModActive="ludeon.rimworld.anomaly">Content/Anomaly</li>
+    <li IfModActive="PeteTimesSix.ResearchReinvented,PeteTimesSix.ResearchReinvented_steam">Content/Mods/ResearchReinvented</li>
+    <li IfModActive="skyarkhangel.HSK,skyarkhangel.HSK_steam">Content/HSK</li>
+    <li IfModActive="spoonshortage.ADogSaidAnimalProsthetics,spoonshortage.ADogSaidAnimalProsthetics_steam">Content/Mods/A Dog Said... Animal Prosthetics</li>
+    <li IfModActive="ChJees.Androids,ChJees.Androids_steam">Content/Mods/Androids</li>
+    <li IfModActive="khamenman.armorracks,khamenman.armorracks_steam">Content/Mods/Armor Racks</li>
+    <li IfModActive="Fluffy.BackupPower,Fluffy.BackupPower_steam">Content/Mods/BackupPower</li>
+    <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">Content/Mods/Combat Extended</li>
+    <li IfModActive="kikohi.cybernetic,kikohi.cybernetic_steam">Content/Mods/Cybernetic Organism and Neural Network</li>
+    <li IfModActive="Dubwise.DubsBadHygiene,Dubwise.DubsBadHygiene_steam">Content/Mods/Dubs Bad Hygiene</li>
 
-    <li IfModActive="skyarkhangel.hsk,skyarkhangel.hsk_steam">Content/Core SK</li>
-    
-    <li IfModActive="ghostdata.lifelessons,ghostdata.lifelessons_steam">Content/Life Lessons</li>
-    <li IfModActive="PeteTimesSix.ResearchReinvented,PeteTimesSix.ResearchReinvented_steam">Content/ResearchReinvented</li>
-    <li IfModActive="petetimessix.researchreinvented.steppingstones,petetimessix.researchreinvented.steppingstones_steam">Content/Research Reinvented Stepping Stones</li>
-    
-    <li IfModActive="spoonshortage.ADogSaidAnimalProsthetics,spoonshortage.ADogSaidAnimalProsthetics_steam">Content/A Dog Said... Animal Prosthetics</li>
-    <li IfModActive="kikohi.cybernetic,kikohi.cybernetic_steam">Content/Cybernetic Organism and Neural Network</li>
-    <li IfModActive="Dubwise.DubsBadHygiene,Dubwise.DubsBadHygiene_steam">Content/Dubs Bad Hygiene</li>
-    
-    <li IfModActive="Dubwise.Rimatomics,Dubwise.Rimatomics_steam">Content/Dubs Rimatomics</li>
-    <li IfModActive="Dubwise.Rimefeller,Dubwise.Rimefeller_steam">Content/Rimefeller</li>
-    
-    <li IfModActive="nephlite.carryalls,nephlite.carryalls_steam">Content/Carryalls  Intercontinental Transport</li>
-    <li IfModActive="DanielWedemeyer.GeneRipper,DanielWedemeyer.GeneRipper_steam">Content/Gene Ripper</li>
-    <li IfModActive="smartkar.enhancedvatlearning,smartkar.enhancedvatlearning_steam">Content/Enhanced Vat Learning</li>
-    
-    <li IfModActive="hlx.ultratechalteredcarbon,hlx.ultratechalteredcarbon_steam">Content/Altered Carbon Ultratech Unleashed</li>
+    <li IfModActive="ViTech.MedievalOverhaul,ViTech.MedievalOverhaul_steam">Content/Mods/HMC Viles PreIndustrial</li>
+	<li IfModActive="thewindows.sk.jptrrs.owlchemist.vile">Content/Mods/The Windows</li>
+	<li IfModActive="skyarkhangel.FencesAndFloorsVileUpdate">Content/Mods/VileRequisite-Fences And Floors by HSK</li>
+	<li IfModActive="vitech.coretexturereplacement">Content/Mods/Core Texture Replacement</li>
+	<li IfModActive="ViTech.HCSKamusebouche">Content/Mods/Vile's Amuse Bouche</li>
+	<li IfModActive="xenomacabre.HCSKwallsandfloorsreduxeno">Content/Mods/Vile's Hardcore Renovations</li>
+	<li IfModActive="vitech.leathertanning">Content/Mods/Vile's Hell Bent for Leather Tanning</li>
+	<li IfModActive="vitech.materialsscience">Content/Mods/Vile's Materials Science</li>
+	<li IfModActive="vitech.metallurgy">Content/Mods/Vile's Metallurgy</li>
+	<li IfModActive="ViTech.HCSKWood">Content/Mods/Vile's Wood You Please</li>
+	<li IfModActive="Haplo.Miscellaneous.Robots.HSK">Content/Mods/Misc. Robots</li>
+	<li IfModActive="skyarkhangel.asarirace">Content/Mods/AsariRace</li>
+	<li IfModActive="Solaris.RatkinRaceMod">Content/Mods/NewRatkinPlus</li>
+	<li IfModActive="skyarkhangel.skynet">Content/Mods/Skynet</li>
+	<li IfModActive="arpomo6.hmc.project">Content/Mods/HSK more content</li>
+	<li IfModActive="JPT.SoftWarmBedsHSK">Content/Mods/[JPT] Soft Warm Beds HSK</li>
+	<li IfModActive="RWNodeTree.ModularizationVanillaWeapon">Content/Mods/Modularization Vanilla Weapon SK</li>
+	<li IfModActive="XxNelsonxX.Parabellum">Content/Mods/Parabellum</li>
+	<li IfModActive="Mlie.MedicalSupplements">Content/Mods/Medical Supplements (Continued)</li>
+	<li IfModActive="spdskatr.projectrimfactory.industrialrollers">Content/Mods/Industrial Rollers - Rimfactory Edition</li>
+	<li IfModActive="Ogliss.Mythos.DiseasesOverhauled">Content/Mods/Diseases Overhauled</li>
+	<li IfModActive="kikohi.jewelry">Content/Mods/Jewelry</li>
+	<li IfModActive="Knight.MedicalIVs">Content/Mods/Medical IVs</li>
+	<li IfModActive="zacharyfoster.minerals">Content/Mods/Minerals</li>
+	<li IfModActive="zacharyfoster.mineralscraft">Content/Mods/MineralsCraft_SK</li>
+	<li IfModActive="rooboid.paintings.ex">Content/Mods/Roo's Painting Expansion</li>
+	<li IfModActive="ratys.rtfuse">Content/Mods/RT_Fuse_SK</li>
+	<li IfModActive="ratys.rtsolarflareshield">Content/Mods/RT_SolarFlareShield_SK</li>
+	<li IfModActive="JangoDsoul.SimpleStorage">Content/Mods/[JDS] Simple Storage HSK</li>
+	<li IfModActive="TheLoneTec.TSAP">Content/Mods/Tec's Assorted Patches</li>
+	<li IfModActive="VanillaExpanded.VFECore">Content/Mods/Vanilla Furniture Expanded SK</li>
+	<li IfModActive="vanillaexpanded.vbookse">Content/Mods/Vanilla Books Expanded</li>
+	<li IfModActive="Mlie.VanillaBooksExpandedExpanded">Content/Mods/Vanilla Books Expanded Expanded (Continued)</li>
+	<li IfModActive="theeyeofbrows.fluffybreakdowns,Fluffy.FluffyBreakdowns">Content/Mods/Fluffy Breakdowns (1.4 Update)</li>
+	<li IfModActive="Mlie.MusicalInstruments">Content/Mods/Musical Instruments (Continued)</li>
+	<li IfModActive="LtBob.PreemptiveStrike.Rimworld">Content/Mods/Preemptive Strike (v1.4 Fork)</li>
+	<li IfModActive="joeyjoejoeshabidoo.Rimputers">Content/Mods/Rimputers</li>
+	<li IfModActive="Meltup.NopowerCommsSimplified">Content/Mods/Nopower Comms Simplified</li>
+	<li IfModActive="Aoba.Tent">Content/Mods/Camping Tent</li>
+	<li IfModActive="VanillaExpanded.VPsycastsE">Content/Mods/Vanilla Psycasts Expanded</li>
+	<li IfModActive="Owlchemist.CeilingUtilities">Content/Mods/Simple Utilities Ceiling HSK</li>
+	<li IfModActive="Krkr.rule56">Content/Mods/CAI 5000 - Advanced AI + Fog Of War</li>
+	<li IfModActive="nephlite.orbitaltradecolumn">Content/Mods/Utility Columns SK</li>
+	<li IfModActive="ComigoGames.Water.Bridges">Content/Mods/Comigo's Bridges and Platforms</li>
+	<li IfModActive="Shinzy.Bridgello">Content/Mods/Bridgello</li>
+	<li IfModActive="Owlchemist.AnimalGear.Equipment">Content/Mods/Animal Equipment</li>
+	<li IfModActive="Mlie.SomeThingsFloat">Content/Mods/Some Things Float</li>
+	<li IfModActive="zed.0xff.LoftBed">Content/Mods/Loft Bed</li>
+	<li IfModActive="Supes.PowerLogic.Core">Content/Mods/Power Logic</li>
+	<li IfModActive="Mlie.RoadsOfTheRim">Content/Mods/Roads of the Rim (Continued)</li>
+	<li IfModActive="LimeTreeSnake.Tenants">Content/Mods/[LTS]Tenants</li>
+	<li IfModActive="SomewhereOutInSpace.Spaceports">Content/Mods/Rimsential - Spaceports</li>
+	<li IfModActive="Vesper.HologramsAndProjectors">Content/Mods/Holograms And Projectors</li>
+	<li IfModActive="Orion.CashRegister">Content/Mods/Cash Register</li>
+	<li IfModActive="hlx.UltratechAlteredCarbon">Content/Mods/Altered Carbon Ultratech Unleashed</li>
+	<li IfModActive="Mlie.DThermodynamicsHotMeals">Content/Mods/[D] Thermodynamics - Hot Meals (Continued)</li>
+	<li IfModActive="sindre0830.rimnauts2">Content/Mods/RimNauts 2</li>
+	<li IfModActive="telardo.Fireworks">Content/Mods/Fireworks</li>
+	<li IfModActive="LimeTreeSnake.Furnishing">Content/Mods/[LTS]Furnishing</li>
+	<li IfModActive="tammybee.statueofcolonist">Content/Mods/Statue of Colonist</li>
+	<li IfModActive="notfood.SeedsPlease">Content/Mods/Seeds Please</li>
+	
+    <li IfModActive="ArpoMo6.HMC.USSRWP,ArpoMo6.HMC.USSRWP_steam">Content/Mods/HMC Weapon Pack</li>
+    <li IfModActive="Dubwise.Rimatomics,Dubwise.Rimatomics_steam">Content/Mods/Rimatomics</li>
+    <li IfModActive="Dubwise.Rimefeller,Dubwise.Rimefeller_steam">Content/Mods/Rimefeller</li>
+    <li IfModActive="Rooboid.Paintings.Ex,Rooboid.Paintings.Ex_steam">Content/Mods/Roo's Painting Expansion</li>
+    <li IfModActive="ratys.rtfuse,ratys.rtfuse_steam">Content/Mods/RT_Fuse</li>
+    <li IfModActive="ratys.rtsolarflareshield,ratys.rtsolarflareshield_steam">Content/Mods/RT_SolarFlareShield</li>
+    <li IfModActive="Nephlite.Carryalls,Nephlite.Carryalls_steam">Content/Mods/Carryalls</li>
+    <li IfModActive="DanielWedemeyer.GeneRipper,DanielWedemeyer.GeneRipper_steam">Content/Mods/Gene Ripper</li>
+    <li IfModActive="smartkar.enhancedvatlearning,smartkar.enhancedvatlearning_steam">Content/Mods/Enhanced Vat Learning</li>
+    <li IfModActive="Killathon.AndroidTiersReforged,Killathon.AndroidTiersReforged_steam">Content/Mods/Android Tiers Reforged</li>
 
-    <li IfModActive="vanillaexpanded.vappe,vanillaexpanded.vappe_steam">Content/Vanilla Apparel Expanded</li>
-    <li IfModActive="vanillaexpanded.varme,vanillaexpanded.varme_steam">Content/Vanilla Armour Expanded</li>
-    <li IfModActive="vanillaexpanded.vfea,vanillaexpanded.vfea_steam">Content/Vanilla Factions Expanded - Ancients</li>
-    <li IfModActive="vanillaexpanded.vbookse,vanillaexpanded.vbookse_steam">Content/Vanilla Books Expanded</li>
-    <li IfModActive="vanillaexpanded.vbrewe,vanillaexpanded.vbrewe_steam">Content/Vanilla Brewing Expanded</li>
-    <li IfModActive="vanillaexpanded.vcooke,vanillaexpanded.vcooke_steam">Content/Vanilla Cooking Expanded</li>
-    <li IfModActive="vanillaexpanded.vcookestews,vanillaexpanded.vcookestews_steam">Content/Vanilla Cooking Expanded - Stews</li>
-    <li IfModActive="vanillaexpanded.vee,vanillaexpanded.vee_steam">Content/Vanilla Events Expanded</li>
-    <li IfModActive="oskarpotocki.vfe.classical,oskarpotocki.vfe.classical_steam">Content/Vanilla Factions Expanded - Classical</li>
-    <li IfModActive="oskarpotocki.vfe.insectoid,oskarpotocki.vfe.insectoid_steam">Content/Vanilla Factions Expanded - Insectoids</li>
-    <li IfModActive="oskarpotocki.vanillafactionsexpanded.medievalmodule,oskarpotocki.vanillafactionsexpanded.medievalmodule_steam">Content/Vanilla Factions Expanded - Medieval</li>
-    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule,oskarpotocki.vanillafactionsexpanded.settlersmodule_steam">Content/Vanilla Factions Expanded - Settlers</li>
-    <li IfModActive="vanillaexpanded.vfecore,vanillaexpanded.vfecore_steam">Content/Vanilla Furniture Expanded</li>
-    <li IfModActive="vanillaexpanded.vfearchitect,vanillaexpanded.vfearchitect_steam">Content/Vanilla Furniture Expanded - Architect</li>
-    <li IfModActive="vanillaexpanded.vfeart,vanillaexpanded.vfeart_steam">Content/Vanilla Furniture Expanded - Art</li>
-    <li IfModActive="vanillaexpanded.vfefarming,vanillaexpanded.vfefarming_steam">Content/Vanilla Furniture Expanded - Farming</li>
-    <li IfModActive="vanillaexpanded.vfemedical,vanillaexpanded.vfemedical_steam">Content/Vanilla Furniture Expanded - Medical Module</li>
-    <li IfModActive="vanillaexpanded.vfepower,vanillaexpanded.vfepower_steam">Content/Vanilla Furniture Expanded - Power</li>
-    <li IfModActive="vanillaexpanded.vfeproduction,vanillaexpanded.vfeproduction_steam">Content/Vanilla Furniture Expanded - Production</li>
-    <li IfModActive="vanillaexpanded.vfesecurity,vanillaexpanded.vfesecurity_steam">Content/Vanilla Furniture Expanded - Security</li>
-    <li IfModActive="vanillaexpanded.vfespacer,vanillaexpanded.vfespacer_steam">Content/Vanilla Furniture Expanded - Spacer Module</li>
-    <li IfModActive="vanillaexpanded.vhe,vanillaexpanded.vhe_steam">Content/Vanilla Hair Expanded</li>
-    <li IfModActive="vanillaexpanded.helixiengas,vanillaexpanded.helixiengas_steam">Content/Vanilla Helixien Gas Expanded</li>
-    <li IfModActive="cixwow.helixienboiler,cixwow.helixienboiler_steam">Content/Helixien Gas Boiler</li>
-    <li IfModActive="cixwow.helixienbrazier,cixwow.helixienbrazier_steam">Content/Helixien Gas Brazier</li>
-    <li IfModActive="cixwow.helixiengasproduction,cixwow.helixiengasproduction_steam">Content/Helixien Gas Production</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.core,oskarpotocki.vanillafactionsexpanded.core_steam">Content/Mods/Vanilla Expanded Framework</li>
+    <li IfModActive="vanillaexpanded.vappe,vanillaexpanded.vappe_steam">Content/Mods/Vanilla Apparel Expanded</li>
+    <li IfModActive="vanillaexpanded.varme,vanillaexpanded.varme_steam">Content/Mods/Vanilla Armour Expanded</li>
+    <li IfModActive="vanillaexpanded.vfea,vanillaexpanded.vfea_steam">Content/Mods/Vanilla Factions Expanded - Ancients</li>
+    <li IfModActive="vanillaexpanded.vbrewe,vanillaexpanded.vbrewe_steam">Content/Mods/Vanilla Brewing Expanded</li>
+    <li IfModActive="vanillaexpanded.vcooke,vanillaexpanded.vcooke_steam">Content/Mods/Vanilla Cooking Expanded</li>
+    <li IfModActive="vanillaexpanded.vcookestews,vanillaexpanded.vcookestews_steam">Content/Mods/Vanilla Cooking Expanded - Stews</li>
+    <li IfModActive="vanillaexpanded.vee,vanillaexpanded.vee_steam">Content/Mods/Vanilla Events Expanded</li>
+    <li IfModActive="oskarpotocki.vfe.classical,oskarpotocki.vfe.classical_steam">Content/Mods/Vanilla Factions Expanded - Classical</li>
+    <li IfModActive="oskarpotocki.vfe.insectoid,oskarpotocki.vfe.insectoid_steam">Content/Mods/Vanilla Factions Expanded - Insectoids</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.medievalmodule,oskarpotocki.vanillafactionsexpanded.medievalmodule_steam">Content/Mods/Vanilla Factions Expanded - Medieval</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule,oskarpotocki.vanillafactionsexpanded.settlersmodule_steam">Content/Mods/Vanilla Factions Expanded - Settlers</li>
+    <li IfModActive="vanillaexpanded.vfecore,vanillaexpanded.vfecore_steam">Content/Mods/Vanilla Furniture Expanded</li>
+    <li IfModActive="vanillaexpanded.vfearchitect,vanillaexpanded.vfearchitect_steam">Content/Mods/Vanilla Furniture Expanded - Architect</li>
+    <li IfModActive="vanillaexpanded.vfeart,vanillaexpanded.vfeart_steam">Content/Mods/Vanilla Furniture Expanded - Art</li>
+    <li IfModActive="vanillaexpanded.vfefarming,vanillaexpanded.vfefarming_steam">Content/Mods/Vanilla Furniture Expanded - Farming</li>
+    <li IfModActive="vanillaexpanded.vfemedical,vanillaexpanded.vfemedical_steam">Content/Mods/Vanilla Furniture Expanded - Medical Module</li>
+    <li IfModActive="vanillaexpanded.vfepower,vanillaexpanded.vfepower_steam">Content/Mods/Vanilla Furniture Expanded - Power</li>
+    <li IfModActive="vanillaexpanded.vfeproduction,vanillaexpanded.vfeproduction_steam">Content/Mods/Vanilla Furniture Expanded - Production</li>
+    <li IfModActive="vanillaexpanded.vfepropsanddecor,vanillaexpanded.vfepropsanddecor_steam">Content/Mods/Vanilla Furniture Expanded - Props and Decor</li>
+    <li IfModActive="vanillaexpanded.vfesecurity,vanillaexpanded.vfesecurity_steam">Content/Mods/Vanilla Furniture Expanded - Security</li>
+    <li IfModActive="vanillaexpanded.vfespacer,vanillaexpanded.vfespacer_steam">Content/Mods/Vanilla Furniture Expanded - Spacer Module</li>
+    <li IfModActive="vanillaexpanded.helixiengas,vanillaexpanded.helixiengas_steam">Content/Mods/Vanilla Helixien Gas Expanded</li>
+    <li IfModActive="vanillaexpanded.vwe,vanillaexpanded.vwe_steam">Content/Mods/Vanilla Weapons Expanded</li>
+    <li IfModActive="vanillaexpanded.vwec,vanillaexpanded.vwec_steam">Content/Mods/Vanilla Weapons Expanded - Coilguns</li>
+    <li IfModActive="vanillaexpanded.vweg,vanillaexpanded.vweg_steam">Content/Mods/Vanilla Weapons Expanded - Grenades</li>
+    <li IfModActive="vanillaexpanded.vwehw,vanillaexpanded.vwehw_steam">Content/Mods/Vanilla Weapons Expanded - Heavy Weapons</li>
+    <li IfModActive="vanillaexpanded.vwel,vanillaexpanded.vwel_steam">Content/Mods/Vanilla Weapons Expanded - Laser</li>
+    <li IfModActive="vanillaexpanded.vwems,vanillaexpanded.vwems_steam">Content/Mods/Vanilla Weapons Expanded - Makeshift</li>
+    <li IfModActive="vanillaexpanded.vwenl,vanillaexpanded.vwenl_steam">Content/Mods/Vanilla Weapons Expanded - Non-Lethal</li>
+    <li IfModActive="vanillaexpanded.vweq,vanillaexpanded.vweq_steam">Content/Mods/Vanilla Weapons Expanded - Quickdraw</li>
+    <li IfModActive="vanillaexpanded.vweft,vanillaexpanded.vweft_steam">Content/Mods/Vanilla Weapons Expanded - Frontier</li>
+    <li IfModActive="vanillaexpanded.vwetb,vanillaexpanded.vwetb_steam">Content/Mods/Vanilla Weapons Expanded - Tribal</li>
+    <li IfModActive="oskarpotocki.vfe.vikings,oskarpotocki.vfe.vikings_steam">Content/Mods/Vanilla Factions Expanded - Vikings</li>
+    <li IfModActive="vanillaexpanded.vchemfuele,vanillaexpanded.vchemfuele_steam">Content/Mods/Vanilla Chemfuel Expanded</li>
+    <li IfModActive="vanillaexpanded.vgeneticse,vanillaexpanded.vgeneticse_steam">Content/Mods/Vanilla Genetics Expanded</li>
+    <li IfModActive="vanillaexpanded.vbrewecandt,vanillaexpanded.vbrewecandt_steam">Content/Mods/Vanilla Brewing Expanded - Coffees and Teas</li>
+    <li IfModActive="vanillaexpanded.vcookesushi,vanillaexpanded.vcookesushi_steam">Content/Mods/Vanilla Cooking Expanded - Sushi</li>
+    <li IfModActive="oskarpotocki.vfe.mechanoid,oskarpotocki.vfe.mechanoid_steam">Content/Mods/Vanilla Factions Expanded - Mechanoids</li>
+    <li IfModActive="vanillaexpanded.vnutriente,vanillaexpanded.vnutriente_steam">Content/Mods/Vanilla Nutrient Paste Expanded</li>
+    <li IfModActive="vanillaexpanded.vplantsemore,vanillaexpanded.vplantsemore_steam">Content/Mods/Vanilla Plants Expanded - More Plants</li>
 
-    <li IfModActive="vanillaexpanded.vpsycastse,vanillaexpanded.vpsycastse_steam">Content/Vanilla Psycasts Expanded</li>
-    <li IfModActive="vanillaexpanded.vwe,vanillaexpanded.vwe_steam">Content/Vanilla Weapons Expanded</li>
-    <li IfModActive="vanillaexpanded.vwec,vanillaexpanded.vwec_steam">Content/Vanilla Weapons Expanded - Coilguns</li>
-    <li IfModActive="vanillaexpanded.vwehw,vanillaexpanded.vwehw_steam">Content/Vanilla Weapons Expanded - Heavy Weapons</li>
-    <li IfModActive="vanillaexpanded.vwel,vanillaexpanded.vwel_steam">Content/Vanilla Weapons Expanded - Laser</li>
-    <li IfModActive="vanillaexpanded.vwems,vanillaexpanded.vwems_steam">Content/Vanilla Weapons Expanded - Makeshift</li>
-    <li IfModActive="vanillaexpanded.vwenl,vanillaexpanded.vwenl_steam">Content/Vanilla Weapons Expanded - Non-Lethal</li>
-    <li IfModActive="vanillaexpanded.vweq,vanillaexpanded.vweq_steam">Content/Vanilla Weapons Expanded - Quickdraw</li>
-    <li IfModActive="vanillaexpanded.vweft,vanillaexpanded.vweft_steam">Content/Vanilla Weapons Expanded - Frontier</li>
-    <li IfModActive="vanillaexpanded.vwetb,vanillaexpanded.vwetb_steam">Content/Vanilla Weapons Expanded - Tribal</li>
-    <li IfModActive="oskarpotocki.vfe.pirates,oskarpotocki.vfe.pirates_steam">Content/Vanilla Factions Expanded - Pirates</li>
-    <li IfModActive="oskarpotocki.vfe.vikings,oskarpotocki.vfe.vikings_steam">Content/Vanilla Factions Expanded - Vikings</li>
-    <li IfModActive="vanillaexpanded.vchemfuele,vanillaexpanded.vchemfuele_steam">Content/Vanilla Chemfuel Expanded</li>
-    <li IfModActive="vanillaexpanded.vgeneticse,vanillaexpanded.vgeneticse_steam">Content/Vanilla Genetics Expanded</li>
-    <li IfModActive="vanillaexpanded.vbrewecandt,vanillaexpanded.vbrewecandt_steam">Content/Vanilla Brewing Expanded - Coffees and Teas</li>
-    <li IfModActive="vanillaexpanded.vcookesushi,vanillaexpanded.vcookesushi_steam">Content/Vanilla Cooking Expanded - Sushi</li>
-    <li IfModActive="oskarpotocki.vfe.mechanoid,oskarpotocki.vfe.mechanoid_steam">Content/Vanilla Factions Expanded - Mechanoids</li>
-    <li IfModActive="vanillaexpanded.vaeaccessories,vanillaexpanded.vaeaccessories_steam">Content/Vanilla Apparel Expanded — Accessories</li>
-    <li IfModActive="vanillaexpanded.viehar,vanillaexpanded.viehar_steam">Content/Vanilla Ideology Expanded - Hats and Rags</li>
+    <li IfModActive="aelanna.heruan,aelanna.heruan_steam">Content/Mods/Heruan Race</li>
+    <li IfModActive="fs.reviarace,fs.reviarace_steam">Content/Mods/Revia Race</li>
+    <li IfModActive="ssulunge.kijinrace2,ssulunge.kijinrace2_steam">Content/Mods/Kijin Race 2.0</li>
+    <li IfModActive="sutsutman.minchothemintchocoslimeharver,sutsutman.minchothemintchocoslimeharver_steam">Content/Mods/Mincho, The Mint Choco Slime ~ HAR ver.</li>
+    <li IfModActive="vamv.maruracemod,vamv.maruracemod_steam">Content/Mods/Maru Race</li>
+    <li IfModActive="rooandgloomy.yuranracemod,rooandgloomy.yuranracemod_steam">Content/Mods/Yuran race</li>
 
+    <li IfModActive="aelanna.eccentrictech.core,aelanna.eccentrictech.core_steam">Content/Mods/Eccentric Tech - Core</li>
+    <li IfModActive="aelanna.eccentrictech.advancedshields,aelanna.eccentrictech.advancedshields_steam">Content/Mods/Eccentric Tech - Advanced Shields</li>
+    <li IfModActive="aelanna.eccentrictech.fusionpower,aelanna.eccentrictech.fusionpower_steam">Content/Mods/Eccentric Tech - Fusion Power</li>
+    <li IfModActive="rin.ratkinapparel,rin.ratkinapparel_steam">Content/Mods/Ratkin Apparel+</li>
+    <li IfModActive="spdskatr.projectrimfactory,spdskatr.projectrimfactory_steam">Content/Mods/Project RimFactory Revived</li>
+    <li IfModActive="vat.epoeforked,vat.epoeforked_steam">Content/Mods/Expanded Prosthetics and Organ Engineering - Forked</li>
+    <li IfModActive="vat.epoeforkedroyalty,vat.epoeforkedroyalty_steam">Content/Mods/EPOE-Forked Royalty DLC expansion</li>
+
+    <li IfModActive="ceteam.combatextendedguns,ceteam.combatextendedguns_steam">Content/Mods/Combat Extended Guns</li>
+    <li IfModActive="argon.expandedmaterials.xmas,argon.expandedmaterials.xmas_steam">Content/Mods/Expanded Materials - Christmas</li>
+    <li IfModActive="argon.vmeu,argon.vmeu_steam">Content/Mods/Expanded Materials - Metals</li>
+    <li IfModActive="argon.expandedmaterials.stones,argon.expandedmaterials.stones_steam">Content/Mods/Expanded Materials - Stones and Mortars</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.medievalmodule,oskarpotocki.vanillafactionsexpanded.medievalmodule_steam">Content/Mods/Vanilla Factions Expanded - Medieval</li>
+    <li IfModActive="scherub.stonecuttingextended,scherub.stonecuttingextended_steam">Content/Mods/Stonecutting Extended</li>
+    <li IfModActive="farmradish.nyaron,farmradish.nyaron_steam">Content/Mods/Nyaron race</li>
+    <li IfModActive="pyro.tieredmechs,pyro.tieredmechs_steam">Content/Mods/Tiered Mechs</li>
+    <li IfModActive="dankpyon.medieval.overhaul,dankpyon.medieval.overhaul_steam">Content/Mods/Medieval Overhaul</li>
+    <li IfModActive="arisher.medieval.tailor,arisher.medieval.tailor_steam">Content/Mods/Medievel Tailor</li>
+    <li IfModActive="accurex.medievalempireoverhaul,accurex.medievalempireoverhaul_steam">Content/Mods/Medieval Overhaul Royalty</li>
+    <li IfModActive="aquiles.expandwoodwork,aquiles.expandwoodwork_steam">Content/Mods/Expanded Woodworking</li>
+    <li IfModActive="shinzy.apparello,shinzy.apparello_steam">Content/Mods/Apparello 2</li>
+    <li IfModActive="ceteam.combatextendedarmory,ceteam.combatextendedarmory_steam">Content/Mods/Combat Extended Armory</li>
+    <li IfModActive="ceteam.combatextendedattachments,ceteam.combatextendedattachments_steam">Content/Mods/Combat Extended Attachments</li>
+    <li IfModActive="ceteam.combatextendedmelee,ceteam.combatextendedmelee_steam">Content/Mods/Combat Extended Melee</li>
+    <li IfModActive="ceteam.combatextendedarmors,ceteam.combatextendedarmors_steam">Content/Mods/Combat Extended Armors</li>
     
-
-    <li IfModActive="aelanna.eccentrictech.core,aelanna.eccentrictech.core_steam">Content/Eccentric Tech - Core</li>
-    <li IfModActive="aelanna.eccentrictech.advancedshields,aelanna.eccentrictech.advancedshields_steam">Content/Eccentric Tech - Advanced Shields</li>
-    <li IfModActive="aelanna.eccentrictech.fusionpower,aelanna.eccentrictech.fusionpower_steam">Content/Eccentric Tech - Fusion Power</li>
-    <li IfModActive="rin.ratkinapparel,rin.ratkinapparel_steam">Content/Ratkin Apparel+</li>
-    <li IfModActive="spdskatr.projectrimfactory,spdskatr.projectrimfactory_steam">Content/Project RimFactory Revived</li>
-    <li IfModActive="vat.epoeforked,vat.epoeforked_steam">Content/Expanded Prosthetics and Organ Engineering - Forked</li>
-    <li IfModActive="vat.epoeforkedroyalty,vat.epoeforkedroyalty_steam">Content/EPOE-Forked Royalty DLC expansion</li>
-
-    <li IfModActive="ceteam.combatextendedguns,ceteam.combatextendedguns_steam">Content/Combat Extended Guns</li>
-    <li IfModActive="argon.expandedmaterials.xmas,argon.expandedmaterials.xmas_steam">Content/Expanded Materials - Christmas</li>
-    <li IfModActive="argon.vmeu,argon.vmeu_steam">Content/Expanded Materials - Metals</li>
-    <li IfModActive="argon.expandedmaterials.stones,argon.expandedmaterials.stones_steam">Content/Expanded Materials - Stones and Mortars</li>
-    <li IfModActive="argon.vmeup,argon.vmeup_steam">Content/Expanded Materials - Plastics</li>
-    <li IfModActive="oskarpotocki.vanillafactionsexpanded.medievalmodule,oskarpotocki.vanillafactionsexpanded.medievalmodule_steam">Content/Vanilla Factions Expanded - Medieval</li>
-    <li IfModActive="scherub.stonecuttingextended,scherub.stonecuttingextended_steam">Content/Stonecutting Extended</li>
-    
-    <li IfModActive="dankpyon.medieval.overhaul,dankpyon.medieval.overhaul_steam">Content/Medieval Overhaul</li>
-    <li IfModActive="arisher.medieval.tailor,arisher.medieval.tailor_steam">Content/Medievel Tailor</li>
-    <li IfModActive="accurex.medievalempireoverhaul,accurex.medievalempireoverhaul_steam">Content/Medieval Overhaul Royalty</li>
-    <li IfModActive="aquiles.expandwoodwork,aquiles.expandwoodwork_steam">Content/Expanded Woodworking</li>
-    
-    <li IfModActive="ceteam.combatextendedarmory,ceteam.combatextendedarmory_steam">Content/Combat Extended Armory</li>
-    <li IfModActive="ceteam.combatextendedattachments,ceteam.combatextendedattachments_steam">Content/Combat Extended Attachments</li>
-    <li IfModActive="ceteam.combatextendedmelee,ceteam.combatextendedmelee_steam">Content/Combat Extended Melee</li>
-    <li IfModActive="ceteam.combatextendedarmors,ceteam.combatextendedarmors_steam">Content/Combat Extended Armors</li>
-
-    <li IfModActive="chewyyui.vfebackstories,chewyyui.vfebackstories_steam">Content/Backstories for Vanilla Expanded Factions</li>
-    <li IfModActive="shenanigans.tribalbackstories1.4,shenanigans.tribalbackstories1.4_steam">Content/Tribal Backstories</li>
-    <li IfModActive="dimonsever000.backstoriesplus.specific,dimonsever000.backstoriesplus.specific_steam">Content/Backstories+</li>
-    <li IfModActive="vanillaexpanded.vanillabackstoriesexpanded,vanillaexpanded.vanillabackstoriesexpanded_steam">Content/Vanilla Backstories Expanded</li>
-
-    <li IfModActive="shavius.classical.flavour,shavius.classical.flavour_steam">Content/Shavius's Classical Flavour Pack</li>
-    <li IfModActive="shavius.medieval.flavour,shavius.medieval.flavour_steam">Content/Shavius's Medieval Flavour Pack</li>
-    <li IfModActive="mortstrudel.corporationfaction,mortstrudel.corporationfaction_steam">Content/The Corporation - Mort's Factions</li>
-    <li IfModActive="rimfridge.kv.rw_steam,rimfridge.kv.rw_steam_steam">Content/RimFridge Updated</li>
-    <li IfModActive="lwm.deepstorage_steam,lwm.deepstorage_steam_steam">Content/LWM's Deep Storage</li>
-    <li IfModActive="jangodsoul.simplestorage,jangodsoul.simplestorage_steam">Content/[JDS] Simple Storage</li>
-    <li IfModActive="jangodsoul.simplestorage.ref,jangodsoul.simplestorage.ref_steam">Content/[JDS] Simple Storage - Refrigeration</li>
-    <li IfModActive="nephlite.orbitaltradecolumn,nephlite.orbitaltradecolumn_steam">Content/Utility Columns</li>
-    <li IfModActive="sarg.alphagenes,sarg.alphagenes_steam">Content/Alpha Genes</li>
-
-    <li IfModActive="zylle.childboodbackstories_steam,zylle.childboodbackstories_steam_steam">Content/Childhood Backstories</li>
-    <li IfModActive="shenanigans.medievalbackstories,shenanigans.medievalbackstories_steam">Content/Medieval Backstories</li>
-    <li IfModActive="solaris.ratkinracemod,solaris.ratkinracemod_steam">Content/NewRatkinPlus</li>
-    <li IfModActive="gomi.simplestairs,gomi.simplestairs_steam">Content/SimpleStairs</li>
-    <li IfModActive="orion.hospitality,orion.hospitality_steam">Content/Hospitality</li>
-    <li IfModActive="haplo.miscellaneous.robots,haplo.miscellaneous.robots_steam">Content/Misc. Robots</li>
-
-    <li IfModActive="limetreesnake.ammunition,limetreesnake.ammunition_steam">Content/[LTS]Ammunition - Framework</li>
-    <li IfModActive="limetreesnake.furnishing,limetreesnake.furnishing_steam">Content/[LTS]Furnishing</li>
-    <li IfModActive="limetreesnake.defence,limetreesnake.defence_steam">Content/[LTS]Defense</li>
-    <li IfModActive="limetreesnake.emplacements,limetreesnake.emplacements_steam">Content/[LTS]Emplacements</li>
-    <li IfModActive="limetreesnake.maintenance,limetreesnake.maintenance_steam">Content/[LTS]Maintenance</li>
-    <li IfModActive="limetreesnake.military,limetreesnake.military_steam">Content/[LTS]Military</li>
-    <li IfModActive="limetreesnake.tenants,limetreesnake.tenants_steam">Content/[LTS]Tenants</li>
-    <li IfModActive="resplice.xotr.core,resplice.xotr.core_steam">Content/ReSplice Core</li>
-    <li IfModActive="resplice.xotr.charmweavers,resplice.xotr.charmweavers_steam">Content/ReSplice Charmweavers</li>
-    <li IfModActive="ushanka.luciferiumexpansion,ushanka.luciferiumexpansion_steam">Content/Ushankas Luciferium Expansion</li>
-    <li IfModActive="ushanka.biologicalwarfare,ushanka.biologicalwarfare_steam">Content/Ushankas Biological Warfare</li>
-    <li IfModActive="mallow.gloves,mallow.gloves_steam">Content/Mallow's Gloves (Re-Upload)</li>
-    <li IfModActive="mallow.shoes.socks,mallow.shoes.socks_steam">Content/Mallow's Shoes And Socks (Re-Upload)</li>
-    <li IfModActive="river.tribal.mittens,river.tribal.mittens_steam">Content/River's Tribal Mittens</li>
-    <li IfModActive="river.tribal.shoes,river.tribal.shoes_steam">Content/River's Tribal Shoes</li>
-    <li IfModActive="reel.expanded.storage,reel.expanded.storage_steam">Content/Reel's Expanded Storage</li>
-    <li IfModActive="flashpoint55.humanpowergeneratormod,flashpoint55.humanpowergeneratormod_steam">Content/Human Power Generator Mod</li>
-    <li IfModActive="mlie.jptsoftwarmbeds,mlie.jptsoftwarmbeds_steam">Content/[JPT] Soft Warm Beds (Continued)</li>
-    <li IfModActive="wemd.reinforceddoors,wemd.reinforceddoors_steam">Content/[WD] Reinforced Doors</li>
-    <li IfModActive="sickboywi.vault.onepointone,sickboywi.vault.onepointone_steam">Content/Vault Walls and Doors</li>
-    <li IfModActive="heraldarms.aad,heraldarms.aad_steam">Content/Iconian Tech</li>
-
-    <!-- Races -->
-    <li IfModActive="foggymorning.starwarsraces,foggymorning.starwarsraces_steam">Content/Star Wars Races</li>
-    <li IfModActive="jackaufenhand.sergals,jackaufenhand.sergals_steam">Content/Sergals Gnolls Lions and Frogs</li>
-    <li IfModActive="ancot.kiirorace,ancot.kiirorace_steam">Content/Kiiro Race</li>
-    <li IfModActive="zal.folia,zal.folia_steam">Content/Folia Race (Continued)</li>
-    <li IfModActive="mlie.forgelingsrace,mlie.forgelingsrace_steam">Content/Forgelings race (Continued)</li>
-    <li IfModActive="seioch.kurin.har,seioch.kurin.har_steam">Content/Kurin HAR Edition</li>
-    <li IfModActive="farmradish.nyaron,farmradish.nyaron_steam">Content/Nyaron race</li>
-    <li IfModActive="pyro.tieredmechs,pyro.tieredmechs_steam">Content/Tiered Mechs</li>
-    <li IfModActive="aelanna.heruan,aelanna.heruan_steam">Content/Heruan Race</li>
-    <li IfModActive="fs.reviarace,fs.reviarace_steam">Content/Revia Race</li>
-    <li IfModActive="ssulunge.kijinrace3,ssulunge.kijinrace3_steam">Content/Kijin Race 3.0</li>
-    
-    <li IfModActive="Killathon.AndroidTiersReforged,Killathon.AndroidTiersReforged_steam">Content/Android Tiers Reforged</li>
-    <li IfModActive="runnelatki.rabbieracemod,runnelatki.rabbieracemod_steam">Content/Rabbie The Moonrabbit race</li>
-    <li IfModActive="sutsutman.minchothemintchocoslimeharver,sutsutman.minchothemintchocoslimeharver_steam">Content/Mincho, The Mint Choco Slime ~ HAR ver.</li>
-    <li IfModActive="vamv.maruracemod,vamv.maruracemod_steam">Content/Maru Race</li>
-    <li IfModActive="rooandgloomy.yuranracemod,rooandgloomy.yuranracemod_steam">Content/Yuran race</li>
-    
-    <!-- Folder structure
-        If a mod A has a conflict with mod B (Mod B deletes Mod A's defs):
-        - Mod A puts non conflicting patches in a sub folder MOD A/
-        - Mod A puts conflicting patches into a sub folder Mod A/conflicts/Mod B
-        - Mod B puts blank overrides into a corresponding folder Mob B/overrides/Mod A/conflicts/Mod B
-        - Mod B puts its own patches into a sub folder Mod B/root
-        - a load folders entry for Mod A that includes the entire Mod A/ folder
-        - a load folders entry for Mod B that includes the Mod B/root folder
-        - a load folders entry for Mod B that includes the Mod B/overrides folder
-
-        The overrides folder is loaded to overwrite entries that conflict from Mod A
-    -->
-    <!-- CE and overrides -->
-    <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">Content/Combat Extended/root</li>
-    <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">Content/Combat Extended/overrides</li>
-
-    <!-- HSK and its overrides -->
-    <!--
-    <li IfModActive="ViTech.MedievalOverhaul,ViTech.MedievalOverhaul_steam">Content/HMC Viles PreIndustrial</li>
-    <li IfModActive="ArpoMo6.HMC.USSRWP,ArpoMo6.HMC.USSRWP_steam">Content/HMC Weapon Pack</li>
-    <li IfModActive="khamenman.armorracks,khamenman.armorracks_steam">Content/Armor Racks</li>
-    <li IfModActive="Fluffy.BackupPower,Fluffy.BackupPower_steam">Content/BackupPower</li>
-    
-    <li IfModActive="Rooboid.Paintings.Ex,Rooboid.Paintings.Ex_steam">Content/Roo's Painting Expansion</li>
-    <li IfModActive="ratys.rtfuse,ratys.rtfuse_steam">Content/RT_Fuse</li>
-    <li IfModActive="ratys.rtsolarflareshield,ratys.rtsolarflareshield_steam">Content/RT_SolarFlareShield</li>
-    <li IfModActive="shinzy.apparello,shinzy.apparello_steam">Content/Apparello 2</li>
-    <li IfModActive="ChJees.Androids,ChJees.Androids_steam">Content/Androids</li>
-    
-    
-    
-    <li IfModActive="skyarkhangel.HSK,skyarkhangel.HSK_steam">Content/HSK/root</li>
-    <li IfModActive="skyarkhangel.HSK,skyarkhangel.HSK_steam">Content/HSK/overrides</li>
-
-    <li IfModActive="glucocorticoid.timebombs,glucocorticoid.timebombs_steam">Content/Time Bombs</li>
-  -->
-  </v1.5>
+  </v1.4>
 </loadFolders>

@@ -10,7 +10,8 @@
           <li>IndustrialChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -23,7 +24,8 @@
           <li>AdvancedConstruction</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -37,7 +39,8 @@
           <li>Glassworking</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -51,7 +54,8 @@
           <li>Glassworking</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -65,7 +69,8 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -94,7 +99,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -117,7 +123,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -140,7 +147,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -163,7 +171,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -186,7 +195,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -215,7 +225,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -250,7 +261,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -273,7 +285,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -296,7 +309,8 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

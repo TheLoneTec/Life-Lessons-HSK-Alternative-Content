@@ -32,7 +32,8 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>

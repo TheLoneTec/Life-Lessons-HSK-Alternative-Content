@@ -8,7 +8,8 @@
           <li>PsychochemistryAdvanced</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -20,7 +21,8 @@
           <li>PharmaceuticalChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
@@ -34,7 +36,8 @@
           <li>PlantCare</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-
+        
+        
       </li>
     </value>
   </Operation>
