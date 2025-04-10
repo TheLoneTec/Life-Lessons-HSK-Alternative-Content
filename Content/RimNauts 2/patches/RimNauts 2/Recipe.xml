@@ -10,8 +10,9 @@
           <li>IndustrialChemistry</li>
           <li>PolymerChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -24,8 +25,9 @@
           <li>PolymerChemistry</li>
           <li>Machining</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>

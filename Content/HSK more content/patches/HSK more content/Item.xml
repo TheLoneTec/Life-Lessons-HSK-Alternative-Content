@@ -8,8 +8,9 @@
           <li>Bioelectronics</li>
           <li>Programming</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -20,8 +21,9 @@
         <requirements>
           <li>Engineering</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -34,8 +36,9 @@
           <li>AdvancedFabrication</li>
           <li>IndustrialChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -48,8 +51,9 @@
           <li>AdvancedFabrication</li>
           <li>MaterialsChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -60,8 +64,9 @@
         <requirements>
           <li>Smithing</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -74,8 +79,9 @@
           <li>AdvancedFabrication</li>
           <li>Electromagnetism</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -87,8 +93,9 @@
           <li>ArmorSmith</li>
           <li>AdvancedFabrication</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -101,8 +108,9 @@
           <li>AdvancedFabrication</li>
           <li>Tailoring</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -114,8 +122,9 @@
           <li>ArmorSmith</li>
           <li>AdvancedFabrication</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -127,8 +136,9 @@
           <li>ArmorSmith</li>
           <li>AdvancedFabrication</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -140,8 +150,9 @@
           <li>ArmorSmith</li>
           <li>AdvancedFabrication</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -154,8 +165,9 @@
           <li>Engineering</li>
           <li>PowerarmorAssembly</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -168,8 +180,9 @@
           <li>Engineering</li>
           <li>PowerarmorAssembly</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -182,8 +195,9 @@
           <li>Engineering</li>
           <li>PowerarmorAssembly</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -196,8 +210,9 @@
           <li>AdvancedFabrication</li>
           <li>Electromagnetism</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -210,8 +225,9 @@
           <li>AdvancedFabrication</li>
           <li>Wavelengths</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -224,8 +240,9 @@
           <li>AdvancedFabrication</li>
           <li>Electromagnetism</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -239,8 +256,9 @@
           <li>Electromagnetism</li>
           <li>Wavelengths</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -251,8 +269,9 @@
         <requirements>
           <li>Smithing</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -263,8 +282,9 @@
         <requirements>
           <li>BasicFabrication</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -283,8 +303,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -303,8 +324,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -316,8 +338,9 @@
           <li>LaserManipulation</li>
           <li>Engineering</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -337,8 +360,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -350,8 +374,9 @@
           <li>LaserManipulation</li>
           <li>Engineering</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -364,8 +389,9 @@
           <li>Machining</li>
           <li>Electromagnetism</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>

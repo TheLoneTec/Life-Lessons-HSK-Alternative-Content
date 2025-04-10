@@ -9,8 +9,9 @@
           <li>QuantumPhysics</li>
           <li>AdvancedConstruction</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -23,8 +24,9 @@
           <li>Programming</li>
           <li>AdvancedConstruction</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -36,8 +38,9 @@
           <li>Engineering</li>
           <li>Bioelectronics</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -49,8 +52,9 @@
           <li>Engineering</li>
           <li>Bioelectronics</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -63,8 +67,9 @@
           <li>AdvancedConstruction</li>
           <li>Biosynthesis</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -78,8 +83,9 @@
           <li>Bioelectronics</li>
           <li>Biosynthesis</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -92,8 +98,9 @@
           <li>Engineering</li>
           <li>Machining</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>

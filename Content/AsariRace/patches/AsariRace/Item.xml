@@ -9,8 +9,9 @@
           <li>Tailoring</li>
           <li>IndustrialChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -23,8 +24,9 @@
           <li>Engineering</li>
           <li>Programming</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>

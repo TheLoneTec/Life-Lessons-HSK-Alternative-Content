@@ -21,8 +21,9 @@
     <xpath>Defs/ThingDef[@Name="LampBase"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
-        <hardRequirement>False</hardRequirement>
-<requirements>
+        <softRequirement>true</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.5</unqualifiedWorkSpeedMultiplier>
+        <requirements>
           <li>Electronics</li>
         </requirements>
         <rewards>

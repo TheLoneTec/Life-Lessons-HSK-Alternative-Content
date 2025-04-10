@@ -14,9 +14,9 @@
 				<requirements>
 				  <li>BasicFabrication</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 		  </li>
@@ -28,9 +28,9 @@
 				  <li>Engineering</li>
 				  <li>AdvancedFabrication</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 		  </li>

@@ -14,9 +14,9 @@
 				<requirements>
 				  <li>AdvancedFabrication</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -28,9 +28,9 @@
 				<requirements>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -41,9 +41,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -54,9 +54,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -67,9 +67,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -81,9 +81,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -96,9 +96,9 @@
 				  <li>Glassworking</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -111,9 +111,9 @@
 				  <li>Glassworking</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -125,9 +125,9 @@
 				  <li>Machining</li>
 				  <li>Glassworking</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -139,9 +139,9 @@
 				  <li>Machining</li>
 				  <li>Glassworking</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -153,9 +153,9 @@
 				  <li>Machining</li>
 				  <li>Glassworking</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -168,9 +168,9 @@
 				  <li>Glassworking</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -181,9 +181,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -194,9 +194,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -207,9 +207,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -220,9 +220,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -233,9 +233,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -246,9 +246,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -259,9 +259,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -273,9 +273,9 @@
 				  <li>Machining</li>
 				  <li>Artisan</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -287,9 +287,9 @@
 				  <li>Machining</li>
 				  <li>Artisan</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -301,9 +301,9 @@
 				  <li>Machining</li>
 				  <li>Artisan</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -314,9 +314,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -328,9 +328,9 @@
 				  <li>Machining</li>
 				  <li>Artisan</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -342,9 +342,9 @@
 				  <li>Machining</li>
 				  <li>Artisan</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -356,9 +356,9 @@
 				  <li>Machining</li>
 				  <li>Artisan</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -369,9 +369,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -382,9 +382,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -395,9 +395,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -408,9 +408,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -422,9 +422,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -436,9 +436,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -450,9 +450,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -464,9 +464,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -478,9 +478,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -492,9 +492,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -506,9 +506,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -520,9 +520,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -534,9 +534,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -548,9 +548,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -562,9 +562,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -575,9 +575,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -589,9 +589,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -603,9 +603,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -617,9 +617,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -631,9 +631,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -644,9 +644,9 @@
 				<requirements>
 				  <li>Machining</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -657,9 +657,9 @@
 				<requirements>
 				  <li>AdvancedFabrication</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -671,9 +671,9 @@
 				  <li>Machining</li>
 				  <li>Mechanics</li>
 				</requirements>
-				<hardRequirement>True</hardRequirement>
-				
-				
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
 			  </li>
 			</value>
 			</li>
@@ -688,8 +688,9 @@
         <requirements>
           <li>Smithing</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -701,8 +702,9 @@
           <li>Tailoring</li>
           <li>MaterialsChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -715,8 +717,9 @@
           <li>Smithing</li>
           <li>MaterialsChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -730,8 +733,9 @@
           <li>PolymerChemistry</li>
           <li>IndustrialChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -744,8 +748,9 @@
           <li>IndustrialChemistry</li>
           <li>Tailoring</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -759,8 +764,9 @@
           <li>IndustrialChemistry</li>
           <li>PolymerChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -774,8 +780,9 @@
           <li>PolymerChemistry</li>
           <li>IndustrialChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -787,8 +794,9 @@
           <li>Tailoring</li>
           <li>MaterialsChemistry</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -801,8 +809,9 @@
           <li>MaterialsChemistry</li>
           <li>AdvancedScience</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -816,8 +825,9 @@
           <li>MaterialsChemistry</li>
           <li>Physics</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -831,8 +841,9 @@
           <li>PolymerChemistry</li>
           <li>Physics</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -846,8 +857,9 @@
           <li>PolymerChemistry</li>
           <li>Physics</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -858,8 +870,9 @@
         <requirements>
           <li>ArmorSmith</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -870,8 +883,9 @@
         <requirements>
           <li>ArmorSmith</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -882,8 +896,9 @@
         <requirements>
           <li>ArmorSmith</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
@@ -894,8 +909,9 @@
         <requirements>
           <li>ArmorSmith</li>
         </requirements>
-        <hardRequirement>True</hardRequirement>
-
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
   </Operation>
