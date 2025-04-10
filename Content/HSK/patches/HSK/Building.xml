@@ -2338,7 +2338,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Embrasure"]</xpath>
+    <xpath>Defs/ThingDef[defName="CE_Embrasure"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
@@ -3399,7 +3399,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="ClutterCouchA"]</xpath>
+    <xpath>Defs/ThingDef[defName="Couch"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
@@ -6449,7 +6449,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="PowerConduitInvisible"]</xpath>
+    <xpath>Defs/ThingDef[defName="HiddenConduit"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
@@ -6913,7 +6913,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="TeslaLigthningPower"]</xpath>
+    <xpath>Defs/ThingDef[defName="TeslaLightningPower"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <deconstructRewards>
@@ -10203,7 +10203,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Turret_AGS30GrenadeLauncher"]</xpath>
+    <xpath>Defs/ThingDef[defName="Turret_AGLGrenadeLauncher"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>

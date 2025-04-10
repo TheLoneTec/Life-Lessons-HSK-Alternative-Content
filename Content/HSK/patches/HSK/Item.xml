@@ -5095,6 +5095,7 @@
       </li>
     </value>
   </Operation>
+  <!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="Apparello_Ammobelt"]</xpath>
     <value>
@@ -5107,7 +5108,7 @@
         
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="CE_Apparel_Backpack"]</xpath>
     <value>
@@ -5361,7 +5362,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Apparel_SimpleNightVision"]</xpath>
+    <xpath>Defs/ThingDef[defName="CE_Apparel_SimpleNightVision"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
@@ -5393,7 +5394,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Apparel_AdvancedNightVision"]</xpath>
+    <xpath>Defs/ThingDef[defName="CE_Apparel_AdvancedNightVision"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
