@@ -9,8 +9,7 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -26,8 +25,7 @@
           <li>ReadingWriting</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -44,8 +42,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>

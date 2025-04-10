@@ -9,8 +9,7 @@
           <li>Nuclear</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -23,8 +22,7 @@
           <li>Nuclear</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -38,8 +36,7 @@
           <li>Machining</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -59,8 +56,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

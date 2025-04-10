@@ -22,8 +22,7 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -49,8 +48,7 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

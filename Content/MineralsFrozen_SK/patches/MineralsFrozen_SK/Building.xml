@@ -9,8 +9,7 @@
           <li>BasicMathematics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -30,8 +29,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -51,8 +49,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -64,8 +61,7 @@
           <li>BasicMathematics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -78,8 +74,7 @@
           <li>Chemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -92,8 +87,7 @@
           <li>MaterialsChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -116,8 +110,7 @@
           </li>
         </deconstructRewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

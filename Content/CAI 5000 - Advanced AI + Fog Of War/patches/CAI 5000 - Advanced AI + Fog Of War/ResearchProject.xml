@@ -8,8 +8,7 @@
           <li>PlantCare</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -23,8 +22,7 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -37,8 +35,7 @@
           <li>Engineering</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

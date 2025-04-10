@@ -8,8 +8,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -21,8 +20,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -34,8 +32,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -54,8 +51,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -79,8 +75,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -92,8 +87,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -117,8 +111,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -142,8 +135,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -155,8 +147,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -168,8 +159,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -188,8 +178,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -201,8 +190,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -214,8 +202,7 @@
           <li>Glassworking</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -227,8 +214,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -240,8 +226,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -253,8 +238,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -266,8 +250,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -279,8 +262,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -292,8 +274,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -305,8 +286,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -319,8 +299,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -333,8 +312,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -346,8 +324,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -359,8 +336,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -379,8 +355,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -396,8 +371,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -413,8 +387,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -426,8 +399,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -439,8 +411,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -456,8 +427,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -481,8 +451,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -496,8 +465,7 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -511,8 +479,7 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -525,8 +492,7 @@
           <li>EnvironmentalChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -539,8 +505,7 @@
           <li>EnvironmentalChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -556,8 +521,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -569,8 +533,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -582,8 +545,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -595,8 +557,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -608,8 +569,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -633,8 +593,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -646,8 +605,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -659,8 +617,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -672,8 +629,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -685,8 +641,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -698,8 +653,7 @@
           <li>Tailoring</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -712,8 +666,7 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -726,8 +679,7 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -746,8 +698,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -766,8 +717,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -779,8 +729,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -792,8 +741,7 @@
           <li>BasicFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -805,8 +753,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -818,8 +765,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -835,8 +781,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -848,8 +793,7 @@
           <li>Smithing</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -861,8 +805,7 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -875,8 +818,7 @@
           <li>Labourer</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -889,8 +831,7 @@
           <li>Labourer</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -902,8 +843,7 @@
           <li>AdvancedFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -915,8 +855,7 @@
           <li>Machining</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -930,8 +869,7 @@
           <li>Electromagnetism</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -944,8 +882,7 @@
           <li>Engineering</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -958,8 +895,7 @@
           <li>Mechanics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -978,8 +914,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -998,8 +933,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -1012,8 +946,7 @@
           <li>Bionics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

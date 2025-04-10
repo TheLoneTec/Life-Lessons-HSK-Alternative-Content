@@ -5,8 +5,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <hardRequirement>False</hardRequirement>
-        
-        
+
         <requirements>
           <li>BasicFabrication</li>
         </requirements>
@@ -42,8 +41,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <hardRequirement>False</hardRequirement>
-        
-        
+
         <requirements>
           <li>Tailoring</li>
         </requirements>

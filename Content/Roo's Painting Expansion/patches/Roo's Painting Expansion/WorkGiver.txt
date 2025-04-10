@@ -13,8 +13,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

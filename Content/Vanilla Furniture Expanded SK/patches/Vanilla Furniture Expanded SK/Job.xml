@@ -8,8 +8,7 @@
           <li>BasicMathematics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -29,8 +28,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -42,8 +40,7 @@
           <li>Computers</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -55,8 +52,7 @@
           <li>Computers</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

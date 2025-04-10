@@ -16,8 +16,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -29,8 +28,7 @@
           <li>Labourer</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -43,8 +41,7 @@
           <li>BasicScience</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -61,8 +58,7 @@
           </li>
         </rewards>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -74,8 +70,7 @@
           <li>BasicFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -87,8 +82,7 @@
           <li>AdvancedFabrication</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -100,8 +94,7 @@
           <li>Machining</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -114,8 +107,7 @@
           <li>MaterialsChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -128,8 +120,7 @@
           <li>MaterialsChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -142,8 +133,7 @@
           <li>BasicScience</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -163,8 +153,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -184,8 +173,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -205,8 +193,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -226,8 +213,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -247,8 +233,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -268,8 +253,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>
@@ -289,8 +273,7 @@
           </li>
         </rewards>
         <hardRequirement>False</hardRequirement>
-        
-        
+
       </li>
     </value>
   </Operation>

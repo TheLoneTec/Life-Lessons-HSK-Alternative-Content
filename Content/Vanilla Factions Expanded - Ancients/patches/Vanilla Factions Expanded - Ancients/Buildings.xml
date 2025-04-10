@@ -22,8 +22,7 @@
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <hardRequirement>False</hardRequirement>
-        
-        <requirements>
+<requirements>
           <li>Electronics</li>
         </requirements>
         <rewards>

@@ -11,8 +11,7 @@
           <li>Bioelectronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -27,8 +26,7 @@
           <li>Bionics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -44,8 +42,7 @@
           <li>Electronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -61,8 +58,7 @@
           <li>Bioelectronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -77,8 +73,7 @@
           <li>Bioelectronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -94,8 +89,7 @@
           <li>Neurosurgery</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -111,8 +105,7 @@
           <li>PolymerChemistry</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -128,8 +121,7 @@
           <li>Bioelectronics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -144,8 +136,7 @@
           <li>Biosynthesis</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -162,8 +153,7 @@
           <li>Medical</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -179,8 +169,7 @@
           <li>Neurosurgery</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -197,8 +186,7 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -215,8 +203,7 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -235,8 +222,7 @@
           <li>Artisan</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -251,8 +237,7 @@
           <li>Physics</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
@@ -268,8 +253,7 @@
           <li>Wavelengths</li>
         </requirements>
         <hardRequirement>True</hardRequirement>
-        
-        
+
       </li>
     </value>
     <success>Normal</success>
