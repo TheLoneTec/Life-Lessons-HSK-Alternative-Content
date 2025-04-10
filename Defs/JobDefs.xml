@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><JobDef>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
     <defName>TeachClass</defName>
     <driverClass>LifeLessons.JobDriver_TeachClass</driverClass>
     <reportString>teaching.</reportString>
@@ -140,34 +141,4 @@
     <reportString>analyzing geothermal properties of TargetA.</reportString>
     <neverShowWeapon>true</neverShowWeapon>
   </JobDef>
-
-  <JobDef>
-    <defName>LLAnalyzeInsectoids</defName>
-    <driverClass>LifeLessons.JobDriver_StudyAt</driverClass>
-    <reportString>analyzing insectoids at TargetA.</reportString>
-    <neverShowWeapon>true</neverShowWeapon>
-  </JobDef>
-
-  <JobDef>
-    <defName>LLAnalyzeBodyparts</defName>
-    <driverClass>LifeLessons.JobDriver_StudyAt</driverClass>
-    <reportString>analyzing body parts at TargetA.</reportString>
-    <neverShowWeapon>true</neverShowWeapon>
-  </JobDef>
-
-  <JobDef>
-    <defName>LLAnalyzeGeneTinkering</defName>
-    <driverClass>LifeLessons.JobDriver_StudyAt</driverClass>
-    <reportString>tinkering with genetic material at TargetA.</reportString>
-    <neverShowWeapon>true</neverShowWeapon>
-  </JobDef>
-
-  <JobDef>
-    <defName>LLDrugExperimentation</defName>
-    <driverClass>LifeLessons.JobDriver_StudyAt</driverClass>
-    <reportString>experimenting with drugs at TargetA.</reportString>
-    <neverShowWeapon>true</neverShowWeapon>
-  </JobDef>
-  
-
 </Defs>

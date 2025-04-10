@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><DutyDef>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DutyDef>
     <defName>PrepareForClass</defName>
     <hook>MediumPriority</hook>
     <thinkNode Class="ThinkNode_Priority">
@@ -41,7 +43,7 @@
       	<li Class="ThinkNode_Subtree">
           <treeDef>SatisfyBasicNeeds</treeDef>
         </li>
-      	<li Class="LifeLessons.JobGiver_AttendClass"/>
+      	<li Class="LifeLessons.JobGiver_AttendClass" />
       </subNodes>
     </thinkNode>
   </DutyDef>

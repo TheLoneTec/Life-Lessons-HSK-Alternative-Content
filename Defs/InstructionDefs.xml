@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><InstructionDef>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <InstructionDef>
     <defName>LLTCreateLessonPlan</defName>
     <text>This interface allows you to setup lesson plans and class schedules. 
 A lesson plan consists of a set of proficiencies to be taught, a set of students, and a teacher.
@@ -60,7 +61,7 @@ Mouse over the Effectiveness percentage to view some extra details on each profi
 
   <InstructionDef>
     <defName>LLTAddStudent</defName>
-    <text>Students will gain proficiency XP for each proficiency as it is taught during class.
+    <text>Students will gain proficiency XP in every taught subject as they attend class.
 
 Drag and drop a colonist into the student panel to add them to the lesson plan.</text>
     <eventTagInitiate>LLT-ProfEffectivenessReviewed</eventTagInitiate>
@@ -184,51 +185,14 @@ Select the lesson plan from the center panel and then click on any of the small 
   </InstructionDef>
 
   <InstructionDef>
-    <defName>LLTConfig</defName>
-    <text>There are several options to configure each lesson plan. With a lesson plan selected for editing, click the highlighted button to open the lesson plan configuration.</text>
-    <eventTagInitiate>LLT-SetScheduleBulk</eventTagInitiate>
-    <eventTagInitiateSource>LLTBulkAssign</eventTagInitiateSource>
-    <actionTagsAllowed>
-      <li>LLT-OpenConfig</li>
-      <li>LLT-ChangePlan</li>
-    </actionTagsAllowed>
-    <eventTagsEnd>
-      <li>LLT-Abort</li>
-    </eventTagsEnd>
-    <highlightTags>
-      <li>LLT-OpenConfig</li>
-    </highlightTags>
-    <rejectInputMessage>Open the lesson plan config.</rejectInputMessage>
-    <tutorialModeOnly>true</tutorialModeOnly>
-  </InstructionDef>
-
-  <InstructionDef>
-    <defName>LLTChangeMode</defName>
-    <text>The proficiency selection mode determines which proficiency from the lesson plan to teach at the beginning of each class period. Once selected, that proficiency will be taught exclusively for the duration of the lesson. Mouse over the label to see descriptions of each mode, then select a mode by clicking the mode button.</text>
-    <eventTagInitiate>LLT-OpenConfig</eventTagInitiate>
-    <eventTagInitiateSource>LLTConfig</eventTagInitiateSource>
-    <actionTagsAllowed>
-      <li>LLT-ChangeConfig</li>
-    </actionTagsAllowed>
-    <eventTagsEnd>
-      <li>LLT-Abort</li>
-    </eventTagsEnd>
-    <highlightTags>
-      <li>LLT-ChangeConfig</li>
-    </highlightTags>
-    <rejectInputMessage>Modify the plan mode.</rejectInputMessage>
-    <tutorialModeOnly>true</tutorialModeOnly>
-  </InstructionDef>
-
-  <InstructionDef>
     <defName>LLTEnd</defName>
     <text>Now that you have a complete schedule, you can assign it to a teacher's station by selecting one on the map.
 There are multiple ways to learn a proficiency, and many of them are more time efficient than teaching them in class.
 Consider carefully if the time investment in training a colonist is worthwhile, or if an "outside volunteer" is a better option.
 
 Close the window to end the tutorial.</text>
-    <eventTagInitiate>LLT-ChangeConfig</eventTagInitiate>
-    <eventTagInitiateSource>LLTChangeMode</eventTagInitiateSource>
+    <eventTagInitiate>LLT-SetScheduleBulk</eventTagInitiate>
+    <eventTagInitiateSource>LLTBulkAssign</eventTagInitiateSource>
     <actionTagsAllowed>
       <li>LLT-AddProficiency</li>
       <li>LLT-DragPawn</li>

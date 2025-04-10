@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Defs><ResearchProjectDef>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchProjectDef>
     <defName>LLExperimentationStations</defName>
     <label>experiment workstations</label>
     <description>Workstations designed to aid in the study of specific areas of expertise.</description>
@@ -12,7 +14,7 @@
       <li>ClassicStart</li>
     </tags>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>1.15</researchViewY>
+    <researchViewY>1.35</researchViewY>
   </ResearchProjectDef>
   
 </Defs>
