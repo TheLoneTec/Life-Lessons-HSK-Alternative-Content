@@ -1,1 +1,1 @@
-Place the ENITRE folder into your mods folder (Does NOT require Life Lessons from the workshop to be downloaded as it is included). No other steps necessary.
+Place the ENITRE folder into your mods folder (Does NOT require Life Lessons from the workshop to be downloaded as it is included)
