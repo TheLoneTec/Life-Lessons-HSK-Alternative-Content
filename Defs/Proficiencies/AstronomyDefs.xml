@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Astronomy</defName>
+    <label>Astronomy</label>
+    <generationRules>
+      <textbookValue>850</textbookValue>
+      <neurotrainerValue>2800</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>astronomical</proficiencyAdjective>
+    <category>ProficiencyCategory_Astronomy</category>
+    <description>Understanding of the physics and interactions of celestial bodies.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>7</viewerX>
+    <viewerY>9.5</viewerY>
+    <prerequisites>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Most spacer ship crew would have this. Captains, cartographers, pilots, researchers. Rarely used for lockouts of any sort, but can be used with Programming for star charts, computers, and other spacer tier gizmos.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeConstellations</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+</Defs>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-
- <ThingDef ParentName="MoodMoteBase">
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs><ThingDef ParentName="MoodMoteBase">
     <defName>LLMoteThoughtNeutral</defName>
     <graphicData>
       <color>(200,200,200)</color>

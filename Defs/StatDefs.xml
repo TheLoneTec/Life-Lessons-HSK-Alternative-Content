@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <StatCategoryDef>
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs><StatCategoryDef>
     <defName>ProficiencyInfo</defName>
     <label>Proficiency Info</label>
     <displayOrder>100</displayOrder>

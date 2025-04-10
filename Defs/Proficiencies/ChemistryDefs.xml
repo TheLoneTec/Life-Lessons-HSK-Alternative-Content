@@ -1,0 +1,1119 @@
+  <?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Chemistry</defName>
+    <label>Basic Chemistry</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Understanding of basic chemical reactions and mixtures.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>3</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Basic knowledge of various materials react to each other. Knowing how to make use of basic resources, their effects and be able to process them as well as certain plants into medicine or drugs with various effects.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>MedicinalChemistry</defName>
+	<label>Medicinal Chemistry</label>
+	<category>ProficiencyCategory_Chemistry</category>
+	<description>Understanding how to make use of basic resources, to create certain medicines.</description>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	<costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>17</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Knowledge of basic effects of various plants and resources on the body and how to combine them for medicinal purposes.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>BasicPsychochemistry</defName>
+	<label>Basic Psychochemistry</label>
+	<category>ProficiencyCategory_Chemistry</category>
+	<description>Understanding how to make use of basic resources, to create certain drugs.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>18</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Knowledge of basic effects of various plants and resources on the body and how to combine them to create drugs for a high for recreation and can cause psychosis.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>EnvironmentalChemistry</defName>
+	<label>Environmental Chemistry</label>
+	<category>ProficiencyCategory_Chemistry</category>
+	<description>Understanding of the effects and uses that chemicals have on the environment and human health.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>19</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Knowledge of the effects that chemicals have on the air, water and soil and how they impact the environment and human health as well as any uses they have.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+	<defName>MaterialsChemistry</defName>
+	<label>Materials Chemistry</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+	<category>ProficiencyCategory_Chemistry</category>
+	<description>Understanding of the effects that chemicals and resources have in create other useful materials.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+	<effectiveSubjectLimit>2</effectiveSubjectLimit>
+	<viewerX>4</viewerX>
+	<viewerY>20</viewerY>
+	<prerequisites>
+	  <li>Chemistry</li>
+	</prerequisites>
+	<color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+	<thoughtIcons>
+	  <li>UI/Buttons/UsePlanetDayNightSystem</li>
+	  <li>Things/Mote/Disoriented</li>
+	</thoughtIcons>
+	<assignmentTips>Materials chemistry is unique in providing the intellectual foundation to design, create, and understand new forms of matter, let it be organic, inorganic, or hybrid materials.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLTinkerWithComponents</li>
+      <li>LLAnalyzeGadget</li>
+      <li>LLAnalyzeConstruction</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedChemistry</defName>
+    <label>Advanced Chemistry</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>complex chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Understanding of advanced chemical reactions and mixtures. The ability to use chemistry equipment and machinery.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>8</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+	  <li>Chemistry</li>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Everything from genetics and brainchips, to gunpowder. May be known by high-tier enlightened medieval doctors or scientists. Used to lockout chemical based weapons and devices such as incendiary weapons, fire suppressants, and drug compounding. Combined with Medical, effectively represents Pharmacist. Can be used to lockout genetics buildings, recipes, and research. Sensibly used to lockout drug refining jobs.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Pharmaceutical chemistry
+	PsychochemistryAdvanced
+	Agrochemistry
+	Industrial chemistry
+	Petrochemistry
+	Polymer chemistry
+	-->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PharmaceuticalChemistry</defName>
+    <label>Pharmaceutical Chemistry</label>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>complex pharmaceutical</proficiencyAdjective>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Understanding of pharmaceutical drugs and advanced medicinal chemistry.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Involved with designing and developing pharmaceutical drugs. Medicinal chemistry involves the identification, synthesis and development of new chemical entities suitable for therapeutic use.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PsychochemistryAdvanced</defName>
+    <label>Psychochemistry Advanced</label>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Knowledge of the relationship between chemicals, behavior and psychological processes. It is the study of chemical influence on behavior.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>17</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Psychoactive Medications provide definitive treatment of clinical syndromes such as anxiety disorders, depression and schizophrenia. As well as effects of more....recreational chemicals.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLDissectHumanCorpse</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Agrochemistry</defName>
+    <label>Agrochemistry</label>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Knowledge of biocides and synthetic fertilizers as awell as uses of plants in general in manufacturing and chemistry.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>18</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This includes agricultural production, the use of ammonia in fertilizer, pesticides, and how plant biochemistry can be used to genetically alter crops. As well as uses in industrial applications, from oils or special biproducts that are useful in chemistry.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzeDrugs</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLAnalyzeConstruction</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>IndustrialChemistry</defName> <!-- Change to AdvancedChemistry -->
+    <label>Industrial Chemistry</label>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Knowledge of the uses of chemical and physical processes to transform raw materials into products that are beneficial to mankind.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>19</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This includes the production of basic chemicals for manufacturing goods for various industrial sectors.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Petrochemistry</defName>
+    <label>Petrochemistry</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>3600</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>petrological</proficiencyAdjective>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Knowledge of petrochemicals which are the chemical products obtained from petroleum by refining.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>20</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Some chemical compounds made from petroleum are also obtained from other fossil fuels, such as coal or natural gas, or renewable sources such as maize, palm fruit or sugar.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLAnalyzeFormation</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+	
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PolymerChemistry</defName> <!-- Change to AdvancedChemistry -->
+    <label>Polymer Chemistry</label>
+    <category>ProficiencyCategory_Chemistry</category>
+    <description>Knowledge of the structures of chemicals, chemical synthesis, and chemical and physical properties of polymers and macromolecules.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+	<costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>21</viewerY>
+    <prerequisites>
+	  <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Polymers and Synthetic materials can be manipulated to make clothing made from synthetic fibers, polyethylene cups, fiberglass, nylon bearings, plastic bags, polymer-based paints, epoxy glue, polyurethane foam cushion, silicone heart valves, and Teflon-coated cookware.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLChemistryExperimentation</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Advanced Chemistry End -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Glassworking</defName>
+    <label>Glassworking</label>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to make and form glass.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.73, 1.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability for glassblowing and forming techniques.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  	<!-- Cooking -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Cooking</defName>
+    <label>Cooking</label>
+    <generationRules>
+      <textbookValue>150</textbookValue>
+      <neurotrainerValue>750</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>Understanding the basics of food prep and food safety practices.</description>
+    <costPractical>400</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>28</viewerY>
+    <color>RGBA(0.235, 0.702, 0.443, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally not used for research lockouts. Represents the mastery of basic cooking techniques and kitchen management. Comparable a home chef or casual dining chef. Used to lockout complex "simple" meals or fine meals, usually earned by crafting simple to fine meals.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Grilling
+    Roasting
+    Baking
+	Boiling
+    Steaming (Not Now)
+    Stew
+	Pan frying
+	Simmering
+	Searing
+	-->
+
+ 
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Grilling</defName>
+    <label>Grilling</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively grill food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good grilled burger or knowing how to cook vegetables well on a grill will make you the key to any outdoor party.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Roasting</defName>
+    <label>Roasting</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively roast food.</description>
+    <costPractical>700</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Grilling</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good roast, which can be great for a group meal.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Baking</defName>
+    <label>Baking</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively bake food.</description>
+    <costPractical>800</costPractical>
+    <viewerX>3</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Roasting</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques on how to bake. Such as bread, pies, muffins, pizza etc.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Boiling</defName>
+    <label>Boiling</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively boil food.</description>
+    <costPractical>400</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a boil food appropriate and know how long before nutrients and taste is lost and when its ready to eat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Brewing</defName>
+    <label>Brewing</label>
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>1500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively brew various drinks.</description>
+    <costPractical>400</costPractical>
+    <costTheoretical>600</costTheoretical>
+	<canBePioneered>true</canBePioneered>
+    <viewerX>2</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>Boiling</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good cup of coffee, tea or any hot drink.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Stew</defName>
+    <label>Stew</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively stew food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a make a good stew and not some bland slop.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>PanFrying</defName>
+    <label>Pan Frying</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively pan fry.</description>
+    <costPractical>800</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to use a pan to effectively fry various food evenly.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Searing</defName>
+    <label>Searing</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively sear meats and various other ingredients.</description>
+    <costPractical>400</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>PanFrying</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to carefully sear meat. While also making edible food that is cooked. Knowing timings is key.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Simmering</defName>
+    <label>Simmering</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively simmer vvarious ingredients into edible food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>26.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to simmer food carefully and for the right amount of time, useful for soups and slow cook food.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- Cooking End -->
+
+	<!-- SkilledCooking -->
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>SkilledCooking</defName>
+    <label>Skilled Cooking</label>
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively manage complex recipes and cooking spaces.</description>
+    <costPractical>800</costPractical>
+    <viewerX>4</viewerX>
+    <viewerY>28</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.0, 0.502, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>General mastery of the kitchen, comparable to a sous chef at a proper fine dining establishment. Usually earned by cooking fine meals or equivalent. Usually locks out lavish meals and bulk cooking. Might be used to lockout research for particularly complex food or diet based topics, but not generally for just any recipe project.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- 
+    Stir Frying
+    Sous Vide
+    Deep Frying
+	Sautéing
+	Braising
+	Pressure cooking
+	Basting
+	Fermenting
+	CheeseMaking
+	Caramelization
+	Poaching
+	-->
+
+ 
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLDissectCritterCorpse</li>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>StirFrying</defName>
+    <label>Stir Frying</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use stir fry techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to effectively use a pan or wok to evenly cook a large amount of varied ingredients.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+ 
+    <defName>Sauteing</defName>
+    <label>Sauteing</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use sauteing techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>StirFrying</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Sauteing is a method of cooking that uses a relatively small amount of oil or fat in a shallow pan over relatively high heat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+ 
+    <defName>Braising</defName>
+    <label>Braising</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use braising techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The cooking of meat or vegetables by heating them slowly with oil and moisture in a tightly sealed vessel.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+ 
+    <defName>Basting</defName>
+    <label>Basting</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use basting techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Braising</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The techniques to moisten (foods, especially meat) at intervals with a liquid (such as melted butter, fat, or pan drippings) especially during the cooking process to prevent drying and add flavor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  
+ 
+    <defName>Poaching</defName>
+    <label>Poaching</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use poaching techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Like simmering and boiling, it is a moist-heat cooking method that involves submerging food in liquid, typically without using fat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>SousVide</defName>
+    <label>Sous Vide</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively sous vide.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>Poaching</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Food cooked in its own juices, sealed in the pouch, is infused with deep natural flavor and incomparable tenderness and texture.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>PressureCooking</defName>
+    <label>Pressure Cooking</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use pressure cooking techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>26.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Pressure cooking is the process of cooking food under high pressure steam and water or a water-based cooking liquid, in a sealed vessel known as a pressure cooker.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Fermentation</defName>
+    <label>Fermentation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use fermentation techniques.</description>
+    <costPractical>800</costPractical>
+    <costTheoretical>800</costTheoretical>
+    <viewerX>5</viewerX>
+    <viewerY>25.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A process in which sugars are transformed into a new product through chemical reactions carried out by microorganisms.</assignmentTips>
+    
+	<theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+
+    <practicalLearningActivityDefs>
+      <li>LLAnalyzePlantBiomatter</li>
+      <li>LLAnalyzePlantBiomatterChemistry</li>
+      <li>LLChemistryExperimentation</li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>CheeseMaking</defName>
+    <label>Cheese Making</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+	
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use cheese making techniques.</description>
+    <costPractical>800</costPractical>
+    <costTheoretical>800</costTheoretical>
+    <viewerX>6</viewerX>
+    <viewerY>25.5</viewerY>
+    <prerequisites>
+      <li>Fermentation</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The production of cheese, like many other food preservation processes, allows the nutritional and economic value of a food material, in this case milk, to be preserved in concentrated form..</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>DeepFrying</defName>
+    <label>Deep Frying</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use deep frying techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A process where food is completely submerged in hot oil at temperatures typically between 350 °F (177 °C) and 375 °F (191 °C).</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+ 
+    <defName>Caramelization</defName>
+    <label>Caramelization</label>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively use caramelization techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>31.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A slow cooking process that occurs when sugar is cooked over low heat, causing a change in both appearance and flavor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+	<!-- SkilledCooking End -->
+  </Defs>

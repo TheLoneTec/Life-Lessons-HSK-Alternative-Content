@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Tailoring</defName>
+    <label>Tailoring</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to crafting fine clothing and work with cloth and leather.</description>
+    <costPractical>1500</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>2</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.498, 1.0, 0.831, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Proper cloth work. BasicFabrication covers simple things like socks or hats, while tailoring generally covers anything large, complex, or that requires seam working. Most crafters will have this. May be used with AdvancedFabrication for spacer fabrics like Eltex, or with Chemistry to craft non-natural fabrics. Rarely used to lockout furniture or clothing research.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+</Defs>

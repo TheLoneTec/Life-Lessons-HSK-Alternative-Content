@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
- <InstructionDef>
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs><InstructionDef>
     <defName>LLTCreateLessonPlan</defName>
     <text>This interface allows you to setup lesson plans and class schedules. 
 A lesson plan consists of a set of proficiencies to be taught, a set of students, and a teacher.

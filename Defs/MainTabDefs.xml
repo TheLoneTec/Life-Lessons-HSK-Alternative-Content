@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-<Defs>
-  <MainButtonDef>
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs><MainButtonDef>
     <defName>LLLearning</defName>
     <label>learning</label>
     <description>Life Lessons Learning menu</description>

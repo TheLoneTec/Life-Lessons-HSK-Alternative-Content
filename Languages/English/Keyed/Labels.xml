@@ -3,14 +3,12 @@
   <LLLearningTabLessons>Lesson Planning</LLLearningTabLessons>
   <LLLearningTabPioneering>Pioneering</LLLearningTabPioneering>
   <LLLearningTabMentoring>Mentoring</LLLearningTabMentoring>
-  <RequiredSoftLabel>Strict Requirements</RequiredSoftLabel>
-  <RequiredSoftDesc>Strict requirements will always prevent a colonist from performing an activity until all required proficiencies are met.</RequiredSoftDesc>
+  <RequiredSoftLabel>Soft Requirements</RequiredSoftLabel>
+  <RequiredSoftDesc>Soft requirements will not prevent a colonist from working on this building or recipe, but may impose additional penalties.</RequiredSoftDesc>
   <UnqualifiedWorkspeedPenaltyLabel>Unqualified workspeed penalty</UnqualifiedWorkspeedPenaltyLabel>
   <UnqualifiedWorkspeedPenaltyDesc>If a colonist does not have all of the required proficiencies, the final workspeed will be multiplied by this value.</UnqualifiedWorkspeedPenaltyDesc>
   <UnqualifiedQualityCapLabel>Unqualified max quality</UnqualifiedQualityCapLabel>
   <UnqualifiedQualityCapDesc>If a colonist does not have all of the required proficiencies, the quality of the finished building or item cannot exceed this value.</UnqualifiedQualityCapDesc>
-  <UnqualifiedStatModLabel>Unqualified {0} modifier</UnqualifiedStatModLabel>
-  <UnqualifiedStatModDesc>If a colonist does not have all of the required proficiencies, they will perform relevant work with the specified stat penalty.</UnqualifiedStatModDesc>
   <RewardedProficienciesLabel>Proficiencies taught</RewardedProficienciesLabel>
   <RewardedProficienciesDesc>These proficiencies may be trained by working on this building or recipe.</RewardedProficienciesDesc>
   <DeconstructProficienciesAwardedLabel>Deconstruct proficiencies taught</DeconstructProficienciesAwardedLabel>
@@ -18,30 +16,18 @@
 
   <RequiredProficienciesLabel>Proficiency Requirements</RequiredProficienciesLabel>
   <RequiredProficienciesDesc>The knowledge required to perform this recipe.</RequiredProficienciesDesc>
-  <RequiredStuffProficienciesLabel>{0} Proficiency Requirements</RequiredStuffProficienciesLabel>
-  <RequiredStuffProficienciesDesc>Additional proficiency requirements if this item or building is constructed with the specified material type. For example, the use of metallic ingredients to build a table may require welding experience.</RequiredStuffProficienciesDesc>
   <LetterGainedProficiencyLabel>{0} Mastered</LetterGainedProficiencyLabel>
   <LetterGainedProficiency>{PAWN_labelShort} has mastered {1}</LetterGainedProficiency>
-  <LearningConditionsHeader>Conditions for learning:</LearningConditionsHeader>
-  <LearningConditionHediff>Must have health condition: {0}</LearningConditionHediff>
   <EarnedByCrafting>Earned by crafting:</EarnedByCrafting>
   <EarnedByDeconstructing>Earned by deconstructing:</EarnedByDeconstructing>
   <EarnedByBuilding>Earned by building:</EarnedByBuilding>
   <RequiredToCraft>Required to craft:</RequiredToCraft>
   <RequiredToBuild>Required to build:</RequiredToBuild>
-  <UsedBy>Used by:</UsedBy>
   <RequiredToResearch>Required to research:</RequiredToResearch>
-  <EarnedByTeachingLabel>May be taught in class.</EarnedByTeachingLabel>
+  <EarnedByTeachingLabel>May be taught.</EarnedByTeachingLabel>
   <EarnedByTeachingDesc>This proficiency may be taught by someone who already knows it.</EarnedByTeachingDesc>
-  <PioneerableLabel>May be pioneered.</PioneerableLabel>
-  <PioneerableDesc>This proficiency may be acquired by pioneering it from scratch through the pioneering tab of the learning page.</PioneerableDesc>
-
-  <GlobalStatModsUnmasteredLabel>Stat modifiers if unmastered:</GlobalStatModsUnmasteredLabel>
-  <GlobalStatModsUnmasteredDesc>If this proficiency is not mastered, the below stat modifiers will apply to this person until the proficiency is mastered.</GlobalStatModsUnmasteredDesc>
-
-  <GlobalStatModsMasteredLabel>Stat modifiers if mastered:</GlobalStatModsMasteredLabel>
-  <GlobalStatModsMasteredDesc>If this proficiency is mastered, the below stat modifiers will apply to this person universally.</GlobalStatModsMasteredDesc>
-  <UnassignedSuffix>(Unassigned)</UnassignedSuffix>
+  <AllowUntrainedTendingLabel>Tend All</AllowUntrainedTendingLabel>
+  <AllowUntrainedTendingDesc>Colonist will attempt to tend conditions they are not qualified to tend. This may be dangerous.</AllowUntrainedTendingDesc>
   <NoTeacher>No teacher.</NoTeacher>
   <TeacherLabel>Teacher</TeacherLabel>
   <StudentLabel>Students</StudentLabel>
@@ -69,13 +55,15 @@
   <TeacherXpText>Base xp/hour: {0}
 Teacher intellectual contribution: {1} xp/hour
 Total xp/hour: {2}</TeacherXpText>
-  <TeachXpTooltip>The amount of total XP awarded to each student before other effectiveness factors.</TeachXpTooltip>
+  <TeachXpTooltip>The amount of total XP awarded to each student before other effectiveness factors. Total amount is split between all proficiencies being taught.</TeachXpTooltip>
   
   <TeacherEffectivenessText>Overall effectiveness: {0}</TeacherEffectivenessText>
   <TeacherEffectivenessTooltip>This represents the functional effectiveness of this teacher based on their speaking and consciousness capacities.</TeacherEffectivenessTooltip>
   <EffectivenessTooltip>Base effectiveness: {0}
-Student limit before penalty: {1}
-Effectiveness loss per excess student: {2}</EffectivenessTooltip>
+Subject limit before penalty: {1}
+Effectiveness loss per excess subject: {2}
+Student limit before penalty: {3}
+Effectiveness loss per excess student: {4}</EffectivenessTooltip>
   <PioneeringDescribedText>Pioneering allows a colonist to "discover" a proficiency on their own through tireless effort over a long period of time.\n When assigned to pioneer a proficiency, each day the colonist will perform an assortment of learning activities depending on the proficiency being learned. Some activities require consumable resources, but most activities have no requirements or do not consume the items or buildings being studied. Each activity will generate a small amount of practical or theoretical experience when completed, and may only be repeated a certain number of times each day.\nActivities may be disabled by clicking the checkmark in the top corner of each activity card.\nWhen assigned to pioneeer, a colonist must be assigned to the "Research" work type before they will perform any activities. Once properly setup, they require no additional interaction or input to carry out their daily activities - as long as they have the necessary work stations to study at.\n\nPioneering is one way to learn an uncommon proficiency, but it is a very slow method. Using proficiency Neurotrainers, learning from another colonist, or simply recruiting someone who already knows the proficiency will all be much more efficient uses of time. In many case, even directly disassembling buildings or working on recipes will generate practical experience much faster. Consider carefully if the time investment is worthwhile.
 </PioneeringDescribedText>
 
@@ -91,10 +79,6 @@ Effectiveness loss per excess student: {2}</EffectivenessTooltip>
   <SettingsBaseXpPerHour>Base Teaching XP/hour</SettingsBaseXpPerHour>
   <SettingsBaseXpPerHour_desc>The amount of xp distributed per student over one hour of class attendance.</SettingsBaseXpPerHour_desc>
 
-  <SettingsXpPerTeacherLevel>XP Bonus Per Intellectual Lvl</SettingsXpPerTeacherLevel>
-  <SettingsXpPerTeacherLevel_desc>This much extra XP will be generatered per hour per teacher intellectual skill level. This amount will also be used for XP Deduction for unskilled teachers (Starting at skill level 7.) </SettingsXpPerTeacherLevel_desc>
-  <SettingsPauseOnUIOpen>Pause when opening UI</SettingsPauseOnUIOpen>
-
   <!-- Dev tools-->
   <PatchedTooltip>This def is already patched either directly or through the use of an inherited patch.</PatchedTooltip>
   <UnpatchedTooltip>This def is not patched.</UnpatchedTooltip>
@@ -103,39 +87,8 @@ Effectiveness loss per excess student: {2}</EffectivenessTooltip>
   <TextbookItemLabel>Textbook ({0})</TextbookItemLabel>
   <TextbookItemDescription>Though some might view a textbook as an archaic means of transferring knowledge, this book contains everything one might need to grasp the fundamentals of the subject on the cover. Detailed explanations, practice problems, answer keys, and more. \n\nWhen stored on a shelf in a classroom, students will automatically take relevant study materials to boost the effectiveness of their lessons.</TextbookItemDescription>
 
-  <TextbookItemDescriptionExtra>This textbook covers the following subjects:</TextbookItemDescriptionExtra>
-
-
   <ProficiencyNeurotrainerLabel>neurotrainer ({0})</ProficiencyNeurotrainerLabel>
   <ProficiencyNeurotrainerUseLabel>Use neurotrainer to learn {0}</ProficiencyNeurotrainerUseLabel>
   <ProficiencyNeurotrainerDescription>A one-use super-dose of mechanites which teaches a specific expertise.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites "reprogram" a portion of the brain to generate new knowledge on the subject, transmuting themselves into neural tissue as needed.</ProficiencyNeurotrainerDescription>
   <ProficiencyNeurotrainerUsed>{USER_labelShort} used {1} neurotrainer to learn {2}.</ProficiencyNeurotrainerUsed>
-
-  <PlanConfigMode>Proficiency Selection Mode</PlanConfigMode>
-  <PlanConfigMode_desc>This mode determines which of the plan's proficiencies to teach during any given class period.
-Least Complex: Selects the proficiency with the smallest overall cost.
-Most Complex: Select the proficiency with the largest overall cost.
-Most Qualified Students: Selects the proficiency that will ensure the largest participation in class.</PlanConfigMode_desc>
-  <LessonModeLeastComplex>Least Complex</LessonModeLeastComplex>
-  <LessonModeMostComplex>Most Complex</LessonModeMostComplex>
-  <LessonModeMostQualified>Most Qualified Students</LessonModeMostQualified>
-
-  <AttendanceRules>Attendance Rules</AttendanceRules>
-  <AttendIfInjured>Attend if injured</AttendIfInjured>
-  <AttendIfSick>Attend of sick</AttendIfSick>
-  <AttendIfDoingImportantJob>Attend if doing important job</AttendIfDoingImportantJob>
-  <AttendIfNeededDoctor>Attend if doctor with injured colonists</AttendIfNeededDoctor>
-
-  <AttendIfInjured_desc>The student or teacher will attend class even if they have untended injuries.</AttendIfInjured_desc>
-  <AttendIfSick_desc>The student or teacher will attend class even if they have an illness such as malaria.</AttendIfSick_desc>
-  <AttendIfDoingImportantJob_desc>The student or teacher will attend class, even if they have to stop fighting fire, tending to patients, or rescuing a down pawn.</AttendIfDoingImportantJob_desc> 
-  <AttendIfNeededDoctor_desc>The student or teacher will attend class even if they are a doctor, and there are currently injured pawns needing tending.</AttendIfNeededDoctor_desc> 
-
-  <PlanConfig>Plan Config</PlanConfig>
-  <CurrentlyTeachingProficiency>Currently teaching {0}.</CurrentlyTeachingProficiency>
-  <Search>Search</Search>
-  <ViewerControlsTooltip>Left/Right arrow: When selecting a colonist, swap between colonists.
-Scroll: Vertical scroll.
-Alt + Scroll: Horizontal scroll.
-Shigt + Scroll: Zoom in/out.</ViewerControlsTooltip>
 </LanguageData>

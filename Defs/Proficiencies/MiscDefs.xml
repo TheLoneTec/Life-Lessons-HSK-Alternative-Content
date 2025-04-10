@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Speaking</defName>
+    <label>speaking</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The understanding of basic language and how to use it to communicate. \nWithout this, a colonist may not be able to properly communicate with others.</description>
+    <customAcquisitionDescriptions>
+      <li>Learned automatically when interacting with others.</li>
+    </customAcquisitionDescriptions>
+    <costPractical>100</costPractical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>0</viewerX>
+    <viewerY>48</viewerY>
+    <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+     <assignmentTips>Speaking represents the basic understanding of language itself, and not strictly the ability to speak. Not to be confused with the "talking" capacity. Generally should only be used to lockout jobs that would require verbal communication such as radio operating. Should also be used to lockout pawn Interactions (like chatting.)</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ReadingWriting</defName>
+    <label>reading and writing</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <proficiencyAdjective>language</proficiencyAdjective>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively read and write language. This basic ability unlocks much of the rest of the world's knowledge.</description>
+    <costTheoretical>400</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>48</viewerY>
+    <color>RGBA(0.333, 0.42, 0.184, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>ReadingAndWriting should be used to lock out jobs or activities that would require the ability to interpret written language. Broadly speaking, this could be reading books, using scribing tools or typewriters, writing contracts or treaties, or any other such task. Generally this will not be used to lockout crafing, construction, or research, though it may be used for research where sensible.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLAnalyzeWriting</li>
+      <li>LLBrainstorm</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Computers</defName>
+    <label>Computers</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
+
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to use general purpose computers for a variety of basic tasks and activities.</description>
+    <costPractical>600</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>48</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.647, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The casual ability to use computers and electronic devices. Assigned to pre-industrial "adventurers" if they have had contact in their story with modern technology. Most industrial child backgrounds include this. Used to lockout the use of machines with a computer interface or lab equipment. A good general purpose lockout for tribals. Should not be used for recipes unless the bill involves working at a machine (such as monitoring a refinery.)</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicScience</defName>
+    <label>Basic Science</label>
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>simple scientific</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of basic scientific processes and methods. Ability to research and apply scientific method</description>
+    <costTheoretical>800</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.0, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Highschool level science. Generally used for well-learned tribals, medieval alchemists, or other low level scientists. Most industrial children's backgrounds would include this, but most medieval adult backgrounds would not. Not generally used to lock out anything, but could be used to lockout late-tribal tier research tasks.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLTestExperimentationProcess</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedScience</defName>
+    <label>Advanced Science</label>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+
+    <proficiencyAdjective>complex scientific</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of complex scientific processes and methods.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>5</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+      <li>AdvancedMathematics</li>
+    </prerequisites>
+    <color>RGBA(0.541, 0.169, 0.886, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The level of scientific understanding a modern entry-level scientist or college graduate in a science field might know. Well educated industrial adults or "genius" child backstories might have this. Not generally used for lockouts, but may be used where a significant scientific intelligence is needed without a particular specialization. Most post-industrial adult backstories (glitter, spacer) will include this as standard education.</assignmentTips>
+
+    <theoreticalLearningActivityDefs>
+      <li>LLDocument</li>
+      <li>LLBrainstorm</li>
+      <li>LLRigorization</li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>EVATraining</defName>
+    <label>EVA Training</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to operate in open space and zero-g environments.</description>
+    <costPractical>400</costPractical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>12</viewerX>
+    <viewerY>11</viewerY>
+    <prerequisites>
+      <li>Programming</li>
+      <li>Engineering</li>
+    </prerequisites>
+    <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout use of atmosphere suits for zero-g excursions. Most space miners and similar space-faring professions will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+    <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Labourer</defName>
+    <label>Labourer</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to do work requiring precision, strength and repetition.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>4</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.71, 0.49, 0.25, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft various items that are tough to work with as well as things that require precise repetitive motion or routines.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+   <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Artisan</defName>
+    <label>Artisan</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to create objects that require intricate and delicate work with a little bit of creativity.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>5</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.72, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to create things from various materials, such as sculptures, furniture and anything that is easy to break or mess up.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+
+</Defs>

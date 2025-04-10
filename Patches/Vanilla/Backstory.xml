@@ -269,7 +269,7 @@
             <li>BasicFabrication</li>
             <li>BasicMathematics</li>
             <li>Smithing</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
           </proficiencies>
         </template>
       </li>
@@ -759,7 +759,7 @@
             <li>Computers</li>
             <li>Construction</li>
             <li>Artisan</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
           </proficiencies>
         </template>
       </li>
@@ -826,6 +826,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
             <li>Geology</li>
+			<li>SoilScience</li>
             <li>Mineralogy</li>
             <li>AdvancedScience</li>
             <li>AdvancedMathematics</li>
@@ -1131,7 +1132,7 @@
             <li>Computers</li>
             <li>Construction</li>
             <li>Artisan</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
           </proficiencies>
         </template>
       </li>
@@ -1652,6 +1653,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
             <li>Geology</li>
+			<li>SoilScience</li>
             <li>PlantCare</li>
           </proficiencies>
         </template>
@@ -3130,6 +3132,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
             <li>Geology</li>
+			<li>SoilScience</li>
             <li>AdvancedScience</li>
             <li>AdvancedMathematics</li>
           </proficiencies>
@@ -3900,7 +3903,7 @@
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicFabrication</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
             <li>Computers</li>
@@ -6629,7 +6632,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
             <li>Machining</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
             <li>AdvancedFabrication</li>
           </proficiencies>
         </template>
@@ -8205,7 +8208,7 @@
             <li>Computers</li>
             <li>Artisan</li>
             <li>BasicFabrication</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
           </proficiencies>
         </template>
       </li>
@@ -8278,7 +8281,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
             <li>Mechanics</li>
-            <li>Glassworking</li>
+			<li>Glassworking</li>
             <li>Smithing</li>
           </proficiencies>
         </template>
