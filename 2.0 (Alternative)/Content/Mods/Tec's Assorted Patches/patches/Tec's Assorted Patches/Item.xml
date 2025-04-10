@@ -17,9 +17,9 @@
 				  <li>Hydroponics</li>
 				  <li>Engineering</li>
 				</requirements>
-				<softRequirement>False</softRequirement>
-				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+				<hardRequirement>True</hardRequirement>
+				
+				
 			  </li>
 			</value>
 		  </li>
@@ -31,9 +31,9 @@
 				  <li>Engineering</li>
 				  <li>IndustrialChemistry</li>
 				</requirements>
-				<softRequirement>False</softRequirement>
-				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+				<hardRequirement>True</hardRequirement>
+				
+				
 			  </li>
 			</value>
 		  </li>
@@ -45,9 +45,9 @@
 				  <li>Engineering</li>
 				  <li>Wavelengths</li>
 				</requirements>
-				<softRequirement>False</softRequirement>
-				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+				<hardRequirement>True</hardRequirement>
+				
+				
 			  </li>
 			</value>
 		  </li>
@@ -68,9 +68,9 @@
 					<requirements>
 					  <li>Smithing</li>
 					</requirements>
-					<softRequirement>False</softRequirement>
-					<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-					<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+					<hardRequirement>True</hardRequirement>
+					
+					
 				  </li>
 				</value>
 			</li>
@@ -85,9 +85,9 @@
         <requirements>
           <li>Tailoring</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -98,9 +98,9 @@
         <requirements>
           <li>Tailoring</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>

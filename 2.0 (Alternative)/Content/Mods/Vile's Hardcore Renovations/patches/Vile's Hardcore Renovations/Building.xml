@@ -7,9 +7,9 @@
         <requirements>
           <li>Construction</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -27,9 +27,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -40,9 +40,9 @@
         <requirements>
           <li>Construction</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -60,9 +60,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -80,9 +80,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -100,9 +100,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -120,9 +120,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -137,9 +137,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -158,9 +158,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -179,9 +179,9 @@
             <progressMultiplier>0.4</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -192,9 +192,9 @@
         <requirements>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -205,9 +205,9 @@
         <requirements>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -219,9 +219,9 @@
           <li>Construction</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -233,9 +233,9 @@
           <li>Construction</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -247,9 +247,9 @@
           <li>Construction</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -261,9 +261,9 @@
           <li>Construction</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -274,9 +274,9 @@
         <requirements>
           <li>Construction</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -288,9 +288,9 @@
           <li>Construction</li>
           <li>MaterialsChemistry</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -302,9 +302,9 @@
           <li>Construction</li>
           <li>Mechanics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -317,9 +317,9 @@
           <li>Mechanics</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -334,9 +334,9 @@
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -351,9 +351,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -371,9 +371,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -388,9 +388,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -405,9 +405,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -422,9 +422,9 @@
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -442,9 +442,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -459,9 +459,9 @@
             <progressMultiplier>0.04</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -476,9 +476,9 @@
             <progressMultiplier>0.04</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>

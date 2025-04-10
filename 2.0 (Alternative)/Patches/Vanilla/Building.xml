@@ -20,9 +20,8 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.6</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+
       </li>
     </value>
   </Operation>

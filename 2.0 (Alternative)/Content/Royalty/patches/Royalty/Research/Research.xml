@@ -10,9 +10,9 @@
           <li>Medical</li>
           <li>Bioelectronics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -26,9 +26,9 @@
           <li>Programming</li>
           <li>Bionics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -43,9 +43,9 @@
           <li>Programming</li>
           <li>Electronics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -60,9 +60,9 @@
           <li>EnvironmentalChemistry</li>
           <li>Bioelectronics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -76,9 +76,9 @@
           <li>Programming</li>
           <li>Bioelectronics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -93,9 +93,9 @@
           <li>Programming</li>
           <li>Neurosurgery</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -110,9 +110,9 @@
           <li>Bioelectronics</li>
           <li>PolymerChemistry</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -127,9 +127,9 @@
           <li>Programming</li>
           <li>Bioelectronics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -143,9 +143,9 @@
           <li>Bioelectronics</li>
           <li>Biosynthesis</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -161,9 +161,9 @@
           <li>PharmaceuticalChemistry</li>
           <li>Medical</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -178,9 +178,9 @@
           <li>Bioelectronics</li>
           <li>Neurosurgery</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -196,9 +196,9 @@
           <li>Machining</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -214,9 +214,9 @@
           <li>Machining</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -234,9 +234,9 @@
           <li>PowerarmorAssembly</li>
           <li>Artisan</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -250,9 +250,9 @@
           <li>Engineering</li>
           <li>Physics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>
@@ -267,9 +267,9 @@
           <li>Programming</li>
           <li>Wavelengths</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
     <success>Normal</success>

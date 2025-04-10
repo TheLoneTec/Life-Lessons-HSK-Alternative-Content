@@ -8,9 +8,9 @@
           <li>Petrochemistry</li>
           <li>MaterialsChemistry</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -21,9 +21,9 @@
         <requirements>
           <li>Electronics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -34,9 +34,9 @@
         <requirements>
           <li>Construction</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -47,9 +47,9 @@
         <requirements>
           <li>Mechanics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -62,9 +62,9 @@
           <li>Mechanics</li>
           <li>PetroleumGeology</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -78,9 +78,9 @@
           <li>Petrochemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -91,9 +91,9 @@
         <requirements>
           <li>Construction</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -104,9 +104,9 @@
         <requirements>
           <li>Construction</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -119,9 +119,9 @@
           <li>Electronics</li>
           <li>Machining</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -135,9 +135,9 @@
           <li>MaterialsChemistry</li>
           <li>Petrochemistry</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -157,9 +157,9 @@
             <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -172,9 +172,9 @@
           <li>IndustrialChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -185,9 +185,9 @@
         <requirements>
           <li>Mechanics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -199,9 +199,9 @@
           <li>Mechanics</li>
           <li>BasicScience</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -212,9 +212,9 @@
         <requirements>
           <li>Mechanics</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -227,9 +227,9 @@
           <li>PolymerChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -242,9 +242,9 @@
           <li>Petrochemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -257,9 +257,9 @@
           <li>IndustrialChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -273,9 +273,9 @@
           <li>PolymerChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -289,9 +289,9 @@
           <li>PharmaceuticalChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -305,9 +305,9 @@
           <li>Petrochemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -321,9 +321,9 @@
           <li>MaterialsChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -337,9 +337,9 @@
           <li>MaterialsChemistry</li>
           <li>Engineering</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>

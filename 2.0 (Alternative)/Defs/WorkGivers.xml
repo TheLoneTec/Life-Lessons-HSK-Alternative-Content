@@ -12,5 +12,14 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
+
+  <WorkGiverDef> <!-- Potentially remove if causing issues -->
+    <defName>LLRejoinClass</defName>
+    <label>rejoin class</label>
+    <giverClass>LifeLessons.WorkGiver_RejoinClass</giverClass>
+    <verb>rejoin class</verb>
+    <gerund>rejoining class</gerund>
+    <workType>BasicWorker</workType>
+  </WorkGiverDef>
   
 </Defs>

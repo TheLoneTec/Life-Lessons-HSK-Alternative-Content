@@ -14,9 +14,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -34,9 +34,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -54,9 +54,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -74,9 +74,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -94,9 +94,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -114,9 +114,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -134,9 +134,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -154,9 +154,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -174,9 +174,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -194,9 +194,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -214,9 +214,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -234,9 +234,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>
@@ -254,9 +254,9 @@
             <progressMultiplier>0.05</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+        <hardRequirement>False</hardRequirement>
+        
+        
       </li>
     </value>
   </Operation>

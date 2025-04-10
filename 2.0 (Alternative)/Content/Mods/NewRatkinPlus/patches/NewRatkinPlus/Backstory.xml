@@ -4,12 +4,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_LandRat"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_LandRat"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -17,12 +17,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_CountryKid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_CountryKid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -30,14 +30,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_ShepherdBoy"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_ShepherdBoy"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>Ecology</li>
             <li>PlantCare</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -45,12 +45,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Orphan"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Orphan"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -58,7 +58,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Student"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Student"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -66,7 +66,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -74,7 +74,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_LittleLibrarian"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_LittleLibrarian"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -84,7 +84,7 @@
             <li>BasicFabrication</li>
             <li>Tailoring</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -92,7 +92,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_GoldenSpoon"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_GoldenSpoon"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -100,7 +100,7 @@
             <li>BasicMathematics</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -108,12 +108,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Bastard"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Bastard"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -121,7 +121,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Successor"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Successor"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -129,7 +129,7 @@
             <li>Computers</li>
             <li>BasicMathematics</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -137,14 +137,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_GuardenerStudent"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_GuardenerStudent"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>PlantCare</li>
             <li>Cultivation</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -152,7 +152,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_ChefStudent"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_ChefStudent"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -162,7 +162,7 @@
             <li>Stew</li>
             <li>Simmering</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -170,12 +170,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_RomanyKid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_RomanyKid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -183,12 +183,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_OfficerChild"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_OfficerChild"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -196,13 +196,13 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_MerchantKid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_MerchantKid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -210,12 +210,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Kid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Kid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -223,13 +223,13 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_ServentChild"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_ServentChild"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicFabrication</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -237,12 +237,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_HumanAssistant"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_HumanAssistant"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -250,7 +250,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_CityKid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_CityKid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -258,7 +258,7 @@
             <li>BasicScience</li>
             <li>BasicMathematics</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -266,12 +266,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_SlaveKid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_SlaveKid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -279,12 +279,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_LaboratoryRats"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_LaboratoryRats"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -292,12 +292,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_PettyTheft"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_PettyTheft"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -305,7 +305,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_CaravanMerchant"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_CaravanMerchant"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -313,7 +313,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -321,7 +321,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Wanderer"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Wanderer"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -332,7 +332,7 @@
             <li>Grilling</li>
             <li>Boiling</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -340,7 +340,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Farmer"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Farmer"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -350,7 +350,7 @@
             <li>Cultivation</li>
             <li>Fertilization</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -358,7 +358,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Miner"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Miner"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -367,7 +367,7 @@
             <li>Mineralogy</li>
             <li>Geology</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -375,7 +375,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Hunter"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Hunter"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -383,7 +383,7 @@
             <li>BasicScience</li>
             <li>Ecology</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -391,14 +391,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Shepherd"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Shepherd"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -406,14 +406,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Civil"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Civil"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -421,7 +421,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Noble"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Noble"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -429,7 +429,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -437,7 +437,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_CityMerchant"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_CityMerchant"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -445,7 +445,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -453,14 +453,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Librarian"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Librarian"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -468,7 +468,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Guardener"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Guardener"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -477,7 +477,7 @@
             <li>PlantCare</li>
             <li>Cultivation</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -485,7 +485,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Knight"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Knight"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -493,7 +493,7 @@
             <li>BasicScience</li>
             <li>FirstAid</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -501,7 +501,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_KnightCommander"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_KnightCommander"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -510,7 +510,7 @@
             <li>Computers</li>
             <li>FirstAid</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -518,7 +518,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Teacher"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Teacher"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -528,7 +528,7 @@
             <li>AdvancedMathematics</li>
             <li>Chemistry</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -536,7 +536,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Blacksmith"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Blacksmith"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -546,7 +546,7 @@
             <li>BasicFabrication</li>
             <li>ArmorSmith</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -554,12 +554,12 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Thief"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Thief"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -567,7 +567,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Ambassador"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Ambassador"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -575,7 +575,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -583,7 +583,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Soldier"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Soldier"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -591,7 +591,7 @@
             <li>BasicScience</li>
             <li>FirstAid</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -599,7 +599,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Explorer"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Explorer"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -611,7 +611,7 @@
             <li>Grilling</li>
             <li>Boiling</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -619,7 +619,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Chef"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Chef"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -633,7 +633,7 @@
             <li>PanFrying</li>
             <li>Searing</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -641,7 +641,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_HandMaiden"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_HandMaiden"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -650,7 +650,7 @@
             <li>BasicFabrication</li>
             <li>Tailoring</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -658,14 +658,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Shooter"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Shooter"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -673,7 +673,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Doctor"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Doctor"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -689,7 +689,7 @@
             <li>MedicinalChemistry</li>
             <li>Chemistry</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -697,7 +697,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_ArmySurgeon"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_ArmySurgeon"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -713,7 +713,7 @@
             <li>TraumaSurgery</li>
             <li>GeneralSurgery</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -721,7 +721,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_ConstructionWorker"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_ConstructionWorker"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -731,7 +731,7 @@
             <li>Artisan</li>
             <li>BasicFabrication</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -739,7 +739,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Rich"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Rich"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -747,7 +747,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -755,14 +755,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Sister"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Sister"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -770,7 +770,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Butcher"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Butcher"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -780,7 +780,7 @@
             <li>Ecology</li>
             <li>PlantCare</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -788,14 +788,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_CityMaid"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_CityMaid"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -803,7 +803,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Idol"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Idol"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -811,7 +811,7 @@
             <li>BasicScience</li>
             <li>Computers</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -819,14 +819,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Murderer"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Murderer"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -834,7 +834,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Assistant"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Assistant"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -844,7 +844,7 @@
             <li>AdvancedScience</li>
             <li>AdvancedMathematics</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -852,7 +852,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Scientist"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Scientist"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -864,7 +864,7 @@
             <li>AdvancedMathematics</li>
             <li>Physics</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -872,7 +872,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Engineer"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Engineer"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -888,7 +888,7 @@
             <li>AdvancedMathematics</li>
             <li>BasicFabrication</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -896,7 +896,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Agriculturist"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Agriculturist"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -910,7 +910,7 @@
             <li>Cultivation</li>
             <li>Fertilization</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -918,14 +918,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_RatkinHunter"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_RatkinHunter"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -933,14 +933,14 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Subject"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Subject"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
             <li>BasicMathematics</li>
             <li>BasicScience</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -948,7 +948,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Vagabond"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Vagabond"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -960,7 +960,7 @@
             <li>BasicFabrication</li>
             <li>Tailoring</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>
@@ -968,7 +968,7 @@
     <xpath>Defs/BackstoryDef[defName="Ratkin_Demoman"]|Defs/AlienRace.AlienBackstoryDef[defName="Ratkin_Demoman"]</xpath>
     <value>
       <li Class="LifeLessons.BackstoryProficiencyExtension">
-        <template>
+        <package>
           <proficiencies>
             <li>Speaking</li>
             <li>ReadingWriting</li>
@@ -978,7 +978,7 @@
             <li>EnvironmentalChemistry</li>
             <li>MaterialsChemistry</li>
           </proficiencies>
-        </template>
+        </package>
       </li>
     </value>
   </Operation>

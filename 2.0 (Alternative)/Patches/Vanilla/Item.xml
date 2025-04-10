@@ -7,9 +7,8 @@
         <requirements>
           <li>PsychochemistryAdvanced</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+
       </li>
     </value>
   </Operation>
@@ -20,9 +19,8 @@
         <requirements>
           <li>PharmaceuticalChemistry</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+
       </li>
     </value>
   </Operation>
@@ -33,9 +31,8 @@
         <requirements>
           <li>PsychochemistryAdvanced</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+
       </li>
     </value>
   </Operation>
@@ -46,9 +43,8 @@
         <requirements>
           <li>PsychochemistryAdvanced</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+
       </li>
     </value>
   </Operation>
@@ -60,9 +56,8 @@
           <li>PharmaceuticalChemistry</li>
           <li>PsychochemistryAdvanced</li>
         </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+        <hardRequirement>True</hardRequirement>
+
       </li>
     </value>
   </Operation>

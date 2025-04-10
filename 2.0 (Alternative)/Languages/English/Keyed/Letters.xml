@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <LetterLabelTendingFailed>Tending failed on {PATIENT_labelShort}</LetterLabelTendingFailed>
-  <MessageTendingFailed>Because {TENDER_labelShort} lacks required proficiencies to treat {PATIENT_labelShort}'s conditions, {TENDER_pronoun} ended up doing more harm than good. (Missing: {2})</MessageTendingFailed>
   <UnqualifiedResearch>Unqualified Research Project</UnqualifiedResearch>
   <UnqualifiedResearchDesc>There are no colonists assigned to research that have the required proficiencies to perform the selected research project.</UnqualifiedResearchDesc>
 
   <UnqualifiedBuild>Unqualified Building Project</UnqualifiedBuild>
   <UnqualifiedBuildDesc>There are no colonists with the required proficiencies to build these blueprints.</UnqualifiedBuildDesc>
-
-  <UnqualifiedDoctors>No qualified doctors</UnqualifiedDoctors>
-  <UnqualifiedDoctorsDesc>There are colonists, guests, or prisoners with injuries or illnesses that need tending, but colonists with the necessary proficiencies to tend to them. \n
-This requirement may be ignored by selecting "Tend All" from the health menu of a colonist. This will allow them to treat any conditions even without training. \n
-Beware, as this is likely to make things drastically worse.</UnqualifiedDoctorsDesc>
 </LanguageData>

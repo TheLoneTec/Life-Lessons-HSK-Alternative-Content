@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <MissingProficiency>Missing required proficiencies: {0} </MissingProficiency>
+  <MissingStuffProficiency>Missing required proficincies for ingredients: {0} </MissingStuffProficiency>
   <MissingProficiencyVerbose>Unqualified for {0}, proficiencies needed: {1} </MissingProficiencyVerbose>
+  <ProficienciesUsed>Proficiencies used: {0}</ProficienciesUsed>
+  <PrerequisiteRequirements>Minimum to work: {0} </PrerequisiteRequirements>
+
   <RequiredProficiencies>Proficiencies needed: {0} </RequiredProficiencies>
+  <RequiredStuffProficiencies>Proficiencies needed for {0}: {1} </RequiredStuffProficiencies>
   <RewardedProficiencies>Proficiencies trained: {0} </RewardedProficiencies>
   <NoColonistWithRequirements>The recipe {0} requires these proficiencies: {1}. None of your colonists have these skills, so nobody will do this bill.</NoColonistWithRequirements>
   <UnassignedColonistWithRequirements>The recipe {0} requires these proficiencies: {1}. One of your colonists has these skills but is not assigned to perform the proper work type.</UnassignedColonistWithRequirements>
@@ -11,6 +16,8 @@
   <NoColonistWithRequirementsResearchTask>This task requires these proficiencies: {0}. None of your colonists have these skills, so nobody will do this task.</NoColonistWithRequirementsResearchTask>
   <UnassignedColonistWithRequirementsResearchTask>This task requires these proficiencies: {0}. One of your colonists has these skills but is not assigned to perform the research work type.</UnassignedColonistWithRequirementsResearchTask>
   <SelectLessonPlanError>Create or select a lesson plan to modify first.</SelectLessonPlanError>
+  <QualifiedPawns>Qualified Colonists: 
+{0}</QualifiedPawns>
   <UnqualifiedTeacher>{0} cannot teach {1} because they have not learned it themselves.</UnqualifiedTeacher>
 
   <!-- Class alerts-->
@@ -26,7 +33,8 @@
   <UnvailableGeneric>{0} was not available to attend class.</UnvailableGeneric>
   <UnavailableCriticalJob>{0} skipped class due to a critical job (Medical/Fire)</UnavailableCriticalJob>
   <UnavailableCannotReach>{0} is not able to reach the classroom and has skipped class.</UnavailableCannotReach>
-  <UnavailableSick>{0} should be resting and has skipped class.</UnavailableSick>
+  <UnavailableSick>{0} has skipped class because they were sick and should be resting.</UnavailableSick>
+  <UnavailableInjured>{0} has skipped class because they have untended injuries.</UnavailableInjured>
   <StudentLacksPrereqs>{0} lacks prerequisites to learn at least one subject taught in this lesson plan.</StudentLacksPrereqs>
 
   <MissingQualifiedPilot>No qualified pilots with the Piloting proficiency found.</MissingQualifiedPilot>
