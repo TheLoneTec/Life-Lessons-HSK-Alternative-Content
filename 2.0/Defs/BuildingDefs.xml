@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>TeachersDesk</defName>
+    <label>teachers desk</label>
+    <description>A large desk for managing class work. Can be used by a teacher to give lessons.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Buildings/TeacherDesk</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+      <Mass>16</Mass>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Blackboard</li>
+        </linkableFacilities>
+      </li>
+
+      <li Class="CompProperties_StatEntry">
+        <compClass>LifeLessons.CompStatEntryClassEffectiveness</compClass>
+        <statCategoryDef>Building</statCategoryDef>
+        <statLabel>Classroom effectiveness</statLabel>
+        <reportText>The learning effectiveness factor of this classroom.</reportText>
+        <displayPriorityInCategory>300</displayPriorityInCategory>
+      </li>
+
+      <li Class="CompProperties_InspectString">
+        <compClass>LifeLessons.CompInspectStringTeacherDesk</compClass>
+        <inspectString>Classroom effectiveness</inspectString>
+      </li>
+
+      <li Class="LifeLessons.CompProperties_TeachingManager">
+        <interactableThings>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Blackboard</li>
+        </interactableThings>
+      </li>
+
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+      <li>LifeLessons.PlaceWorker_TeacherStation</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>TeachingSpot</defName>
+    <label>teaching spot</label>
+    <description>A spot for students to gather and listen to a lecture, in lieu of a dedicated classroom.</description>
+    <graphicData>
+      <texPath>Buildings/TeachingSpot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+    </statBases>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>False</useHitPoints>
+    <designationCategory>Misc</designationCategory>
+    <passability>Standable</passability>
+    <tickerType>Normal</tickerType>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+     <placeWorkers>
+      <li>LifeLessons.PlaceWorker_TeacherStation</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_StatEntry">
+        <compClass>LifeLessons.CompStatEntryClassEffectiveness</compClass>
+        <statCategoryDef>Building</statCategoryDef>
+        <statLabel>Classroom effectiveness</statLabel>
+        <reportText>The learning effectiveness factor of this classroom.</reportText>
+        <displayPriorityInCategory>300</displayPriorityInCategory>
+      </li>
+
+      <li Class="CompProperties_InspectString">
+        <compClass>LifeLessons.CompInspectStringTeacherDesk</compClass>
+        <inspectString>Classroom effectiveness</inspectString>
+      </li>
+
+      <li Class="LifeLessons.CompProperties_TeachingManager"></li>
+    </comps>
+    <building>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>LLChemistryStation</defName>
+    <label>chemistry station</label>
+    <description>A miniature chemistry lab. Covered in chemical references and datasheets, vials, beakers, and other chemistry hardware.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Buildings/ChemistryTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>180</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>LLTinkeringStation</defName>
+    <label>tinkering station</label>
+    <description>A workbench for experimenting with mechanical and electronics gadgets.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Buildings/TinkeringTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>LLExperimentationStations</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>LLAutopsyTable</defName>
+    <label>autopsy table</label>
+    <description>A metallic bed-like workstation for processing and dissecting corpses.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Buildings/AutopsyTable</texPath>
+      <drawSize>(4,4)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <size>(2,2)</size>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>260</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+    </statBases>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <surfaceType>Item</surfaceType>
+    <tickerType>Normal</tickerType>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>LLExperimentationStations</li>
+    </researchPrerequisites>
+    <modExtensions>
+      <li Class="LifeLessons.BenchOffsetExtension">
+        <itemCellOffset>(1,0,1)</itemCellOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="LLBookcaseBase" ParentName="FurnitureWithQualityBase" Abstract="True">
+    <thingClass>LifeLessons.Building_PrettyStorage</thingClass>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <statBases>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+    </statBases>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <!--<maxItemsInCell>10</maxItemsInCell>-->
+      <storageGroupTag>LLBookcase</storageGroupTag>
+      <blueprintClass>Blueprint_Storage</blueprintClass>
+      <fixedStorageSettings>
+        <filter>
+          <disallowNotEverStorable>true</disallowNotEverStorable>
+          <categories>
+            <li>LLLearningAids</li>
+          </categories>
+           <disallowedCategories>
+            <li>LLNeurotrainers</li>
+          </disallowedCategories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Preferred</priority>
+        <filter>
+          <categories>
+            <li>LLLearningAids</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+      <paintable>true</paintable>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+      <li>LifeLessons.PrettyStorage_ITab</li>
+      <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+    </inspectorTabs>
+    <designationHotKey>Misc12</designationHotKey>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+	<designationCategory>LWM_DS_Storage</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="LLBookcaseBase">
+    <defName>LLBookCase</defName>
+    <label>book case</label>
+    <description>A simple book case for housing textbooks.</description>
+    <graphicData>
+      <texPath>Buildings/BookCase</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,3)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <costStuffCount>120</costStuffCount>
+	<comps>
+		<li Class="LWM.DeepStorage.Properties">
+			<maxNumberStacks>10</maxNumberStacks>
+			<minTimeStoringTakes>15</minTimeStoringTakes>
+			<additionalTimeEachStack>15</additionalTimeEachStack>
+			<overlayType>SumOfItemsPerCell</overlayType>
+			<showContents>false</showContents>
+		</li>
+	</comps>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Mass>22</Mass>
+    </statBases>
+    <size>(2,1)</size>
+  </ThingDef>
+</Defs>

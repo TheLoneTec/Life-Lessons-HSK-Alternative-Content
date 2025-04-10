@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Preemptive Strike (v1.4 Fork)</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ResearchProjectDef[defName="Medieval_Tower"]</xpath>
+				<value>
+				  <li Class="LifeLessons.BillProficiencyExtension">
+					<requirements>
+					  <li>Construction</li>
+					  <li>Labourer</li>
+					</requirements>
+					<softRequirement>False</softRequirement>
+					<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+					<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+				  </li>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Jewelry</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		  <li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ResearchProjectDef[defName="Gem_floor_C1"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Mineralogy</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+		  </li>
+		</operations>
+	</match>
+  </Operation>
+
+
+</Patch>

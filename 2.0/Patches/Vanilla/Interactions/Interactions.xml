@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="BuildRapport"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="RecruitAttempt"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="SparkJailbreak"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="RomanceAttempt"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="MarriageProposal"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Breakup"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Chitchat"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+        <initiatorUnqualifiedOverride>
+          <unqualifiedInteractionDef>ChatFromSpeechlessSuccess</unqualifiedInteractionDef>
+          <unqualifiedFailureInteractionDef>ChatFromSpeechlessFailed</unqualifiedFailureInteractionDef>
+          <failChance>0.33</failChance>
+        </initiatorUnqualifiedOverride>
+        <recipientUnqualifiedOverride>
+          <unqualifiedInteractionDef>ChatWithSpeechlessSuccess</unqualifiedInteractionDef>
+          <unqualifiedFailureInteractionDef>ChatWithSpeechlessFailed</unqualifiedFailureInteractionDef>
+          <failChance>0.33</failChance>
+        </recipientUnqualifiedOverride>
+        <bothUnqualifiedOverride>
+          <unqualifiedInteractionDef>UnintelligibleChat</unqualifiedInteractionDef>
+        </bothUnqualifiedOverride>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="DeepTalk"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+        <initiatorUnqualifiedOverride>
+          <unqualifiedInteractionDef>ChatFromSpeechlessSuccess</unqualifiedInteractionDef>
+          <unqualifiedFailureInteractionDef>ChatFromSpeechlessFailed</unqualifiedFailureInteractionDef>
+          <failChance>0.33</failChance>
+        </initiatorUnqualifiedOverride>
+        <recipientUnqualifiedOverride>
+          <unqualifiedInteractionDef>ChatWithSpeechlessSuccess</unqualifiedInteractionDef>
+          <unqualifiedFailureInteractionDef>ChatWithSpeechlessFailed</unqualifiedFailureInteractionDef>
+          <failChance>0.33</failChance>
+        </recipientUnqualifiedOverride>
+        <bothUnqualifiedOverride>
+          <unqualifiedInteractionDef>UnintelligibleChat</unqualifiedInteractionDef>
+        </bothUnqualifiedOverride>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Slight"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Insult"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+        <initiatorUnqualifiedOverride>
+          <unqualifiedInteractionDef>InsultFromSpeechless</unqualifiedInteractionDef>
+        </initiatorUnqualifiedOverride>
+        <recipientUnqualifiedOverride>
+          <unqualifiedInteractionDef>Insult</unqualifiedInteractionDef>
+        </recipientUnqualifiedOverride>
+        <bothUnqualifiedOverride>
+          <unqualifiedInteractionDef>InsultFromSpeechless</unqualifiedInteractionDef>
+        </bothUnqualifiedOverride>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="KindWords"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Slight"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="Acid_Burn"]/comps</xpath>
+    <value>
+      <li Class="LifeLessons.CompProperties_MedicalRequirements">
+        <extensionTypes>
+          <li>
+            <key>fleshy</key>
+            <value>
+              <tendingRequirements>
+                <li>
+                  <requiredProficiency>FirstAid</requiredProficiency>
+                  <infectionChanceMultiplier>1.2</infectionChanceMultiplier>
+                  <failureChanceMinor>0.10</failureChanceMinor>
+                  <requiredAtDepths>
+                    <li>Flesh</li>
+                  </requiredAtDepths>
+                </li>
+                <li>
+                  <requiredProficiency>Medical</requiredProficiency>
+                  <infectionChanceMultiplier>2.0</infectionChanceMultiplier>
+                  <failureChanceMinor>0.15</failureChanceMinor>
+                  <failureChanceMajor>0.15</failureChanceMajor>
+                  <requiredAtDepths>
+                    <li>Organ</li>
+                    <li>Bone</li>
+                  </requiredAtDepths>
+                </li>
+              </tendingRequirements>
+              <tendingRewards>
+                <li>
+                  <proficiency>FirstAid</proficiency>
+                  <progressGain>15</progressGain>
+                </li>
+              </tendingRewards>
+            </value>
+          </li>
+
+          <li>
+            <key>mechanical</key>
+            <value>
+              <tendingRequirements>
+                <li>
+                  <requiredProficiency>Smithing</requiredProficiency>
+                  <failureChanceMinor>0.20</failureChanceMinor>
+                  <requiredAtDepths>
+                    <li>Flesh</li>
+                  </requiredAtDepths>
+                </li>
+                <li>
+                  <requiredProficiency>Mechanics</requiredProficiency>
+                  <failureChanceMinor>0.50</failureChanceMinor>
+                  <failureChanceMajor>0.50</failureChanceMajor>
+                  <requiredAtDepths>
+                    <li>Organ</li>
+                    <li>Bone</li>
+                  </requiredAtDepths>
+                </li>
+              </tendingRequirements>
+              <tendingRewards>
+                <li>
+                  <proficiency>Mechanics</proficiency>
+                  <progressGain>15</progressGain>
+                </li>
+              </tendingRewards>
+            </value>
+          </li>
+        </extensionTypes>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BandNode"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ToxifierGenerator"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GeneAssembler"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GeneBank"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>AdvancedConstruction</proficiency>
+            <progressGain>20</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GeneExtractor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+          <li>Biology</li>
+          <li>Medical</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GrowthVat"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Biology</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BurnoutMechlinkBooster"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MechbandDish"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PollutionPump"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="WastepackAtomizer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+   <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="GeneProcessor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Biology</li>
+          <li>Programming</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>50</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MechBooster"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>25</progressGain>
+          </li>
+        </deconstructRewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+</Patch>

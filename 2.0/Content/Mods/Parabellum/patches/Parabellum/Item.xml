@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Modularization Vanilla Weapon SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="ARToolingSet"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BuildingProficiencyExtension">
+				<requirements>
+				  <li>AdvancedFabrication</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_StGDT"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_MauserT"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_G43Default"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_G4320rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_G43Kurz"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_ZF4S"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Glassworking</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_ZF4G43k"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Glassworking</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_ZF41S"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Glassworking</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_ZF41M"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Glassworking</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_Vampir"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Glassworking</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_ZS"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Glassworking</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_6inchB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_10inchB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_14inchB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_20inchB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_6inchSB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_10inchSB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_20inchSB"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_308K"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_DK"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AK762CK"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_BeowulfCK"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_12GK"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_9mmCK"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_45ACPCK"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Artisan</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_4inchHG"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_8inchHG"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_12inchHG"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_16inchHG"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_SMG32rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_SMG100rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR20rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR8rndBeowulf"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR30rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AKPM30rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR12rndBeowulf"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR60rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AKQPM60rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR20rndBeowulf"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR100rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_AR32rndBeowulf"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_BR20rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_BR30rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_SG8rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_SG20rnd"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_ARBT"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_FixedStock"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>AdvancedFabrication</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="Module_CollapsibleStock"]</xpath>
+			<value>
+			  <li Class="LifeLessons.BillProficiencyExtension">
+				<requirements>
+				  <li>Machining</li>
+				  <li>Mechanics</li>
+				</requirements>
+				<softRequirement>False</softRequirement>
+				<unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+				<unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+			  </li>
+			</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Pa_S8498III"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_NIJIIA"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Tailoring</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_6B5BV"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Tailoring</li>
+          <li>Smithing</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_IOTV"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Physics</li>
+          <li>PolymerChemistry</li>
+          <li>IndustrialChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_BNC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+          <li>IndustrialChemistry</li>
+          <li>Tailoring</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_BAPS"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Tailoring</li>
+          <li>Smithing</li>
+          <li>IndustrialChemistry</li>
+          <li>PolymerChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_LBBPS"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Physics</li>
+          <li>PolymerChemistry</li>
+          <li>IndustrialChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_MB"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Tailoring</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_TP"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>MaterialsChemistry</li>
+          <li>AdvancedScience</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_BPI"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Machining</li>
+          <li>MaterialsChemistry</li>
+          <li>Physics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_BPII"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Machining</li>
+          <li>PolymerChemistry</li>
+          <li>Physics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_BPIII"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Machining</li>
+          <li>PolymerChemistry</li>
+          <li>Physics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaH_Stahlhelm"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaH_StahlhelmS"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_Sappenpanzer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="PaB_SN46B"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="MoodMoteBase">
+    <defName>LLMoteThoughtNeutral</defName>
+    <graphicData>
+      <color>(200,200,200)</color>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="FoodBitBase">
+    <defName>LLMoteExamineMagnify</defName>
+    <graphicData>
+      <texPath>UI/Buttons/ShowExpandingIcons</texPath>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>LLMoteOpenBook</defName>
+    <thingClass>MoteBubble</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <solidTime>600</solidTime>
+      <attachedDrawOffset>(0, 0, 1)</attachedDrawOffset>
+      <rotateTowardsMoveDirection>true</rotateTowardsMoveDirection>
+    </mote>
+    <graphicData>
+      <texPath>Motes/OpenBook</texPath>
+      <drawSize>3.0</drawSize>
+    </graphicData>
+  </ThingDef>
+</Defs>
