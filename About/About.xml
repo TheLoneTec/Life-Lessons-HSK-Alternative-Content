@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Life Lessons</name>
+  <author>GhostData</author>
+  <url>https://gitlab.com/Ghost.Data/life-lessons/-/tree/main</url>
+  <packageId>GhostData.lifelessons</packageId>
+  <supportedVersions>
+		<li>1.5</li>
+  </supportedVersions>
+  <description>Adds a layer of knowledge between the research system and colonist skill. With this mod your colonists will need to master certain proficiencies on an individual level in order to perform many bills, interactions, research tasks, and more. Some proficiencies can be learned on-the-job, but others can only be taught by a colonist or guest that already knows it. 
+
+This mod adds an additional barrier to progression, as many of the most vital buildings cannot be constructed without training. Additionally, internal injuries have never been more dangerous; your doctors now require proper training to safely perform complex surgeries and repair internal injuries.</description>
+
+	<modDependencies>
+	    <li>
+	      <packageId>brrainz.harmony</packageId>
+	      <displayName>Harmony</displayName>
+	      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+	      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	    </li>
+	</modDependencies>
+	
+  <loadBefore>
+		<li>vanillaexpanded.skills</li>
+	</loadBefore>
+	<loadAfter>
+    <li>brrainz.harmony</li>
+    <li>PeteTimesSix.ResearchReinvented</li>
+    <li>CETeam.CombatExtended</li>
+	</loadAfter>
+	
+</ModMetaData>
