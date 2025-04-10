@@ -3937,11 +3937,6 @@
             <progressGain>0</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
           </li>
-          <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.2</progressMultiplier>
-          </li>
         </rewards>
         <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
@@ -10770,6 +10765,7 @@
         <requirements>
           <li>Construction</li>
           <li>Smithing</li>
+          <li>Ecology</li>
         </requirements>
         <rewards>
           <li>
@@ -10822,11 +10818,6 @@
             <proficiency>BasicFabrication</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>True</softRequirement>
@@ -10923,12 +10914,12 @@
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
-          <li>Chemistry</li>
+          <li>EnvironmentalChemistry</li>
           <li>Biology</li>
         </requirements>
         <rewards>
           <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
+            <proficiency>Ecology</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.3</progressMultiplier>
           </li>

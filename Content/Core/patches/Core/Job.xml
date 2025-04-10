@@ -1,7 +1,465 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PerformRoofMaintenance"]</xpath>
+    <xpath>Defs/JobDef[defName="Maintain"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="StandAndBeSociallyActive"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Speaking</proficiency>
+            <progressGain>0.05</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="GiveSpeech"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Play_GameOfUr"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Play_Chess"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <progressGain>0.2</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Play_Billiards"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <progressGain>0.04</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Play_Poker"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Speaking</proficiency>
+            <progressGain>0.1</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="WatchTelevision"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Speaking</proficiency>
+            <progressGain>0.02</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>ReadingWriting</proficiency>
+            <progressGain>0.02</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="UseTelescope"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Astronomy</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Open"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Computers</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="ApplyTechprint"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+          <li>BasicScience</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="TakeCountToInventory"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="TakeFromOtherInventory"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="HaulToCell"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="HaulToContainer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Slaughter"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Milk"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Shear"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Tame"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <progressGain>0.04</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Train"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <progressGain>0.04</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Replant"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>PlantCare</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="FinishFrame"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Deconstruct"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="ExtractTree"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Forestry</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Repair"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="FixBrokenDownBuilding"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+          <li>BasicFabrication</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0.01</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="BuildRoof"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
@@ -14,51 +472,12 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="AITend"]</xpath>
+    <xpath>Defs/JobDef[defName="PaintBuilding"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>FirstAid</li>
+          <li>Artisan</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>FirstAid</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>AdvancedFirstAid</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="TendPatient"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>FirstAid</proficiency>
-            <progressGain>0.05</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>AdvancedFirstAid</proficiency>
-            <progressGain>0.02</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Medical</proficiency>
-            <progressGain>0.03</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -66,503 +485,12 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayGo"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>BasicMathematics</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayCards"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Speaking</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>ReadingWriting</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayReversi"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>BasicMathematics</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayRimColony"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>BasicMathematics</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Speaking</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>ReadingWriting</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="ReadBook"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>ReadingWriting</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeRS"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeMC"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeHL"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeES"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeBG"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeCB"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadePS"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadePK"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeSP"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeTZ"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PlayArcadeTV"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.01</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="DeployTent"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Construction</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="PackTent"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Construction</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="RepairTent"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Tailoring</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="CollectSand"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Geology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="CollectPeat"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Geology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="CollectCrushedstone"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Geology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="CollectClay"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Geology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_WanderAroundFeast"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Speaking</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="IgniteFire"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>BasicScience</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation><!--
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_FishAtFishingPier"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_AquacultureBasinHarvest"]</xpath>
+    <xpath>Defs/JobDef[defName="PaintFloor"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
+          <li>Artisan</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Biology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>-->
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_AquacultureBasinChangeSpecies"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>Biology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -570,58 +498,12 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_AquacultureBasinMaintain"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>AdvancedFabrication</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="HollyWash"]</xpath>
+    <xpath>Defs/JobDef[defName="RemovePaintBuilding"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>Artisan</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>BasicScience</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>True</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_ScoutStrangeArtifact"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>ExoticPhysics</proficiency>
-            <progressGain>2</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -629,68 +511,12 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_SecureStrangeArtifact"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>ExoticPhysics</proficiency>
-            <progressGain>4</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_StudyStrangeArtifact"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>ExoticPhysics</proficiency>
-            <progressGain>6</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Astronomy</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.3</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>AdvancedScience</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.3</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_ExtractWeatherController"]</xpath>
+    <xpath>Defs/JobDef[defName="RemovePaintFloor"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Mechanics</li>
+          <li>Artisan</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Engineering</proficiency>
-            <progressGain>2</progressGain>
-            <progressMultiplier>0.2</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>5</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -698,27 +524,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_DisableBeacon"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Programming</li>
-        </requirements>
-        <rewards>
-          <li>
-            <proficiency>Programming</proficiency>
-            <progressGain>10</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="QRY_MineQuarry"]</xpath>
+    <xpath>Defs/JobDef[defName="OperateDeepDrill"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>
@@ -735,17 +541,14 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="TendPawnOnGround"]</xpath>
+    <xpath>Defs/JobDef[defName="OperateScanner"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>FirstAid</li>
-        </requirements>
         <rewards>
           <li>
-            <proficiency>AdvancedFirstAid</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <proficiency>Geology</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>
@@ -755,74 +558,24 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="JobDef_StudyAncientStargate"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>ExoticPhysics</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="WatchGlassTelevision"]</xpath>
+    <xpath>Defs/JobDef[defName="Research"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>
           <li>
-            <proficiency>Speaking</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
             <proficiency>ReadingWriting</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Computers</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>BasicMathematics</proficiency>
-            <progressGain>0.1</progressGain>
+            <progressGain>0.001</progressGain>
             <progressMultiplier>1</progressMultiplier>
           </li>
           <li>
             <proficiency>BasicScience</proficiency>
-            <progressGain>0.1</progressGain>
+            <progressGain>0.001</progressGain>
             <progressMultiplier>1</progressMultiplier>
           </li>
           <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
+            <proficiency>AdvancedScience</proficiency>
+            <progressGain>0.001</progressGain>
             <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Biology</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation><!--
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="Mend"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>BasicFabrication</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>
@@ -832,36 +585,27 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="Recycle"]</xpath>
+    <xpath>Defs/JobDef[defName="UseCommsConsole"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
-        <rewards>
-          <li>
-            <proficiency>BasicFabrication</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-        </rewards>
+        <requirements>
+          <li>Computers</li>
+        </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
     </value>
-  </Operation>-->
+  </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="FillUniversalFermenter"]</xpath>
+    <xpath>Defs/JobDef[defName="Mine"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>
           <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>Fermentation</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <proficiency>Geology</proficiency>
+            <progressGain>0.004</progressGain>
+            <progressMultiplier>1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>
@@ -871,14 +615,133 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="TakeProductOutOfUniversalFermenter"]</xpath>
+    <xpath>Defs/JobDef[defName="SmoothFloor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Labourer</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="SmoothWall"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Labourer</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Sow"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>
           <li>
-            <proficiency>Ecology</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <proficiency>PlantCare</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Cultivation</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="Harvest"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>PlantCare</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Cultivation</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="HarvestDesignated"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>PlantCare</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Cultivation</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="StudyBuilding"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0.05</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0.05</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="PlantSeed"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>PlantCare</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Cultivation</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>

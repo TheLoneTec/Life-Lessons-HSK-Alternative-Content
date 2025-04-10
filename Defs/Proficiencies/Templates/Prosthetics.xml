@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ProstheticSimpleC1</defName>
+    <description>For simple prosethetic with articulated or mechanical components.</description>
+    <requirements>
+      <li>MechanicalAssembly</li>
+      <li>Machining</li>
+      <li>MetalWorking</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ProstheticOrganC1</defName>
+    <description>For prosthetic organs that rely on primitive "dumb" electronic and mechanical parts. Pumps, filters, etc.</description>
+    <requirements>
+      <li>MechanicalAssembly</li>
+      <li>Machining</li>
+      <li>MicroelectronicsAssembly</li>
+      <li>Anatomy</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicImplantC1</defName>
+    <description>For simple bionic implants that release chemicals or simple electrical impulses.</description>
+    <requirements>
+      <li>MicroelectronicsAssembly</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicImplantC2</defName>
+    <description>For bionic implants that make decisions but are otherwise external to the brain. Coagulators for example.</description>
+    <requirements>
+      <li>BionicsAssembly</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicSimpleC1</defName>
+    <description>For "bionic" body parts that are articulated or mechanical, but do not need complex nerve links. Compartments and spikes would be examples.</description>
+    <requirements>
+      <li>RoboticsAssembly</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicComplexC1</defName>
+    <description>For bionic body parts that involve complex nerve links such as limbs and organs.</description>
+    <requirements>
+      <li>BionicsAssembly</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicComplexC2</defName>
+    <description>For bionic body parts that involve complex nerve links such as limbs and organs.</description>
+    <requirements>
+      <li>BionicsAssembly</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicComplexC3</defName>
+    <description>For bionic body parts that involve complex nerve links such as limbs and organs. Includes microcontroller programming.</description>
+    <requirements>
+      <li>BionicsAssembly</li>
+      <li>Machining</li>
+      <li>Programming</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicComplexBrainC1</defName>
+    <description>For bionic body parts, organs, and implants that involve direct links to the brain or central nervous system. Spines, eyes, brain chips, etc.</description>
+    <requirements>
+      <li>NeuralInterfacing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicComplexBrainC2</defName>
+    <description>For bionic body parts, organs, and implants that involve direct links to the brain or central nervous system. Spines, eyes, brain chips, etc. Includes programming for brain controllers.</description>
+    <requirements>
+      <li>NeuralInterfacing</li>
+      <li>Programming</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>BionicComplexBrainC3</defName>
+    <description>For bionic body parts, organs, and implants that involve direct links to the brain or central nervous system. Spines, eyes, brain chips, etc. Includes AI programming for assistants.</description>
+    <requirements>
+      <li>NeuralInterfacing</li>
+      <li>ArtificialIntelligence</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.7</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+
+</Defs>

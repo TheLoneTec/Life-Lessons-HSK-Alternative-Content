@@ -240,6 +240,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
+          <li>Biology</li>
           <li>Wavelengths</li>
         </requirements>
         <softRequirement>False</softRequirement>
@@ -477,6 +478,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
+          <li>Ecology</li>
           <li>PharmaceuticalChemistry</li>
           <li>Bioelectronics</li>
         </requirements>

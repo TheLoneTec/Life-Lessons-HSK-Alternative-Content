@@ -160,6 +160,7 @@
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
           <li>Medical</li>
+          <li>Ecology</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -172,6 +173,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
+          <li>Ecology</li>
           <li>GeneralSurgery</li>
         </requirements>
         <softRequirement>False</softRequirement>

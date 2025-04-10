@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelKnitC1</defName>
+    <description>For simple knit clothing.</description>
+    <requirements>
+      <li>Threadcraft</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelKnitC2</defName>
+    <description>For complex knit clothing like sweaters or things with seams or joints.</description>
+    <requirements>
+      <li>Threadcraft</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.4</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.4</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelTailoredC1</defName>
+    <description>For simple apparel of fabric or leather.</description>
+    <stuffRequirements>
+      <li>
+        <stuffCategory>Leathery</stuffCategory>
+        <requirements>
+          <li>Leatherworking</li>
+        </requirements>
+      </li>
+      <li>
+        <stuffCategory>Fabric</stuffCategory>
+        <requirements>
+          <li>Tailoring</li>
+        </requirements>
+      </li>
+    </stuffRequirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelTailoredC2</defName>
+    <description>For simple apparel of fabric or leather.</description>
+    <requirements>
+      <li>Tailoring</li>
+    </requirements>
+    <stuffRequirements>
+      <li>
+        <stuffCategory>Leathery</stuffCategory>
+        <requirements>
+          <li>Leatherworking</li>
+        </requirements>
+      </li>
+    </stuffRequirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.5</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelFootwearC1</defName>
+    <description>For simple shoes and boots of fabric or leather.</description>
+    <requirements>
+      <li>Cobbling</li>
+    </requirements>
+    <stuffRequirements>
+      <li>
+        <stuffCategory>Leathery</stuffCategory>
+        <requirements>
+          <li>Leatherworking</li>
+        </requirements>
+      </li>
+      <li>
+        <stuffCategory>Fabric</stuffCategory>
+        <requirements>
+          <li>Tailoring</li>
+        </requirements>
+      </li>
+    </stuffRequirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelMetalFootwearC1</defName>
+    <description>For smithed footwear and boots.</description>
+    <requirements>
+      <li>Cobbling</li>
+      <li>Armorsmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelMetalArmorC1</defName>
+    <description>For very simple metal armor with few or no articulated parts.</description>
+    <requirements>
+      <li>Blacksmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelMetalArmorC2</defName>
+    <description>For fine armor or armor with articulated joints and seams.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelMetalArmorC3A</defName>
+    <description>For fine armor or armor with articulated joints and seams, and tailored adornments.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>Tailoring</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelMetalArmorC3B</defName>
+    <description>For fine armor or armor with articulated joints and seams, and leather adornments.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>Leatherworking</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>ApparelMetalArmorC4</defName>
+    <description>For fine armor that uses or has major incorporations of exotic metals/plasteel.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsSmithing</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+        <li MayRequireAnyOf="vanillaexpanded.skills,vanillaexpanded.skills_steam">
+          <stat>VSE_TailoringSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.3</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorHelmetsC1</defName>
+    <description>For powered armor helmets with simple electronics and few or no onboard assistants.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>MicroelectronicsAssembly</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorHelmetsC2</defName>
+    <description>For powered armor helmets with complex electronics or onboard computers.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>MicroelectronicsAssembly</li>
+      <li>ElectricalEngineering</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorHelmetsC3</defName>
+    <description>For powered armor helmets with direct brain interfaces.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>NeuralInterfacing</li>
+      <li>ElectricalEngineering</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorC1</defName>
+    <description>For simple powered armor that uses no onboard AI or complex computer systems.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>RoboticsAssembly</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorC2</defName>
+    <description>For powered armor with onboard computers or other complicated electronics</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>RoboticsAssembly</li>
+      <li>ElectricalEngineering</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorC3</defName>
+    <description>For powered armor with exceedingly complex designs, external attachments, or other nonstandard features like jump packs, extra limbs, etc.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>RoboticsAssembly</li>
+      <li>ElectricalEngineering</li>
+      <li>MechanicalEngineering</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+  <LifeLessons.ThingProficiencyTemplateDef>
+    <defName>PowerArmorC4</defName>
+    <description>For powered armor that integrates directly to the body, such as war caskets.</description>
+    <requirements>
+      <li>Armorsmithing</li>
+      <li>ExoticsWelding</li>
+      <li>BionicsAssembly</li>
+      <li>ElectricalEngineering</li>
+      <li>MechanicalEngineering</li>
+      <li>Machining</li>
+    </requirements>
+    <unqualifiedPenalty>
+      <statModifiers>
+        <li>
+          <stat>GeneralLaborSpeed</stat>
+          <applyGlobally>True</applyGlobally>
+          <modifier>0.35</modifier>
+        </li>
+      </statModifiers>
+      <qualityCap>Normal</qualityCap>
+    </unqualifiedPenalty>
+    <hardRequirement>False</hardRequirement>
+  </LifeLessons.ThingProficiencyTemplateDef>
+
+
+</Defs>

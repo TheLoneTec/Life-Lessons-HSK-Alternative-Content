@@ -22,11 +22,6 @@
         </requirements>
         <rewards>
           <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
             <proficiency>MaterialsChemistry</proficiency>
             <progressGain>0.1</progressGain>
             <progressMultiplier>1</progressMultiplier>
@@ -46,11 +41,6 @@
           <li>BasicScience</li>
         </requirements>
         <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
           <li>
             <proficiency>MaterialsChemistry</proficiency>
             <progressGain>0.1</progressGain>
@@ -72,11 +62,6 @@
         </requirements>
         <rewards>
           <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
             <proficiency>MaterialsChemistry</proficiency>
             <progressGain>0.1</progressGain>
             <progressMultiplier>1</progressMultiplier>
@@ -93,20 +78,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -118,20 +91,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -143,20 +104,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -168,20 +117,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -196,11 +133,6 @@
           <li>BasicScience</li>
         </requirements>
         <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
           <li>
             <proficiency>MaterialsChemistry</proficiency>
             <progressGain>0.1</progressGain>
@@ -222,11 +154,6 @@
         </requirements>
         <rewards>
           <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
             <proficiency>MaterialsChemistry</proficiency>
             <progressGain>0.1</progressGain>
             <progressMultiplier>1</progressMultiplier>
@@ -243,20 +170,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -268,7 +183,7 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Chemistry</li>
+          <li>BasicScience</li>
         </requirements>
         <rewards>
           <li>
@@ -288,20 +203,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -313,20 +216,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -405,11 +296,6 @@
             <progressGain>0.1</progressGain>
             <progressMultiplier>1</progressMultiplier>
           </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.2</progressMultiplier>
-          </li>
         </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -426,11 +312,6 @@
             <proficiency>BasicScience</proficiency>
             <progressGain>0.1</progressGain>
             <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0</progressGain>
-            <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>
@@ -457,25 +338,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -487,25 +351,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -517,25 +364,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -547,25 +377,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -577,20 +390,9 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Chemistry</li>
+          <li>EnvironmentalChemistry</li>
+          <li>MaterialsChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -602,25 +404,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -632,25 +417,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -662,25 +430,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -692,25 +443,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -722,25 +456,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -765,25 +482,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -795,25 +495,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>BasicScience</li>
+          <li>EnvironmentalChemistry</li>
         </requirements>
-        <rewards>
-          <li>
-            <proficiency>Chemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>MaterialsChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>1</progressMultiplier>
-          </li>
-          <li>
-            <proficiency>EnvironmentalChemistry</proficiency>
-            <progressGain>0.1</progressGain>
-            <progressMultiplier>0.5</progressMultiplier>
-          </li>
-        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>

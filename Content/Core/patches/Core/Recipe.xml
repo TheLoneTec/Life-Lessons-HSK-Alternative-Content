@@ -1,28 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Nutrition_Research_Normal"]</xpath>
+    <xpath>Defs/RecipeDef[defName="ExciseCarcinoma"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
-          <li>FirstAid</li>
+          <li>Orthopedics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="CureScaria"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Orthopedics</li>
+          <li>PharmaceuticalChemistry</li>
+          <li>TraumaSurgery</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Sterilize"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>GeneralSurgery</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>GeneralSurgery</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>true</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="RemovePainstopper"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Neurosurgery</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="ButcherCorpseMechanoid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Machining</li>
+          <li>Engineering</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="SmashCorpseMechanoid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+          <li>BasicFabrication</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Make_Kibble"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Cooking</li>
+          <li>PlantCare</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Anesthetize"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
           <li>MedicinalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Painkiller_Research_Normal"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Ecology</li>
           <li>FirstAid</li>
-          <li>MedicinalChemistry</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
@@ -31,170 +123,50 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Antibiotic_Research_Normal"]</xpath>
+    <xpath>Defs/RecipeDef[defName="Euthanize"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Ecology</li>
+          <li>GeneralSurgery</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>GeneralSurgery</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>true</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.8</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="RemoveBodyPart"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>GeneralSurgery</li>
+        </requirements>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.6</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="AdministerMechSerumHealer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
           <li>FirstAid</li>
-          <li>MedicinalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Blood_Research_Normal"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Ecology</li>
-          <li>FirstAid</li>
-          <li>MedicinalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Anesthetic_Research_Normal"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Ecology</li>
-          <li>FirstAid</li>
-          <li>MedicinalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="BloodStemMK2"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Ecology</li>
-          <li>Cultivation</li>
-          <li>EnvironmentalChemistry</li>
-          <li>Medical</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Electrical_Research"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Nutrition_Research_Electric"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Ecology</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Painkiller_Research_Electric"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Ecology</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Antibiotic_Research_Electric"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Ecology</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Blood_Research_Electric"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Ecology</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Anesthetic_Research_Electric"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Ecology</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
-        </requirements>
-        <softRequirement>False</softRequirement>
-        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
-        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
-      </li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="IV_Glitterworld_Research_Electric"]</xpath>
-    <value>
-      <li Class="LifeLessons.BillProficiencyExtension">
-        <requirements>
-          <li>Medical</li>
-          <li>Ecology</li>
-          <li>Electronics</li>
-          <li>PharmaceuticalChemistry</li>
+          <li>Computers</li>
         </requirements>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
