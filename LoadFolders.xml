@@ -2,7 +2,7 @@
 <loadFolders>
   <v1.4>
     <li>/</li>
-    <li>1.5</li>
+    <li>1.4</li>
     <li IfModActive="Ludeon.Rimworld.Royalty">Content/Royalty</li>
     <li IfModActive="Ludeon.RimWorld.Ideology">Content/Ideology</li>
     <li IfModActive="Ludeon.Rimworld.Biotech">Content/Biotech</li>
@@ -164,5 +164,5 @@
     <li IfModActive="ceteam.combatextendedmelee,ceteam.combatextendedmelee_steam">Content/Mods/Combat Extended Melee</li>
     <li IfModActive="ceteam.combatextendedarmors,ceteam.combatextendedarmors_steam">Content/Mods/Combat Extended Armors</li>
     
-  </v1.5>
+  </v1.4>
 </loadFolders>
