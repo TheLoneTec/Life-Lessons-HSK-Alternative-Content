@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Shell_Toxic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicFabrication</li>
+          <li>Chemistry</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="SubcoreBasic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+</Patch>

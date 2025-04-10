@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Apparel_Bandolier"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicFabrication</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Tailoring</proficiency>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Apparel_Sash"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicFabrication</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Tailoring</proficiency>
+          </li>
+        </rewards>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+
+</Patch>

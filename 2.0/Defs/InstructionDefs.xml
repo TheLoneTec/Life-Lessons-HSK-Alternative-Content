@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <InstructionDef>
+    <defName>LLTCreateLessonPlan</defName>
+    <text>This interface allows you to setup lesson plans and class schedules. 
+A lesson plan consists of a set of proficiencies to be taught, a set of students, and a teacher.
+Create a new lesson plan now by clicking the + button in the left panel.</text>
+    <eventTagInitiate>LLT-CreateLessonPlan</eventTagInitiate>
+    <actionTagsAllowed>
+      <li>LLT-NewPlan</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-NewPlan</li>
+    </highlightTags>
+    <startCentered>true</startCentered>
+    <rejectInputMessage>Create a new lesson plan first.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTAssignProfToPlan</defName>
+    <text>After creating a lesson plan, you can assign proficiencies to the plan by clicking on them in the left panel.
+When mousing over a proficiency, icons will be displayed near your colonist indicating whether they can learn the proficiency (they already have the prerequisite knowledge,) or if they have already mastered the proficiency.</text>
+    <eventTagInitiate>LLT-NewPlan</eventTagInitiate>
+    <eventTagInitiateSource>LLTCreateLessonPlan</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-AddProficiency</li>
+    </highlightTags>
+    <rejectInputMessage>Click on a proficiency to add it to the lesson plan.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTProfEffectivenessReview</defName>
+    <text>When class is in session, XP is generated and divied up to all of the taught proficiencies. A lesson plan with many proficiencies will teach them much slower, but will require less micromanagement.
+Many elements can be moused over to provide additional information.
+Mouse over the Effectiveness percentage to view some extra details on each proficiency.</text>
+    <eventTagInitiate>LLT-AddProficiency</eventTagInitiate>
+    <eventTagInitiateSource>LLTAssignProfToPlan</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-PlanEffectiveness</li>
+    </highlightTags>
+    <rejectInputMessage>Mouse over the effective percentage.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTAddStudent</defName>
+    <text>Students will gain proficiency XP in every taught subject as they attend class.
+
+Drag and drop a colonist into the student panel to add them to the lesson plan.</text>
+    <eventTagInitiate>LLT-ProfEffectivenessReviewed</eventTagInitiate>
+    <eventTagInitiateSource>LLTProfEffectivenessReview</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+      <li>LLT-DragPawn</li>
+      <li>LLT-DropPawnStudent</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-Pawns</li>
+      <li>LLT-Students</li>
+    </highlightTags>
+    <rejectInputMessage>Add a student to the lesson plan.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTAddTeacher</defName>
+    <text>A teacher is required for any class to begin.
+The teacher must have already mastered a proficiency in order to teach it themselves.
+Colonists with a better Intellectual skill will generate more proficiency XP per hour.
+
+Drag and drop a colonist into the teacher slot to assign a teacher.</text>
+    <eventTagInitiate>LLT-DropPawnStudent</eventTagInitiate>
+    <eventTagInitiateSource>LLTAddStudent</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+      <li>LLT-DragPawn</li>
+      <li>LLT-DropPawnStudent</li>
+      <li>LLT-DropPawnTeacher</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-Pawns</li>
+      <li>LLT-Teacher</li>
+    </highlightTags>
+    <rejectInputMessage>Add a teacher to the lesson plan.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTCreateSchedule</defName>
+    <text>Now that a lesson plan has been created, you can create a class schedule that tells your colonists when to assemble.
+
+Click the + in the center panel to create a new schedule.</text>
+    <eventTagInitiate>LLT-DropPawnTeacher</eventTagInitiate>
+    <eventTagInitiateSource>LLTAddTeacher</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+      <li>LLT-DragPawn</li>
+      <li>LLT-DropPawnStudent</li>
+      <li>LLT-DropPawnTeacher</li>
+      <li>LLT-NewSchedule</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-NewSchedule</li>
+    </highlightTags>
+    <rejectInputMessage>Create a new schedule.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTAssignHour</defName>
+    <text>Class schedules are configurable for an entire 15 day season. If the same lesson plan is assigned to multiple contiguous hours, the class will remain in session for the entire duration.
+It is a good idea to to have at least 2 or 3 hours per lesson plan to ensure students have time to get to class, and also to occassionally allow for a 1-2 hour break if needs are a concern.
+
+Select the lesson plan from the center panel and then click on any of the small hour ticks to assign the lesson plan to that hour.</text>
+    <eventTagInitiate>LLT-NewSchedule</eventTagInitiate>
+    <eventTagInitiateSource>LLTCreateSchedule</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+      <li>LLT-DragPawn</li>
+      <li>LLT-DropPawnStudent</li>
+      <li>LLT-DropPawnTeacher</li>
+      <li>LLT-ChangePlan</li>
+      <li>LLT-AssignPlan</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-ChangePlan</li>
+      <li>LLT-AssignPlan</li>
+    </highlightTags>
+    <rejectInputMessage>Select a lesson plan and assign it to an hour.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTBulkAssign</defName>
+    <text>You may click on the day or hour labels to the left and top of the schedule to bulk assign a lesson plan.</text>
+    <eventTagInitiate>LLT-AssignPlan</eventTagInitiate>
+    <eventTagInitiateSource>LLTAssignHour</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+      <li>LLT-DragPawn</li>
+      <li>LLT-DropPawnStudent</li>
+      <li>LLT-DropPawnTeacher</li>
+      <li>LLT-ChangePlan</li>
+      <li>LLT-AssignPlan</li>
+      <li>LLT-SetScheduleBulk</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <highlightTags>
+      <li>LLT-ChangePlan</li>
+      <li>LLT-SetScheduleBulk</li>
+    </highlightTags>
+    <rejectInputMessage>Bulk set the schedule by click on the header labels.</rejectInputMessage>
+    <tutorialModeOnly>true</tutorialModeOnly>
+  </InstructionDef>
+
+  <InstructionDef>
+    <defName>LLTEnd</defName>
+    <text>Now that you have a complete schedule, you can assign it to a teacher's station by selecting one on the map.
+There are multiple ways to learn a proficiency, and many of them are more time efficient than teaching them in class.
+Consider carefully if the time investment in training a colonist is worthwhile, or if an "outside volunteer" is a better option.
+
+Close the window to end the tutorial.</text>
+    <eventTagInitiate>LLT-SetScheduleBulk</eventTagInitiate>
+    <eventTagInitiateSource>LLTBulkAssign</eventTagInitiateSource>
+    <actionTagsAllowed>
+      <li>LLT-AddProficiency</li>
+      <li>LLT-DragPawn</li>
+      <li>LLT-DropPawnStudent</li>
+      <li>LLT-DropPawnTeacher</li>
+      <li>LLT-ChangePlan</li>
+      <li>LLT-AssignPlan</li>
+      <li>LLT-SetScheduleBulk</li>
+    </actionTagsAllowed>
+    <eventTagsEnd>
+      <li>LLT-Abort</li>
+    </eventTagsEnd>
+    <rejectInputMessage>Press escape to exit.</rejectInputMessage>
+    <tutorialModeOnly>false</tutorialModeOnly>
+    <endTutorial>true</endTutorial>
+  </InstructionDef>
+</Defs>

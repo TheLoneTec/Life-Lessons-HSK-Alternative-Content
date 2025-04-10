@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="LaserTableSculpting"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Engineering</li>
+          <li>Wavelengths</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

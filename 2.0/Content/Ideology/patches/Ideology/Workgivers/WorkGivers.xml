@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="ConvertPrisoner"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="PruneGauranlenTree"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>PlantCare</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="ChangeTreeMode"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>PlantCare</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

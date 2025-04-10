@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari01ChildKnowledge"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari01ChildKnowledge"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Chemistry</li>
+            <li>Geology</li>
+            <li>PlantCare</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari02ChildFighter"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari02ChildFighter"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari03ChildLeader"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari03ChildLeader"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari04ChildArtist"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari04ChildArtist"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Artisan</li>
+            <li>BasicFabrication</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari05ChildShipKid"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari05ChildShipKid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari01AdultCommando"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari01AdultCommando"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>FirstAid</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari02AdultScientist"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari02AdultScientist"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+            <li>Physics</li>
+            <li>Chemistry</li>
+            <li>Astronomy</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari03AdultTactician"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari03AdultTactician"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari04AdultBodyguard"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari04AdultBodyguard"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>FirstAid</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari05AdultBodyguard"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari05AdultBodyguard"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>FirstAid</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="Asari06AdultFieldMedic"]|Defs/AlienRace.AlienBackstoryDef[defName="Asari06AdultFieldMedic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Medical</li>
+            <li>Biology</li>
+            <li>FirstAid</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+            <li>AdvancedFirstAid</li>
+            <li>TraumaSurgery</li>
+            <li>GeneralSurgery</li>
+            <li>PlantCare</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+</Patch>

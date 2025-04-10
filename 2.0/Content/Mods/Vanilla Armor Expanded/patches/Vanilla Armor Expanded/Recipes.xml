@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_StoneWarMask" or defName="VAE_Headgear_Balaclava"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressMultiplier>0.5</progressMultiplier>
+          </li>
+        </rewards>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson" or defName="VAE_Apparel_QuiltedVest"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Tailoring</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_GhillieSuit" or defName="VAE_Headgear_GhillieHood"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Tailoring</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor" or defName="VAE_Apparel_PlateShoulderpads" or defName="VAE_Apparel_Chestplate" or defName="VAE_Apparel_Chainmail" or defName="VAE_Apparel_PlateHelmet" or defName="VAE_Handwear_PlateGloves" or defName="VAE_Footwear_PlateBoots"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Handwear_MarineGloves" or defName="VAE_Footwear_MarineBoots" or defName="VAE_Apparel_TrooperArmor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Electronics</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_TrooperHelmet" or defName="VAE_Apparel_HAZMATSuit" or defName="VAE_Headgear_HAZMATMask"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_RoyalTrooperHelmet" or defName="VAE_Apparel_RoyalTrooperArmor" or defName="VAE_Headgear_RoyalSiegeHelmet" or defName="VAE_Apparel_RoyalSiegeArmor" or defName="VAE_Headgear_HeavyMarineHelmet" or defName="VAE_Apparel_HeavyMarineArmor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+</Patch>

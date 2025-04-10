@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="EVL_Neurostimulators"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+          <li>Biology</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="EVL_VR_Simulators"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+          <li>Biology</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

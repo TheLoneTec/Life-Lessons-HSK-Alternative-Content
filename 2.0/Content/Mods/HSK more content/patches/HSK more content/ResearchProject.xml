@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Armor_F1_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>PowerarmorAssembly</li>
+          <li>Robotics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MicroTurrets_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+          <li>Electronics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MicroTurretsTwo_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+          <li>Electronics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MicroTurretsAdvanced_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+          <li>Electronics</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MicroTurretsAdvancedTwo_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MicroTurretsHiTech_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+          <li>PlasmaManipulation</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MacroTurretsThree_HMC"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+          <li>PlasmaManipulation</li>
+        </requirements>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

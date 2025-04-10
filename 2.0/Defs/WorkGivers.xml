@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <WorkGiverDef>
+    <defName>LLPioneering</defName>
+    <label>pioneer</label>
+    <giverClass>LifeLessons.WorkGiver_Pioneering</giverClass>
+    <workType>Research</workType>
+    <verb>pioneer</verb>
+    <gerund>pioneering</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+</Defs>

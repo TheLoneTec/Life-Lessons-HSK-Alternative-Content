@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <!-- If HSK has removed the def, put it here. -->
+    <nomatch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="AndroidRepairKit"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Mechanics</li>
+                <li>Electronics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidPortableChemfuelGenerator"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Chemistry</li>
+                <li>Electronics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidDroidBatteries"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Electronics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJDroidPrinter"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Mechanics</li>
+                <li>Electronics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJBattleDroid"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Mechanics</li>
+                <li>Electronics</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidPrinter"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidUpgrade_Hub"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidUpgrade_Physique"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidUpgrade_Skin"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidUpgrade_Utility"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+                <li>Chemistry</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidUpgrade_Proficency"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ChJAndroidUpgrade_Archotech"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>Biology</li>
+                <li>Programming</li>
+              </requirements>
+            </li>
+          </value>
+        </li>
+
+
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

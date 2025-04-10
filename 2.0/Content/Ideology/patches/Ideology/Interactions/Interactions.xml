@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Duel"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Funeral"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_DateRitual"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Leader"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Sacrifice"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Scarification"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Blinding"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Execution"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_TreeConnection"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_Conversion"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_AcceptRole"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Speech_RemoveRole"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="EnslaveAttempt"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="ReduceWill"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Suppress"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="SparkSlaveRebellion"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="ConvertIdeoAttempt"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Counsel_Success"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Convert_Success"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Convert_Failure"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Reassure"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="WorkDrive"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Trial_Accuse"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/InteractionDef[defName="Trial_Defend"]</xpath>
+    <value>
+      <li Class="LifeLessons.InteractionExtension">
+        <requirements>
+          <li>Speaking</li>
+        </requirements>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

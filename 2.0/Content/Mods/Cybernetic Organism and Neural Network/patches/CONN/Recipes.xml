@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_IndependentEye" or defName="CONN_IndependentEye"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_EnergyLink" or defName="CONN_EnergyLink"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Chemistry</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_OuterBlade" or defName="CONN_OuterBlade"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_PowerArms" or defName="CONN_PowerArms"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Shadowrunner" or defName="CONN_Shadowrunner"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Chemistry</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Exoskeleton" or defName="CONN_Exoskeleton"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Dermalplating" or defName="CONN_Dermalplating"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Chemistry</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Lionheart" or defName="CONN_Lionheart"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Chemistry</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Zoom" or defName="CONN_Zoom"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_EnergyFist" or defName="CONN_EnergyFist"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_ElasticAchilles" or defName="CONN_ElasticAchilles"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_CyclopsVisor" or defName="CONN_CyclopsVisor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_LaserDetection" or defName="CONN_LaserDetection"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_SensoricEarside" or defName="CONN_SensoricEarside"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_BerserkerChip" or defName="CONN_BerserkerChip"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_BodyPartsArtificialtwist" or defName="CONN_BodyPartsArtificialtwist"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_MuseChip" or defName="CONN_MuseChip"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_NeuroEnhancer" or defName="CONN_NeuroEnhancer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_CombatAI" or defName="CONN_CombatAI"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_EnergeticLung" or defName="CONN_EnergeticLung"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_EnergeticKidney" or defName="CONN_EnergeticKidney"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_EnergyCore" or defName="CONN_EnergyCore"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Autonomicviruskiller" or defName="CONN_Autonomicviruskiller"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Aurum" or defName="CONN_Aurum"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_BlackPearl" or defName="CONN_BlackPearl"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_HoverFeet" or defName="CONN_HoverFeet"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Physics</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Greenthumb" or defName="CONN_Greenthumb"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_CompressionJaw" or defName="CONN_CompressionJaw"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_CompressionStomach" or defName="CONN_CompressionStomach"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_FlashLight" or defName="CONN_FlashLight"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Biology</li>
+          <li>Electronics</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Musclewire" or defName="CONN_Musclewire"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_NeuromodBooster" or defName="CONN_NeuromodBooster"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Brainwash" or defName="CONN_Brainwash"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_PassionGiver" or defName="CONN_PassionGiver"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_TraitGiver" or defName="CONN_TraitGiver"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="NeurotrainersClearer" or defName="NeurotrainersClearer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+
+   <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="ANN_Reconditioner" or defName="CONN_Reconditioner"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Engineering</li>
+          <li>AdvancedFabrication</li>
+        </requirements>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="DoBillsMakeWoodWirewood"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Forestry</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Forestry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.05</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>True</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Good</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+</Patch>

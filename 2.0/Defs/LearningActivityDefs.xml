@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <LifeLessons.LearningActivityDef>
+    <defName>LLReadTextbookBase</defName>
+    <label>Study Textbook</label>
+    <description>Study an available textbook to learn directly from a verified source rather than attempting to make discoveries on your own. \nApplies a significant learning multiplier for all activities for the day.</description>
+    <activityJob>LLReadBookAt</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>None</experienceType>
+    <baseTickLength>5000</baseTickLength>
+    <xpPerTick>0</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <validWorkstations>
+      <li>PrimitiveResearchBench</li>
+      <li>SimpleResearchBench</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLBrainstorm</defName>
+    <label>Brainstorming</label>
+    <description>A focused session of brainstorming to come up with new ideas, solve problems, and develop further understanding of the topic being studied.</description>
+    <activityJob>LLBrainStorming</activityJob>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <validWorkstations>
+      <li>PrimitiveResearchBench</li>
+      <li>SimpleResearchBench</li>
+      <li>Blackboard</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeWriting</defName>
+    <label>Studying Language</label>
+    <description>Analysis of existing writing in order to comprehend written language. Practice with writing implements in the language being studied.</description>
+    <activityJob>LLLanguageStudy</activityJob>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <validWorkstations>
+      <li>PrimitiveResearchBench</li>
+      <li>SimpleResearchBench</li>
+      <li>Blackboard</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLDocument</defName>
+    <label>Documenting</label>
+    <description>Documenting findings from various research activities, organizing notes, and other general paperwork.</description>
+    
+    <activityJob>LLDocumenting</activityJob>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <validWorkstations>
+      <li>PrimitiveResearchBench</li>
+      <li>SimpleResearchBench</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLDraft</defName>
+    <label>Drafting Designs</label>
+    <description>Preparing written or drawn plans for building a machine, electrical network, system, or other complex design.</description>
+    
+    <activityJob>LLDrafting</activityJob>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>8000</baseTickLength>
+    <xpPerTick>0.0025</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <validWorkstations>
+      <li>SimpleResearchBench</li>
+      <li>HiTechResearchBench</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLCountsAndMeasures</defName>
+    <label>Counts and Measures</label>
+    <description>Studying and applying logical reasoning to the task of counting, measuring, and forming a system to describe these activities.</description>
+    
+    <activityJob>LLMathDocumenting</activityJob>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>2500</baseTickLength>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <validWorkstations>
+      <li>SimpleResearchBench</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLRigorization</defName>
+    <label>Rigorization</label>
+    <description>Refining therorems and propositions, improving accuracy, and formalizing notation for {proficiencyAdjective} concepts.</description>
+    
+    <activityJob>LLRigorization</activityJob>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.0025</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <validWorkstations>
+      <li>SimpleResearchBench</li>
+      <li>HiTechResearchBench</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLDissectCritterCorpse</defName>
+    <label>Critter Dissection</label>
+    <description>Dissecting animal and insects to understand non-human biological processes and structures.</description>
+    <activityJob>LLCritterAutopsy</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <xpPerTick>0.0025</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <validWorkstations>
+      <li>LLAutopsyTable</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+        <li>CorpsesHumanlike</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <placeTargetExactly>true</placeTargetExactly>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLDissectHumanCorpse</defName>
+    <label>Humanoid Dissection</label>
+    <description>Dissecting human and human-like corpses in order to understand the biological processes and anatomy of living beings.</description>
+    <activityJob>LLHumanoidAutopsy</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>10000</baseTickLength>
+    <xpPerTick>0.0035</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <validWorkstations>
+      <li>LLAutopsyTable</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>CorpsesHumanlike</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+    <placeTargetExactly>true</placeTargetExactly>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLBionicsExamineCorpse</defName>
+    <label>Humanoid Dissection</label>
+    <description>Dissecting human and human-like corpses to determine how best to tie into their nervous system with artificial parts or micro computers.</description>
+    <activityJob>LLHumanoidAutopsy</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>5000</baseTickLength>
+    <xpPerTick>0.003</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <validWorkstations>
+      <li>LLAutopsyTable</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>CorpsesHumanlike</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesHumanlike</li>
+      </categories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+    <placeTargetExactly>true</placeTargetExactly>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzePlantBiomatter</defName>
+    <label>Analyze Biomatter</label>
+    <description>Analyzing and documenting the various biological properties of produce.</description>
+    <activityJob>LLAnalyzePlant</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <xpPerTick>0.002</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <validWorkstations>
+      <li>HiTechResearchBench</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzePlantBiomatterChemistry</defName>
+    <label>Analyze Biomatter</label>
+    <description>Analyzing and documenting the various chemical properties of produce.</description>
+    <activityJob>LLAnalyzePlant</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.002</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <validWorkstations>
+      <li>LLChemistryStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLTinkerWithComponents</defName>
+    <label>Electrical Tinkering</label>
+    <description>Experimenting with electronic components or circuits.</description>
+    <activityJob>LLTinkering</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherMechanoid</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <validWorkstations>
+      <li>LLTinkeringStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLTinkerWithAdvancedComponents</defName>
+    <label>Reverse Engineering Assemblies</label>
+    <description>Experimenting with electronic components or circuits.</description>
+    <activityJob>LLTinkering</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.006</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherMechanoid</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <validWorkstations>
+      <li>LLTinkeringStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <disabledByDefault>true</disabledByDefault>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLTinkerWithMechanisms</defName>
+    <label>Mechanical Tinkering</label>
+    <description>Experimenting with mechanical parts and assemblies.</description>
+    <activityJob>LLTinkering</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <xpPerTick>0.002</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherMechanoid</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <validWorkstations>
+      <li>LLTinkeringStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeConstruction</defName>
+    <label>Analyze Construction</label>
+    <description>Non-destructively analyzing a construction or building to determine and document its properties.</description>
+    <activityJob>LLAnalyzeBuilding</activityJob>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.0025</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <activityTargetType>AllConstruction</activityTargetType>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeGadget</defName>
+    <label>Analyze Item</label>
+    <description>Non-destructively reverse engineering an item to determine and document its properties.</description>
+    <activityJob>LLAnalyzeGadget</activityJob>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <validWorkstations>
+      <li>SimpleResearchBench</li>
+    </validWorkstations>
+    <activityTargetType>AllRecipe</activityTargetType>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLReverseEngineerGadget</defName>
+    <label>Analyze Item</label>
+    <description>Non-destructively reverse engineering an item to determine and document its properties.</description>
+    <activityJob>LLReverseEngineer</activityJob>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.003</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <validWorkstations>
+      <li>LLTinkeringStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <disabledByDefault>true</disabledByDefault>
+    <activityTargetType>AllRecipe</activityTargetType>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeDrugs</defName>
+    <label>Analyze Drugs</label>
+    <description>Analyze the chemical structure of various drugs to determine their composition.</description>
+    <activityJob>LLTinkering</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <validWorkstations>
+      <li>LLChemistryStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Drugs</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Drugs</li>
+      </categories>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLTestExperimentationProcess</defName>
+    <label>Validate Experiment Process</label>
+    <description>Test run a hypothesized process workflow in order to identify failings and inaccuracies.</description>
+    <activityJob>LLExperimenting</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>LearnFromLecture</effectWorking>
+    <validWorkstations>
+      <li>LLChemistryStation</li>
+      <li>SimpleResearchBench</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+<LifeLessons.LearningActivityDef>
+    <defName>LLChemistryExperimentation</defName>
+    <label>Experimental</label>
+    <description>Experiment with various chemical compounds and processes.</description>
+    <activityJob>LLChemicalExperimenting</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>2500</baseTickLength>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>3</dailyRepetitionsUntilExhausted>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Drug</soundWorking>
+    <validWorkstations>
+      <li>LLChemistryStation</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeConstellations</defName>
+    <label>Chart Constellations</label>
+    <description>Document and monitor various celestial constellations and planetary bodies.</description>
+    <activityJob>LLAnalyzeConstellation</activityJob>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.004</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <betweenHours>22~4</betweenHours>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Interact_Research</soundWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <validWorkstations>
+      <li>Telescope</li>
+    </validWorkstations>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeGeyser</defName>
+    <label>Analyze Geothermal Vents</label>
+    <description>Document and monitor a geyser to understand subterranian geothermal processes.</description>
+    <activityJob>LLAnalyzeGeothermalVent</activityJob>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>5000</baseTickLength>
+    <xpPerTick>0.004</xpPerTick>
+    <dailyRepetitionsUntilExhausted>2</dailyRepetitionsUntilExhausted>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Interact_Research</soundWorking>
+    <activityTargetType>SpecificBuildings</activityTargetType>
+    <specificTargetBuildings>
+      <li>SteamGeyser</li>
+    </specificTargetBuildings>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeFormation</defName>
+    <label>Analyze Stone and Mineral Formations</label>
+    <description>Measure, analyze, and record various historical properties of a stone formation or mineral outcrop.</description>
+    <activityJob>LLAnalyzeBuilding</activityJob>
+    <experienceType>Theoretical</experienceType>
+    <baseTickLength>2500</baseTickLength>
+    <xpPerTick>0.001</xpPerTick>
+    <dailyRepetitionsUntilExhausted>4</dailyRepetitionsUntilExhausted>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Interact_Research</soundWorking>
+    <activityTargetType>SpecificBuildings</activityTargetType>
+    <targetIconsEnabled>false</targetIconsEnabled>
+    <targetThingTypes>
+      <li>Mineable</li>
+    </targetThingTypes>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLAnalyzeBionics</defName>
+    <label>Analyze Prosthetics</label>
+    <description>Non destructively analyze existing bionic body parts to understand how they function and tie into the nervous system of their owners.</description>
+    <activityJob>LLAnalyzeGadget</activityJob>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>7500</baseTickLength>
+    <xpPerTick>0.006</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>LLAnalyze</effectWorking>
+    <soundWorking>Interact_Research</soundWorking>
+    <validWorkstations>
+      <li>HiTechResearchBench</li>
+    </validWorkstations>
+    <consumeIngredientTargets>false</consumeIngredientTargets>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BodyPartsBionic</li>
+            <li>BodyPartsUltra</li>
+            <li>BodyPartsArchotech</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>BodyPartsBionic</li>
+        <li>BodyPartsUltra</li>
+        <li>BodyPartsArchotech</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>PsychicAmplifier</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  <LifeLessons.LearningActivityDef>
+    <defName>LLReverseEngineerBionics</defName>
+    <label>Reverse Engineer Prosthetics</label>
+    <description>Reverse engineer and completely dismantle a bionic body part to study every detail of how it's made and how it works.</description>
+    <activityJob>LLReverseEngineer</activityJob>
+    <experienceType>Practical</experienceType>
+    <baseTickLength>10000</baseTickLength>
+    <xpPerTick>0.035</xpPerTick>
+    <dailyRepetitionsUntilExhausted>1</dailyRepetitionsUntilExhausted>
+    <effectWorking>ButcherMechanoid</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <workstationThingGroup>BuildingArtificial</workstationThingGroup>
+    <validWorkstations>
+      <li>LLTinkeringStation</li>
+    </validWorkstations>
+    <consumeIngredientTargets>true</consumeIngredientTargets>
+    <disabledByDefault>true</disabledByDefault>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BodyPartsBionic</li>
+            <li>BodyPartsUltra</li>
+            <li>BodyPartsArchotech</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>BodyPartsBionic</li>
+        <li>BodyPartsUltra</li>
+        <li>BodyPartsArchotech</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>PsychicAmplifier</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+  </LifeLessons.LearningActivityDef>
+
+  
+</Defs>

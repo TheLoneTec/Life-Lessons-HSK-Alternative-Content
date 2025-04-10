@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Basic"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Basic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Basic2"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Basic2"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Basic3"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Basic3"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Mineralogy</li>
+            <li>Geology</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Social"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Social"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Medical"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Medical"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Medical</li>
+            <li>Biology</li>
+            <li>FirstAid</li>
+            <li>AdvancedFirstAid</li>
+            <li>GeneralSurgery</li>
+            <li>TransplantSurgery</li>
+            <li>Bionics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Manufacturing"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Manufacturing"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Smithing</li>
+            <li>BasicFabrication</li>
+            <li>Tailoring</li>
+            <li>Artisan</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Construction"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Construction"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Construction</li>
+            <li>BasicFabrication</li>
+            <li>Mechanics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Farmer"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Farmer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>PlantCare</li>
+            <li>Cultivation</li>
+            <li>PsychochemistryAdvanced</li>
+            <li>AdvancedChemistry</li>
+            <li>Chemistry</li>
+            <li>Hydroponics</li>
+            <li>Biology</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Chef"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Chef"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>SkilledCooking</li>
+            <li>Cooking</li>
+            <li>Searing</li>
+            <li>PanFrying</li>
+            <li>Stew</li>
+            <li>Roasting</li>
+            <li>Grilling</li>
+            <li>Basting</li>
+            <li>Braising</li>
+            <li>SousVide</li>
+            <li>Poaching</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Researcher"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Researcher"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Physics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Marksman"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Marksman"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Brawler"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Brawler"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Protector"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Protector"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_AnimalHandler"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_AnimalHandler"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Ecology</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Miner"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Miner"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>Mineralogy</li>
+            <li>Geology</li>
+            <li>Geochemistry</li>
+            <li>AdvancedGeology</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Broken"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Broken"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Sculptor"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Sculptor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>BasicFabrication</li>
+            <li>Labourer</li>
+            <li>Artisan</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Abandoned"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Abandoned"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Janitor"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Janitor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_FighterPilot"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_FighterPilot"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedPiloting</li>
+            <li>Piloting</li>
+            <li>Astronomy</li>
+            <li>Physics</li>
+            <li>EVATraining</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Firefighter"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Firefighter"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>FirstAid</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_Drifter"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_Drifter"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_UndercoverSpy"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_UndercoverSpy"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Adult_ExtremeSocial"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Adult_ExtremeSocial"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedMathematics</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Basic"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Basic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Social"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Social"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Medical"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Medical"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>FirstAid</li>
+            <li>Medical</li>
+            <li>Biology</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+            <li>Ecology</li>
+            <li>CardiothoracicSurgery</li>
+            <li>PlantCare</li>
+            <li>Orthopedics</li>
+            <li>TransplantSurgery</li>
+            <li>GeneralSurgery</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Manufacturing"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Manufacturing"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedFabrication</li>
+            <li>BasicFabrication</li>
+            <li>Machining</li>
+            <li>Engineering</li>
+            <li>Electronics</li>
+            <li>Construction</li>
+            <li>Mechanics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Construction"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Construction"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedConstruction</li>
+            <li>Construction</li>
+            <li>Electronics</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Farmer"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Farmer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>PlantCare</li>
+            <li>Cultivation</li>
+            <li>Ecology</li>
+            <li>Fertilization</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Researcher"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Researcher"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+            <li>Physics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Combat"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Combat"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Actor"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Actor"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Pleasure"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Pleasure"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Pleasure_2"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Pleasure_2"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Custom"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Custom"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Hacked"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Hacked"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Persocom"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Persocom"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Rogue"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Rogue"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>ReadingWriting</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Racer"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Racer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Physics</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Detective"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Detective"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Biosphere"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Biosphere"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Cultivation</li>
+            <li>PlantCare</li>
+            <li>Fertilization</li>
+            <li>Ecology</li>
+            <li>Hydroponics</li>
+            <li>Biology</li>
+            <li>AdvancedScience</li>
+            <li>AdvancedMathematics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Corporate"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Corporate"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Gladiator"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Gladiator"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Soldier"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Soldier"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>FirstAid</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Child_Child"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Child_Child"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_Droid"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_Droid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Labourer</li>
+            <li>BasicFabrication</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="ChJAndroid_BattleDroid"]|Defs/AlienRace.AlienBackstoryDef[defName="ChJAndroid_BattleDroid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+</Patch>
