@@ -1,1 +1,1 @@
-Open the version you are using and delete the folders and file with the matching names, then add the modified files, do no overwrite (copy and paste). I suggest making a local copy of the workshop life lessons, so updates do not break the changes made.
+Open the version you are using and delete the folders and file with the matching names in the workshop folder, then add the modified files, do no overwrite (copy and paste). I suggest making a local copy of the workshop life lessons, so updates do not break the changes made.
