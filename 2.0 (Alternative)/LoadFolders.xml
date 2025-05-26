@@ -165,5 +165,7 @@
     <li IfModActive="ceteam.combatextendedmelee,ceteam.combatextendedmelee_steam">Content/Mods/Combat Extended Melee</li>
     <li IfModActive="ceteam.combatextendedarmors,ceteam.combatextendedarmors_steam">Content/Mods/Combat Extended Armors</li>
     
+    <li IfModActive="dartstriker.watchtowers,dartstriker.watchtowers_steam">Content/Mods/WatchTower</li>
+	
   </v1.5>
 </loadFolders>
