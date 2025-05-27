@@ -5605,7 +5605,7 @@
             <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
-        <softRequirement>False</softRequirement>
+        <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
       </li>
@@ -6250,15 +6250,55 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Medical</li>
-          <li>Tailoring</li>
-          <li>MedicinalChemistry</li>
+          <li>FirstAid</li>
+          <li>Chemistry</li>
         </requirements>
         <rewards>
           <li>
-            <proficiency>PharmaceuticalChemistry</proficiency>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>MedicinalChemistry</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+        </rewards>
+        <softRequirement>False</softRequirement>
+        <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
+        <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="MakeHerbmedicineMix"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>FirstAid</li>
+          <li>Chemistry</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>MedicinalChemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>False</softRequirement>
