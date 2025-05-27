@@ -10272,6 +10272,16 @@
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
+          <li>
+            <proficiency>Chemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>MedicinalChemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
         </rewards>
         <softRequirement>True</softRequirement>
         <unqualifiedWorkSpeedMultiplier>0.7</unqualifiedWorkSpeedMultiplier>
@@ -10287,6 +10297,18 @@
           <li>Brewing</li>
           <li>Stew</li>
         </requirements>
+        <rewards>
+          <li>
+            <proficiency>Chemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>MedicinalChemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+        </rewards>
         <softRequirement>False</softRequirement>
         <unqualifiedWorkSpeedMultiplier>1</unqualifiedWorkSpeedMultiplier>
         <unqualifiedQualityCap>Legendary</unqualifiedQualityCap>
@@ -10309,6 +10331,16 @@
           </li>
           <li>
             <proficiency>Stew</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Chemistry</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>MedicinalChemistry</proficiency>
             <progressGain>0</progressGain>
             <progressMultiplier>0.1</progressMultiplier>
           </li>
