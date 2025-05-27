@@ -5602,7 +5602,7 @@
           <li>
             <proficiency>MedicinalChemistry</proficiency>
             <progressGain>0</progressGain>
-            <progressMultiplier>0.1</progressMultiplier>
+            <progressMultiplier>0.2</progressMultiplier>
           </li>
         </rewards>
         <softRequirement>True</softRequirement>
