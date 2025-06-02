@@ -27,7 +27,9 @@
             <li>BasicMathematics</li>
             <li>BasicScience</li>
             <li>Computers</li>
+            <li>Chemistry</li>
             <li>Geology</li>
+            <li>PlantCare</li>
             <li>Cooking</li>
           </proficiencies>
         </template>
