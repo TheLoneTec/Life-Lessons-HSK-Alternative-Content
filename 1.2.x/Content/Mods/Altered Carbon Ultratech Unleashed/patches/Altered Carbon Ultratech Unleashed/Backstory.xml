@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_FrontierUpbringing"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_FrontierUpbringing"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>PlantCare</li>
+            <li>Ecology</li>
+            <li>Cultivation</li>
+			<li>Fertilization</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_UrbanUpbringing"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_UrbanUpbringing"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Geology</li>
+            <li>Cooking</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_SlumDweller"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_SlumDweller"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>BasicFabrication</li>
+            <li>ReadingWriting</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_DigitalUpbringing"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_DigitalUpbringing"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>BasicFabrication</li>
+            <li>Artisan</li>
+            <li>AdvancedScience</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_EarlyResleeving"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_EarlyResleeving"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_RichAspirant"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_RichAspirant"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_PowerObsessed"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_PowerObsessed"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>Chemistry</li>
+            <li>BasicFabrication</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_CoreWorldRecruit"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_CoreWorldRecruit"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>BasicFabrication</li>
+			<li>Mechanics</li>
+			<li>AdvancedFabrication</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_SettledColonist"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_SettledColonist"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>AdvancedMathematics</li>
+			<li>Chemistry</li>
+			<li>Geology</li>
+			<li>PlantCare</li>
+			<li>Ecology</li>
+			<li>Cultivation</li>
+            <li>Cooking</li>
+            <li>Stew</li>
+            <li>Roasting</li>
+            <li>Grilling</li>
+			<li>FirstAid</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_SettledRefugee"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_SettledRefugee"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>BasicFabrication</li>
+            <li>Mechanics</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_SettledCivilian"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_SettledCivilian"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+			<li>Chemistry</li>
+			<li>Geology</li>
+			<li>Cooking</li>
+            <li>Computers</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_VirtualAddict"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_VirtualAddict"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+			<li>Chemistry</li>
+			<li>Geology</li>
+			<li>FirstAid</li>
+			<li>AdvancedMathematics</li>
+			<li>Programming</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_RichOutcast"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_RichOutcast"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+			<li>Chemistry</li>
+			<li>Geology</li>
+            <li>AdvancedMathematics</li>
+            <li>AdvancedScience</li>
+			<li>BasicPsychochemistry</li>
+			<li>Piloting</li>
+			<li>Astronomy</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_PowerFanatic"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_PowerFanatic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>BasicMathematics</li>
+            <li>BasicScience</li>
+            <li>Computers</li>
+            <li>BasicFabrication</li>
+            <li>Mechanics</li>
+            <li>Artisan</li>
+			<li>Glassworking</li>
+            <li>Tailoring</li>
+			<li>AdvancedFabrication</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/BackstoryDef[defName="AC_PraetorianSoldier"]|Defs/AlienRace.AlienBackstoryDef[defName="AC_PraetorianSoldier"]</xpath>
+    <value>
+      <li Class="LifeLessons.BackstoryProficiencyExtension">
+        <template>
+          <proficiencies>
+            <li>Speaking</li>
+            <li>ReadingWriting</li>
+            <li>Computers</li>
+            <li>Piloting</li>
+			<li>FirstAid</li>
+			<li>AdvancedFirstAid</li>
+			<li>Cooking</li>
+			<li>Grilling</li>
+			<li>Roasting</li>
+			<li>Stew</li>
+			<li>BasicFabrication</li>
+			<il>Mechanics</il>
+			<li>Smithing</li>
+          </proficiencies>
+        </template>
+      </li>
+    </value>
+  </Operation>
+</Patch>
