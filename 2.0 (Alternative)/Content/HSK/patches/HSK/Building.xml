@@ -1179,7 +1179,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="WallTorch"]</xpath>
+    <xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath>
     <value>
       <li Class="LifeLessons.BuildingProficiencyExtension">
         <requirements>
@@ -1465,7 +1465,7 @@
         
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="ReadingTable"]</xpath>
     <value>
@@ -1482,7 +1482,7 @@
         
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/ThingDef[defName="ArcadeRS"]</xpath>
     <value>
