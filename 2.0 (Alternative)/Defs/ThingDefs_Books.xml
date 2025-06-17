@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Commented out for now, might be used later -->
 <!--
-<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Abstract="true" Name="LLTextbook_Base">
     <description>Though some might view a textbook as an archaic means of transferring knowledge, this book contains everything one might need to grasp the fundamentals of the subject on the cover. Detailed explanations, practice problems, answer keys, and more. \n\nWhen stored on a shelf in a classroom, students will automatically take relevant study materials to boost the effectiveness of their lessons.</description>
