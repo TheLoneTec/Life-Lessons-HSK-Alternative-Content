@@ -5715,7 +5715,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="BallisticShield"]</xpath>
+    <xpath>Defs/ThingDef[defName="CE_Apparel_BallisticShield"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>

@@ -666,7 +666,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/JobDef[defName="StudyBuilding"]</xpath>
+    <xpath>Defs/JobDef[defName="StudyInteract"]</xpath>
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <rewards>

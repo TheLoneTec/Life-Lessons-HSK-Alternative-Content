@@ -8224,7 +8224,7 @@
         </package>
       </li>
     </value>
-  </Operation>
+  </Operation><!--  Is Renamed, need to find new one
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/BackstoryDef[defName="ModDesigner85"]</xpath>
     <value>
@@ -8248,7 +8248,7 @@
         </package>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/BackstoryDef[defName="MercenaryCaptain98"]</xpath>
     <value>
@@ -13137,7 +13137,7 @@
         </package>
       </li>
     </value>
-  </Operation>
+  </Operation><!-- Is renamed, need to find new one
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/BackstoryDef[defName="ArtSlave57"]</xpath>
     <value>
@@ -13155,7 +13155,7 @@
         </package>
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/BackstoryDef[defName="OrphanedAcrobat84"]</xpath>
     <value>

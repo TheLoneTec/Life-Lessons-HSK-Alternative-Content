@@ -3655,7 +3655,7 @@
         
       </li>
     </value>
-  </Operation>
+  </Operation><!--
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/RecipeDef[defName="MakeAmmo_5x100mmCaseless_Sabot"]</xpath>
     <value>
@@ -3685,7 +3685,7 @@
         
       </li>
     </value>
-  </Operation>
+  </Operation>-->
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/RecipeDef[defName="MakeAmmo_762x39mmSoviet_FMJ"]</xpath>
     <value>
