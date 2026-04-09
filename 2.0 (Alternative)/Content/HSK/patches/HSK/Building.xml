@@ -12366,6 +12366,35 @@
 		
 		</operations>
 	</nomatch>
+	<match>
+		<operations>
+			<li Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[contains(defName, "Terraform_") and modExtensions/li[@Class="FertileFields.Terrain"]/above/li[contains(text(), "Soil")]]</xpath>
+			<value>
+			  <li Class="LifeLessons.BuildingProficiencyExtension">
+				<rewards>
+				  <li>
+					<proficiency>Geology</proficiency>
+					<progressGain>0.1</progressGain>
+					<progressMultiplier>0.2</progressMultiplier>
+				  </li>
+				  <li>
+					<proficiency>SoilScience</proficiency>
+					<progressGain>0.1</progressGain>
+					<progressMultiplier>0.1</progressMultiplier>
+				  </li>
+				  <li>
+					<proficiency>Cultivation</proficiency>
+					<progressGain>0.1</progressGain>
+					<progressMultiplier>0.2</progressMultiplier>
+				  </li>
+				</rewards>
+				<hardRequirement>False</hardRequirement>
+			  </li>
+			</value>
+			</li>
+		</operations>
+	</match>
   </Operation>
   
   <Operation Class="PatchOperationAddModExtension">
