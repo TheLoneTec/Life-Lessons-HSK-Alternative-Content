@@ -9268,8 +9268,8 @@
     <value>
       <li Class="LifeLessons.BillProficiencyExtension">
         <requirements>
-          <li>Grilling</li>
           <li>Cooking</li>
+          <li>Grilling</li>
         </requirements>
         <rewards>
           <li>
