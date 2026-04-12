@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Chemistry</defName>
+    <label>Basic Chemistry</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of basic chemical reactions and mixtures.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>3</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Basic knowledge of various materials react to each other. Knowing how to make use of basic resources, their effects and be able to process them as well as certain plants into medicine or drugs with various effects.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>MedicinalChemistry</defName>
+    <label>Medicinal Chemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistry</category>
+    <description>Understanding how to make use of basic resources, to create certain medicines.</description>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>4</viewerX>
+    <viewerY>17</viewerY>
+    <prerequisites>
+      <li>Chemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Knowledge of basic effects of various plants and resources on the body and how to combine them for medicinal purposes.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLDissectCritterCorpse</def>
+      </li>
+      <li>
+        <def>LLDissectHumanCorpse</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicPsychochemistry</defName>
+    <label>Basic Psychochemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistry</category>
+    <description>Understanding how to make use of basic resources, to create certain drugs.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>4</viewerX>
+    <viewerY>18</viewerY>
+    <prerequisites>
+      <li>Chemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Knowledge of basic effects of various plants and resources on the body and how to combine them to create drugs for a high for recreation and can cause psychosis.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>EnvironmentalChemistry</defName>
+    <label>Environmental Chemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistry</category>
+    <description>Understanding of the effects and uses that chemicals have on the environment and human health.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>4</viewerX>
+    <viewerY>19</viewerY>
+    <prerequisites>
+      <li>Chemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Knowledge of the effects that chemicals have on the air, water and soil and how they impact the environment and human health as well as any uses they have.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLDissectCritterCorpse</def>
+      </li>
+      <li>
+        <def>LLDissectHumanCorpse</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>MaterialsChemistry</defName>
+    <label>Materials Chemistry</label>
+    <generationRules>
+      <textbookValue>900</textbookValue>
+      <neurotrainerValue>3200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeChemistry</category>
+    <description>Understanding of the effects that chemicals and resources have in create other useful materials.</description>
+    <costPractical>600</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>4</viewerX>
+    <viewerY>20</viewerY>
+    <prerequisites>
+      <li>Chemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Materials chemistry is unique in providing the intellectual foundation to design, create, and understand new forms of matter, let it be organic, inorganic, or hybrid materials.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLTinkerWithComponents</def>
+      </li>
+      <li>
+        <def>LLAnalyzeGadget</def>
+      </li>
+      <li>
+        <def>LLAnalyzeConstruction</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedChemistry</defName>
+    <label>Advanced Chemistry</label>
+    <generationRules>
+      <textbookValue>1100</textbookValue>
+      <neurotrainerValue>3500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>complex chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of advanced chemical reactions and mixtures. The ability to use chemistry equipment and machinery.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>8</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+      <li>Chemistry</li>
+      <li>AdvancedScience</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Everything from genetics and brainchips, to gunpowder. May be known by high-tier enlightened medieval doctors or scientists. Used to lockout chemical based weapons and devices such as incendiary weapons, fire suppressants, and drug compounding. Combined with Medical, effectively represents Pharmacist. Can be used to lockout genetics buildings, recipes, and research. Sensibly used to lockout drug refining jobs.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PharmaceuticalChemistry</defName>
+    <label>Pharmaceutical Chemistry</label>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>complex pharmaceutical</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Understanding of pharmaceutical drugs and advanced medicinal chemistry.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>16</viewerY>
+    <prerequisites>
+      <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Involved with designing and developing pharmaceutical drugs. Medicinal chemistry involves the identification, synthesis and development of new chemical entities suitable for therapeutic use.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+      <li>
+        <def>LLDissectCritterCorpse</def>
+      </li>
+      <li>
+        <def>LLDissectHumanCorpse</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PsychochemistryAdvanced</defName>
+    <label>Psychochemistry Advanced</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of the relationship between chemicals, behavior and psychological processes. It is the study of chemical influence on behavior.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>17</viewerY>
+    <prerequisites>
+      <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Psychoactive Medications provide definitive treatment of clinical syndromes such as anxiety disorders, depression and schizophrenia. As well as effects of more....recreational chemicals.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+      <li>
+        <def>LLDissectCritterCorpse</def>
+      </li>
+      <li>
+        <def>LLDissectHumanCorpse</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Agrochemistry</defName>
+    <label>Agrochemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of biocides and synthetic fertilizers as awell as uses of plants in general in manufacturing and chemistry.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>18</viewerY>
+    <prerequisites>
+      <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This includes agricultural production, the use of ammonia in fertilizer, pesticides, and how plant biochemistry can be used to genetically alter crops. As well as uses in industrial applications, from oils or special biproducts that are useful in chemistry.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzeDrugs</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLAnalyzeConstruction</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>IndustrialChemistry</defName>
+    <!-- Change to AdvancedChemistry -->
+    <label>Industrial Chemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of the uses of chemical and physical processes to transform raw materials into products that are beneficial to mankind.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>19</viewerY>
+    <prerequisites>
+      <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>This includes the production of basic chemicals for manufacturing goods for various industrial sectors.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Petrochemistry</defName>
+    <label>Petrochemistry</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>3600</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>petrological</proficiencyAdjective>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of petrochemicals which are the chemical products obtained from petroleum by refining.</description>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>20</viewerY>
+    <prerequisites>
+      <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Some chemical compounds made from petroleum are also obtained from other fossil fuels, such as coal or natural gas, or renewable sources such as maize, palm fruit or sugar.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLAnalyzeFormation</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PolymerChemistry</defName>
+    <!-- Change to AdvancedChemistry -->
+    <label>Polymer Chemistry</label>
+    <category>ProficiencyCategory_KnowledgeChemistryAdvanced</category>
+    <description>Knowledge of the structures of chemicals, chemical synthesis, and chemical and physical properties of polymers and macromolecules.</description>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>3800</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <costPractical>1200</costPractical>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <effectiveSubjectLimit>2</effectiveSubjectLimit>
+    <viewerX>10</viewerX>
+    <viewerY>21</viewerY>
+    <prerequisites>
+      <li>AdvancedChemistry</li>
+    </prerequisites>
+    <color>RGBA(0.565, 0.118, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Polymers and Synthetic materials can be manipulated to make clothing made from synthetic fibers, polyethylene cups, fiberglass, nylon bearings, plastic bags, polymer-based paints, epoxy glue, polyurethane foam cushion, silicone heart valves, and Teflon-coated cookware.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+</Defs>

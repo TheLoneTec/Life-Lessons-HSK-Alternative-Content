@@ -1,0 +1,58 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Owl_GloomCeilingLight"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Owl_Chandelier"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+          <li>Chemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Owl_CeilingFirefoamPopper"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>EnvironmentalChemistry</li>
+          <li>Chemistry</li>
+          <li>BasicFabrication</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.4</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.4</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.5</progressMultiplier>
+          </li>
+        </rewards>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

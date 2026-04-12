@@ -1,0 +1,25 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Building_RTCircuitBreaker"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+          <li>Mechanics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Building_RTMakeshiftFuse"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

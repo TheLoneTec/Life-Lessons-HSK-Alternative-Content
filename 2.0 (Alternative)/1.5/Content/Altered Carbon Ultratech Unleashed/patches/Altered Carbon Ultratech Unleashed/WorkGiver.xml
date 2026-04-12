@@ -1,0 +1,102 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="AC_DuplicateStacks"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Programming</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="AC_CreateStackFromBackup"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Programming</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="AC_InsertGenepack"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Bioelectronics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="AC_InsertXenogerm"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Bioelectronics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="AC_CancelRepurposingBody"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Computers</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="VFEU_ExtractStack"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Engineering</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="VFEU_StartIncubatingProcess"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Computers</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="VFEU_CancelIncubatingProcess"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Computers</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <!--
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/WorkGiverDef[defName="VFEU_DoBillsDecryptionBench"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Programming</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+</li>
+    </value>
+  </Operation>-->
+</Patch>

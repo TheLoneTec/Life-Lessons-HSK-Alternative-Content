@@ -1,0 +1,58 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="MakeFuelRods"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Nuclear</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="MakeMoxFuelRods"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Machining</li>
+          <li>Nuclear</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="DismantleWarhead"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Nuclear</li>
+          <li>Engineering</li>
+          <li>Machining</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="SeparateU235"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Nuclear</li>
+          <li>IndustrialChemistry</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>AdvancedFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.25</progressMultiplier>
+          </li>
+        </rewards>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,26 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="LoftBed"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+          <li>Artisan</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="DoubleLoftBed"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+          <li>Artisan</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

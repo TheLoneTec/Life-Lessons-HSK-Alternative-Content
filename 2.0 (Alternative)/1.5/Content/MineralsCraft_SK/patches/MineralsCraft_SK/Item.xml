@@ -1,0 +1,41 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_RoyalKnife"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Artisan</li>
+          <li>Mineralogy</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_RoyalLongSword"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Artisan</li>
+          <li>Mineralogy</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="MeleeWeapon_RoyalBattleAxe"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Artisan</li>
+          <li>Mineralogy</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

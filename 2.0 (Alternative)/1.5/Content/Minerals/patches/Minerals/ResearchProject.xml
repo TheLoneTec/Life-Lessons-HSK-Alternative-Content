@@ -1,0 +1,28 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ZF_HardStoneCuttingI"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mineralogy</li>
+          <li>BasicScience</li>
+          <li>BasicMathematics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ZF_HardStoneCuttingII"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mineralogy</li>
+          <li>Mechanics</li>
+          <li>Machining</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

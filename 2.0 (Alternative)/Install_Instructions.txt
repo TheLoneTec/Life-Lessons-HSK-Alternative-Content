@@ -1,0 +1,3 @@
+1. Extract latest Life Lessons version to your Rimworld Mods folder (https://gitlab.com/-/project/29263386/uploads/dcddceb5639a2388d297dc0a3bf38ffe/LifeLessons-2.1.2.zip).
+2. Delete the LoadFolders.xml in the LifeLessons folder, move this LoadFolders.xml to LifeLessons folder.
+3. Open the folder named 1.5, delete all folders EXCEPT for Assemblies, move the contents in the 1.5 folder from this download into the 1.5 folder (which should only have Assemblies in it).

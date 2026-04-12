@@ -1,0 +1,37 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Fryer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+          <li>Agrochemistry</li>
+          <li>Mechanics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="OpenHearth"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Hearth"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

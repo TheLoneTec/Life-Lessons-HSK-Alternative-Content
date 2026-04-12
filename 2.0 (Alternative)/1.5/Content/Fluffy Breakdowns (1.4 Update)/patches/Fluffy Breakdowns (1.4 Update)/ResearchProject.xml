@@ -1,0 +1,27 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="FluffyBreakdowns_ComponentLifetimeOne"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mineralogy</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="FluffyBreakdowns_ComponentLifetimeTwo"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>PolymerChemistry</li>
+          <li>Engineering</li>
+          <li>Bioelectronics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

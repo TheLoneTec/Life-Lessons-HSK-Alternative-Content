@@ -1,0 +1,29 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="RimNauts2_Make_Module_Satellite"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Engineering</li>
+          <li>IndustrialChemistry</li>
+          <li>PolymerChemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="RimNauts2_Make_Module_Station"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>ShipBuilding</li>
+          <li>PolymerChemistry</li>
+          <li>Machining</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicMathematics</defName>
+    <label>Basic Mathematics</label>
+    <generationRules>
+      <textbookValue>300</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
+    <proficiencyAdjective>simple mathematical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>A basic understanding of fundamental mathematics and the ability to figure with numbers.</description>
+    <costTheoretical>400</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>12</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(0.604, 0.804, 0.196, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+      <li>Thoughts/Math/Plus</li>
+      <li>Thoughts/Math/Minus</li>
+      <li>Thoughts/Math/Equals</li>
+      <li>Thoughts/Math/Percent</li>
+      <li>Thoughts/Math/Division</li>
+    </thoughtIcons>
+    <assignmentTips>Elementary school math. The sort of math medieval villager might know - how to count and figure. Can be used to mark a distinction between tribal backstories and medieval backstories. Tribal might have speaking and rarely reading and writing, but would probably have no mastery of numbers. Generally not used to lockout recipes, jobs, or research.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLCountsAndMeasures</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedMathematics</defName>
+    <label>Advanced Mathematics</label>
+    <generationRules>
+      <textbookValue>550</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+    </generationRules>
+    <proficiencyAdjective>complex mathematical</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>A deep understanding of different applications of mathematics, including calculus, discreet mathematics, and other complex subjects.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>4</viewerX>
+    <viewerY>12</viewerY>
+    <prerequisites>
+      <li>BasicMathematics</li>
+    </prerequisites>
+    <color>RGBA(0.545, 0.0, 0.545, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+      <li>Thoughts/Math/Radical</li>
+      <li>Thoughts/Math/Sigma</li>
+      <li>Thoughts/Math/PI</li>
+      <li>Thoughts/Math/Integral</li>
+    </thoughtIcons>
+    <assignmentTips>Standard education for industrial adults. Generally not used for research, but may be if logical. Generally not used for recipes, construction, or jobs.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+</Defs>

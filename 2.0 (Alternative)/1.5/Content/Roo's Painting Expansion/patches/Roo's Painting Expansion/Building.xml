@@ -1,0 +1,73 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="RBPEaselPainting"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.4</progressMultiplier>
+          </li>
+        </rewards>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="RBPPaintingClassical"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Artisan</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="RBPPaintingModern"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Artisan</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="RBPArtCabinet"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.4</progressMultiplier>
+          </li>
+        </rewards>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="RBPGalleryBarrier"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>Construction</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>EVATraining</defName>
+    <label>EVA Training</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to operate in open space and zero-g environments.</description>
+    <costPractical>400</costPractical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>12</viewerX>
+    <viewerY>11</viewerY>
+    <prerequisites>
+      <li>Programming</li>
+      <li>Engineering</li>
+    </prerequisites>
+    <color>RGBA(0.863, 0.863, 0.863, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout use of atmosphere suits for zero-g excursions. Most space miners and similar space-faring professions will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Piloting</defName>
+    <label>Piloting</label>
+    <generationRules>
+      <textbookValue>1500</textbookValue>
+      <neurotrainerValue>8000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to pilot general atmospheric aircraft such as fighters and transport planes.</description>
+    <costPractical>2200</costPractical>
+    <costTheoretical>1800</costTheoretical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>5</viewerX>
+    <viewerY>10</viewerY>
+    <prerequisites>
+      <li>AdvancedMathematics</li>
+      <li>Computers</li>
+    </prerequisites>
+    <color>RGBA(1.0, 1.0, 0.329, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout the use of atmospheric aircraft. Fighter pilots will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedPiloting</defName>
+    <label>Advanced Piloting</label>
+    <generationRules>
+      <textbookValue>3500</textbookValue>
+      <neurotrainerValue>17500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <category>ProficiencyCategory_AdvancedCapability</category>
+    <description>The ability to operate space-worthy craft in orbital or 0 gravity environments.</description>
+    <costPractical>3200</costPractical>
+    <costTheoretical>2400</costTheoretical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>10</viewerX>
+    <viewerY>10</viewerY>
+    <prerequisites>
+      <li>Piloting</li>
+      <li>Astronomy</li>
+      <li>Physics</li>
+    </prerequisites>
+    <color>RGBA(0.863, 0.078, 0.235, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Only used to lockout the user of proper spaceships or orbital crafts and shuttles. Spaceship pilots, starship captains, space fighter pilots, etc will have this.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+</Defs>

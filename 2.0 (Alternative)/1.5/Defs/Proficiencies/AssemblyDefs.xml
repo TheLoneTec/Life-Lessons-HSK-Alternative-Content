@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Machining</defName>
+    <label>Machining</label>
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The ability to create complex parts using heavy machinary.</description>
+    <costPractical>1500</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.72, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Createing intricate parts using heavy machinary requires skill and experience. Whether its screws, bolts, mechanisms etc.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>PowerarmorAssembly</defName>
+    <label>Powerarmor Assembly</label>
+    <category>ProficiencyCategory_FabricationAdvanced</category>
+    <description>The ability to create effective powered armor.</description>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksRare</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <costPractical>2000</costPractical>
+    <viewerX>7</viewerX>
+    <viewerY>3.5</viewerY>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+      <li>Electronics</li>
+    </prerequisites>
+    <color>RGBA(0.74, 0.82, 0.93, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The undersatnding of the assembly and fabrication of the parts needed to create powered armor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+</Defs>

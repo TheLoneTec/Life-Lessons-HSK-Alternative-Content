@@ -1,0 +1,34 @@
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Outposts Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/RecipeDef[defName="Make_Outpost_Materials"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>BasicFabrication</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/RecipeDef[defName="Make_BatteryGeneratorAssemblyKit"]</xpath>
+          <value>
+            <li Class="LifeLessons.BillProficiencyExtension">
+              <requirements>
+                <li>Engineering</li>
+                <li>AdvancedFabrication</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

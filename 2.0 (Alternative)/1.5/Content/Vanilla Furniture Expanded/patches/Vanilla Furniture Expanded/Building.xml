@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Light_Streetlamp"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>15</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </deconstructRewards>
+        <requirements>
+          <li>Electronics</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Construction</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+        </rewards>
+        <unqualifiedPenalty>
+          <statModifiers>
+            <li>
+              <stat>ConstructionSpeed</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.5</modifier>
+            </li>
+          </statModifiers>
+          <qualityCap>Poor</qualityCap>
+        </unqualifiedPenalty>
+        <hardRequirement>False</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

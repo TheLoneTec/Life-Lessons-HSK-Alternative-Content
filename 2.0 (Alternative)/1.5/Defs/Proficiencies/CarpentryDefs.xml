@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<LifeLessons.ProficiencyDef>
+		<defName>WoodWorking</defName>
+		<label>wood working</label>
+		<category>ProficiencyCategory_Construction</category>
+		<description>The ability to effectively use tools for woodworking.</description>
+		<costPractical>1200</costPractical>
+		<viewerX>1</viewerX>
+		<viewerY>2</viewerY>
+		<prerequisites>
+			<li>BasicFabrication</li>
+		</prerequisites>
+		<color>RGBA(0.38, 0.2, 0.07, 1.000)</color>
+		<thoughtIcons>
+			<li>UI/Buttons/UsePlanetDayNightSystem</li>
+			<li>Things/Mote/Disoriented</li>
+		</thoughtIcons>
+		<assignmentTips>Broadly speaking, this represents the ability to craft things made of wood and the skills needed for quality furniture and wooden parts.</assignmentTips>
+	</LifeLessons.ProficiencyDef>
+</Defs>

@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Speaking</defName>
+    <label>speaking</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The understanding of basic language and how to use it to communicate. \nWithout this, a colonist may not be able to properly communicate with others.</description>
+    <costPractical>100</costPractical>
+    <canBeTaughtInClass>false</canBeTaughtInClass>
+    <viewerX>0</viewerX>
+    <viewerY>10</viewerY>
+    <color>RGBA(0.412, 0.412, 0.412, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Speaking represents the basic understanding of language itself, and not strictly the ability to speak. Not to be confused with the "talking" capacity. Generally should only be used to lockout jobs that would require verbal communication such as radio operating. Should also be used to lockout pawn Interactions (like chatting.)</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>ReadingWriting</defName>
+    <label>reading and writing</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+    <proficiencyAdjective>language</proficiencyAdjective>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively read and write language. This basic ability unlocks much of the rest of the world's knowledge.</description>
+    <costTheoretical>400</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>0</viewerX>
+    <viewerY>11</viewerY>
+    <color>RGBA(0.333, 0.42, 0.184, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>ReadingAndWriting should be used to lock out jobs or activities that would require the ability to interpret written language. Broadly speaking, this could be reading books, using scribing tools or typewriters, writing contracts or treaties, or any other such task. Generally this will not be used to lockout crafing, construction, or research, though it may be used for research where sensible.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLAnalyzeWriting</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Computers</defName>
+    <label>Computers</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>1250</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to use general purpose computers for a variety of basic tasks and activities.</description>
+    <costPractical>1000</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>11</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.647, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The casual ability to use computers and electronic devices. Assigned to pre-industrial "adventurers" if they have had contact in their story with modern technology. Most industrial child backgrounds include this. Used to lockout the use of machines wuth a computer interface or lab equipment. A good general purpose lockout for tribals. Should not be used for recipes unless the bill involves working at a machine (such as monitoring a refinery.)</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicScience</defName>
+    <label>Basic Science</label>
+    <generationRules>
+      <textbookValue>350</textbookValue>
+      <neurotrainerValue>1000</neurotrainerValue>
+    </generationRules>
+    <proficiencyAdjective>simple scientific</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of basic scientific processes and methods. Ability to research and apply scientific method</description>
+    <costTheoretical>800</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>1</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+      <li>ReadingWriting</li>
+    </prerequisites>
+    <color>RGBA(1.0, 0.0, 0.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Highschool level science. Generally used for well-learned tribals, medieval alchemists, or other low level scientists. Most industrial children's backgrounds would include this, but most medieval adult backgrounds would not. Not generally used to lock out anything, but could be used to lockout late-tribal tier research tasks.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLTestExperimentationProcess</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedScience</defName>
+    <label>Advanced Science</label>
+    <generationRules>
+      <textbookValue>600</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+    <proficiencyAdjective>complex scientific</proficiencyAdjective>
+    <category>ProficiencyCategory_Knowledge</category>
+    <description>Understanding of complex scientific processes and methods.</description>
+    <costTheoretical>1200</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>5</viewerX>
+    <viewerY>13</viewerY>
+    <prerequisites>
+      <li>BasicScience</li>
+      <li>AdvancedMathematics</li>
+    </prerequisites>
+    <color>RGBA(0.541, 0.169, 0.886, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The level of scientific understanding a modern entry-level scientist or college graduate in a science field might know. Well educated industrial adults or "genius" child backstories might have this. Not generally used for lockouts, but may be used where a significant scientific intelligence is needed without a particular specialization. Most post-industrial adult backstories (glitter, spacer) will include this as standard education.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>BasicFabrication</defName>
+    <label>Basic Fabrication</label>
+    <generationRules>
+      <textbookValue>400</textbookValue>
+      <neurotrainerValue>900</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to effectively use tools and basic machines in the creation of other tools and devices.</description>
+    <costPractical>800</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>4.5</viewerY>
+    <color>RGBA(0.545, 0, 0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft by hand, and the use of hand tools. Generally this does not include complex crafting that would involve many or tiny components, nor would it generally include electronics. Use BasicFabrication + Electronics as an intermediary step before AdvancedFabrication - For recipes that involve handmade or simple electronics.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Labourer</defName>
+    <label>Labourer</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to do work requiring precision, strength and repetition.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>4</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.71, 0.49, 0.25, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to craft various items that are tough to work with as well as things that require precise repetitive motion or routines.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Artisan</defName>
+    <label>Artisan</label>
+    <generationRules>
+      <generateTextbook>false</generateTextbook>
+      <generateNeurotrainer>false</generateNeurotrainer>
+    </generationRules>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to create objects that require intricate and delicate work with a little bit of creativity.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>5</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.72, 0.72, 0.72, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability to create things from various materials, such as sculptures, furniture and anything that is easy to break or mess up.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Glassworking</defName>
+    <label>Glassworking</label>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>The ability to make and form glass.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>6</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.73, 1.0, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Broadly speaking, this represents the ability for glassblowing and forming techniques.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>AdvancedFabrication</defName>
+    <label>Advanced Fabrication</label>
+    <generationRules>
+      <textbookValue>500</textbookValue>
+      <neurotrainerValue>2500</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_Fabrication</category>
+    <description>Understanding the use of advanced tools and machinery to create further, more complex tools and devices.</description>
+    <costPractical>1200</costPractical>
+    <viewerX>4</viewerX>
+    <viewerY>4.5</viewerY>
+    <prerequisites>
+      <li>BasicFabrication</li>
+    </prerequisites>
+    <color>RGBA(0.282, 0.239, 0.545, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Crafting that involves complex tools or the use of factories and machinery. May include components of smithing or other sub proficiencies. Generally used for complex electronic recipes or recipes with many machined parts such as firearms. Can be used with Electronics for charge-based weapons. Used with Mechanics and Electronics as an intermediary step before Engineering or AdvancedConstruction.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Cooking</defName>
+    <label>Cooking</label>
+    <generationRules>
+      <textbookValue>150</textbookValue>
+      <neurotrainerValue>750</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>Understanding the basics of food prep and food safety practices.</description>
+    <costPractical>400</costPractical>
+    <viewerX>0</viewerX>
+    <viewerY>28</viewerY>
+    <color>RGBA(0.235, 0.702, 0.443, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Generally not used for research lockouts. Represents the mastery of basic cooking techniques and kitchen management. Comparable a home chef or casual dining chef. Used to lockout complex "simple" meals or fine meals, usually earned by crafting simple to fine meals.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Grilling</defName>
+    <label>Grilling</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively grill food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good grilled burger or knowing how to cook vegetables well on a grill will make you the key to any outdoor party.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Roasting</defName>
+    <label>Roasting</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively roast food.</description>
+    <costPractical>700</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Grilling</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good roast, which can be great for a group meal.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Baking</defName>
+    <label>Baking</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively bake food.</description>
+    <costPractical>800</costPractical>
+    <viewerX>3</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Roasting</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques on how to bake. Such as bread, pies, muffins, pizza etc.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Boiling</defName>
+    <label>Boiling</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively boil food.</description>
+    <costPractical>400</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a boil food appropriate and know how long before nutrients and taste is lost and when its ready to eat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Brewing</defName>
+    <label>Brewing</label>
+    <generationRules>
+      <textbookValue>800</textbookValue>
+      <neurotrainerValue>1500</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksBasic</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively brew various drinks.</description>
+    <costPractical>400</costPractical>
+    <costTheoretical>600</costTheoretical>
+    <canBePioneered>true</canBePioneered>
+    <viewerX>2</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>Boiling</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a good cup of coffee, tea or any hot drink.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Stew</defName>
+    <label>Stew</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively stew food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to a make a good stew and not some bland slop.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>PanFrying</defName>
+    <label>Pan Frying</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively pan fry.</description>
+    <costPractical>800</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to use a pan to effectively fry various food evenly.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Searing</defName>
+    <label>Searing</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively sear meats and various other ingredients.</description>
+    <costPractical>400</costPractical>
+    <viewerX>2</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>PanFrying</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to carefully sear meat. While also making edible food that is cooked. Knowing timings is key.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyCooking">
+    <defName>Simmering</defName>
+    <label>Simmering</label>
+    <category>ProficiencyCategory_Cooking</category>
+    <description>The ability to effectively simmer vvarious ingredients into edible food.</description>
+    <costPractical>600</costPractical>
+    <viewerX>1</viewerX>
+    <viewerY>26.5</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.21, 0.86, 0.79, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to simmer food carefully and for the right amount of time, useful for soups and slow cook food.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>SkilledCooking</defName>
+    <label>Skilled Cooking</label>
+    <generationRules>
+      <textbookValue>450</textbookValue>
+      <neurotrainerValue>1200</neurotrainerValue>
+    </generationRules>
+    <category>ProficiencyCategory_FundamentalCapability</category>
+    <description>The ability to effectively manage complex recipes and cooking spaces.</description>
+    <costPractical>800</costPractical>
+    <viewerX>4</viewerX>
+    <viewerY>28</viewerY>
+    <prerequisites>
+      <li>Cooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.0, 0.502, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>General mastery of the kitchen, comparable to a sous chef at a proper fine dining establishment. Usually earned by cooking fine meals or equivalent. Usually locks out lavish meals and bulk cooking. Might be used to lockout research for particularly complex food or diet based topics, but not generally for just any recipe project.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>StirFrying</defName>
+    <label>Stir Frying</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use stir fry techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The simple techniques to effectively use a pan or wok to evenly cook a large amount of varied ingredients.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Sauteing</defName>
+    <label>Sauteing</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use sauteing techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>27.5</viewerY>
+    <prerequisites>
+      <li>StirFrying</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Sauteing is a method of cooking that uses a relatively small amount of oil or fat in a shallow pan over relatively high heat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Braising</defName>
+    <label>Braising</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use braising techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The cooking of meat or vegetables by heating them slowly with oil and moisture in a tightly sealed vessel.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Basting</defName>
+    <label>Basting</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use basting techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>28.5</viewerY>
+    <prerequisites>
+      <li>Braising</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The techniques to moisten (foods, especially meat) at intervals with a liquid (such as melted butter, fat, or pan drippings) especially during the cooking process to prevent drying and add flavor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Poaching</defName>
+    <label>Poaching</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use poaching techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Like simmering and boiling, it is a moist-heat cooking method that involves submerging food in liquid, typically without using fat.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>SousVide</defName>
+    <label>Sous Vide</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively sous vide.</description>
+    <costPractical>800</costPractical>
+    <viewerX>6</viewerX>
+    <viewerY>29.5</viewerY>
+    <prerequisites>
+      <li>Poaching</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Food cooked in its own juices, sealed in the pouch, is infused with deep natural flavor and incomparable tenderness and texture.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>PressureCooking</defName>
+    <label>Pressure Cooking</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use pressure cooking techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>26.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>Pressure cooking is the process of cooking food under high pressure steam and water or a water-based cooking liquid, in a sealed vessel known as a pressure cooker.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencyBase">
+    <defName>Fermentation</defName>
+    <label>Fermentation</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerRare</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <proficiencyAdjective>chemical</proficiencyAdjective>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use fermentation techniques.</description>
+    <costPractical>800</costPractical>
+    <costTheoretical>800</costTheoretical>
+    <viewerX>5</viewerX>
+    <viewerY>25.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A process in which sugars are transformed into a new product through chemical reactions carried out by microorganisms.</assignmentTips>
+    <theoreticalLearningActivityDefs>
+      <li>
+        <def>LLDocument</def>
+      </li>
+      <li>
+        <def>LLBrainstorm</def>
+      </li>
+      <li>
+        <def>LLRigorization</def>
+      </li>
+    </theoreticalLearningActivityDefs>
+    <practicalLearningActivityDefs>
+      <li>
+        <def>LLAnalyzePlantBiomatter</def>
+      </li>
+      <li>
+        <def>LLAnalyzePlantBiomatterChemistry</def>
+      </li>
+      <li>
+        <def>LLChemistryExperimentation</def>
+      </li>
+    </practicalLearningActivityDefs>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>CheeseMaking</defName>
+    <label>Cheese Making</label>
+    <generationRules>
+      <textbookValue>1200</textbookValue>
+      <neurotrainerValue>2000</neurotrainerValue>
+      <bookTradeTags>
+        <li>LLTextbooksUncommon</li>
+      </bookTradeTags>
+      <neurotrainerTradeTags>
+        <li>LLNeurotrainerUncommon</li>
+      </neurotrainerTradeTags>
+    </generationRules>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use cheese making techniques.</description>
+    <costPractical>800</costPractical>
+    <costTheoretical>800</costTheoretical>
+    <viewerX>6</viewerX>
+    <viewerY>25.5</viewerY>
+    <prerequisites>
+      <li>Fermentation</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>The production of cheese, like many other food preservation processes, allows the nutritional and economic value of a food material, in this case milk, to be preserved in concentrated form..</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>DeepFrying</defName>
+    <label>Deep Frying</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use deep frying techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>30.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A process where food is completely submerged in hot oil at temperatures typically between 350 °F (177 °C) and 375 °F (191 °C).</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+  <LifeLessons.ProficiencyDef ParentName="ProficiencySkilledCooking">
+    <defName>Caramelization</defName>
+    <label>Caramelization</label>
+    <category>ProficiencyCategory_CookingAdvanced</category>
+    <description>The ability to effectively use caramelization techniques.</description>
+    <costPractical>800</costPractical>
+    <viewerX>5</viewerX>
+    <viewerY>31.5</viewerY>
+    <prerequisites>
+      <li>SkilledCooking</li>
+    </prerequisites>
+    <color>RGBA(0.0, 0.5, 1.0, 1.000)</color>
+    <thoughtIcons>
+      <li>UI/Buttons/UsePlanetDayNightSystem</li>
+      <li>Things/Mote/Disoriented</li>
+    </thoughtIcons>
+    <assignmentTips>A slow cooking process that occurs when sugar is cooked over low heat, causing a change in both appearance and flavor.</assignmentTips>
+  </LifeLessons.ProficiencyDef>
+</Defs>

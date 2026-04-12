@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Abstract="true" Name="LLTextbook_Base">
+    <description>Though some might view a textbook as an archaic means of transferring knowledge, this book contains everything one might need to grasp the fundamentals of the subject on the cover. Detailed explanations, practice problems, answer keys, and more. \n\nWhen stored on a shelf in a classroom, students will automatically take relevant study materials to boost the effectiveness of their lessons.</description>
+    <thingClass>LifeLessons.Textbook</thingClass>
+    <thingCategories>
+      <li>LLTextbooks</li>
+    </thingCategories>
+    <category>Item</category>
+    <techLevel>Industrial</techLevel>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>false</tradeNeverStack>
+    <forceDebugSpawnable>true</forceDebugSpawnable>
+    <drawerType>MapMeshOnly</drawerType>
+    <soundDrop>Standard_Drop</soundDrop>
+    <healthAffectsPrice>true</healthAffectsPrice>
+    <graphicData>
+      <texPath>Items/ClosedBook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>25</DeteriorationRate>
+      <Flammability>1.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="LifeLessons.CompProperties_LLBook">
+        <openGraphic>
+          <texPath>Motes/OpenBook</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>Cutout</shaderType>
+        </openGraphic>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Mathematics</defName>
+    <label>Textbook (mathematics)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(91, 168, 153)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>450</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>BasicMathematics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedMathematics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_GeneralScience</defName>
+    <label>Textbook (general science)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(214, 90, 90)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>BasicScience</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedScience</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_ComputerScience</defName>
+    <label>Textbook (computer science)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(230, 167, 62)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Computers</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Programming</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Astronomy</defName>
+    <label>Textbook (astronomy)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(247, 201, 92)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>850</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Astronomy</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Piloting</defName>
+    <label>Textbook (piloting)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(110, 151, 245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1800</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Piloting</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedPiloting</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Biology</defName>
+    <label>Textbook (biology)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(122, 190, 102)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>900</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>PlantCare</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Biology</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Agriculture</defName>
+    <label>Textbook (agriculture)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(151, 178, 72)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Cultivation</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Ecology</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Fertilization</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Forestry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Hydroponics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Medicine</defName>
+    <label>Textbook (medicine)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(192, 96, 96)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1100</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>FirstAid</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedFirstAid</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Medical</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Surgery</defName>
+    <label>Textbook (surgery)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(143, 54, 54)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1800</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>GeneralSurgery</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Orthopedics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PlasticSurgery</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>TraumaSurgery</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>TransplantSurgery</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>CardiothoracicSurgery</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Neurosurgery</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Chemistry</defName>
+    <label>Textbook (chemistry)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(99, 184, 173)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1100</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Chemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>MaterialsChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>BasicPsychochemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>EnvironmentalChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_AdvancedChemistry</defName>
+    <label>Textbook (advanced chemistry)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(62, 133, 152)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>AdvancedChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>MedicinalChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Agrochemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>IndustrialChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PolymerChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PharmaceuticalChemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Petrochemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PsychochemistryAdvanced</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Geology</defName>
+    <label>Textbook (geology)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(168, 129, 80)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Geology</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Mineralogy</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>SoilScience</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedGeology</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Hydrogeology</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PetroleumGeology</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Geochemistry</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Physics</defName>
+    <label>Textbook (physics)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(103, 170, 224)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>950</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Physics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Electromagnetism</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Wavelengths</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_ExoticPhysics</defName>
+    <label>Textbook (exotic physics)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(130, 92, 181)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>ExoticPhysics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Fusion</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Nuclear</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>ParticlePhysics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>QuantumPhysics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Biosynthesis</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Fabrication</defName>
+    <label>Textbook (fabrication)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(135, 62, 62)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedFabrication</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>WoodWorking</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Tailoring</defName>
+    <label>Textbook (tailoring)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(119, 222, 193)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>300</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Tailoring</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Metalworking</defName>
+    <label>Textbook (metalworking)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(132, 132, 132)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Smithing</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Construction</defName>
+    <label>Textbook (construction and mechanics)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(100, 142, 220)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>850</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Construction</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Mechanics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>AdvancedConstruction</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_ElectricalEngineering</defName>
+    <label>Textbook (electrical engineering)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(232, 218, 118)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Engineering</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Robotics</defName>
+    <label>Textbook (robotics)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(170, 108, 213)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Robotics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Bioelectronics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Bionics</defName>
+    <label>Textbook (bionics)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(191, 166, 218)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Bionics</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_AdvancedAssembly</defName>
+    <label>Textbook (advanced assembly)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(96, 126, 171)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Machining</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PowerarmorAssembly</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>ShipBuilding</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_ExoticEngineering</defName>
+    <label>Textbook (exotic engineering)</label>
+    <tradeTags>
+      <li>LLTextbooksRare</li>
+    </tradeTags>
+    <graphicData>
+      <color>(187, 83, 83)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1800</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>LaserManipulation</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PlasmaManipulation</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_Cooking</defName>
+    <label>Textbook (cooking)</label>
+    <tradeTags>
+      <li>LLTextbooksBasic</li>
+    </tradeTags>
+    <graphicData>
+      <color>(177, 124, 76)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>Cooking</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Boiling</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Grilling</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Roasting</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Stew</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Simmering</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Brewing</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="LLTextbook_Base">
+    <defName>LLTextbook_SkilledCooking</defName>
+    <label>Textbook (advanced cooking)</label>
+    <tradeTags>
+      <li>LLTextbooksUncommon</li>
+    </tradeTags>
+    <graphicData>
+      <color>(128, 71, 54)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="LifeLessons.CompProperties_ProficiencyLearningModifier">
+        <modifiers>
+          <li>
+            <proficiency>SkilledCooking</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PanFrying</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Searing</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>StirFrying</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Braising</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Poaching</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Fermentation</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>CheeseMaking</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>DeepFrying</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>PressureCooking</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>SousVide</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Baking</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Basting</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Caramelization</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+          <li>
+            <proficiency>Sauteing</proficiency>
+            <ticksValid>20000</ticksValid>
+            <modifier>1.75</modifier>
+            <pioneeringLengthMult>0.5</pioneeringLengthMult>
+            <pioneeringModifierMult>2.0</pioneeringModifierMult>
+          </li>
+        </modifiers>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

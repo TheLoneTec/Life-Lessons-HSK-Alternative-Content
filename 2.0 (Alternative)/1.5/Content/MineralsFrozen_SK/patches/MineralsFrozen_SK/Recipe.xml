@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Make_Snowcone"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Cooking</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>Cooking</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.15</progressMultiplier>
+          </li>
+        </rewards>
+        <unqualifiedPenalty>
+          <statModifiers>
+            <li>
+              <stat>GeneralLaborSpeed</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.6</modifier>
+            </li>
+          </statModifiers>
+          <qualityCap>Normal</qualityCap>
+        </unqualifiedPenalty>
+        <hardRequirement>False</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Make_IceFromSnow"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>BasicFabrication</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>BasicFabrication</proficiency>
+            <experienceType>Practical</experienceType>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+        </rewards>
+        <unqualifiedPenalty>
+          <statModifiers>
+            <li>
+              <stat>GeneralLaborSpeed</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.6</modifier>
+            </li>
+          </statModifiers>
+          <qualityCap>Normal</qualityCap>
+        </unqualifiedPenalty>
+        <hardRequirement>False</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>
