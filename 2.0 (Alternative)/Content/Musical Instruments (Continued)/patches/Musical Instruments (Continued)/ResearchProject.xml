@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PrimitiveInstruments"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+          <li>BasicScience</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="StringedInstruments"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>BasicMathematics</li>
+          <li>Mechanics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ElectricInstruments"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Electronics</li>
+          <li>Mechanics</li>
+          <li>BasicScience</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

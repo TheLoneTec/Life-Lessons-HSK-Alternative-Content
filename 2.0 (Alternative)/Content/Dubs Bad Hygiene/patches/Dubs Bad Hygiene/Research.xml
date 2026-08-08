@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!-- HSK Fucks with the defs of other mods, so we cannot be certain if a given def exists if HSK is loaded.
+     To that end, we will check for both HSK and the mod we are patching, and then put records that HSK
+     removes into a conditional.-->
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <!-- If HSK has removed the def, put it here. -->
+    <nomatch Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="GeothermalHeating"]</xpath>
+          <value>
+            <li Class="LifeLessons.ResearchProficiencyExtension">
+              <requirements>
+                <li>Geology</li>
+                <li>Physics</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="ElectricPumps" or defName="AdvancedToilets" or defName="LargeWaterPumps"
+                 or defName="WashingMachines" or defName="WaterFiltration"]</xpath>
+          <value>
+            <li Class="LifeLessons.ResearchProficiencyExtension">
+              <requirements>
+                <li>Electronics</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="DeepWells"]</xpath>
+          <value>
+            <li Class="LifeLessons.ResearchProficiencyExtension">
+              <requirements>
+                <li>Geology</li>
+                <li>Mechanics</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="HygieneBionics"]</xpath>
+          <value>
+            <li Class="LifeLessons.ResearchProficiencyExtension">
+              <requirements>
+                <li>Biology</li>
+                <li>Chemistry</li>
+                <li>Engineering</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="SewageTreatment"]</xpath>
+          <value>
+            <li Class="LifeLessons.ResearchProficiencyExtension">
+              <requirements>
+                <li>Electronics</li>
+                <li>Chemistry</li>
+              </requirements>
+              <hardRequirement>True</hardRequirement>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

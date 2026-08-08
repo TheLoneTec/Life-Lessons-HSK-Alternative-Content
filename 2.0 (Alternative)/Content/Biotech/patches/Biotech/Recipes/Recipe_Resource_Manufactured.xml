@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="SubcoreBasic"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>AdvancedFabrication</li>
+          <li>Programming</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

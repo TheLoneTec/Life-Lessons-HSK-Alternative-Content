@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- The LampBase intent is carried by Building.xml's exact VFEA_WallLamp gate. -->
+  <!-- This remaining inherited gate carries forward HSK 1.4 linkable behavior. -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[@Name="GeneTailoringLinkableBase"]</xpath>
+    <value>
+      <li Class="LifeLessons.BuildingProficiencyExtension">
+        <requirements>
+          <li>AdvancedConstruction</li>
+          <li>Engineering</li>
+        </requirements>
+        <deconstructRewards>
+          <li>
+            <proficiency>Electronics</proficiency>
+            <progressGain>100</progressGain>
+          </li>
+        </deconstructRewards>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+    <success>Normal</success>
+  </Operation>
+</Patch>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Armor_IronAge"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Armor_Improvised"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Mechanics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Armor_Munition"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Armor_Rennaisance"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>ArmorSmith</li>
+          <li>Artisan</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="GunPowderTech"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Chemistry</li>
+          <li>Geology</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Medieval_Cannons"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Chemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Field_Guns"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Siege_Artillery"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Mechanics</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Muskets_B1"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>BasicScience</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Muskets_B2"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Mechanics</li>
+          <li>MaterialsChemistry</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Muskets_B3"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>Smithing</li>
+          <li>Mechanics</li>
+          <li>MaterialsChemistry</li>
+          <li>BasicMathematics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

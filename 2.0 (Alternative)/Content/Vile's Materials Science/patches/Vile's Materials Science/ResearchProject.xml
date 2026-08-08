@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Chemistry_C0"]</xpath>
+    <value>
+      <li Class="LifeLessons.ResearchProficiencyExtension">
+        <requirements>
+          <li>BasicScience</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,16 @@
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/JobDef[defName="OperateResourceConsole"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <rewards>
+          <li>
+            <proficiency>Chemistry</proficiency>
+            <progressGain>0.001</progressGain>
+            <progressMultiplier>1</progressMultiplier>
+          </li>
+        </rewards>
+      </li>
+    </value>
+  </Operation>
+</Patch>

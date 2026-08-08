@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="ExciseCarcinoma"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Orthopedics</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="CureScaria"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Orthopedics</li>
+          <li>PharmaceuticalChemistry</li>
+          <li>TraumaSurgery</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Sterilize"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>GeneralSurgery</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>GeneralSurgery</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+        </rewards>
+        <unqualifiedPenalty>
+          <statModifiers>
+            <li>
+              <stat>MedicalOperationSpeed</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.8</modifier>
+            </li>
+            <li>
+              <stat>MedicalSurgerySuccessChance</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.8</modifier>
+            </li>
+          </statModifiers>
+          <qualityCap>Legendary</qualityCap>
+        </unqualifiedPenalty>
+        <hardRequirement>False</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="RemovePainstopper"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Neurosurgery</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="ButcherCorpseMechanoid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Machining</li>
+          <li>Engineering</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="SmashCorpseMechanoid"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Mechanics</li>
+          <li>BasicFabrication</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Make_Kibble"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>Cooking</li>
+          <li>PlantCare</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Anesthetize"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>MedicinalChemistry</li>
+          <li>FirstAid</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="Euthanize"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>GeneralSurgery</li>
+        </requirements>
+        <rewards>
+          <li>
+            <proficiency>GeneralSurgery</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.2</progressMultiplier>
+          </li>
+          <li>
+            <proficiency>Medical</proficiency>
+            <progressGain>0</progressGain>
+            <progressMultiplier>0.3</progressMultiplier>
+          </li>
+        </rewards>
+        <unqualifiedPenalty>
+          <statModifiers>
+            <li>
+              <stat>MedicalOperationSpeed</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.8</modifier>
+            </li>
+            <li>
+              <stat>MedicalSurgerySuccessChance</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.8</modifier>
+            </li>
+          </statModifiers>
+          <qualityCap>Legendary</qualityCap>
+        </unqualifiedPenalty>
+        <hardRequirement>False</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="RemoveBodyPart"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>GeneralSurgery</li>
+        </requirements>
+        <unqualifiedPenalty>
+          <statModifiers>
+            <li>
+              <stat>MedicalOperationSpeed</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.6</modifier>
+            </li>
+            <li>
+              <stat>MedicalSurgerySuccessChance</stat>
+              <applyGlobally>True</applyGlobally>
+              <modifier>0.8</modifier>
+            </li>
+          </statModifiers>
+          <qualityCap>Legendary</qualityCap>
+        </unqualifiedPenalty>
+        <hardRequirement>False</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/RecipeDef[defName="AdministerMechSerumHealer"]</xpath>
+    <value>
+      <li Class="LifeLessons.BillProficiencyExtension">
+        <requirements>
+          <li>FirstAid</li>
+          <li>Computers</li>
+        </requirements>
+        <hardRequirement>True</hardRequirement>
+
+      </li>
+    </value>
+  </Operation>
+</Patch>
